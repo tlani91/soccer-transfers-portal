@@ -91,23 +91,29 @@
     background: var(--surface);
     border: 1px solid var(--line);
     color: var(--text);
-    padding: 8px 12px;
+    padding: 10px 12px;
     border-radius: 6px;
-    font-size: 13px;
+    font-size: 16px; /* 16px avoids iOS Safari auto-zooming in on focus */
     flex: 1 1 180px;
     min-width: 140px;
   }
   #search:focus { outline: none; border-color: var(--gold); }
+  #chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
   .chip {
     background: var(--surface);
     border: 1px solid var(--line);
     color: var(--text-dim);
-    padding: 7px 12px;
+    padding: 8px 13px;
     border-radius: 20px;
     font-size: 12px;
     cursor: pointer;
     white-space: nowrap;
     transition: border-color .15s, color .15s;
+    -webkit-tap-highlight-color: transparent;
   }
   .chip:hover { color: var(--text); }
   .chip.active {
@@ -121,11 +127,36 @@
     padding: 16px 20px 60px;
   }
 
+  /* Mobile: stack search above chips, let chips scroll horizontally
+     in one row instead of wrapping across several lines */
+  @media (max-width: 640px) {
+    header { padding: 16px 16px 10px; }
+    main { padding: 12px 16px 60px; }
+    h1 { font-size: 24px; }
+    .controls { flex-direction: column; align-items: stretch; }
+    #search { width: 100%; }
+    #chips {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      padding-bottom: 2px;
+      margin: 0 -16px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    #chips::-webkit-scrollbar { display: none; }
+    .chip { flex: 0 0 auto; }
+  }
+
   .card {
     display: flex;
     gap: 12px;
     padding: 16px 0;
     border-bottom: 1px solid var(--line);
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: rgba(227,165,72,0.15);
   }
   .accent-bar {
     flex: 0 0 3px;
@@ -162,12 +193,9 @@
     line-height: 1.35;
     margin: 0 0 4px;
     letter-spacing: -0.2px;
-  }
-  .headline a {
     color: var(--text);
-    text-decoration: none;
   }
-  .headline a:hover { color: var(--gold); }
+  .card:hover .headline { color: var(--gold); }
   .desc {
     font-size: 13px;
     color: var(--text-dim);
@@ -285,8 +313,11 @@ function render() {
   main.innerHTML = '';
   items.forEach(it => {
     const tag = detectTag(it.title + ' ' + it.description);
-    const card = document.createElement('div');
+    const card = document.createElement('a');
     card.className = 'card';
+    card.href = it.link;
+    card.target = '_blank';
+    card.rel = 'noopener';
     card.innerHTML = `
       <div class="accent-bar" style="background:${tag.color}"></div>
       <div class="card-body">
@@ -295,7 +326,7 @@ function render() {
           <span class="source">${escapeHtml(it.source_name)}</span>
           <span class="time mono">${timeAgo(it.epoch)}</span>
         </div>
-        <p class="headline"><a href="${it.link}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a></p>
+        <p class="headline">${escapeHtml(it.title)}</p>
         <p class="desc">${escapeHtml(it.description)}</p>
         ${it.byline ? `<p class="byline">by ${escapeHtml(it.byline)}</p>` : ''}
       </div>
@@ -323,7 +354,7 @@ async function loadData() {
   } catch (err) {
     updatedEl.textContent = 'connection lost';
     document.getElementById('main').innerHTML =
-      '<div class="error">Can\'t reach rumors_data.json &mdash; is transfer_rumors_fetch.py still running in your terminal?</div>';
+      '<div class="error">Can\'t reach rumors_data.json right now. Check your connection, or that the GitHub Action has run at least once.</div>';
   }
 }
 
