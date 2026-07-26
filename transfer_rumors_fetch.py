@@ -197,7 +197,15 @@ def _fetch_scrape_items(urls, name):
         except (HTTPError, URLError, TimeoutError) as e:
             print(f"  [warn] {name}: fallback scrape fetch failed for {url} ({e})", file=sys.stderr)
             continue
-        for it in scrape_transfer_news_live(raw):
+
+        page_items = scrape_transfer_news_live(raw)
+        if not page_items:
+            preview = raw[:300].decode("utf-8", errors="replace") if isinstance(raw, bytes) else str(raw)[:300]
+            print(f"  [warn] {name}: {url} -> HTTP {status}, Content-Type: {content_type!r}, "
+                  f"body length {len(raw)}, but matched 0 article links. "
+                  f"Response starts with: {preview!r}", file=sys.stderr)
+
+        for it in page_items:
             if it["link"] in seen_links:
                 continue
             seen_links.add(it["link"])
