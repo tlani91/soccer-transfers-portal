@@ -137,14 +137,19 @@ def matches_keywords(text, keywords):
     return any(kw in lowered for kw in keywords)
 
 
-def _scrape_articles_by_pattern(html_bytes, link_pattern, source_label):
+def _scrape_articles_by_pattern(html_bytes, link_pattern, source_label, base_url=""):
     """Generic scraper: finds article links matching link_pattern, dedupes,
     and assigns descending synthetic timestamps to preserve page order.
     Exact per-article publish times aren't reliably present in scraped
-    markup, so this doesn't claim false precision on timing -- just order."""
+    markup, so this doesn't claim false precision on timing -- just order.
+
+    Handles both quote styles (href="..." and href='...') and both relative
+    (/path/) and absolute (https://site.com/path/) link forms -- relative
+    links get normalized to full URLs using base_url so they're still
+    clickable from the dashboard, which is served from a different origin."""
     html_text = html_bytes.decode("utf-8", errors="replace")
     pattern = re.compile(
-        r'<a[^>]+href="(' + link_pattern + r')"[^>]*>(.*?)</a>',
+        r'<a[^>]+href=["\'](' + link_pattern + r')["\'][^>]*>(.*?)</a>',
         re.DOTALL | re.IGNORECASE,
     )
     seen = {}
@@ -153,10 +158,11 @@ def _scrape_articles_by_pattern(html_bytes, link_pattern, source_label):
         text = strip_html(inner)
         if len(text) < 8:  # skips empty/image-only anchor matches
             continue
-        if href not in seen or len(text) > len(seen[href]):
-            seen[href] = text
-        if href not in order:
-            order.append(href)
+        full_href = href if href.startswith("http") else base_url + href
+        if full_href not in seen or len(text) > len(seen[full_href]):
+            seen[full_href] = text
+        if full_href not in order:
+            order.append(full_href)
 
     now = time.time()
     items = []
@@ -186,11 +192,14 @@ def scrape_flashscore(html_bytes):
     """Scraper for flashscore.com's transfer news page. Their article URLs
     look like /news/<slug>/<8-char-id>/ -- the 8-char length is what
     distinguishes real articles from category/nav pages, which use a
-    longer 16-char id (e.g. the Transfer News category page itself)."""
+    longer 16-char id (e.g. the Transfer News category page itself).
+    Their internal links appear to be relative (no domain prefix), so
+    matches get normalized to full URLs via base_url."""
     return _scrape_articles_by_pattern(
         html_bytes,
-        r"https://www\.flashscore\.com/news/[a-z0-9\-]+/[A-Za-z0-9]{8}/",
+        r"(?:https://www\.flashscore\.com)?/news/[a-z0-9\-]+/[A-Za-z0-9]{8}/",
         "Flashscore",
+        base_url="https://www.flashscore.com",
     )
 
 
