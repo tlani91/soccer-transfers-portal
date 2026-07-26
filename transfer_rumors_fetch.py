@@ -74,7 +74,8 @@ FEEDS = [
      "fallback_urls": [
          "https://www.transfernewslive.com/transfer-news/",
          "https://www.transfernewslive.com/transfer-news/page/2/",
-     ]},
+     ],
+     "google_fallback_query": "site:transfernewslive.com transfer"},
 ]
 
 
@@ -225,23 +226,30 @@ def _fetch_scrape_items(urls, name):
     return all_items
 
 
+def _google_news_url(query):
+    return (
+        "https://news.google.com/rss/search?q="
+        + quote(query)
+        + "&hl=en-GB&gl=GB&ceid=GB:en"
+    )
+
+
 def fetch_feed(feed):
     kind = feed["kind"]
     if kind == "rss":
         raw_items = _fetch_rss_items(feed["url"], feed["name"])
     elif kind == "google_news":
-        gnews_url = (
-            "https://news.google.com/rss/search?q="
-            + quote(feed["query"])
-            + "&hl=en-GB&gl=GB&ceid=GB:en"
-        )
-        raw_items = _fetch_rss_items(gnews_url, feed["name"])
+        raw_items = _fetch_rss_items(_google_news_url(feed["query"]), feed["name"])
     elif kind == "site":
         raw_items = _fetch_rss_items(feed["feed_url"], feed["name"], quiet=True)
         if not raw_items:
             print(f"  [note] {feed['name']}: RSS feed unavailable, "
                   f"scraping {len(feed['fallback_urls'])} page(s) instead", file=sys.stderr)
             raw_items = _fetch_scrape_items(feed["fallback_urls"], feed["name"])
+        if not raw_items and feed.get("google_fallback_query"):
+            print(f"  [note] {feed['name']}: direct scrape also unavailable "
+                  f"(likely blocked from this network), falling back to Google News", file=sys.stderr)
+            raw_items = _fetch_rss_items(_google_news_url(feed["google_fallback_query"]), feed["name"])
     else:
         raw_items = []
 
