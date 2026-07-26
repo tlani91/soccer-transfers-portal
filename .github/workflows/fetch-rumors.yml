@@ -2,10 +2,12 @@ name: Fetch Transfer Rumors
 
 "on":
   schedule:
-    # Offset from :00/:15/:30/:45 on purpose -- GitHub documents that
-    # schedules landing on the exact hour/quarter-hour are more likely
-    # to be delayed since that's when everyone else's crons fire too.
-    - cron: '7,22,37,52 * * * *'
+    # Offset from :00/:10/:20/etc on purpose -- GitHub documents that
+    # schedules landing on round numbers are more likely to be delayed
+    # since that's when everyone else's crons fire too. GitHub's own
+    # scheduler can still drift several minutes late regardless -- that's
+    # a known platform limitation, not something this offset fully fixes.
+    - cron: '4,14,24,34,44,54 * * * *'
   workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
 
 permissions:
