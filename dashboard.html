@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transfer Wire</title>
+<style>
+  :root {
+    --bg: #14151A;
+    --surface: #1D1F26;
+    --surface-2: #24262F;
+    --line: #2E313C;
+    --text: #F2F1ED;
+    --text-dim: #9A9CA5;
+    --gold: #E3A548;
+    --green: #4CAF7D;
+    --red: #D9584F;
+    --blue: #6FA8D8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: linear-gradient(180deg, var(--bg) 80%, transparent);
+    padding: 20px 20px 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  .title-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    font-stretch: condensed;
+  }
+  h1 span { color: var(--gold); }
+  .eyebrow {
+    margin: 2px 0 0;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+  .live-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+  .pulse {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 0 0 rgba(76,175,125,0.6);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(76,175,125,0.5); }
+    70% { box-shadow: 0 0 0 8px rgba(76,175,125,0); }
+    100% { box-shadow: 0 0 0 0 rgba(76,175,125,0); }
+  }
+
+  .controls {
+    display: flex;
+    gap: 8px;
+    margin-top: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  #search {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    flex: 1 1 180px;
+    min-width: 140px;
+  }
+  #search:focus { outline: none; border-color: var(--gold); }
+  .chip {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--text-dim);
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color .15s, color .15s;
+  }
+  .chip:hover { color: var(--text); }
+  .chip.active {
+    border-color: var(--gold);
+    color: var(--gold);
+  }
+
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 16px 20px 60px;
+  }
+
+  .card {
+    display: flex;
+    gap: 12px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .accent-bar {
+    flex: 0 0 3px;
+    border-radius: 2px;
+  }
+  .card-body { flex: 1; min-width: 0; }
+  .card-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+  }
+  .tag {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 2px 7px;
+    border-radius: 4px;
+  }
+  .source {
+    font-size: 12px;
+    color: var(--text-dim);
+    font-weight: 600;
+  }
+  .time {
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-left: auto;
+  }
+  .headline {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0 0 4px;
+    letter-spacing: -0.2px;
+  }
+  .headline a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  .headline a:hover { color: var(--gold); }
+  .desc {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.4;
+    margin: 0;
+  }
+  .byline {
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+
+  .empty, .error {
+    text-align: center;
+    color: var(--text-dim);
+    padding: 60px 20px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .error { color: var(--red); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="title-row">
+    <div>
+      <h1>Transfer <span>Wire</span></h1>
+      <p class="eyebrow">espn fc &middot; romano &middot; ornstein &middot; jacobs &middot; kaila &middot; deadline day live</p>
+    </div>
+    <div class="live-status">
+      <span class="pulse"></span>
+      <span id="updated" class="mono">connecting...</span>
+    </div>
+  </div>
+  <div class="controls">
+    <input id="search" type="text" placeholder="Search players, clubs...">
+    <div id="chips"></div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="empty">Waiting for first fetch cycle from transfer_rumors_fetch.py...</div>
+</main>
+
+<script>
+const SOURCES = [
+  { id: 'all', name: 'All' },
+  { id: 'espn_fc', name: 'ESPN FC' },
+  { id: 'romano', name: 'Romano' },
+  { id: 'ornstein', name: 'Ornstein' },
+  { id: 'jacobs', name: 'Jacobs' },
+  { id: 'kaila', name: 'Kaila' },
+  { id: 'ddl', name: 'Deadline Day Live' },
+];
+
+let activeSource = 'all';
+let searchTerm = '';
+let allItems = [];
+
+const chipsEl = document.getElementById('chips');
+SOURCES.forEach(s => {
+  const chip = document.createElement('span');
+  chip.className = 'chip' + (s.id === 'all' ? ' active' : '');
+  chip.textContent = s.name;
+  chip.dataset.id = s.id;
+  chip.onclick = () => {
+    activeSource = s.id;
+    document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    render();
+  };
+  chipsEl.appendChild(chip);
+});
+
+document.getElementById('search').addEventListener('input', (e) => {
+  searchTerm = e.target.value.toLowerCase();
+  render();
+});
+
+function detectTag(text) {
+  const t = text.toLowerCase();
+  if (t.includes('here we go')) return { label: 'HERE WE GO', color: 'var(--green)' };
+  if (t.includes('done deal') || t.includes('confirmed') || t.includes('official')) return { label: 'DONE DEAL', color: 'var(--green)' };
+  if (t.includes('medical')) return { label: 'MEDICAL BOOKED', color: 'var(--blue)' };
+  if (t.includes('denies') || t.includes('rules out') || t.includes('not interested') || t.includes('cools') || t.includes('distances')) return { label: 'DENIED', color: 'var(--red)' };
+  if (t.includes('exclusive')) return { label: 'EXCLUSIVE', color: 'var(--gold)' };
+  return { label: 'RUMOUR', color: 'var(--text-dim)' };
+}
+
+function timeAgo(epochSeconds) {
+  if (!epochSeconds) return '';
+  const diff = Math.max(0, (Date.now() / 1000) - epochSeconds);
+  if (diff < 60) return 'just now';
+  if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
+  if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
+  return Math.floor(diff / 86400) + 'd ago';
+}
+
+function render() {
+  const main = document.getElementById('main');
+  let items = allItems;
+  if (activeSource !== 'all') items = items.filter(i => i.source_id === activeSource);
+  if (searchTerm) {
+    items = items.filter(i =>
+      (i.title + ' ' + i.description).toLowerCase().includes(searchTerm)
+    );
+  }
+
+  if (!items.length) {
+    main.innerHTML = '<div class="empty">No rumors match this filter yet.</div>';
+    return;
+  }
+
+  main.innerHTML = '';
+  items.forEach(it => {
+    const tag = detectTag(it.title + ' ' + it.description);
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <div class="accent-bar" style="background:${tag.color}"></div>
+      <div class="card-body">
+        <div class="card-top">
+          <span class="tag mono" style="background:${tag.color}22; color:${tag.color}">${tag.label}</span>
+          <span class="source">${escapeHtml(it.source_name)}</span>
+          <span class="time mono">${timeAgo(it.epoch)}</span>
+        </div>
+        <p class="headline"><a href="${it.link}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a></p>
+        <p class="desc">${escapeHtml(it.description)}</p>
+        ${it.byline ? `<p class="byline">by ${escapeHtml(it.byline)}</p>` : ''}
+      </div>
+    `;
+    main.appendChild(card);
+  });
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str || '';
+  return div.innerHTML;
+}
+
+async function loadData() {
+  const updatedEl = document.getElementById('updated');
+  try {
+    const res = await fetch('rumors_data.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    allItems = data.items || [];
+    const d = new Date(data.last_updated);
+    updatedEl.textContent = 'updated ' + d.toLocaleTimeString();
+    render();
+  } catch (err) {
+    updatedEl.textContent = 'connection lost';
+    document.getElementById('main').innerHTML =
+      '<div class="error">Can\'t reach rumors_data.json &mdash; is transfer_rumors_fetch.py still running in your terminal?</div>';
+  }
+}
+
+loadData();
+setInterval(loadData, 60000);
+</script>
+
+</body>
+</html>
