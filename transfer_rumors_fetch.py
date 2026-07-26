@@ -67,15 +67,20 @@ FEEDS = [
      "query": '"David Ornstein" transfer'},
     {"id": "jacobs", "name": "Ben Jacobs", "kind": "google_news",
      "query": '"Ben Jacobs" football transfer'},
-    {"id": "kaila", "name": "Indy Kaila", "kind": "google_news",
-     "query": '"Indy Kaila" transfer'},
     {"id": "ddl", "name": "Deadline Day Live", "kind": "site",
      "feed_url": "https://www.transfernewslive.com/transfer-news/feed/",
      "fallback_urls": [
          "https://www.transfernewslive.com/transfer-news/",
          "https://www.transfernewslive.com/transfer-news/page/2/",
      ],
+     "scraper": "ddl",
      "google_fallback_query": "site:transfernewslive.com transfer"},
+    {"id": "flashscore", "name": "Flashscore", "kind": "site",
+     "fallback_urls": [
+         "https://www.flashscore.com/news/transfer-news/C8OAR7gMWSzc94ws/",
+     ],
+     "scraper": "flashscore",
+     "google_fallback_query": "site:flashscore.com transfer"},
 ]
 
 
@@ -132,16 +137,14 @@ def matches_keywords(text, keywords):
     return any(kw in lowered for kw in keywords)
 
 
-def scrape_transfer_news_live(html_bytes):
-    """Fallback for transfernewslive.com if their RSS feed isn't reachable.
-    Pulls (title, link) pairs straight off the /transfer-news/ archive page.
-    Exact per-article publish times aren't reliably present in the markup,
-    so items are given descending synthetic timestamps to preserve the
-    page's own newest-first order rather than claiming false precision."""
+def _scrape_articles_by_pattern(html_bytes, link_pattern, source_label):
+    """Generic scraper: finds article links matching link_pattern, dedupes,
+    and assigns descending synthetic timestamps to preserve page order.
+    Exact per-article publish times aren't reliably present in scraped
+    markup, so this doesn't claim false precision on timing -- just order."""
     html_text = html_bytes.decode("utf-8", errors="replace")
     pattern = re.compile(
-        r'<a[^>]+href="(https://www\.transfernewslive\.com/transfer-news/[a-z0-9\-]+/)"'
-        r'[^>]*>(.*?)</a>',
+        r'<a[^>]+href="(' + link_pattern + r')"[^>]*>(.*?)</a>',
         re.DOTALL | re.IGNORECASE,
     )
     seen = {}
@@ -162,11 +165,39 @@ def scrape_transfer_news_live(html_bytes):
             "title": seen[href],
             "link": href,
             "description": "",
-            "creator": "Transfer News Live",
+            "creator": source_label,
             "pubDate": "",
             "_epoch_override": now - (i * 300),  # 5 min apart, preserves page order
         })
     return items
+
+
+def scrape_transfer_news_live(html_bytes):
+    """Fallback for transfernewslive.com if their RSS feed isn't reachable.
+    Pulls (title, link) pairs straight off the /transfer-news/ archive page."""
+    return _scrape_articles_by_pattern(
+        html_bytes,
+        r"https://www\.transfernewslive\.com/transfer-news/[a-z0-9\-]+/",
+        "Transfer News Live",
+    )
+
+
+def scrape_flashscore(html_bytes):
+    """Scraper for flashscore.com's transfer news page. Their article URLs
+    look like /news/<slug>/<8-char-id>/ -- the 8-char length is what
+    distinguishes real articles from category/nav pages, which use a
+    longer 16-char id (e.g. the Transfer News category page itself)."""
+    return _scrape_articles_by_pattern(
+        html_bytes,
+        r"https://www\.flashscore\.com/news/[a-z0-9\-]+/[A-Za-z0-9]{8}/",
+        "Flashscore",
+    )
+
+
+SCRAPERS = {
+    "ddl": scrape_transfer_news_live,
+    "flashscore": scrape_flashscore,
+}
 
 
 def _fetch_rss_items(url, name, quiet=False):
@@ -189,7 +220,7 @@ def _fetch_rss_items(url, name, quiet=False):
     return raw_items
 
 
-def _fetch_scrape_items(urls, name):
+def _fetch_scrape_items(urls, name, scraper_fn):
     all_items = []
     seen_links = set()
     for url in urls:
@@ -199,7 +230,7 @@ def _fetch_scrape_items(urls, name):
             print(f"  [warn] {name}: fallback scrape fetch failed for {url} ({e})", file=sys.stderr)
             continue
 
-        page_items = scrape_transfer_news_live(raw)
+        page_items = scraper_fn(raw)
         if not page_items:
             preview = raw[:300].decode("utf-8", errors="replace") if isinstance(raw, bytes) else str(raw)[:300]
             print(f"  [warn] {name}: {url} -> HTTP {status}, Content-Type: {content_type!r}, "
@@ -241,11 +272,14 @@ def fetch_feed(feed):
     elif kind == "google_news":
         raw_items = _fetch_rss_items(_google_news_url(feed["query"]), feed["name"])
     elif kind == "site":
-        raw_items = _fetch_rss_items(feed["feed_url"], feed["name"], quiet=True)
+        raw_items = []
+        if feed.get("feed_url"):
+            raw_items = _fetch_rss_items(feed["feed_url"], feed["name"], quiet=True)
         if not raw_items:
             print(f"  [note] {feed['name']}: RSS feed unavailable, "
                   f"scraping {len(feed['fallback_urls'])} page(s) instead", file=sys.stderr)
-            raw_items = _fetch_scrape_items(feed["fallback_urls"], feed["name"])
+            scraper_fn = SCRAPERS[feed.get("scraper", "ddl")]
+            raw_items = _fetch_scrape_items(feed["fallback_urls"], feed["name"], scraper_fn)
         if not raw_items and feed.get("google_fallback_query"):
             print(f"  [note] {feed['name']}: direct scrape also unavailable "
                   f"(likely blocked from this network), falling back to Google News", file=sys.stderr)
