@@ -173,6 +173,9 @@ def _scrape_articles_by_pattern(html_bytes, link_pattern, source_label, base_url
             "title": seen[href],
             "link": href,
             "description": "",
+            "approx_time": True,  # order-derived timestamp, not a real publish date --
+                                   # some pages (e.g. Flashscore) mix old and new stories
+                                   # in a way that doesn't correlate with page position
             "creator": source_label,
             "pubDate": "",
             "_epoch_override": now - (i * 300),  # 5 min apart, preserves page order
@@ -329,6 +332,7 @@ def fetch_feed(feed):
             "byline": it["creator"],
             "pub_date_raw": it["pubDate"],
             "epoch": epoch,
+            "approx_time": it.get("approx_time", False),
         })
     return out
 

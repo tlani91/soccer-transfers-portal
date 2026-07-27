@@ -297,8 +297,9 @@ function detectTag(text) {
   return { label: 'RUMOUR', color: 'var(--text-dim)' };
 }
 
-function timeAgo(epochSeconds) {
+function timeAgo(epochSeconds, isApprox) {
   if (!epochSeconds) return '';
+  if (isApprox) return 'recently';
   const diff = Math.max(0, (Date.now() / 1000) - epochSeconds);
   if (diff < 60) return 'just now';
   if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
@@ -335,7 +336,7 @@ function render() {
         <div class="card-top">
           <span class="tag mono" style="background:${tag.color}22; color:${tag.color}">${tag.label}</span>
           <span class="source">${escapeHtml(it.source_name)}</span>
-          <span class="time mono">${timeAgo(it.epoch)}</span>
+          <span class="time mono">${timeAgo(it.epoch, it.approx_time)}</span>
         </div>
         <p class="headline">${escapeHtml(it.title)}</p>
         <p class="desc">${escapeHtml(it.description)}</p>
