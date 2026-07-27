@@ -50,12 +50,13 @@ USER_AGENT = (
 
 NS = {"dc": "http://purl.org/dc/elements/1.1/"}
 
-# Keywords used to keep ESPN's general soccer feed limited to transfer-flavored stories
+# Keywords used to keep general feeds (ESPN, Flashscore) limited to transfer-flavored stories
 TRANSFER_KEYWORDS = [
     "transfer", "sign", "signing", "signs", "signed", "loan", "medical",
     "here we go", "deal", "bid", "fee", "valuation", "release clause",
     "contract", "target", "linked", "join", "move to", "agent", "rumour",
-    "rumor", "exclusive", "swap",
+    "rumor", "exclusive", "swap", "agree", "confirm", "official", "unveil",
+    "announce", "complete", "verbal agreement", "reject", "reportedly",
 ]
 
 FEEDS = [
@@ -80,6 +81,7 @@ FEEDS = [
          "https://www.flashscore.com/news/transfer-news/C8OAR7gMWSzc94ws/",
      ],
      "scraper": "flashscore",
+     "filter": True,
      "google_fallback_query": "site:flashscore.com transfer"},
 ]
 
