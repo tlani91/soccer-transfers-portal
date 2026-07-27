@@ -346,14 +346,21 @@ def run_fetch_cycle():
         all_items.extend(items)
         time.sleep(0.5)  # be polite between requests
 
-    # Dedupe by link, keep first occurrence
+    # Dedupe by title OR link -- Google News in particular often indexes the
+    # same underlying story under two different tracking URLs, which a
+    # link-only dedup would treat as two separate items.
+    seen_titles = set()
     seen_links = set()
     deduped = []
     for it in sorted(all_items, key=lambda x: x["epoch"], reverse=True):
-        key = it["link"] or it["title"].lower()
-        if key in seen_links:
+        title_key = it["title"].strip().lower()
+        link_key = it["link"]
+        if (title_key and title_key in seen_titles) or (link_key and link_key in seen_links):
             continue
-        seen_links.add(key)
+        if title_key:
+            seen_titles.add(title_key)
+        if link_key:
+            seen_links.add(link_key)
         deduped.append(it)
 
     payload = {
