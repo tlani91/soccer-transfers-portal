@@ -191,8 +191,13 @@ def fetch_completed_transfers():
 def fetch_url(url, timeout=15):
     req = Request(url, headers={
         "User-Agent": USER_AGENT,
-        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
     })
     with urlopen(req, timeout=timeout) as resp:
         raw = resp.read()

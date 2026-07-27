@@ -48,12 +48,16 @@
   }
   h1 span { color: var(--gold); }
   .eyebrow-label {
+    display: block;
     margin: 10px 0 6px;
     font-size: 11px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: var(--text-dim);
+    text-decoration: none;
+    width: fit-content;
   }
+  .eyebrow-label:hover { color: var(--gold); }
   .transfers-ticker {
     display: flex;
     align-items: center;
@@ -275,7 +279,7 @@
       <span id="updated" class="mono">connecting...</span>
     </div>
   </div>
-  <p class="eyebrow-label">Completed Transfers</p>
+  <a class="eyebrow-label" href="https://www.besoccer.com/transfers/competitions" target="_blank" rel="noopener">Completed Transfers &rarr;</a>
   <div class="transfers-ticker" id="transfersTicker">
     <span class="ticker-item">Loading...</span>
   </div>
