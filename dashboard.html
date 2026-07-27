@@ -263,7 +263,7 @@ const SOURCES = [
   { id: 'ddl', name: 'Deadline Day Live' },
 ];
 
-let activeSource = 'all';
+let activeSources = new Set(['all']);
 let searchTerm = '';
 let allItems = [];
 
@@ -274,9 +274,20 @@ SOURCES.forEach(s => {
   chip.textContent = s.name;
   chip.dataset.id = s.id;
   chip.onclick = () => {
-    activeSource = s.id;
-    document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-    chip.classList.add('active');
+    if (s.id === 'all') {
+      activeSources = new Set(['all']);
+    } else {
+      activeSources.delete('all');
+      if (activeSources.has(s.id)) {
+        activeSources.delete(s.id);
+      } else {
+        activeSources.add(s.id);
+      }
+      if (activeSources.size === 0) activeSources = new Set(['all']);
+    }
+    document.querySelectorAll('.chip').forEach(c => {
+      c.classList.toggle('active', activeSources.has(c.dataset.id));
+    });
     render();
   };
   chipsEl.appendChild(chip);
@@ -310,7 +321,7 @@ function timeAgo(epochSeconds, isApprox) {
 function render() {
   const main = document.getElementById('main');
   let items = allItems;
-  if (activeSource !== 'all') items = items.filter(i => i.source_id === activeSource);
+  if (!activeSources.has('all')) items = items.filter(i => activeSources.has(i.source_id));
   if (searchTerm) {
     items = items.filter(i =>
       (i.title + ' ' + i.description).toLowerCase().includes(searchTerm)
