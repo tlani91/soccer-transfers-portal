@@ -128,6 +128,68 @@
     color: var(--gold);
   }
 
+  /* Mobile-only multi-select dropdown -- hidden on desktop, where the
+     scrollable chip row (above) is used instead. See the mobile media
+     query below for the swap. */
+  .source-dropdown {
+    display: none;
+    position: relative;
+  }
+  .dropdown-toggle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--text);
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .dropdown-toggle.open { border-color: var(--gold); }
+  .dropdown-arrow {
+    color: var(--text-dim);
+    font-size: 10px;
+    transition: transform .15s;
+  }
+  .dropdown-toggle.open .dropdown-arrow { transform: rotate(180deg); }
+  .dropdown-panel {
+    display: none;
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 6px;
+    z-index: 20;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    max-height: 280px;
+    overflow-y: auto;
+  }
+  .dropdown-panel.open { display: block; }
+  .dropdown-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 8px;
+    font-size: 14px;
+    color: var(--text);
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .dropdown-option:active { background: var(--surface-2); }
+  .dropdown-option input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    accent-color: var(--gold);
+  }
+
   main {
     max-width: 720px;
     margin: 0 auto;
@@ -148,18 +210,8 @@
                        reinterpreted as a HEIGHT once the container becomes
                        a column -- this was the cause of the oversized box */
     }
-    #chips {
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      scrollbar-width: none;
-      padding-bottom: 2px;
-      margin: 0 -16px;
-      padding-left: 16px;
-      padding-right: 16px;
-    }
-    #chips::-webkit-scrollbar { display: none; }
-    .chip { flex: 0 0 auto; }
+    #chips { display: none; }
+    .source-dropdown { display: block; }
   }
 
   .card {
@@ -247,6 +299,13 @@
   <div class="controls">
     <input id="search" type="text" placeholder="Search players, clubs...">
     <div id="chips"></div>
+    <div class="source-dropdown" id="sourceDropdown">
+      <button class="dropdown-toggle" id="dropdownToggle" type="button">
+        <span id="dropdownLabel">All Sources</span>
+        <span class="dropdown-arrow">&#9662;</span>
+      </button>
+      <div class="dropdown-panel" id="dropdownPanel"></div>
+    </div>
   </div>
 </div>
 
@@ -269,30 +328,77 @@ let activeSources = new Set(['all']);
 let searchTerm = '';
 let allItems = [];
 
+function toggleSource(id) {
+  if (id === 'all') {
+    activeSources = new Set(['all']);
+  } else {
+    activeSources.delete('all');
+    if (activeSources.has(id)) {
+      activeSources.delete(id);
+    } else {
+      activeSources.add(id);
+    }
+    if (activeSources.size === 0) activeSources = new Set(['all']);
+  }
+  syncSourceUI();
+  render();
+}
+
+function syncSourceUI() {
+  document.querySelectorAll('.chip').forEach(c => {
+    c.classList.toggle('active', activeSources.has(c.dataset.id));
+  });
+  document.querySelectorAll('.dropdown-option input[type="checkbox"]').forEach(cb => {
+    cb.checked = activeSources.has(cb.dataset.id);
+  });
+  const label = document.getElementById('dropdownLabel');
+  if (activeSources.has('all')) {
+    label.textContent = 'All Sources';
+  } else {
+    const names = SOURCES.filter(s => activeSources.has(s.id)).map(s => s.name);
+    label.textContent = names.length <= 2 ? names.join(', ') : names.length + ' selected';
+  }
+}
+
 const chipsEl = document.getElementById('chips');
 SOURCES.forEach(s => {
   const chip = document.createElement('span');
   chip.className = 'chip' + (s.id === 'all' ? ' active' : '');
   chip.textContent = s.name;
   chip.dataset.id = s.id;
-  chip.onclick = () => {
-    if (s.id === 'all') {
-      activeSources = new Set(['all']);
-    } else {
-      activeSources.delete('all');
-      if (activeSources.has(s.id)) {
-        activeSources.delete(s.id);
-      } else {
-        activeSources.add(s.id);
-      }
-      if (activeSources.size === 0) activeSources = new Set(['all']);
-    }
-    document.querySelectorAll('.chip').forEach(c => {
-      c.classList.toggle('active', activeSources.has(c.dataset.id));
-    });
-    render();
-  };
+  chip.onclick = () => toggleSource(s.id);
   chipsEl.appendChild(chip);
+});
+
+// Mobile-only multi-select dropdown (chips row above is used on desktop instead)
+const dropdownPanel = document.getElementById('dropdownPanel');
+const dropdownToggle = document.getElementById('dropdownToggle');
+SOURCES.forEach(s => {
+  const row = document.createElement('label');
+  row.className = 'dropdown-option';
+  const checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.dataset.id = s.id;
+  checkbox.checked = s.id === 'all';
+  checkbox.addEventListener('change', () => toggleSource(s.id));
+  row.appendChild(checkbox);
+  row.appendChild(document.createTextNode(' ' + s.name));
+  dropdownPanel.appendChild(row);
+});
+
+dropdownToggle.addEventListener('click', () => {
+  dropdownPanel.classList.toggle('open');
+  dropdownToggle.classList.toggle('open');
+});
+
+// Tapping anywhere outside the dropdown closes it; tapping inside (including
+// on a checkbox) keeps it open so multiple sources can be picked in one go.
+document.addEventListener('click', (e) => {
+  const dropdown = document.getElementById('sourceDropdown');
+  if (dropdown && !dropdown.contains(e.target)) {
+    dropdownPanel.classList.remove('open');
+    dropdownToggle.classList.remove('open');
+  }
 });
 
 document.getElementById('search').addEventListener('input', (e) => {
