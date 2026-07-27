@@ -85,6 +85,108 @@ FEEDS = [
      "google_fallback_query": "site:flashscore.com transfer"},
 ]
 
+# Completed Transfers section (Big 5 leagues) -- pulled from besoccer.com,
+# which is not robots.txt-restricted and lists confirmed moves (transfers,
+# loans, free transfers, released, retired) with a stable per-league URL.
+BESOCCER_LEAGUES = [
+    ("Premier League", "https://www.besoccer.com/competition/transfers/premier_league"),
+    ("La Liga", "https://www.besoccer.com/competition/transfers/primera_division"),
+    ("Serie A", "https://www.besoccer.com/competition/transfers/serie_a"),
+    ("Bundesliga", "https://www.besoccer.com/competition/transfers/bundesliga"),
+    ("Ligue 1", "https://www.besoccer.com/competition/transfers/ligue_1"),
+]
+
+BESOCCER_TYPE_WORDS = ["Loan W/B", "Free transfer", "Transfer", "Loan", "Released", "Retired"]
+_BESOCCER_TYPE_PATTERN = "|".join(re.escape(t) for t in BESOCCER_TYPE_WORDS)
+
+# Matches player-profile links and their full visible text in one go, e.g.:
+# <a href="https://www.besoccer.com/player/alvaro-rodriguez-3178944">Transfer
+# Álvaro Rodríguez Álvaro Rodríguez 14 JUL 2026 Elche Transfer. 25,0M.€</a>
+_BESOCCER_ENTRY_RE = re.compile(
+    r'<a[^>]+href=["\'](https://www\.besoccer\.com/player/[a-z0-9\-]+)["\'][^>]*>(.*?)</a>',
+    re.DOTALL | re.IGNORECASE,
+)
+_BESOCCER_TEXT_RE = re.compile(
+    rf"^({_BESOCCER_TYPE_PATTERN})\s+(.+?)\s+(\d{{1,2}}\s[A-Z]{{3}}\s\d{{4}})"
+    rf"\s*(?:(.+?)\s+)?(?:{_BESOCCER_TYPE_PATTERN})\.\s*(.*)$"
+)
+
+
+def _besoccer_slug_to_name(href):
+    """https://www.besoccer.com/player/alvaro-rodriguez-3178944 -> 'Alvaro Rodriguez'
+    Loses accents (a known tradeoff of deriving the name from the URL slug
+    instead of the ambiguous concatenated link text -- see parse_besoccer_entry)."""
+    slug = href.rstrip("/").split("/")[-1]
+    slug = re.sub(r"-\d+$", "", slug)
+    return " ".join(p.capitalize() for p in slug.split("-") if p)
+
+
+def parse_besoccer_entry(href, raw_inner_html):
+    """Parses one <a> tag's href + inner text into a structured completed-
+    transfer record. The player's own name is derived from the URL slug
+    rather than the visible text, because BeSoccer's markup repeats a name
+    before the real one (seemingly a decorative icon's alt text) with no
+    reliable delimiter between them -- the slug is unambiguous."""
+    text = strip_html(raw_inner_html)
+    m = _BESOCCER_TEXT_RE.match(text)
+    if not m:
+        return None
+    move_type, _name_blob, date_str, club, fee = m.groups()
+    try:
+        date_obj = datetime.strptime(date_str, "%d %b %Y")
+    except ValueError:
+        return None
+    return {
+        "player": _besoccer_slug_to_name(href),
+        "type": move_type,
+        "club": (club or "").strip(),
+        "fee": fee.strip(),
+        "link": href,
+        "epoch": date_obj.replace(tzinfo=timezone.utc).timestamp(),
+    }
+
+
+def fetch_completed_transfers():
+    all_entries = []
+    seen_links_types_dates = set()
+    for league_name, url in BESOCCER_LEAGUES:
+        try:
+            raw, status, content_type = fetch_url(url)
+        except (HTTPError, URLError, TimeoutError) as e:
+            print(f"  [warn] Completed Transfers ({league_name}): fetch failed ({e})", file=sys.stderr)
+            continue
+
+        html_text = raw.decode("utf-8", errors="replace")
+        raw_matches = _BESOCCER_ENTRY_RE.findall(html_text)
+        new_count = 0
+        for href, inner_html in raw_matches:
+            entry = parse_besoccer_entry(href, inner_html)
+            if not entry:
+                continue
+            # Same player can legitimately appear twice (e.g. loan out + the
+            # parent transfer), so dedupe on link+type+date, not link alone.
+            dedupe_key = (entry["link"], entry["type"], entry["epoch"])
+            if dedupe_key in seen_links_types_dates:
+                continue
+            seen_links_types_dates.add(dedupe_key)
+            entry["league"] = league_name
+            all_entries.append(entry)
+            new_count += 1
+
+        if not raw_matches:
+            preview = raw[:300].decode("utf-8", errors="replace") if isinstance(raw, bytes) else str(raw)[:300]
+            print(f"  [warn] Completed Transfers ({league_name}): HTTP {status}, "
+                  f"Content-Type: {content_type!r}, but matched 0 entries. "
+                  f"Response starts with: {preview!r}", file=sys.stderr)
+        elif new_count == 0:
+            print(f"  [note] Completed Transfers ({league_name}): {len(raw_matches)} entries found, "
+                  f"all already seen from another league (cross-league duplicates, e.g. a transfer "
+                  f"between two Big-5 clubs)", file=sys.stderr)
+        time.sleep(0.5)  # be polite between requests
+
+    all_entries.sort(key=lambda e: e["epoch"], reverse=True)
+    return all_entries
+
 
 def fetch_url(url, timeout=15):
     req = Request(url, headers={
@@ -366,7 +468,17 @@ def run_fetch_cycle():
     payload = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
         "items": deduped,
+        "completed_transfers": [],
     }
+
+    print("  Fetching completed transfers (Big 5 leagues)...")
+    try:
+        completed = fetch_completed_transfers()
+        print(f"  Completed Transfers: {len(completed)} entries")
+        payload["completed_transfers"] = completed[:40]  # cap for a compact ticker
+    except Exception as e:
+        print(f"  [warn] Completed Transfers: unexpected error ({e})", file=sys.stderr)
+
     with open(DATA_FILE, "w") as f:
         json.dump(payload, f, indent=2)
     print(f"  -> wrote {len(deduped)} items to {os.path.basename(DATA_FILE)}")
