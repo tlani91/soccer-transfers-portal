@@ -58,39 +58,6 @@
     width: fit-content;
   }
   .eyebrow-label:hover { color: var(--gold); }
-  .transfers-ticker {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    white-space: nowrap;
-    padding-bottom: 2px;
-  }
-  .transfers-ticker::-webkit-scrollbar { display: none; }
-  .ticker-item {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 12px;
-    color: var(--text-dim);
-    flex: 0 0 auto;
-  }
-  .ticker-item a {
-    color: var(--text);
-    text-decoration: none;
-    font-weight: 700;
-  }
-  .ticker-item a:hover { color: var(--gold); }
-  .ticker-item .fee {
-    color: var(--green);
-    font-weight: 600;
-  }
-  .ticker-sep {
-    color: var(--line);
-    flex: 0 0 auto;
-  }
   .live-status {
     display: flex;
     align-items: center;
@@ -192,11 +159,6 @@
       padding-right: 16px;
     }
     #chips::-webkit-scrollbar { display: none; }
-    .transfers-ticker {
-      margin: 0 -16px;
-      padding-left: 16px;
-      padding-right: 16px;
-    }
     .chip { flex: 0 0 auto; }
   }
 
@@ -280,9 +242,6 @@
     </div>
   </div>
   <a class="eyebrow-label" href="https://www.besoccer.com/transfers/competitions" target="_blank" rel="noopener">Completed Transfers &rarr;</a>
-  <div class="transfers-ticker" id="transfersTicker">
-    <span class="ticker-item">Loading...</span>
-  </div>
 </header>
 <div class="controls-bar">
   <div class="controls">
@@ -407,22 +366,6 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
-function renderTicker(transfers) {
-  const el = document.getElementById('transfersTicker');
-  if (!transfers || !transfers.length) {
-    el.innerHTML = '<span class="ticker-item">No completed transfers yet</span>';
-    return;
-  }
-  el.innerHTML = transfers.map(t => {
-    const feeHtml = t.fee ? ` <span class="fee mono">${escapeHtml(t.fee)}</span>` : '';
-    const clubHtml = t.club ? ` &rarr; ${escapeHtml(t.club)}` : '';
-    return `<span class="ticker-item">` +
-      `<a href="${t.link}" target="_blank" rel="noopener">${escapeHtml(t.player)}</a>` +
-      ` <span class="mono">${escapeHtml(t.type)}</span>${clubHtml}${feeHtml}` +
-      `</span>`;
-  }).join('<span class="ticker-sep">&bull;</span>');
-}
-
 async function loadData() {
   const updatedEl = document.getElementById('updated');
   try {
@@ -430,7 +373,6 @@ async function loadData() {
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     allItems = data.items || [];
-    renderTicker(data.completed_transfers || []);
     const d = new Date(data.last_updated);
     updatedEl.textContent = 'updated ' + d.toLocaleTimeString();
     render();
