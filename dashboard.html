@@ -214,6 +214,31 @@
     .source-dropdown { display: block; }
   }
 
+  /* Tablet (iPad and similar, portrait through landscape): there's enough
+     width to keep showing chips at a glance rather than collapsing to the
+     phone dropdown, but not reliably enough to fit all 7 chips plus the
+     search box on one row without unpredictable wrapping -- so search
+     stacks above a horizontally-scrollable chip row, same mechanism as
+     mobile, just with roomier touch targets since this is a touch device
+     with more screen to spare than a phone. */
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .controls { flex-direction: column; align-items: stretch; }
+    #search { width: 100%; flex: none; }
+    #chips {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      padding-bottom: 2px;
+    }
+    #chips::-webkit-scrollbar { display: none; }
+    .chip {
+      flex: 0 0 auto;
+      padding: 10px 16px;
+      font-size: 13px;
+    }
+  }
+
   .card {
     display: flex;
     gap: 12px;
