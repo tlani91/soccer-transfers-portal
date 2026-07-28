@@ -43,6 +43,12 @@ from urllib.error import URLError, HTTPError
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(SCRIPT_DIR, "rumors_data.json")
 
+# Items older than this never make it into rumors_data.json. Mainly a safety
+# net -- occasionally an old/republished article slips through a source's
+# feed (e.g. Google News can surface a years-old piece), and there's no
+# reason a rumors dashboard should ever show something from years back.
+MAX_ITEM_AGE_DAYS = 45
+
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"
@@ -367,6 +373,13 @@ def run_fetch_cycle():
         if link_key:
             seen_links.add(link_key)
         deduped.append(it)
+
+    cutoff_epoch = time.time() - (MAX_ITEM_AGE_DAYS * 86400)
+    before_cutoff_count = len(deduped)
+    deduped = [it for it in deduped if it["epoch"] >= cutoff_epoch]
+    dropped_count = before_cutoff_count - len(deduped)
+    if dropped_count:
+        print(f"  Dropped {dropped_count} item(s) older than {MAX_ITEM_AGE_DAYS} days")
 
     payload = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
