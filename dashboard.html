@@ -7,491 +7,637 @@
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #14151A;
-    --surface: #1D1F26;
-    --surface-2: #24262F;
-    --line: #2E313C;
-    --text: #F2F1ED;
-    --text-dim: #9A9CA5;
-    --gold: #E3A548;
-    --green: #4CAF7D;
-    --red: #D9584F;
-    --blue: #6FA8D8;
+    --field:   #0B0E13;
+    --panel:   #121721;
+    --rule:    #1C2230;
+    --type:    #E9ECF1;
+    --mute:    #6E7784;
+
+    /* Signal hues are functional: each means one thing about how
+       solid a rumour is. Nothing else on the page uses them. */
+    --go:      #34D399;  /* here we go / done deal */
+    --wait:    #6BA6FF;  /* medical booked */
+    --kill:    #FF5F5F;  /* denied */
+    --scoop:   #FFB627;  /* exclusive */
+
+    --gutter:  20px;
   }
+
   * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+
   body {
     margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    background: var(--field);
+    color: var(--type);
+    font-family: "Archivo", -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-variation-settings: "wdth" 100;
     -webkit-font-smoothing: antialiased;
   }
+
   .mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-feature-settings: "tnum" 1;
   }
 
-  header {
-    padding: 20px 20px 14px;
+  :focus-visible {
+    outline: 2px solid var(--scoop);
+    outline-offset: 2px;
+    border-radius: 3px;
   }
-  .title-row {
+
+  /* ── Shell ────────────────────────────────────────────────────
+     Phone and tablet: one column. `.side` is display:contents so its
+     children become direct children of .shell — that's what lets the
+     filter bar stick to the top of the whole page rather than only
+     to the height of the header block. Desktop turns .side back into
+     a real element and the layout becomes two columns. */
+
+  .shell {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+  }
+  .side { display: contents; }
+
+  /* ── Masthead ─────────────────────────────────────────────── */
+
+  .masthead {
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 8px;
+    gap: 16px;
+    padding-top: 26px;
   }
+
   h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 30px;
+    line-height: 0.95;
     font-weight: 800;
-    letter-spacing: -0.5px;
-    font-stretch: condensed;
-  }
-  h1 span { color: var(--gold); }
-  .eyebrow-label {
-    display: block;
-    margin: 10px 0 6px;
-    font-size: 11px;
-    letter-spacing: 1.5px;
+    font-variation-settings: "wdth" 78, "wght" 800;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: var(--text-dim);
-    text-decoration: none;
-    width: fit-content;
   }
-  .eyebrow-label:hover { color: var(--gold); }
-  .live-status {
+  h1 em { font-style: normal; color: var(--mute); }
+
+  .status {
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-size: 12px;
-    color: var(--text-dim);
+    gap: 7px;
+    font-size: 11px;
+    color: var(--mute);
+    letter-spacing: 0.04em;
+    white-space: nowrap;
   }
-  .pulse {
-    width: 8px;
-    height: 8px;
+  .pip {
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
-    background: var(--green);
-    box-shadow: 0 0 0 0 rgba(76,175,125,0.6);
-    animation: pulse 2s infinite;
+    background: var(--go);
+    animation: pip 2.4s ease-out infinite;
   }
-  @keyframes pulse {
-    0% { box-shadow: 0 0 0 0 rgba(76,175,125,0.5); }
-    70% { box-shadow: 0 0 0 8px rgba(76,175,125,0); }
-    100% { box-shadow: 0 0 0 0 rgba(76,175,125,0); }
+  .pip.dead { background: var(--kill); animation: none; }
+  @keyframes pip {
+    0%   { box-shadow: 0 0 0 0 rgba(52,211,153,0.55); }
+    70%  { box-shadow: 0 0 0 7px rgba(52,211,153,0); }
+    100% { box-shadow: 0 0 0 0 rgba(52,211,153,0); }
   }
 
-  .controls-bar {
+  /* ── Signature: 24h activity rail ─────────────────────────── */
+
+  .pulse-block { padding: 20px 0 18px; }
+
+  .rail {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 28px;
+    margin-bottom: 8px;
+  }
+  .tick {
+    flex: 1 1 0;
+    min-width: 0;
+    height: 2px;
+    border-radius: 1px;
+    background: var(--rule);
+    transition: height .5s cubic-bezier(.2,.7,.3,1);
+  }
+
+  .rail-legend {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--mute);
+  }
+  .rail-legend a {
+    color: var(--mute);
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 1px;
+  }
+  .rail-legend a:hover { color: var(--type); border-color: var(--mute); }
+
+  /* ── Filters ──────────────────────────────────────────────── */
+
+  .filters {
     position: sticky;
     top: 0;
     z-index: 10;
-    background: var(--bg);
-    border-bottom: 1px solid var(--line);
-    padding: 10px 20px;
-  }
-  .controls {
     display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
+    gap: 10px;
     align-items: center;
+    background: var(--field);
+    border-bottom: 1px solid var(--rule);
+    margin: 0 calc(var(--gutter) * -1);
+    padding: 10px var(--gutter);
   }
+
   #search {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    color: var(--text);
-    padding: 8px 12px;
-    border-radius: 6px;
-    font-size: 16px; /* 16px avoids iOS Safari auto-zooming in on focus */
-    flex: 1 1 180px;
-    min-width: 140px;
-    height: 38px;
+    flex: 1 1 200px;
+    min-width: 0;
+    height: 34px;
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    color: var(--type);
+    padding: 0 11px;
+    font-family: inherit;
+    font-size: 16px; /* 16px keeps iOS Safari from zooming on focus */
   }
-  #search:focus { outline: none; border-color: var(--gold); }
+  #search::placeholder { color: var(--mute); }
+  #search:focus { outline: none; border-color: var(--mute); }
+
   #chips {
     display: flex;
-    flex-wrap: wrap;
     gap: 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    mask-image: linear-gradient(90deg, #000 calc(100% - 24px), transparent);
   }
+  #chips::-webkit-scrollbar { display: none; }
+
   .chip {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    color: var(--text-dim);
-    padding: 8px 13px;
-    border-radius: 20px;
-    font-size: 12px;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: border-color .15s, color .15s;
-    -webkit-tap-highlight-color: transparent;
-  }
-  .chip:hover { color: var(--text); }
-  .chip.active {
-    border-color: var(--gold);
-    color: var(--gold);
-  }
-
-  /* Mobile-only multi-select dropdown -- hidden on desktop, where the
-     scrollable chip row (above) is used instead. See the mobile media
-     query below for the swap. */
-  .source-dropdown {
-    display: none;
-    position: relative;
-  }
-  .dropdown-toggle {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    color: var(--text);
-    padding: 10px 14px;
-    border-radius: 6px;
-    font-size: 13px;
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-  }
-  .dropdown-toggle.open { border-color: var(--gold); }
-  .dropdown-arrow {
-    color: var(--text-dim);
-    font-size: 10px;
-    transition: transform .15s;
-  }
-  .dropdown-toggle.open .dropdown-arrow { transform: rotate(180deg); }
-  .dropdown-panel {
-    display: none;
-    position: absolute;
-    top: calc(100% + 6px);
-    left: 0;
-    right: 0;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 6px;
-    z-index: 20;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
-    max-height: 280px;
-    overflow-y: auto;
-  }
-  .dropdown-panel.open { display: block; }
-  .dropdown-option {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 8px;
-    font-size: 14px;
-    color: var(--text);
-    cursor: pointer;
-    border-radius: 5px;
-    -webkit-tap-highlight-color: transparent;
-  }
-  .dropdown-option:active { background: var(--surface-2); }
-  .dropdown-option input[type="checkbox"] {
-    width: 17px;
-    height: 17px;
-    accent-color: var(--gold);
-  }
-
-  main {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 16px 20px 60px;
-  }
-
-  /* Mobile: stack search above chips, let chips scroll horizontally
-     in one row instead of wrapping across several lines */
-  @media (max-width: 640px) {
-    header { padding: 16px 16px 12px; }
-    .controls-bar { padding: 8px 16px 10px; }
-    main { padding: 12px 16px 60px; }
-    h1 { font-size: 24px; }
-    .controls { flex-direction: column; align-items: stretch; }
-    #search {
-      width: 100%;
-      flex: none;   /* prevents the row-layout flex-basis(180px) from being
-                       reinterpreted as a HEIGHT once the container becomes
-                       a column -- this was the cause of the oversized box */
-    }
-    #chips { display: none; }
-    .source-dropdown { display: block; }
-  }
-
-  /* Tablet (iPad and similar, portrait through landscape): there's enough
-     width to keep showing chips at a glance rather than collapsing to the
-     phone dropdown, but not reliably enough to fit all 7 chips plus the
-     search box on one row without unpredictable wrapping -- so search
-     stacks above a horizontally-scrollable chip row, same mechanism as
-     mobile, just with roomier touch targets since this is a touch device
-     with more screen to spare than a phone. */
-  @media (min-width: 641px) and (max-width: 1024px) {
-    .controls { flex-direction: column; align-items: stretch; }
-    #search { width: 100%; flex: none; }
-    #chips {
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      scrollbar-width: none;
-      padding-bottom: 2px;
-    }
-    #chips::-webkit-scrollbar { display: none; }
-    .chip {
-      flex: 0 0 auto;
-      padding: 10px 16px;
-      font-size: 13px;
-    }
-  }
-
-  .card {
-    display: flex;
-    gap: 12px;
-    padding: 16px 0;
-    border-bottom: 1px solid var(--line);
-    text-decoration: none;
-    color: inherit;
-    -webkit-tap-highlight-color: rgba(227,165,72,0.15);
-  }
-  .accent-bar {
-    flex: 0 0 3px;
-    border-radius: 2px;
-  }
-  .card-body { flex: 1; min-width: 0; }
-  .card-top {
+    flex: 0 0 auto;
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-bottom: 6px;
-    flex-wrap: wrap;
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    color: var(--mute);
+    font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 7px 11px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color .15s, border-color .15s, background .15s;
+    -webkit-tap-highlight-color: transparent;
   }
-  .tag {
+  .chip:hover { color: var(--type); }
+  .chip[aria-pressed="true"] {
+    color: var(--field);
+    background: var(--type);
+    border-color: var(--type);
+  }
+  .count { display: none; opacity: 0.6; }
+
+  /* ── Feed ─────────────────────────────────────────────────── */
+
+  .feed { padding: 6px 0 72px; }
+
+  .item {
+    display: flex;
+    gap: 14px;
+    padding: 15px 10px;
+    margin: 0 -10px;
+    border-bottom: 1px solid var(--rule);
+    text-decoration: none;
+    color: inherit;
+    transition: background .15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .item:hover { background: var(--panel); }
+
+  .stamp {
+    flex: 0 0 46px;
+    padding-top: 2px;
+    font-size: 11px;
+    color: var(--mute);
+    letter-spacing: 0.02em;
+    transition: color .15s;
+  }
+  .item:hover .stamp { color: var(--type); }
+
+  .body { flex: 1 1 auto; min-width: 0; }
+
+  .meta {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 5px;
+  }
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex: 0 0 auto;
+  }
+  /* Unverified chatter gets a hollow dot; corroborated is filled. */
+  .dot.hollow { background: none !important; box-shadow: inset 0 0 0 1.5px var(--mute); }
+
+  .signal {
     font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    padding: 2px 7px;
-    border-radius: 4px;
+    font-weight: 500;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
   }
-  .source {
-    font-size: 12px;
-    color: var(--text-dim);
-    font-weight: 600;
-  }
-  .time {
-    font-size: 11px;
-    color: var(--text-dim);
+  .from {
+    font-size: 10px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--mute);
     margin-left: auto;
-  }
-  .headline {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.35;
-    margin: 0 0 4px;
-    letter-spacing: -0.2px;
-    color: var(--text);
-  }
-  .card:hover .headline { color: var(--gold); }
-  .desc {
-    font-size: 13px;
-    color: var(--text-dim);
-    line-height: 1.4;
-    margin: 0;
-  }
-  .byline {
-    font-size: 11px;
-    color: var(--text-dim);
-    margin-top: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
-  .empty, .error {
-    text-align: center;
-    color: var(--text-dim);
-    padding: 60px 20px;
-    font-size: 14px;
-    line-height: 1.6;
+  .headline {
+    margin: 0 0 4px;
+    font-size: 16.5px;
+    font-weight: 600;
+    font-variation-settings: "wdth" 92, "wght" 600;
+    line-height: 1.28;
+    letter-spacing: -0.005em;
   }
-  .error { color: var(--red); }
+  .item:hover .headline { text-decoration: underline; text-underline-offset: 3px; }
+
+  .desc {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: var(--mute);
+  }
+  .byline {
+    margin: 5px 0 0;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--mute);
+    opacity: 0.75;
+  }
+
+  .notice {
+    padding: 64px 0;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--mute);
+  }
+  .notice strong {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--type);
+    margin-bottom: 6px;
+  }
+  .notice.bad strong { color: var(--kill); }
+
+  /* ── Phone ────────────────────────────────────────────────── */
+
+  @media (max-width: 640px) {
+    :root { --gutter: 16px; }
+    .masthead { padding-top: 20px; }
+    h1 { font-size: 25px; }
+    .pulse-block { padding: 16px 0 14px; }
+    .filters { flex-direction: column; align-items: stretch; gap: 8px; }
+    #search { flex: none; width: 100%; }
+    .item { gap: 11px; }
+    .stamp { flex-basis: 40px; }
+    .headline { font-size: 15.5px; }
+  }
+
+  /* ── Desktop ──────────────────────────────────────────────────
+     Two columns: a sticky control column that stays put while the
+     wire scrolls, and the feed capped at a readable measure so it
+     doesn't stretch into unreadable lines on a wide monitor. */
+
+  @media (min-width: 1000px) {
+    :root { --gutter: 40px; }
+
+    .shell {
+      max-width: 1240px;
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      column-gap: 64px;
+      align-items: start;
+    }
+
+    .side {
+      display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 0;
+      max-height: 100vh;
+      overflow-y: auto;
+      scrollbar-width: none;
+      padding: 44px 0 32px;
+    }
+    .side::-webkit-scrollbar { display: none; }
+
+    .masthead {
+      display: block;
+      padding-top: 0;
+    }
+    h1 { font-size: 40px; }
+    .status { margin-top: 14px; }
+
+    .pulse-block {
+      padding: 26px 0 0;
+      margin-top: 26px;
+      border-top: 1px solid var(--rule);
+    }
+    .rail { gap: 1px; height: 34px; }
+    .rail-legend { flex-direction: column; gap: 10px; align-items: flex-start; }
+    .rail-legend a { margin-top: 2px; }
+
+    /* Filters move into the column and unwind into a vertical list —
+       no stickiness of their own, the whole column is already sticky. */
+    .filters {
+      position: static;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 14px;
+      background: none;
+      border-bottom: 0;
+      border-top: 1px solid var(--rule);
+      margin: 26px 0 0;
+      padding: 26px 0 0;
+    }
+    #search { flex: none; width: 100%; }
+    #chips {
+      flex-direction: column;
+      gap: 2px;
+      overflow: visible;
+      mask-image: none;
+    }
+    .chip {
+      width: 100%;
+      justify-content: space-between;
+      border: 0;
+      border-radius: 4px;
+      padding: 7px 10px;
+      letter-spacing: 0.08em;
+    }
+    .chip:hover { background: var(--panel); }
+    .count { display: inline; }
+
+    .feed { padding: 44px 0 96px; }
+    .item { padding: 17px 12px; margin: 0 -12px; gap: 18px; }
+    .stamp { flex-basis: 54px; font-size: 11.5px; }
+    .headline { font-size: 17.5px; }
+    .desc { font-size: 13.5px; }
+    .notice { padding: 96px 0; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
 </style>
 <script data-goatcounter="https://tlani91.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 
-<header>
-  <div class="title-row">
-    <h1>Transfer <span>Wire</span></h1>
-    <div class="live-status">
-      <span class="pulse"></span>
-      <span id="updated" class="mono">connecting...</span>
-    </div>
-  </div>
-  <a class="eyebrow-label" href="https://www.besoccer.com/transfers/competitions" target="_blank" rel="noopener">Completed Transfers &rarr;</a>
-</header>
-<div class="controls-bar">
-  <div class="controls">
-    <input id="search" type="text" placeholder="Search players, clubs...">
-    <div id="chips"></div>
-    <div class="source-dropdown" id="sourceDropdown">
-      <button class="dropdown-toggle" id="dropdownToggle" type="button">
-        <span id="dropdownLabel">All Sources</span>
-        <span class="dropdown-arrow">&#9662;</span>
-      </button>
-      <div class="dropdown-panel" id="dropdownPanel"></div>
-    </div>
-  </div>
-</div>
+<div class="shell">
 
-<main id="main">
-  <div class="empty">Waiting for first fetch cycle from transfer_rumors_fetch.py...</div>
-</main>
+  <aside class="side">
+    <div class="masthead">
+      <h1>Transfer<br><em>Wire</em></h1>
+      <div class="status">
+        <span class="pip" id="pip"></span>
+        <span id="updated" class="mono">connecting</span>
+      </div>
+    </div>
+
+    <div class="pulse-block">
+      <div class="rail" id="rail" aria-hidden="true"></div>
+      <div class="rail-legend">
+        <span class="mono" id="railLabel">last 24 hours</span>
+        <a href="https://www.besoccer.com/transfers/competitions" target="_blank" rel="noopener">Completed deals &rarr;</a>
+      </div>
+    </div>
+
+    <div class="filters">
+      <input id="search" type="search" placeholder="Search players, clubs" aria-label="Search rumours">
+      <div id="chips" role="group" aria-label="Filter by source"></div>
+    </div>
+  </aside>
+
+  <main class="feed" id="main" aria-label="Transfer rumours">
+    <div class="notice"><strong>Standing by</strong>Waiting on the first fetch cycle.</div>
+  </main>
+
+</div>
 
 <script>
 const SOURCES = [
-  { id: 'all', name: 'All' },
-  { id: 'espn_fc', name: 'ESPN FC' },
-  { id: 'romano', name: 'Romano' },
-  { id: 'ornstein', name: 'Ornstein' },
-  { id: 'jacobs', name: 'Jacobs' },
+  { id: 'all',        name: 'All' },
+  { id: 'espn_fc',    name: 'ESPN FC' },
+  { id: 'romano',     name: 'Romano' },
+  { id: 'ornstein',   name: 'Ornstein' },
+  { id: 'jacobs',     name: 'Jacobs' },
   { id: 'flashscore', name: 'Flashscore' },
-  { id: 'ddl', name: 'Deadline Day Live' },
+  { id: 'ddl',        name: 'Deadline Day' },
 ];
+
+const SIGNALS = {
+  go:      { label: 'Here we go',     color: 'var(--go)' },
+  done:    { label: 'Done deal',      color: 'var(--go)' },
+  medical: { label: 'Medical booked', color: 'var(--wait)' },
+  denied:  { label: 'Denied',         color: 'var(--kill)' },
+  scoop:   { label: 'Exclusive',      color: 'var(--scoop)' },
+  rumour:  { label: 'Rumour',         color: 'var(--mute)' },
+};
 
 let activeSources = new Set(['all']);
 let searchTerm = '';
 let allItems = [];
+
+/* ── Filters ─────────────────────────────────────────────── */
 
 function toggleSource(id) {
   if (id === 'all') {
     activeSources = new Set(['all']);
   } else {
     activeSources.delete('all');
-    if (activeSources.has(id)) {
-      activeSources.delete(id);
-    } else {
-      activeSources.add(id);
-    }
-    if (activeSources.size === 0) activeSources = new Set(['all']);
+    activeSources.has(id) ? activeSources.delete(id) : activeSources.add(id);
+    if (!activeSources.size) activeSources = new Set(['all']);
   }
-  syncSourceUI();
+  syncChips();
   render();
 }
 
-function syncSourceUI() {
+function syncChips() {
   document.querySelectorAll('.chip').forEach(c => {
-    c.classList.toggle('active', activeSources.has(c.dataset.id));
+    c.setAttribute('aria-pressed', activeSources.has(c.dataset.id));
   });
-  document.querySelectorAll('.dropdown-option input[type="checkbox"]').forEach(cb => {
-    cb.checked = activeSources.has(cb.dataset.id);
-  });
-  const label = document.getElementById('dropdownLabel');
-  if (activeSources.has('all')) {
-    label.textContent = 'All Sources';
-  } else {
-    const names = SOURCES.filter(s => activeSources.has(s.id)).map(s => s.name);
-    label.textContent = names.length <= 2 ? names.join(', ') : names.length + ' selected';
-  }
 }
 
 const chipsEl = document.getElementById('chips');
 SOURCES.forEach(s => {
-  const chip = document.createElement('span');
-  chip.className = 'chip' + (s.id === 'all' ? ' active' : '');
-  chip.textContent = s.name;
+  const chip = document.createElement('button');
+  chip.type = 'button';
+  chip.className = 'chip';
   chip.dataset.id = s.id;
-  chip.onclick = () => toggleSource(s.id);
+  chip.setAttribute('aria-pressed', s.id === 'all');
+  chip.innerHTML = '<span></span><span class="count"></span>';
+  chip.firstChild.textContent = s.name;
+  chip.addEventListener('click', () => toggleSource(s.id));
   chipsEl.appendChild(chip);
 });
 
-// Mobile-only multi-select dropdown (chips row above is used on desktop instead)
-const dropdownPanel = document.getElementById('dropdownPanel');
-const dropdownToggle = document.getElementById('dropdownToggle');
-SOURCES.forEach(s => {
-  const row = document.createElement('label');
-  row.className = 'dropdown-option';
-  const checkbox = document.createElement('input');
-  checkbox.type = 'checkbox';
-  checkbox.dataset.id = s.id;
-  checkbox.checked = s.id === 'all';
-  checkbox.addEventListener('change', () => toggleSource(s.id));
-  row.appendChild(checkbox);
-  row.appendChild(document.createTextNode(' ' + s.name));
-  dropdownPanel.appendChild(row);
-});
-
-dropdownToggle.addEventListener('click', () => {
-  dropdownPanel.classList.toggle('open');
-  dropdownToggle.classList.toggle('open');
-});
-
-// Tapping anywhere outside the dropdown closes it; tapping inside (including
-// on a checkbox) keeps it open so multiple sources can be picked in one go.
-document.addEventListener('click', (e) => {
-  const dropdown = document.getElementById('sourceDropdown');
-  if (dropdown && !dropdown.contains(e.target)) {
-    dropdownPanel.classList.remove('open');
-    dropdownToggle.classList.remove('open');
-  }
-});
+/* Counts ignore the source filter and honour the search box, so the
+   column answers "who's got something on this player right now". */
+function updateCounts(searchMatched) {
+  document.querySelectorAll('.chip').forEach(c => {
+    const id = c.dataset.id;
+    const n = id === 'all'
+      ? searchMatched.length
+      : searchMatched.filter(i => i.source_id === id).length;
+    c.querySelector('.count').textContent = n || '';
+  });
+}
 
 document.getElementById('search').addEventListener('input', (e) => {
   searchTerm = e.target.value.toLowerCase();
   render();
 });
 
-function detectTag(text) {
+/* ── Classification ──────────────────────────────────────── */
+
+function detectSignal(text) {
   const t = text.toLowerCase();
-  if (t.includes('here we go')) return { label: 'HERE WE GO', color: 'var(--green)' };
-  if (t.includes('done deal') || t.includes('confirmed') || t.includes('official')) return { label: 'DONE DEAL', color: 'var(--green)' };
-  if (t.includes('medical')) return { label: 'MEDICAL BOOKED', color: 'var(--blue)' };
-  if (t.includes('denies') || t.includes('rules out') || t.includes('not interested') || t.includes('cools') || t.includes('distances')) return { label: 'DENIED', color: 'var(--red)' };
-  if (t.includes('exclusive')) return { label: 'EXCLUSIVE', color: 'var(--gold)' };
-  return { label: 'RUMOUR', color: 'var(--text-dim)' };
+  if (t.includes('here we go')) return 'go';
+  if (t.includes('done deal') || t.includes('confirmed') || t.includes('official')) return 'done';
+  if (t.includes('medical')) return 'medical';
+  if (t.includes('denies') || t.includes('rules out') || t.includes('not interested') ||
+      t.includes('cools')  || t.includes('distances')) return 'denied';
+  if (t.includes('exclusive')) return 'scoop';
+  return 'rumour';
 }
 
 function timeAgo(epochSeconds, isApprox) {
   if (!epochSeconds) return '';
-  if (isApprox) return 'recently';
+  if (isApprox) return '~';
   const diff = Math.max(0, (Date.now() / 1000) - epochSeconds);
-  if (diff < 60) return 'just now';
-  if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
-  if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
-  return Math.floor(diff / 86400) + 'd ago';
+  if (diff < 60)    return 'now';
+  if (diff < 3600)  return Math.floor(diff / 60) + 'm';
+  if (diff < 86400) return Math.floor(diff / 3600) + 'h';
+  return Math.floor(diff / 86400) + 'd';
 }
+
+/* ── Activity rail: 48 half-hour buckets across the last 24h ─ */
+
+const BUCKETS = 48;
+const PRIORITY = ['go', 'done', 'denied', 'scoop', 'medical', 'rumour'];
+
+const railEl = document.getElementById('rail');
+const ticks = [];
+for (let i = 0; i < BUCKETS; i++) {
+  const t = document.createElement('div');
+  t.className = 'tick';
+  railEl.appendChild(t);
+  ticks.push(t);
+}
+
+function drawRail() {
+  const now = Date.now() / 1000;
+  const span = 86400;
+  const counts = new Array(BUCKETS).fill(0);
+  const kinds  = Array.from({ length: BUCKETS }, () => new Set());
+
+  allItems.forEach(it => {
+    if (!it.epoch || it.approx_time) return;
+    const age = now - it.epoch;
+    if (age < 0 || age > span) return;
+    const i = Math.min(BUCKETS - 1, BUCKETS - 1 - Math.floor(age / (span / BUCKETS)));
+    counts[i]++;
+    kinds[i].add(detectSignal((it.title || '') + ' ' + (it.description || '')));
+  });
+
+  const peak = Math.max(1, ...counts);
+  const total = counts.reduce((a, b) => a + b, 0);
+  const max = railEl.clientHeight || 28;
+
+  ticks.forEach((t, i) => {
+    t.style.height = (counts[i] ? 3 + (counts[i] / peak) * (max - 3) : 2) + 'px';
+    const kind = PRIORITY.find(k => kinds[i].has(k));
+    t.style.background = counts[i]
+      ? (kind && kind !== 'rumour' ? SIGNALS[kind].color : 'var(--mute)')
+      : 'var(--rule)';
+  });
+
+  document.getElementById('railLabel').textContent =
+    total ? 'last 24 hours · ' + total + ' filed' : 'last 24 hours · quiet';
+}
+
+/* ── Feed ────────────────────────────────────────────────── */
 
 function render() {
   const main = document.getElementById('main');
-  let items = allItems;
-  if (!activeSources.has('all')) items = items.filter(i => activeSources.has(i.source_id));
-  if (searchTerm) {
-    items = items.filter(i =>
-      (i.title + ' ' + i.description).toLowerCase().includes(searchTerm)
-    );
-  }
+
+  const searchMatched = searchTerm
+    ? allItems.filter(i => ((i.title || '') + ' ' + (i.description || '')).toLowerCase().includes(searchTerm))
+    : allItems;
+  updateCounts(searchMatched);
+
+  const items = activeSources.has('all')
+    ? searchMatched
+    : searchMatched.filter(i => activeSources.has(i.source_id));
 
   if (!items.length) {
-    main.innerHTML = '<div class="empty">No rumors match this filter yet.</div>';
+    main.innerHTML = '<div class="notice"><strong>Nothing here yet</strong>' +
+      'Widen the search or switch a source back on.</div>';
     return;
   }
 
   main.innerHTML = '';
   items.forEach(it => {
-    const tag = detectTag(it.title + ' ' + it.description);
-    const card = document.createElement('a');
-    card.className = 'card';
-    card.href = it.link;
-    card.target = '_blank';
-    card.rel = 'noopener';
-    card.innerHTML = `
-      <div class="accent-bar" style="background:${tag.color}"></div>
-      <div class="card-body">
-        <div class="card-top">
-          <span class="tag mono" style="background:${tag.color}22; color:${tag.color}">${tag.label}</span>
-          <span class="source">${escapeHtml(it.source_name)}</span>
-          <span class="time mono">${timeAgo(it.epoch, it.approx_time)}</span>
+    const sig = SIGNALS[detectSignal((it.title || '') + ' ' + (it.description || ''))];
+    const hollow = sig.label === 'Rumour' ? ' hollow' : '';
+
+    const row = document.createElement('a');
+    row.className = 'item';
+    row.href = it.link;
+    row.target = '_blank';
+    row.rel = 'noopener';
+    row.innerHTML = `
+      <div class="stamp mono">${timeAgo(it.epoch, it.approx_time)}</div>
+      <div class="body">
+        <div class="meta">
+          <span class="dot${hollow}" style="background:${sig.color}"></span>
+          <span class="signal mono" style="color:${sig.color}">${sig.label}</span>
+          <span class="from mono">${escapeHtml(it.source_name)}</span>
         </div>
         <p class="headline">${escapeHtml(it.title)}</p>
         <p class="desc">${escapeHtml(it.description)}</p>
-        ${it.byline ? `<p class="byline">by ${escapeHtml(it.byline)}</p>` : ''}
+        ${it.byline ? `<p class="byline mono">${escapeHtml(it.byline)}</p>` : ''}
       </div>
     `;
-    main.appendChild(card);
+    main.appendChild(row);
   });
 }
 
@@ -501,22 +647,38 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
+/* ── Data ────────────────────────────────────────────────── */
+
 async function loadData() {
   const updatedEl = document.getElementById('updated');
+  const pipEl = document.getElementById('pip');
   try {
     const res = await fetch('rumors_data.json?t=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     allItems = data.items || [];
     const d = new Date(data.last_updated);
-    updatedEl.textContent = 'updated ' + d.toLocaleTimeString();
+    pipEl.classList.remove('dead');
+    updatedEl.textContent = 'updated ' + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    drawRail();
     render();
   } catch (err) {
-    updatedEl.textContent = 'connection lost';
+    pipEl.classList.add('dead');
+    updatedEl.textContent = 'offline';
     document.getElementById('main').innerHTML =
-      '<div class="error">Can\'t reach rumors_data.json right now. Check your connection, or that the GitHub Action has run at least once.</div>';
+      '<div class="notice bad"><strong>Feed unreachable</strong>' +
+      'rumors_data.json didn\'t respond. Check your connection, ' +
+      'and that the GitHub Action has run at least once.</div>';
   }
 }
+
+/* The rail's tick heights are pixel-based, so redraw when the column
+   swaps between the phone and desktop layouts. */
+let resizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(drawRail, 150);
+});
 
 loadData();
 setInterval(loadData, 60000);
