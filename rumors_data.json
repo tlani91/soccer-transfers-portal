@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T18:01:23.137217+00:00",
+  "last_updated": "2026-07-29T18:30:27.281252+00:00",
   "items": [
     {
       "title": "Transfer News LIVE: Chelsea agree deal for Henderson, Juventus set to sign Kolo Muani Updated",
@@ -9,7 +9,51 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785347782.6362805,
+      "epoch": 1785349826.78028,
+      "approx_time": true
+    },
+    {
+      "title": "Man United transfer news LIVE: Eduardo Camavinga stance, Aurelien Tchouameni latest, striker link - Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObWlGdkVJTm55QVBrbW9JMWcwc3JPR0NFdW1ET1NyQTExaGd6WjdTZS03LTdpMW1GT1dHN3dpaE1NZVlWQzdEV0NjT0NJT1MzQzBCYWRBWVItN0Jmdzdwc3pWZ0tDb3V2bmVibk4tLXd6XzZweWxKeEtQWUlKNG9sMFZWSXloYUhwbHF0b3BEWWdmS1g4X3pOWExTcWpVOVhqTVhldnZSUUh4YW8?oc=5",
+      "description": "Man United transfer news LIVE: Eduardo Camavinga stance, Aurelien Tchouameni latest, striker link Manchester Evening News",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Wed, 29 Jul 2026 18:05:35 GMT",
+      "epoch": 1785348335.0,
+      "approx_time": false
+    },
+    {
+      "title": "Brentford confirm Jordan Henderson exit as Chelsea close in on free transfer",
+      "link": "https://www.flashscore.com/news/brentford-confirm-jordan-henderson-exit-as-chelsea-close-in-on-free-transfer/04GTotZ8/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785348026.78028,
+      "approx_time": true
+    },
+    {
+      "title": "Ajax confirm signing of Nigerian forward Tolu Arokodare on loan from Wolves",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-ajax-confirm-signing-of-nigerian-forward-tolu-arokodare-on-loan-from-wolves/IP8AigWs/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785347726.78028,
+      "approx_time": true
+    },
+    {
+      "title": "USMNT midfielder Berhalter joins Middlesbrough from Vancouver Whitecaps",
+      "link": "https://www.flashscore.com/news/soccer-championship-usmnt-midfielder-berhalter-joins-middlesbrough-from-vancouver-whitecaps/lpV9sD2c/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785346826.78028,
       "approx_time": true
     },
     {
@@ -24,39 +68,6 @@
       "approx_time": false
     },
     {
-      "title": "Brentford confirm Jordan Henderson exit as Chelsea close in on free transfer",
-      "link": "https://www.flashscore.com/news/brentford-confirm-jordan-henderson-exit-as-chelsea-close-in-on-free-transfer/04GTotZ8/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785346282.6362805,
-      "approx_time": true
-    },
-    {
-      "title": "Ajax confirm signing of Nigerian forward Tolu Arokodare on loan from Wolves",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-ajax-confirm-signing-of-nigerian-forward-tolu-arokodare-on-loan-from-wolves/IP8AigWs/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785345982.6362805,
-      "approx_time": true
-    },
-    {
-      "title": "USMNT midfielder Berhalter joins Middlesbrough from Vancouver Whitecaps",
-      "link": "https://www.flashscore.com/news/soccer-championship-usmnt-midfielder-berhalter-joins-middlesbrough-from-vancouver-whitecaps/lpV9sD2c/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785345082.6362805,
-      "approx_time": true
-    },
-    {
       "title": "Danish international winger leaves Wolfsburg for another loan spell in Turkey",
       "link": "https://www.flashscore.com/news/soccer-2-bundesliga-danish-international-winger-leaves-wolfsburg-for-another-loan-spell-in-turkey/xGGBR9wA/",
       "description": "",
@@ -64,7 +75,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785344782.6362805,
+      "epoch": 1785346526.78028,
       "approx_time": true
     },
     {
@@ -75,7 +86,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785344182.6362805,
+      "epoch": 1785345926.78028,
       "approx_time": true
     },
     {
@@ -86,7 +97,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785343882.6362805,
+      "epoch": 1785345626.78028,
       "approx_time": true
     },
     {
@@ -97,7 +108,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785343582.6362805,
+      "epoch": 1785345326.78028,
       "approx_time": true
     },
     {
@@ -108,7 +119,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785343282.6362805,
+      "epoch": 1785345026.78028,
       "approx_time": true
     },
     {
@@ -119,7 +130,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785342682.6362805,
+      "epoch": 1785344426.78028,
       "approx_time": true
     },
     {
@@ -130,7 +141,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785342382.6362805,
+      "epoch": 1785344126.78028,
       "approx_time": true
     },
     {
@@ -145,9 +156,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano tells Liverpool fans to watch another transfer story amid Barcola development - The Empire of The Kop",
+      "title": "Fabrizio Romano tells Liverpool fans to watch another transfer story amid Barcola development - empireofthekop.com",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa0VjRDB1ZWtBb1R3RWlfN2trT3Y2NkRUVE9MX0FpY1c4MDMwb0NvNjc5VFNDUEptQVVDZTRCMVRLLXJydWt2ZEpvbnowZzZiNWZRZnREVkdfM1ZLSkc0QmJwQWE1UHVnSTVwNWJHbXVlRzRlTi0teVk0dTEtd0QtYW1rQktFY0gyR0RtUG1ZZDZLdzVzcDV2RDBYazNQSG90amkxZ1JxZGkxU0x0X2JUeE56MHVWRjRMRWxNRHJHZzY5enQzcFZvTW1yWXR2SUFfc1HSAdcBQVVfeXFMUEJaYkFkM0xYZHdnczhYUjJWWGgyMm82MDFORjVBcU5kTWxvLUlvTGFzSW5LQUlQVnI3bHNTd3A3TVQ3cWhSc24xMnhmcHlreE5WMUNnRFltVG9KTWJnQURqRy1PRFNPdGhOSnVLWWFRaTJLM3o3eGtoNktpT3BDRDl2WV96VnlWWVZ1ZmJIcEo2Wm5CRW9TenhiMXJGalp0dkg4UmNVejRaSW5raEVxaGtBVjZUblZ4dTZPeG1TcU1INEJTbDBIZjlSOF9Damo3RVZpYVJJT2M?oc=5",
-      "description": "Fabrizio Romano tells Liverpool fans to watch another transfer story amid Barcola development The Empire of The Kop",
+      "description": "Fabrizio Romano tells Liverpool fans to watch another transfer story amid Barcola development empireofthekop.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -200,9 +211,9 @@
       "approx_time": false
     },
     {
-      "title": "Brighton striker Danny Welbeck to join Chelsea on two-year deal, set for medical - ESPN",
+      "title": "Brighton striker Danny Welbeck to join Chelsea on two-year deal, set for medical - reports - ESPN",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZER3M2hGT0Jnc0FqaG9YOW0taWFSWmhjVmdPTFNDS3ZpLUxBRTBWdDAzS2lKeWlqaG55TjJTaGtYcXpqelEzSC1oWEtNWWhHZmczR2RZNWlja2xveldjLUtHYlBTM3B5THg3cUoyalBhLXBrTDFDYzhnUzU5YVBTemd2SXVOeUNXdGhGWUIzVFI5V256VTBxUWdDUHRSUFFyZ1c5XzBB?oc=5",
-      "description": "Brighton striker Danny Welbeck to join Chelsea on two-year deal, set for medical ESPN",
+      "description": "Brighton striker Danny Welbeck to join Chelsea on two-year deal, set for medical - reports ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
@@ -222,9 +233,9 @@
       "approx_time": false
     },
     {
-      "title": "Romano Delivers Update On Chelsea's Next Signing - givemesport.com",
+      "title": "Romano Delivers Update On Chelsea's Next Signing - GiveMeSport",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVEgxNXVISDJoS3JKNVRFcGRwV1BvSi0wRHZldmpPRWZSZEI4d0k2Vk82SjN3M1lvTW1vamlKX09HM3BKWE5ObkJOckh2bWd3UVV4U1JfUWszdjBvMUQzSjJtQllaMHYxWGlDcmxQRUxxZG9qWEliQU10QzdQZ2dSSGlKNm5IWTZ5aUFZZ1FNWHdpMTVR?oc=5",
-      "description": "Romano Delivers Update On Chelsea's Next Signing givemesport.com",
+      "description": "Romano Delivers Update On Chelsea's Next Signing GiveMeSport",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -343,6 +354,17 @@
       "approx_time": false
     },
     {
+      "title": "Chelsea finalising Danny Welbeck signing from Brighton - The Athletic - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdkNYR3IxRTY1UElzQlNYN2MwT0xlZm9hem1kZjJlUVcxalg5OGhJbV80UHY5NHVkcWNJazlkclk4QkVvelVoWktUNmc0TjJpaWJfMWUwSTYxNUZHOE1EYnkwa3diMVBKZnFQMFFjRHhCZ0xTYlZNSGdKRFY4UmhPTEtQRm5PcHdvejV1Y3JOU1pjOWtaS2lr?oc=5",
+      "description": "Chelsea finalising Danny Welbeck signing from Brighton - The Athletic The New York Times",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Wed, 29 Jul 2026 05:34:00 GMT",
+      "epoch": 1785303240.0,
+      "approx_time": false
+    },
+    {
       "title": "Manchester City identify Rodri replacement from Barcelona - transfernewslive.com",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ0d1TXZqTGdNRWNZQVZwTDZfX0p3RHZEajZsaVQzMXhKb0ppcFowNjctbWZxZ2VuTUM0R2pIR1picmZNU3dxS2VMMmY2alZKd2IybWRfMDZVc2xXX1o0Y3pxTmFnNFFFUkF6OUxiVE5ja2RMN1B3Sko5ZWJuc0xFR19ZUDVDUmYtc1NqYkVLd3RTS250VFJldEFUZzFNQlh1UzBNdTQxV0k?oc=5",
       "description": "Manchester City identify Rodri replacement from Barcelona transfernewslive.com",
@@ -420,17 +442,6 @@
       "approx_time": false
     },
     {
-      "title": "Chelsea finalising Danny Welbeck signing from Brighton - The Athletic - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdkNYR3IxRTY1UElzQlNYN2MwT0xlZm9hem1kZjJlUVcxalg5OGhJbV80UHY5NHVkcWNJazlkclk4QkVvelVoWktUNmc0TjJpaWJfMWUwSTYxNUZHOE1EYnkwa3diMVBKZnFQMFFjRHhCZ0xTYlZNSGdKRFY4UmhPTEtQRm5PcHdvejV1Y3JOU1pjOWtaS2lr?oc=5",
-      "description": "Chelsea finalising Danny Welbeck signing from Brighton - The Athletic The New York Times",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Tue, 28 Jul 2026 20:52:00 GMT",
-      "epoch": 1785271920.0,
-      "approx_time": false
-    },
-    {
       "title": "Chelsea close to Danny Welbeck deal as transfer could be finalised this week - Ben Jacobs - Tribuna.com",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX0w3RkFOaWx6U0ZpMDd0ZWJ0TGp3bkxadFBWTmhGYXBTUUdqT3BTTmNjUm5kYnNTdEl0ZWZMeUZrZ2M2YTVJMGwyMEVZdjRDaGdWbmtMVTlBT1FWeXNCMkt4eXlraFN1TWdqeGw5MU1Cb3RFYzBhVUt6OGlyUUM3Xzlnbk1lcTE2VmxXQmxlVTV6UXdsVWZyTU5Nc2doWnY3MVN3OXhjSEpkV2tiN1VMTW5Td01XUk9BZHRnOHhwbjNENUs0YkHSAcsBQVVfeXFMTmVqc1JDS2MyZ3lQcFNhOV9VeUVIQXhkcHl2TE5iS1VUbFoyU3lIcXk0VVJOTng2NGhMaEpOWUZ2eVRCclZTM1piblZQYVk1NDRNbzlkeVNZNzlfcDc1QVNEMS15UWVIU3FYLVUzNlFpSEFmQTNzbjBYWGhOMldHY1lvWFVSemlINjEtT28zVUVybWJESjM0OU9BU2x6bGJobnpSQXFkc1BDT0tHMUlaMXljVXFjVHVkVERIcHJub3R6WmE4V09TSjRDTVk?oc=5",
       "description": "Chelsea close to Danny Welbeck deal as transfer could be finalised this week - Ben Jacobs Tribuna.com",
@@ -439,17 +450,6 @@
       "byline": "",
       "pub_date_raw": "Tue, 28 Jul 2026 20:13:00 GMT",
       "epoch": 1785269580.0,
-      "approx_time": false
-    },
-    {
-      "title": "Tottenham Hotspur plans blocked by high court - transfernewslive.com",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSTF0MndReFVHSDA2UVNZYjNFQ3VVRTd0TE1faHZTOV9aVmh3b1ExUlJXRXgxeXRCVzAzTzRHVDFwUHl2b3lfemVFRHhtRWtaaHo0NGhVMW10aDVRd0JHLWZRNGZzT2llbmZLWFBKdjhQbjVTcWZKYldYaGFnWXJWdEIybGY3VF9TTnNqVQ?oc=5",
-      "description": "Tottenham Hotspur plans blocked by high court transfernewslive.com",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "",
-      "pub_date_raw": "Tue, 28 Jul 2026 20:12:45 GMT",
-      "epoch": 1785269565.0,
       "approx_time": false
     },
     {
@@ -516,17 +516,6 @@
       "byline": "",
       "pub_date_raw": "Tue, 28 Jul 2026 16:44:09 GMT",
       "epoch": 1785257049.0,
-      "approx_time": false
-    },
-    {
-      "title": "Eduardo Camavinga reaches decision on joining Man Utd from Real Madrid -Fabrizio Romano - TEAMtalk",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUHJXQjhaZmhPdTcwZXFBMnRCLUtOTlM4aTIxTUNQN2tXYld1QzYxMnp0Y1BoaEhvbGtRWGdERlZGd25NWXJDdEg2UFZWb290T0NTX2d2Zk9oMlVRTGdtTzgwYVR3T1ZRbGZoVWZXcy1kN2lndkd3VHZISi1LTFBCVml2dnRTbEduREtSMDhPWWxyQUI5MHFFY0NMaVc0ZHVHSUFjS0ZYMWlTUnBYcDdrcWFzRzJibzk2VnNobC02ZC14NjBE?oc=5",
-      "description": "Eduardo Camavinga reaches decision on joining Man Utd from Real Madrid -Fabrizio Romano TEAMtalk",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Tue, 28 Jul 2026 16:13:09 GMT",
-      "epoch": 1785255189.0,
       "approx_time": false
     },
     {
@@ -618,9 +607,9 @@
       "approx_time": false
     },
     {
-      "title": "\u2018Official proposal\u2019 \u2013 Fabrizio Romano drops Man Utd target update - Read Man Utd",
+      "title": "\u2018Official proposal\u2019 \u2013 Fabrizio Romano drops Man Utd target update - readmanutd.com",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTHo5aG1UMnZ4RzQxejJ2TVozS255S2p2UTg2cEc1T1ROOXZ2MzZ3ZEdqUG5BaU1OZUxvYVhrZDlQWkN4YUp2MUgtZTNpRGZ3VnBBUXlBbkdEN1EwOFhwSW9pOXVMeGd2WUgtaFFrZjlEcXFocDgxdTdCTDdDdGttTFRKTFVjWWJXZGZtcTVoTHRUaWFKUHBxdEJYUkU?oc=5",
-      "description": "\u2018Official proposal\u2019 \u2013 Fabrizio Romano drops Man Utd target update Read Man Utd",
+      "description": "\u2018Official proposal\u2019 \u2013 Fabrizio Romano drops Man Utd target update readmanutd.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -739,9 +728,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano confirms Man Utd midfield transfer stance - Read Man Utd",
+      "title": "Fabrizio Romano confirms Man Utd midfield transfer stance - readmanutd.com",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTVJMS2hwcGd6bnVkR1lPZDRhV2c4TjFObElxSUpXOWdUbmd0M3dBeUFZLUdoZ3kxemdsVWU2U1owSlBjNEdaVDB6MUtQRmtjNWtSWjNVbHRhWFJodXU0bWVNQjZzaFpEMEN3Y0RVdnJSWm81UGNHSDJISHd1OFNpMlEyd1ZfYUtvNGlZUTJnWWQydw?oc=5",
-      "description": "Fabrizio Romano confirms Man Utd midfield transfer stance Read Man Utd",
+      "description": "Fabrizio Romano confirms Man Utd midfield transfer stance readmanutd.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -926,9 +915,9 @@
       "approx_time": false
     },
     {
-      "title": "David Ornstein issues Danny Welbeck update after shock Chelsea and Brighton claim - sussexexpress.co.uk",
+      "title": "David Ornstein issues Danny Welbeck update after shock Chelsea and Brighton claim - SussexWorld",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdDVFTnNJaUlNRnJ2LVBzenF6Y0p1NFk3SUpiY0s3b1dDMDlQN1ZlY0pGekJ4b0h4MDlja3ZCeDZhN3ZSdWRtQ0FYaFgxdEpJN1NMQ0d3OEtxc0lJa2FzZzQ3b3ZHdWphRGZGM1dOOWUzcUlhVHFfUmM0cGRHclJnYjBPeGMweG5mSnBTS20wNU5PZG5uVmNacHhMakFETlR3dmc1aTVNWVR6ckJtenRHWkNIdTJTSVFDRnlWWm9leUhQUzZVMnBfZXJkQUdvNk9jUmduQTR1NThpX2tTN3MydzJheUxMOXBLLUhzRzJYTkh2RG8?oc=5",
-      "description": "David Ornstein issues Danny Welbeck update after shock Chelsea and Brighton claim sussexexpress.co.uk",
+      "description": "David Ornstein issues Danny Welbeck update after shock Chelsea and Brighton claim SussexWorld",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -1025,9 +1014,9 @@
       "approx_time": false
     },
     {
-      "title": "Transfer rumors, news: Man City to rival Real Madrid, PSG for Diomande - ESPN",
+      "title": "Transfer rumors, news: Man City to rival Real Madrid, PSG for Diomande - global.espn.com",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeGtuTGc5Y2M3Rnc4SkJJcmpHTFpuc1ozbkVDaVh2NEd5OUlJZzNGbExXU1JXQm1wOU1Sc2hSWmJ4ZENtdFlLaTVxeVVvNnhEYVgxelVtYkdnd2F6MEh3TmJ6TlpRMzZIdXA5VmNNS05EdGZqQlBNWXlMbjlPU0pRaVV5OGxqSC02UkplWkVFZlJnaE90YnZKZWZaY0loRTExU1NZVEhDZlNJa1ZzS0dpLVJxNWNPdmdW?oc=5",
-      "description": "Transfer rumors, news: Man City to rival Real Madrid, PSG for Diomande ESPN",
+      "description": "Transfer rumors, news: Man City to rival Real Madrid, PSG for Diomande global.espn.com",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
@@ -1157,9 +1146,9 @@
       "approx_time": false
     },
     {
-      "title": "Transfer rumors, news: Man United eye move for Tchouam\u00e9ni - ESPN",
+      "title": "Transfer rumors, news: Man United eye move for Tchouam\u00e9ni - global.espn.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbkMxVDNYZ2N1WHZ3b3dVNXNHTFJMcmNlVDBzYlBzRE5oZzdhNFJnOVVWUzk5dTQ4eV9wdDlkdVkwa25QNkNkTnUwcmR2dGJxUjQ5WWV2akZ5Ui1LNUdwSldiOC1IemdCd0I2Y2tYT2ZscTVtQmRUXy1fQmVRNnp6Ykk5bW14ckVmdUstcWxEbFZybGNKMG8wSHduUTgwTkRmUGl3ZDQwZ29WZlU2VHB2anNXWW5LRG9UdEE?oc=5",
-      "description": "Transfer rumors, news: Man United eye move for Tchouam\u00e9ni ESPN",
+      "description": "Transfer rumors, news: Man United eye move for Tchouam\u00e9ni global.espn.com",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
@@ -1366,9 +1355,9 @@
       "approx_time": false
     },
     {
-      "title": "Transfer rumors, news: Man United, Villa looking to sign Everton's Ndiaye - ESPN",
+      "title": "Transfer rumors, news: Man United, Villa looking to sign Everton's Ndiaye - global.espn.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPclEwcUFYUEtuNTVScHVfSm9DczZ5SUIyY0JpQVJuT25sdHFYMXdUNzd6amppM3YzVHpEMUxYbkNsTFRvMDU0RmpRQmRZcW1tQ3BIckk3anpqdXprRGdyOFlRUC1GcW92QWRIX28xNFVMOFB6dUZQLTlKNnBOOWtQUUhLWVlyMU5pQ2RsRF81Ujk5TGFXdkJCRDBDemlVWjM5UzEwUWx0UEY4cnhRTWYyMUxRM1NyVTY2aWc?oc=5",
-      "description": "Transfer rumors, news: Man United, Villa looking to sign Everton's Ndiaye ESPN",
+      "description": "Transfer rumors, news: Man United, Villa looking to sign Everton's Ndiaye global.espn.com",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
@@ -1410,9 +1399,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano update as ex-Brighton and Chelsea man confirms free transfer move - sussexexpress.co.uk",
+      "title": "Fabrizio Romano update as ex-Brighton and Chelsea man confirms free transfer move - SussexWorld",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPeUctUmhBY3plRm9UcVBrc1BJQnFKMnRoMUlrS1dxQ2I3X0RseTRwY2Zzc0FDSnFuWDdVUUdxYVMtaXl0WU5YQnpONThvZjdMS052WVhFSFFQeWhveDJtRDBHSWJwbHQtelRBRU9oZ0RaZ1VGckRDdjczbnU4UnRYck5iU1pJbkFjcGpTYkNUcmtwYjQ4NTQxTnZmeG0zam81YXV5bVJxWU5OSklpeEV0NUIwZlJaVTFxYnp6bjRpZEc0dkRWTWh1a0s5WTczcjZnejQ2R1ZDWWJCTE1tcURPQzIyQ2doWVpnOGt0MWxHUTcybUE?oc=5",
-      "description": "Fabrizio Romano update as ex-Brighton and Chelsea man confirms free transfer move sussexexpress.co.uk",
+      "description": "Fabrizio Romano update as ex-Brighton and Chelsea man confirms free transfer move SussexWorld",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -1498,9 +1487,9 @@
       "approx_time": false
     },
     {
-      "title": "Transfer rumors, news: Bar\u00e7a could look at move for either Vlahovic or N\u00fa\u00f1ez - ESPN",
+      "title": "Transfer rumors, news: Bar\u00e7a could look at move for either Vlahovic or N\u00fa\u00f1ez - global.espn.com",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMnUwT3JqY0lxelJfcFcxTnQxY3pBTnFIRFYwYjdJOFZpSExtelVpVjI5dk4tQUVFSjVVUTAyclhtczd6VGF0TXNHeEVXYjNwdUk2OHM3M3k1LWp0cVVJbjV6aXhxd0FGMGotTVltME5OX0JzWFlDbi12eWlHcTNuVzRwYXIxenFQQzdRTGJvNE1WWTN3UkpSOGlLdnRHNUtiZzR5Yko2Q0ZaUWZxendzeW5NRVJOUVlFQWl6WkFLMHVwUQ?oc=5",
-      "description": "Transfer rumors, news: Bar\u00e7a could look at move for either Vlahovic or N\u00fa\u00f1ez ESPN",
+      "description": "Transfer rumors, news: Bar\u00e7a could look at move for either Vlahovic or N\u00fa\u00f1ez global.espn.com",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
@@ -1619,9 +1608,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano confirms Man Utd call over next signing - Read Man Utd",
+      "title": "Fabrizio Romano confirms Man Utd call over next signing - readmanutd.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQlhteTM0Z2tSM3FHcFcydXpKRnJtTHByeG9BeGlkZHVvUmVZZENXYWxlZWxjc2x6Z1BXR002R2FtRXU3N2lDWEV1bUVlWjhiQnA3LWpzRlZRZVU2NFQ0NDFySFAzbl8xYXBRai11NXpjRnZoVnU4aUNUenBCcHlJVm1iOXh3czRs?oc=5",
-      "description": "Fabrizio Romano confirms Man Utd call over next signing Read Man Utd",
+      "description": "Fabrizio Romano confirms Man Utd call over next signing readmanutd.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -1839,17 +1828,6 @@
       "approx_time": false
     },
     {
-      "title": "Liverpool could be set for transfer bombshell after Fabrizio Romano hint - OneFootball",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa2ExY2l5WUxuUzRWM0xlS0tEYzZVU2NOMFJoTkNnMlM3ZUs0WFYzY1VvNFVOX0FMMWpaTF8tNUlOdEdYMmJHQTFqQnVQMWVQbWRKRUJXWW5pQURXSVNlMEI1WTdYT3FERUNRVmlHVnFCU3Nub2JTbG1qcHNYTW5qanR5QW5ueWxFVkpZZ19sYzdGa09zQ0VfY0QyQ2VwM0JObHMycVlpdEpsNG9mT3lGOVdHcw?oc=5",
-      "description": "Liverpool could be set for transfer bombshell after Fabrizio Romano hint OneFootball",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Tue, 14 Jul 2026 07:00:00 GMT",
-      "epoch": 1784012400.0,
-      "approx_time": false
-    },
-    {
       "title": "Ornstein reveals Barcola stance on joining Liverpool in stunning \u00a3116m deal - Football365",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSmpVTUZwbHNCY2Rzcmo1d19lMVp0MFdQUXhGdGhiUTlVODhkZXUyV2pTWlhUbUxpSWx2Rk00TVlIWnp4R1VLN0hISmdPRTJWeVhxdW1ucGYzY09CcGpYS3FIZmRBOGR5YWtZLTdUclhMdm81a0Z3Y1dzek1XRlZ6MV85M2dwbl8xNVcyNFhlS2x0bmlIZTVMQVNiOGw?oc=5",
       "description": "Ornstein reveals Barcola stance on joining Liverpool in stunning \u00a3116m deal Football365",
@@ -2005,7 +1983,7 @@
     },
     {
       "title": "Transfer rumors, news: Chelsea eye Bologna winger as attacking reinforcement - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbzh5alhSZWpuUUlXaWRSczJmcXFsR0JUam5HWGYxV1RKZXlVQlVkYUdhakJ5Vm5aYTY5VWF6bzB4WHlBU1JKTHdndHZWcXBEUW5qdDFyN2Vabnpib2Z3SnJ1ek9PRlNmQ2NKQXRrRy1NZ2d2RlhseEYxeUZkMmtaVF8yVWJxZmNHSHpEXzlMMDl3dGhuQkhkQllpMDg5SnZGSGw4MkI4MjhCeDNqam83dHZ1ZFNlRFE2Y1FV?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ2d3TXZRWkVzdWlIS0dvdk01ZmNTVzQ4MS1DdUN5cjVMXzIwZGcyVTlwU2ZwT09NOUhLNTZrbHptNXdON2RJVThpUW44QUdVTjhYT25uOTZ3bzkzOHgtWkZsN015aFBtNEpJclJmdTBPR19LVHNJVDlnR1ozNk1qU3QzdHpWRVVVWVVqZy1LUGxPTlZmS1NRWlI2SDBzU3R1WnRKVUU2cG5xdUFGU2M2YW5FcGt4NGVxQ19hZlFKei12QQ?oc=5",
       "description": "Transfer rumors, news: Chelsea eye Bologna winger as attacking reinforcement ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
@@ -2059,20 +2037,9 @@
       "approx_time": false
     },
     {
-      "title": "England's Niamh Charles completes transfer to Man City from Chelsea - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd1g3OHVualJzUGFHb2V3ZGJ1T25Yc2E0SGxOMDRILXVpTXJDTGJHWkJDdkdVQzltUjh4SV9wRGl5ak5wMTRObWRpZTNvUURQN2ZjeGQyM2xUQVNmajBfc0Rrdk85ckJKd0pKdllfUFhQMnVGbll6WTdiR3hRN2I2OF85RkRYY19aeTFHRDVpeE0wRDJWcjB0OU9XLU92ZUN2d1h3c1lkSm4?oc=5",
-      "description": "England's Niamh Charles completes transfer to Man City from Chelsea ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Fri, 10 Jul 2026 07:00:00 GMT",
-      "epoch": 1783666800.0,
-      "approx_time": false
-    },
-    {
-      "title": "Transfer rumors, news: Arsenal eye Club Brugge forward to replace Trossard - ESPN",
+      "title": "Transfer rumors, news: Arsenal eye Club Brugge forward to replace Trossard - global.espn.com",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVRINDRDWXZyTkN4LTZncXB0TTFaVXVCZzRCZFhVNm5ObENzNmt4am5xMFozSTdNUFhfcWN5QWkwQ0tjZTN6UmdicFplQTBVRjV2ek9rU3FNQ2Fsa29ma2Z2cU1keWs4YzN1YjlFbVRPUGNNaFNFbWxMOTczV0RrV0hZXzJsX0xqdGNpNUo0OTBCUmlDeVB5Q1RubEtlSzBNaW5vM3VnRVRYNEhiSWJvZHFnNjlwOVBqR2ZOMU14QQ?oc=5",
-      "description": "Transfer rumors, news: Arsenal eye Club Brugge forward to replace Trossard ESPN",
+      "description": "Transfer rumors, news: Arsenal eye Club Brugge forward to replace Trossard global.espn.com",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
@@ -2334,6 +2301,17 @@
       "approx_time": false
     },
     {
+      "title": "Man Utd: Medical this week as Fabrizio Romano insists \u20ac45m transfer deal \u2018verbally agreed\u2019 - Football365",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQVdaVm5FeWtka2NGZXBqQThBb18tWE1qSWNyb0w4VDJleHVJQUF5SnJEMHVleE1pVTlFWlM3d21ndVNVdWd6UzBHdzZ1SG1lSlJQTDBNTjd5bkNzRnZKa283M2pyUTdpNHZsdEFMSDNvNGpQLTZwLWNKeGRnendNczNtZm1DckEtVUQxdG10Ni1fWFNuckQ2WjZzY2NIb0wzSVlDMURFYkNsNi1ReFVBWmdUTzNJdGJkQ0E?oc=5",
+      "description": "Man Utd: Medical this week as Fabrizio Romano insists \u20ac45m transfer deal \u2018verbally agreed\u2019 Football365",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Mon, 06 Jul 2026 07:00:00 GMT",
+      "epoch": 1783321200.0,
+      "approx_time": false
+    },
+    {
       "title": "Liverpool complete superb signing as Fabrizio Romano declares \u2018here we go\u2019 - Football365",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbGhScDJXRVRFN1JjWmF5dXpxUXRHeFVSWkZSWlZCRlVBRkg4c0Jrd3VSZS1udUdCY1FRN2kxRktMLVpWV1h3X1BpclEyZmtqOU1ULXV0VWRLZnIwdzRQR0ZPNVp4T19fbWJYSEdic2EwQUhpR3l3LThLbGFMUmZvN1pxVHFYQXV3YlZJUHJkdGx4MmF2Qk1sUWttcVVYRVRjMnhhWA?oc=5",
       "description": "Liverpool complete superb signing as Fabrizio Romano declares \u2018here we go\u2019 Football365",
@@ -2554,9 +2532,9 @@
       "approx_time": false
     },
     {
-      "title": "Manchester United fans will absolutely love Fabrizio Romano\u2019s overnight transfer update - Read Man Utd",
+      "title": "Manchester United fans will absolutely love Fabrizio Romano\u2019s overnight transfer update - readmanutd.com",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaTM4VE5mQ0xYQVlkTXNNanlLNHd2MG80dkhSUTZhdHUwbVU0UVdnRFBkdm9ob3NjLXJSQi0tcjJNVVlreWlVb3R1VVppWEl6NEljYUVGZGVKMnlyNU9OWEJiMUd6NXdiS0ZwR2MwcFRKQ3l1S3ZwbV9PMWQ4OXlwRG5xMmlWeF9zOG1uQVpkc25sallSSVZDWGx3?oc=5",
-      "description": "Manchester United fans will absolutely love Fabrizio Romano\u2019s overnight transfer update Read Man Utd",
+      "description": "Manchester United fans will absolutely love Fabrizio Romano\u2019s overnight transfer update readmanutd.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2653,9 +2631,9 @@
       "approx_time": false
     },
     {
-      "title": "Transfer rumors, news: Arsenal face competition for young PSG defender - ESPN",
+      "title": "Transfer rumors, news: Arsenal face competition for young PSG defender - global.espn.com",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZGRjYzZ1QkR0NHU1WkdsRjlkcnp1cGNjbFBQZTl1R1hIR05nTkpTM05pY0wzZlJBbURPNmt5QlpVY1kzRm1pNWpEbXVEX3FJVlJGeENoUkl1WUFHeFlxaEZtelNiM2I3ekNmbURHRmI0MDg4TFdhaHQ5WU1wcFRvMGhoWks1UUw2b1ctRGlpemhKX185NTkzc2tOeHVxT3NxRVkzMDVFclBWamlWYkZWWnRaYVZIUGpmeUMyMVB1LVdjejA4SFE?oc=5",
-      "description": "Transfer rumors, news: Arsenal face competition for young PSG defender ESPN",
+      "description": "Transfer rumors, news: Arsenal face competition for young PSG defender global.espn.com",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
@@ -2741,9 +2719,9 @@
       "approx_time": false
     },
     {
-      "title": "Ben Jacobs expects Arsenal to sign England\u2019s World Cup star - Just Arsenal News",
+      "title": "Ben Jacobs expects Arsenal to sign England\u2019s World Cup star - justarsenal.com",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORGRHWjBpMW9TNU0tR0lBaFZoUmlVU0lwbTUzV0FzQ3p3bXpCYm9LMVpsY2tSVTd0YnJ3ZGFVZ1pnWU52eDdFOW1obDd1NEw5UVpjNEpJdmU3V3ltbUpXWjBONUdyTjd6cXFoem1RY2habjJ2c1lpT3gwclpZN1drWEstZVNHWjMzem5Ba0xlSjNHZnNZb2R5d9IBngFBVV95cUxQMDVVVlNYZzY0TFN0MlY5NDFiMFFqV1dvT3lER0daTkpRbUtLWW1XM2tuS1k2dTkxSzBOWnUtOEh1UmphNmJKWnc3VDZKYndsXzdUTDBTWFRqaFFMZDNMOHEwaHdHQVVrMkJ6eWZTU0tjNklqUVp2X19YQ203YVJUZTZINDJ2dlU2N0VQN0gwX1pzdFhyUktPOW8xS21OQQ?oc=5",
-      "description": "Ben Jacobs expects Arsenal to sign England\u2019s World Cup star Just Arsenal News",
+      "description": "Ben Jacobs expects Arsenal to sign England\u2019s World Cup star justarsenal.com",
       "source_id": "jacobs",
       "source_name": "Ben Jacobs",
       "byline": "",
@@ -2917,9 +2895,9 @@
       "approx_time": false
     },
     {
-      "title": "Ben Jacobs Shares What He Is Hearing About Barcola to Arsenal Transfer - givemesport.com",
+      "title": "Ben Jacobs Shares What He Is Hearing About Barcola to Arsenal Transfer - GiveMeSport",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xUktjZEE2WENuS0tUVl85cmF5MEFJZ1VBb2lBakowT2J5TEdzeUU5N0h6Tl9uX056dk9xWWdiRUxzaFd2b0J2N0l4YnJfRzhPOUwxbHk5eE5HVGJ1dUsyUHFjdkg0cURpekIxcjg0WkxBV1ZuVzgtd0dMZjI?oc=5",
-      "description": "Ben Jacobs Shares What He Is Hearing About Barcola to Arsenal Transfer givemesport.com",
+      "description": "Ben Jacobs Shares What He Is Hearing About Barcola to Arsenal Transfer GiveMeSport",
       "source_id": "jacobs",
       "source_name": "Ben Jacobs",
       "byline": "",
