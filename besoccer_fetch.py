@@ -73,6 +73,14 @@ FEE_RE = re.compile(r"([\d.,]+)\s*M\.\s*€")
 IMG_ALT_RE = re.compile(r'<img\b[^>]*?\balt="([^"]*)"[^>]*>', re.I)
 ALT_TOKEN_RE = re.compile(r"\x01([^\x02]*)\x02")   # control chars: never in real text
 
+# The per-club "See more" link, which is what divides a league page into
+# club blocks. BeSoccer localises these paths by host, so accept the
+# other language variants too rather than only the English one.
+CLUB_LINK_RE = re.compile(
+    r'href="([^"]*/(?:team|equipo|equipe|squadra|equipa|time)'
+    r'/(?:transfers|fichajes|transferts|trasferimenti|transferencias)/[^"]+)"'
+)
+
 HEADERS = {
     "User-Agent": "TransferWire/1.0 (+https://tlani91.github.io/soccer-transfers-portal/)",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -84,12 +92,13 @@ HEADERS = {
 
 
 def get(url, timeout=25):
+    """-> (page text, final URL after any redirects)"""
     req = urllib.request.Request(url, headers=HEADERS)
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         raw = resp.read()
         if resp.headers.get("Content-Encoding") == "gzip":
             raw = gzip.GzipFile(fileobj=io.BytesIO(raw)).read()
-        return raw.decode("utf-8", "replace")
+        return raw.decode("utf-8", "replace"), resp.geturl()
 
 # ── Text helpers ──────────────────────────────────────────────────────
 
@@ -224,15 +233,14 @@ def parse_row(anchor_html, href, direction, club, club_url,
 
 def club_blocks(page):
     """Split a league page into one chunk per club."""
-    marks = [m.start() for m in
-             re.finditer(r'href="[^"]*/team/transfers/[^"]+"', page)]
+    marks = [m.start() for m in CLUB_LINK_RE.finditer(page)]
     bounds = marks + [len(page)]
     for i in range(len(marks)):
         yield page[max(0, bounds[i] - 1500): bounds[i + 1]]
 
 
 def parse_club_block(block, league_name, league_id, cutoff):
-    club_m = re.search(r'href="([^"]*/team/transfers/[^"]+)"', block)
+    club_m = CLUB_LINK_RE.search(block)
     club_url = club_m.group(1) if club_m else ""
     head_m = re.search(r"<h[23][^>]*>(.*?)</h[23]>", block, re.S)
     club, _ = split_alts(flatten(head_m.group(1))) if head_m else ("", [])
@@ -262,6 +270,61 @@ def parse_league(page, league_name, league_id, cutoff):
         print(f"[warn] no club blocks found for {league_name}", file=sys.stderr)
     return rows
 
+# ── Diagnostics ───────────────────────────────────────────────────────
+
+_diagnosed = False
+
+
+def diagnose(page, final_url, name):
+    """Print enough to identify WHICH page we were served, when a league
+    parses to nothing. Runs once per process, not once per league."""
+    global _diagnosed
+    if _diagnosed:
+        return
+    _diagnosed = True
+
+    title = re.search(r"<title[^>]*>(.*?)</title>", page, re.S)
+    lang = re.search(r'<html[^>]*\blang="([^"]*)"', page, re.I)
+
+    print("\n" + "=" * 60, file=sys.stderr)
+    print(f"[diag] {name} parsed to nothing. What did we actually get?",
+          file=sys.stderr)
+    print("=" * 60, file=sys.stderr)
+    print(f"[diag] requested host : www.besoccer.com", file=sys.stderr)
+    print(f"[diag] final URL      : {final_url}", file=sys.stderr)
+    print(f"[diag] page length    : {len(page):,} chars", file=sys.stderr)
+    print(f"[diag] <html lang>    : {lang.group(1) if lang else '?'}",
+          file=sys.stderr)
+    print(f"[diag] <title>        : "
+          f"{strip_tags(title.group(1))[:90] if title else '?'}",
+          file=sys.stderr)
+
+    markers = [
+        "/team/transfers/", "/equipo/fichajes/", "/equipe/transferts/",
+        "/player/", "/jugador/", "/joueur/",
+        "New signing", "Player out", "Altas", "Bajas",
+        "Transfer.", "Traspaso", "Free transfer", "Libre",
+        "captcha", "Just a moment", "cf-browser-verification",
+        "Access denied", "cookie",
+    ]
+    print("[diag] markers present:", file=sys.stderr)
+    for mark in markers:
+        n = page.count(mark)
+        if n:
+            print(f"[diag]   {n:5d}  {mark}", file=sys.stderr)
+
+    # The single most useful clue: what link shapes does this page contain?
+    paths = {}
+    for href in re.findall(r'href="(/[^"?#]*)"', page):
+        parts = [p for p in href.split("/") if p][:2]
+        if parts:
+            key = "/" + "/".join(parts)
+            paths[key] = paths.get(key, 0) + 1
+    print("[diag] most common link prefixes:", file=sys.stderr)
+    for key, n in sorted(paths.items(), key=lambda kv: -kv[1])[:15]:
+        print(f"[diag]   {n:5d}  {key}", file=sys.stderr)
+    print("=" * 60 + "\n", file=sys.stderr)
+
 # ── Dedupe ────────────────────────────────────────────────────────────
 
 
@@ -282,7 +345,7 @@ def dedupe(rows):
 
 def show_html(slug, count=2):
     """Dump raw markup for the first few transfer anchors, for debugging."""
-    page = get(BASE + slug)
+    page, _ = get(BASE + slug)
     shown = 0
     for m in re.finditer(r'<a\s[^>]*href="[^"]*/player/[^"]*"[^>]*>.*?</a>',
                          page, re.S):
@@ -323,13 +386,15 @@ def main():
         if i:
             time.sleep(PAUSE_SECONDS)
         try:
-            page = get(BASE + slug)
+            page, final_url = get(BASE + slug)
         except Exception as e:
             print(f"[error] {name}: {e}", file=sys.stderr)
             continue
         found = parse_league(page, name, slug, cutoff)
         print(f"[ok] {name}: {len(found)} rows inside {WINDOW_DAYS} days",
               file=sys.stderr)
+        if not found:
+            diagnose(page, final_url, name)
         rows += found
 
     items = dedupe(rows)
