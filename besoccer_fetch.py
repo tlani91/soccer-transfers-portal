@@ -285,6 +285,8 @@ def diagnose(page, final_url, name):
 
     title = re.search(r"<title[^>]*>(.*?)</title>", page, re.S)
     lang = re.search(r'<html[^>]*\blang="([^"]*)"', page, re.I)
+    title_text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", title.group(1))).strip() \
+        if title else "?"
 
     print("\n" + "=" * 60, file=sys.stderr)
     print(f"[diag] {name} parsed to nothing. What did we actually get?",
@@ -295,9 +297,15 @@ def diagnose(page, final_url, name):
     print(f"[diag] page length    : {len(page):,} chars", file=sys.stderr)
     print(f"[diag] <html lang>    : {lang.group(1) if lang else '?'}",
           file=sys.stderr)
-    print(f"[diag] <title>        : "
-          f"{strip_tags(title.group(1))[:90] if title else '?'}",
-          file=sys.stderr)
+    print(f"[diag] <title>        : {title_text[:90]}", file=sys.stderr)
+
+    # A real league page is hundreds of KB. Anything small is a stub,
+    # a challenge, or an error page -- so just show it.
+    if len(page) < 20000:
+        print("[diag] page is tiny; full body follows", file=sys.stderr)
+        print("-" * 60, file=sys.stderr)
+        print(page[:4000], file=sys.stderr)
+        print("-" * 60, file=sys.stderr)
 
     markers = [
         "/team/transfers/", "/equipo/fichajes/", "/equipe/transferts/",
