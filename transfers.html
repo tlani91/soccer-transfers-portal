@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Completed Deals — Transfer Wire</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --field:   #0B0E13;
+    --panel:   #121721;
+    --rule:    #1C2230;
+    --type:    #E9ECF1;
+    --mute:    #6E7784;
+
+    /* Same signal palette as the wire, re-pointed at movement types.
+       Amber is money: only paid deals get it. */
+    --paid:    #FFB627;
+    --loan:    #6BA6FF;
+    --free:    #6E7784;
+
+    --gutter:  20px;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--field);
+    color: var(--type);
+    font-family: "Archivo", -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-variation-settings: "wdth" 100;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .mono {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-feature-settings: "tnum" 1;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--paid);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+
+  /* ── Shell (matches dashboard.html) ───────────────────────── */
+
+  .shell {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+  }
+  .side { display: contents; }
+
+  /* ── Masthead ─────────────────────────────────────────────── */
+
+  .masthead {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 26px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 0.95;
+    font-weight: 800;
+    font-variation-settings: "wdth" 78, "wght" 800;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+  h1 em { font-style: normal; color: var(--mute); }
+
+  .updated {
+    font-size: 11px;
+    color: var(--mute);
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+  }
+
+  nav {
+    display: flex;
+    gap: 18px;
+    padding: 18px 0 0;
+  }
+  nav a {
+    font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--mute);
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+  }
+  nav a:hover { color: var(--type); }
+  nav a[aria-current="page"] {
+    color: var(--type);
+    border-bottom-color: var(--paid);
+  }
+
+  /* ── Signature: window totals ─────────────────────────────── */
+
+  .totals {
+    display: flex;
+    gap: 26px;
+    padding: 20px 0 18px;
+  }
+  .figure { display: flex; flex-direction: column; gap: 3px; }
+  .figure b {
+    font-size: 21px;
+    font-weight: 700;
+    font-variation-settings: "wdth" 84, "wght" 700;
+    letter-spacing: -0.01em;
+  }
+  .figure span {
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--mute);
+  }
+
+  /* ── Controls ─────────────────────────────────────────────── */
+
+  .controls {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: var(--field);
+    border-bottom: 1px solid var(--rule);
+    margin: 0 calc(var(--gutter) * -1);
+    padding: 10px var(--gutter);
+  }
+
+  #search {
+    width: 100%;
+    height: 34px;
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    color: var(--type);
+    padding: 0 11px;
+    font-family: inherit;
+    font-size: 16px; /* stops iOS Safari zooming on focus */
+  }
+  #search::placeholder { color: var(--mute); }
+  #search:focus { outline: none; border-color: var(--mute); }
+
+  .row-of-chips {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    mask-image: linear-gradient(90deg, #000 calc(100% - 24px), transparent);
+  }
+  .row-of-chips::-webkit-scrollbar { display: none; }
+
+  .chip {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    color: var(--mute);
+    font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 7px 11px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color .15s, border-color .15s, background .15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .chip:hover { color: var(--type); }
+  .chip[aria-pressed="true"] {
+    color: var(--field);
+    background: var(--type);
+    border-color: var(--type);
+  }
+  .count { display: none; opacity: 0.6; }
+
+  /* ── Ledger ───────────────────────────────────────────────── */
+
+  .ledger { padding: 6px 0 72px; }
+
+  .deal {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 10px;
+    margin: 0 -10px;
+    border-bottom: 1px solid var(--rule);
+    text-decoration: none;
+    color: inherit;
+    transition: background .15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .deal:hover { background: var(--panel); }
+
+  .stamp {
+    flex: 0 0 52px;
+    padding-top: 3px;
+    font-size: 11px;
+    color: var(--mute);
+    letter-spacing: 0.02em;
+  }
+
+  .body { flex: 1 1 auto; min-width: 0; }
+
+  .player {
+    margin: 0 0 3px;
+    font-size: 16.5px;
+    font-weight: 600;
+    font-variation-settings: "wdth" 92, "wght" 600;
+    line-height: 1.25;
+    letter-spacing: -0.005em;
+  }
+  .deal:hover .player { text-decoration: underline; text-underline-offset: 3px; }
+
+  /* The arrow is the content: it's what a transfer actually is. */
+  .move {
+    margin: 0 0 6px;
+    font-size: 13px;
+    line-height: 1.4;
+    color: var(--mute);
+  }
+  .move .to { color: var(--type); }
+  .move .arrow { padding: 0 6px; color: var(--rule); }
+
+  .tags { display: flex; gap: 10px; flex-wrap: wrap; }
+  .kind, .comp {
+    font-size: 9.5px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .comp { color: var(--mute); }
+
+  .money {
+    flex: 0 0 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    padding-top: 2px;
+  }
+  .fee {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  .fee.none { color: var(--mute); font-size: 12px; }
+
+  /* Bar width is the fee against the biggest deal in the window. */
+  .bar {
+    width: 100%;
+    height: 2px;
+    background: var(--rule);
+    border-radius: 1px;
+    overflow: hidden;
+  }
+  .bar i {
+    display: block;
+    height: 100%;
+    background: var(--paid);
+    width: 0;
+    transition: width .6s cubic-bezier(.2,.7,.3,1);
+  }
+
+  .more {
+    display: block;
+    width: 100%;
+    margin: 24px 0 0;
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    color: var(--mute);
+    font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 12px;
+    cursor: pointer;
+    transition: color .15s, border-color .15s;
+  }
+  .more:hover { color: var(--type); border-color: var(--mute); }
+
+  .notice {
+    padding: 64px 0;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--mute);
+  }
+  .notice strong {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--type);
+    margin-bottom: 6px;
+  }
+  .notice.bad strong { color: #FF5F5F; }
+
+  .credit {
+    padding: 22px 0 0;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--mute);
+  }
+  .credit a { color: var(--mute); }
+  .credit a:hover { color: var(--type); }
+
+  /* ── Phone ────────────────────────────────────────────────── */
+
+  @media (max-width: 640px) {
+    :root { --gutter: 16px; }
+    .masthead { padding-top: 20px; }
+    h1 { font-size: 25px; }
+    .totals { gap: 20px; padding: 16px 0 14px; }
+    .figure b { font-size: 18px; }
+    .deal { gap: 11px; padding: 13px 10px; }
+    .stamp { flex-basis: 46px; }
+    .player { font-size: 15.5px; }
+    .money { flex-basis: 74px; }
+    .fee { font-size: 13px; }
+  }
+
+  /* ── Desktop ──────────────────────────────────────────────── */
+
+  @media (min-width: 1000px) {
+    :root { --gutter: 40px; }
+
+    .shell {
+      max-width: 1240px;
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      column-gap: 64px;
+      align-items: start;
+    }
+
+    .side {
+      display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 0;
+      max-height: 100vh;
+      overflow-y: auto;
+      scrollbar-width: none;
+      padding: 44px 0 32px;
+    }
+    .side::-webkit-scrollbar { display: none; }
+
+    .masthead { display: block; padding-top: 0; }
+    h1 { font-size: 40px; }
+    .updated { display: block; margin-top: 12px; }
+
+    nav { flex-direction: column; gap: 10px; padding: 22px 0 0; }
+    nav a { width: fit-content; }
+
+    .totals {
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 26px;
+      padding: 26px 0 0;
+      border-top: 1px solid var(--rule);
+    }
+    .figure { flex-direction: row; align-items: baseline; gap: 10px; }
+    .figure b { font-size: 24px; min-width: 96px; }
+
+    .controls {
+      position: static;
+      background: none;
+      border-bottom: 0;
+      border-top: 1px solid var(--rule);
+      margin: 26px 0 0;
+      padding: 26px 0 0;
+      gap: 14px;
+    }
+    .row-of-chips {
+      flex-direction: column;
+      gap: 2px;
+      overflow: visible;
+      mask-image: none;
+    }
+    .chip {
+      width: 100%;
+      justify-content: space-between;
+      border: 0;
+      border-radius: 4px;
+      padding: 7px 10px;
+      letter-spacing: 0.08em;
+    }
+    .chip:hover { background: var(--panel); }
+    .count { display: inline; }
+
+    .ledger { padding: 44px 0 96px; }
+    .deal { padding: 16px 12px; margin: 0 -12px; gap: 20px; }
+    .stamp { flex-basis: 58px; font-size: 11.5px; }
+    .player { font-size: 17.5px; }
+    .money { flex-basis: 108px; }
+    .fee { font-size: 15px; }
+    .notice { padding: 96px 0; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+<script data-goatcounter="https://tlani91.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+<div class="shell">
+
+  <aside class="side">
+    <div class="masthead">
+      <h1>Completed<br><em>Deals</em></h1>
+      <span class="updated mono" id="updated">loading</span>
+    </div>
+
+    <nav>
+      <a href="dashboard.html">Rumour wire</a>
+      <a href="transfers.html" aria-current="page">Completed deals</a>
+    </nav>
+
+    <div class="totals" id="totals"></div>
+
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search players, clubs" aria-label="Search deals">
+      <div class="row-of-chips" id="sortChips" role="group" aria-label="Sort"></div>
+      <div class="row-of-chips" id="leagueChips" role="group" aria-label="Filter by league"></div>
+      <div class="row-of-chips" id="kindChips" role="group" aria-label="Filter by deal type"></div>
+    </div>
+
+    <p class="credit">
+      Data from <a href="https://www.besoccer.com/transfers" target="_blank" rel="noopener">BeSoccer</a>
+    </p>
+  </aside>
+
+  <main class="ledger" id="ledger" aria-label="Completed transfers">
+    <div class="notice"><strong>Loading the ledger</strong>Reading transfers_data.json.</div>
+  </main>
+
+</div>
+
+<script>
+const LEAGUES = [
+  { id: 'all',              name: 'All leagues' },
+  { id: 'premier_league',   name: 'Premier League' },
+  { id: 'primera_division', name: 'LaLiga' },
+  { id: 'serie_a',          name: 'Serie A' },
+  { id: 'bundesliga',       name: 'Bundesliga' },
+  { id: 'ligue_1',          name: 'Ligue 1' },
+];
+
+// BeSoccer's type strings, grouped into what a reader actually cares about.
+const KINDS = [
+  { id: 'all',  name: 'All deals',  match: () => true },
+  { id: 'paid', name: 'With a fee', match: d => d.fee_eur_m > 0 },
+  { id: 'loan', name: 'Loans',      match: d => d.type === 'Loan' },
+  { id: 'free', name: 'Free',       match: d => d.type === 'Free transfer' },
+];
+
+const SORTS = [
+  { id: 'recent', name: 'Most recent' },
+  { id: 'fee',    name: 'Biggest fee' },
+];
+
+const PAGE = 80;
+
+let all = [];
+let scale = 1;          // biggest fee in the window, for the bars
+let league = 'all';
+let kind = 'all';
+let sort = 'recent';
+let query = '';
+let shown = PAGE;
+
+/* ── Money formatting ────────────────────────────────────── */
+
+function euros(m) {
+  if (!m) return null;
+  if (m >= 1000) return '€' + (m / 1000).toFixed(2).replace(/\.?0+$/, '') + 'bn';
+  if (m >= 10)   return '€' + Math.round(m) + 'm';
+  return '€' + m.toFixed(1) + 'm';
+}
+
+function shortDate(iso) {
+  const d = new Date(iso + 'T00:00:00Z');
+  return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', timeZone: 'UTC' })
+          .toUpperCase();
+}
+
+/* A deal's colour is what kind of deal it is, nothing else. */
+function colourOf(d) {
+  if (d.type === 'Loan') return 'var(--loan)';
+  if (d.fee_eur_m > 0) return 'var(--paid)';
+  return 'var(--free)';
+}
+
+function labelOf(d) {
+  if (d.type === 'Loan') return 'Loan';
+  if (d.type === 'Free transfer') return 'Free';
+  return 'Transfer';
+}
+
+/* The fetcher stores club + direction; a reader wants from + to. */
+function fromTo(d) {
+  return d.direction === 'in'
+    ? { from: d.other_club, to: d.club }
+    : { from: d.club, to: d.other_club };
+}
+
+/* ── Chips ───────────────────────────────────────────────── */
+
+function buildChips(el, list, get, set) {
+  list.forEach(item => {
+    const chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = 'chip';
+    chip.dataset.id = item.id;
+    chip.innerHTML = '<span></span><span class="count"></span>';
+    chip.firstChild.textContent = item.name;
+    chip.addEventListener('click', () => { set(item.id); shown = PAGE; syncChips(); render(); });
+    el.appendChild(chip);
+  });
+  el.dataset.get = '';
+  el._get = get;
+}
+
+const leagueEl = document.getElementById('leagueChips');
+const kindEl = document.getElementById('kindChips');
+const sortEl = document.getElementById('sortChips');
+
+buildChips(leagueEl, LEAGUES, () => league, v => league = v);
+buildChips(kindEl, KINDS, () => kind, v => kind = v);
+buildChips(sortEl, SORTS, () => sort, v => sort = v);
+
+function syncChips() {
+  [leagueEl, kindEl, sortEl].forEach(el => {
+    const active = el._get();
+    el.querySelectorAll('.chip').forEach(c => {
+      c.setAttribute('aria-pressed', c.dataset.id === active);
+    });
+  });
+}
+
+function updateCounts(pool) {
+  leagueEl.querySelectorAll('.chip').forEach(c => {
+    const n = c.dataset.id === 'all'
+      ? pool.length
+      : pool.filter(d => d.league_id === c.dataset.id).length;
+    c.querySelector('.count').textContent = n || '';
+  });
+  kindEl.querySelectorAll('.chip').forEach(c => {
+    const rule = KINDS.find(k => k.id === c.dataset.id);
+    const n = pool.filter(rule.match).length;
+    c.querySelector('.count').textContent = n || '';
+  });
+}
+
+document.getElementById('search').addEventListener('input', e => {
+  query = e.target.value.toLowerCase();
+  shown = PAGE;
+  render();
+});
+
+/* ── Totals ──────────────────────────────────────────────── */
+
+function drawTotals(items) {
+  const withFee = items.filter(d => d.fee_eur_m > 0);
+  const spend = withFee.reduce((sum, d) => sum + d.fee_eur_m, 0);
+  const biggest = withFee.length ? Math.max(...withFee.map(d => d.fee_eur_m)) : 0;
+
+  const figures = [
+    [items.length, 'deals'],
+    [euros(spend) || '—', 'total fees'],
+    [euros(biggest) || '—', 'biggest deal'],
+  ];
+
+  document.getElementById('totals').innerHTML = figures.map(
+    ([value, label]) => `<div class="figure"><b class="mono">${value}</b><span>${label}</span></div>`
+  ).join('');
+}
+
+/* ── Render ──────────────────────────────────────────────── */
+
+function render() {
+  const ledger = document.getElementById('ledger');
+
+  const searched = query
+    ? all.filter(d => (d.player + ' ' + d.club + ' ' + d.other_club).toLowerCase().includes(query))
+    : all;
+  updateCounts(searched);
+
+  let items = league === 'all' ? searched : searched.filter(d => d.league_id === league);
+  items = items.filter(KINDS.find(k => k.id === kind).match);
+
+  items = items.slice().sort(sort === 'fee'
+    ? (a, b) => (b.fee_eur_m || 0) - (a.fee_eur_m || 0) || b.epoch - a.epoch
+    : (a, b) => b.epoch - a.epoch || (b.fee_eur_m || 0) - (a.fee_eur_m || 0));
+
+  drawTotals(items);
+
+  if (!items.length) {
+    ledger.innerHTML = '<div class="notice"><strong>No deals match</strong>' +
+      'Clear the search or pick a wider filter.</div>';
+    return;
+  }
+
+  const page = items.slice(0, shown);
+  ledger.innerHTML = '';
+
+  page.forEach(d => {
+    const { from, to } = fromTo(d);
+    const colour = colourOf(d);
+    const fee = euros(d.fee_eur_m);
+    const width = d.fee_eur_m ? Math.max(2, (d.fee_eur_m / scale) * 100) : 0;
+
+    const row = document.createElement('a');
+    row.className = 'deal';
+    row.href = d.player_url;
+    row.target = '_blank';
+    row.rel = 'noopener';
+    row.innerHTML = `
+      <div class="stamp mono">${shortDate(d.date)}</div>
+      <div class="body">
+        <p class="player">${esc(d.player)}</p>
+        <p class="move">${esc(from) || '—'}<span class="arrow">&rarr;</span><span class="to">${esc(to) || '—'}</span></p>
+        <div class="tags">
+          <span class="kind mono" style="color:${colour}">${labelOf(d)}</span>
+          <span class="comp mono">${esc(d.league)}</span>
+        </div>
+      </div>
+      <div class="money">
+        ${fee ? `<span class="fee mono">${fee}</span>`
+              : '<span class="fee none mono">undisclosed</span>'}
+        <span class="bar"><i style="background:${colour}"></i></span>
+      </div>
+    `;
+    ledger.appendChild(row);
+  });
+
+  // Set bar widths after insertion so the transition actually runs.
+  requestAnimationFrame(() => {
+    ledger.querySelectorAll('.deal').forEach((row, i) => {
+      const d = page[i];
+      if (d.fee_eur_m) {
+        row.querySelector('.bar i').style.width =
+          Math.max(2, (d.fee_eur_m / scale) * 100) + '%';
+      }
+    });
+  });
+
+  if (items.length > shown) {
+    const btn = document.createElement('button');
+    btn.className = 'more mono';
+    btn.type = 'button';
+    btn.textContent = `Show ${Math.min(PAGE, items.length - shown)} more of ${items.length}`;
+    btn.addEventListener('click', () => { shown += PAGE; render(); });
+    ledger.appendChild(btn);
+  }
+}
+
+function esc(str) {
+  const div = document.createElement('div');
+  div.textContent = str || '';
+  return div.innerHTML;
+}
+
+/* ── Data ────────────────────────────────────────────────── */
+
+async function load() {
+  const updated = document.getElementById('updated');
+  try {
+    const res = await fetch('transfers_data.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    all = data.items || [];
+    scale = Math.max(1, ...all.map(d => d.fee_eur_m || 0));
+
+    const days = data.window_days || 30;
+    const d = new Date(data.last_updated);
+    updated.textContent = `last ${days} days · fetched ` +
+      d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' });
+
+    syncChips();
+    render();
+  } catch (err) {
+    updated.textContent = 'offline';
+    document.getElementById('ledger').innerHTML =
+      '<div class="notice bad"><strong>Ledger unreachable</strong>' +
+      'transfers_data.json didn\'t respond. Run besoccer_fetch.py, ' +
+      'or check the daily workflow has run at least once.</div>';
+  }
+}
+
+load();
+</script>
+
+</body>
+</html>

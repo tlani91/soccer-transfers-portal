@@ -1,0 +1,73 @@
+name: BeSoccer completed transfers (daily)
+
+on:
+  # Triggered once a day by cron-job.org via the dispatch API.
+  # GitHub's own scheduler is unreliable, so it is left commented out
+  # rather than used. Uncomment only if you drop the external trigger --
+  # running both would fetch twice a day.
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '15 6 * * *'
+
+permissions:
+  contents: write
+
+# Never let two runs overlap and race on the same commit.
+concurrency:
+  group: besoccer-daily
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch completed transfers
+        run: python3 besoccer_fetch.py
+
+      # If BeSoccer changes their markup, the parser degrades quietly rather
+      # than crashing: it would write a valid-but-empty file and the page
+      # would go blank. Fail the job instead of committing that.
+      - name: Sanity-check the output
+        run: |
+          python3 - <<'PY'
+          import json, sys
+
+          with open('transfers_data.json') as f:
+              data = json.load(f)
+
+          items = data.get('items', [])
+          n = len(items)
+          no_club = sum(1 for i in items if not i.get('other_club'))
+          no_date = sum(1 for i in items if not i.get('date'))
+          print(f'{n} items | {no_club} missing a club | {no_date} missing a date')
+
+          if n < 20:
+              sys.exit(f'FAIL: only {n} items. BeSoccer markup likely changed.')
+          if no_club / n > 0.3:
+              sys.exit(f'FAIL: {no_club}/{n} rows have no opposing club.')
+          if no_date:
+              sys.exit(f'FAIL: {no_date} rows have no date.')
+          print('Looks healthy.')
+          PY
+
+      - name: Commit if the data changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add transfers_data.json
+          if git diff --staged --quiet; then
+            echo "No change today, nothing to commit."
+          else
+            git commit -m "Update completed transfers ($(date -u '+%Y-%m-%d'))"
+            git push
+          fi
