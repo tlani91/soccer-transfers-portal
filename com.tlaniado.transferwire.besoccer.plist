@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.tlaniado.transferwire.besoccer</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/tlaniado/Projects/soccer-transfers-portal/run_besoccer_daily.sh</string>
+  </array>
+
+  <!-- Local time, once a day. If the Mac is asleep at 07:15, launchd runs
+       the job when it next wakes; if the Mac is off all day, the run is
+       simply skipped. The page shows a 30-day window, so a missed day
+       never leaves a visible gap. -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>7</integer>
+    <key>Minute</key>
+    <integer>15</integer>
+  </dict>
+
+  <!-- Don't fire on login or on every agent reload. -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/tlaniado/Library/Logs/transferwire-besoccer.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/tlaniado/Library/Logs/transferwire-besoccer.log</string>
+</dict>
+</plist>
