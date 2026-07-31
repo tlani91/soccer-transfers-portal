@@ -30,7 +30,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 
 # ── Configuration ─────────────────────────────────────────────────────
 
@@ -44,7 +44,16 @@ LEAGUES = [
     ("Ligue 1",        "ligue_1"),
 ]
 
-WINDOW_DAYS = 30
+# The ledger covers a transfer window, not a rolling span of days: it starts
+# on a fixed date and grows until the window shuts. A rolling window shed a
+# fifth of the ledger the morning 1 Jul aged out, which is the opposite of
+# what a summer-window ledger should do.
+#
+# Roll this forward when the next window opens (2027-01-01 for the winter
+# window, 2027-07-01 for next summer).
+WINDOW_START = datetime(2026, 7, 1, tzinfo=timezone.utc)
+WINDOW_LABEL = "summer 2026"
+
 PAUSE_SECONDS = 2
 OUTPUT = "transfers_data.json"
 
@@ -378,13 +387,17 @@ def main():
     ap.add_argument("--show-html", action="store_true",
                     help="dump raw markup of the first rows and exit")
     ap.add_argument("--league", help="one league slug only, for testing")
+    ap.add_argument("--since", metavar="YYYY-MM-DD",
+                    type=lambda s: datetime.strptime(s, "%Y-%m-%d")
+                                           .replace(tzinfo=timezone.utc),
+                    help=f"override the window start (default {WINDOW_START:%Y-%m-%d})")
     args = ap.parse_args()
 
     if args.show_html:
         show_html(args.league or "premier_league")
         return
 
-    cutoff = datetime.now(timezone.utc) - timedelta(days=WINDOW_DAYS)
+    cutoff = args.since or WINDOW_START
     targets = [(n, s) for n, s in LEAGUES if not args.league or s == args.league]
     if not targets:
         raise SystemExit(f"Unknown league: {args.league}")
@@ -399,7 +412,7 @@ def main():
             print(f"[error] {name}: {e}", file=sys.stderr)
             continue
         found = parse_league(page, name, slug, cutoff)
-        print(f"[ok] {name}: {len(found)} rows inside {WINDOW_DAYS} days",
+        print(f"[ok] {name}: {len(found)} rows since {cutoff:%Y-%m-%d}",
               file=sys.stderr)
         if not found:
             diagnose(page, final_url, name)
@@ -429,7 +442,8 @@ def main():
 
     payload = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
-        "window_days": WINDOW_DAYS,
+        "window_start": cutoff.date().isoformat(),
+        "window_label": WINDOW_LABEL,
         "source": "BeSoccer",
         "leagues": [{"id": s, "name": n} for n, s in LEAGUES],
         "items": items,

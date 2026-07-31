@@ -9,7 +9,7 @@ Live: https://tlani91.github.io/soccer-transfers-portal/dashboard.html
 ## Layout
 
     dashboard.html            Rumour wire (live feed, refreshes client-side every 60s)
-    transfers.html            Completed deals ledger (top 5 leagues, 30-day window)
+    transfers.html            Completed deals ledger (top 5 leagues, current transfer window)
     rumors_data.json          Written by transfer_rumors_fetch.py
     transfers_data.json       Written by besoccer_fetch.py
     transfer_rumors_fetch.py  Rumour sources -> rumors_data.json
@@ -34,6 +34,7 @@ Challenge</title>`, ~3KB page), so Actions runners get nothing. See hard rules.
 ## Commands
 
     python3 besoccer_fetch.py --dry-run --league premier_league   # parse check, writes nothing
+    python3 besoccer_fetch.py --dry-run --since 2026-06-01        # override the window start
     python3 besoccer_fetch.py --show-html --league premier_league # dump raw row markup
     python3 besoccer_fetch.py                                     # write transfers_data.json
     bash run_besoccer_daily.sh                                    # full daily cycle by hand
@@ -92,6 +93,13 @@ write to `transfers_data.json`.
   differs and the daily commit always fires, even when no transfer changed.
 - **The plist in the repo is a backup.** launchd only reads
   `~/Library/LaunchAgents/`. Edit there, then copy across.
+- **`WINDOW_START` in `besoccer_fetch.py` is a fixed date, not a rolling
+  span.** The ledger grows for the length of a transfer window and must be
+  rolled forward by hand when the next one opens (2027-01-01, then
+  2027-07-01). Leave it stale and the ledger keeps serving the old window.
+- **BeSoccer's club pages only carry the current season**, roughly back to
+  the January window, so a `WINDOW_START` earlier than that silently returns
+  whatever the page happens to hold rather than a complete history.
 - **Intra-league moves appear twice**, once per club. `dedupe()` keys on
   (player_url, date) and keeps the incoming record.
 - **The opposing club is in an image `alt` attribute**, not a text node.

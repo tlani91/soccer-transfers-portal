@@ -696,9 +696,12 @@ async function load() {
     all = data.items || [];
     scale = Math.max(1, ...all.map(d => d.fee_eur_m || 0));
 
-    const days = data.window_days || 30;
+    /* The ledger covers a transfer window with a fixed start. Older files
+       predate that and carry window_days instead, so fall back to it. */
+    const span = data.window_label ||
+      (data.window_days ? `last ${data.window_days} days` : 'recent deals');
     const d = new Date(data.last_updated);
-    updated.textContent = `last ${days} days · fetched ` +
+    updated.textContent = `${span} · fetched ` +
       d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' });
 
     syncChips();

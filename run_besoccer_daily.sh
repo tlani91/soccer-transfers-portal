@@ -100,12 +100,9 @@ if no_date:
     sys.exit(f'FAIL: {no_date} rows have no date.')
 
 # A single league coming back empty while the others are full means that
-# league's parse broke, not that football went quiet. Deliberately NOT a
-# day-over-day delta check: the ledger legitimately sheds a fifth of its
-# rows when a contract-expiry date (Jul 1, Jan 31) leaves the 30-day
-# window, and a delta guard would reject those perfectly good fetches.
-# Outside the transfer windows every league can be genuinely sparse, so
-# this only applies when the fetch as a whole is clearly healthy.
+# league's parse broke, not that football went quiet. Between windows every
+# league can be genuinely sparse, so this only applies when the fetch as a
+# whole is clearly healthy.
 if n >= 100:
     empty = [lg['name'] for lg in data.get('leagues', [])
              if by_league.get(lg['id'], 0) == 0]
