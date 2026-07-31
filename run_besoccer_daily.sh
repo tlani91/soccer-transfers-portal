@@ -77,6 +77,7 @@ fi
 # before it can overwrite good data.
 if ! python3 - <<'PY'
 import json, sys
+from collections import Counter
 
 with open('transfers_data.json') as f:
     data = json.load(f)
@@ -87,12 +88,31 @@ no_club = sum(1 for i in items if not i.get('other_club'))
 no_date = sum(1 for i in items if not i.get('date'))
 print(f'{n} items | {no_club} missing a club | {no_date} missing a date')
 
+by_league = Counter(i.get('league_id') for i in items)
+for lg in data.get('leagues', []):
+    print(f"  {lg['name']:16.16} {by_league.get(lg['id'], 0):4d}")
+
 if n < 20:
     sys.exit(f'FAIL: only {n} items. Fetch is broken or being challenged.')
 if no_club / n > 0.3:
     sys.exit(f'FAIL: {no_club}/{n} rows have no opposing club.')
 if no_date:
     sys.exit(f'FAIL: {no_date} rows have no date.')
+
+# A single league coming back empty while the others are full means that
+# league's parse broke, not that football went quiet. Deliberately NOT a
+# day-over-day delta check: the ledger legitimately sheds a fifth of its
+# rows when a contract-expiry date (Jul 1, Jan 31) leaves the 30-day
+# window, and a delta guard would reject those perfectly good fetches.
+# Outside the transfer windows every league can be genuinely sparse, so
+# this only applies when the fetch as a whole is clearly healthy.
+if n >= 100:
+    empty = [lg['name'] for lg in data.get('leagues', [])
+             if by_league.get(lg['id'], 0) == 0]
+    if empty:
+        sys.exit(f"FAIL: no rows for {', '.join(empty)} "
+                 f"while the other leagues returned {n}. Parse is broken.")
+
 print('Looks healthy.')
 PY
 then
