@@ -97,6 +97,11 @@ write to `transfers_data.json`.
   1 Jan or 1 Jul of the current year, so it rolls over on its own and the
   ledger grows across a window instead of ageing rows out. Nothing to
   maintain; `--since` overrides it for testing.
+- **Pre-agreed moves dated ahead of today are dropped.** BeSoccer lists
+  deals that haven't happened yet (a Jul 2027 free, a Sep 2026 loan); they
+  sorted above everything and the date badge has no year, so they read as a
+  broken sort. The horizon carries one day of slack because BeSoccer dates
+  in European local time.
 - **BeSoccer's club pages only carry the current season**, roughly back to
   the January window, so a `--since` earlier than that silently returns
   whatever the page happens to hold rather than a complete history.

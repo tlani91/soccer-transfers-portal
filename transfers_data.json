@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-07-31T14:24:19.535320+00:00",
+ "last_updated": "2026-07-31T14:37:13.546127+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -26,34 +26,6 @@
   }
  ],
  "items": [
-  {
-   "player": "C. Lenglet",
-   "player_url": "https://www.besoccer.com/player/c-lenglet-200996",
-   "league": "LaLiga",
-   "league_id": "primera_division",
-   "club": "Atlético de Madrid",
-   "club_url": "https://www.besoccer.com/team/transfers/atletico-madrid",
-   "direction": "out",
-   "other_club": "Benfica",
-   "type": "Free transfer",
-   "fee_eur_m": null,
-   "date": "2027-07-01",
-   "epoch": 1814400000
-  },
-  {
-   "player": "Dina Ebimbe",
-   "player_url": "https://www.besoccer.com/player/eric-junior-dina-ebimbe-426912",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Stade Brestois",
-   "club_url": "https://www.besoccer.com/team/transfers/stade-brestois-29",
-   "direction": "in",
-   "other_club": "Eintracht Frankfurt",
-   "type": "Loan",
-   "fee_eur_m": null,
-   "date": "2026-09-01",
-   "epoch": 1788220800
-  },
   {
    "player": "F. Ravaglia",
    "player_url": "https://www.besoccer.com/player/f-ravaglia-341113",

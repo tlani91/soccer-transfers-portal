@@ -30,7 +30,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 # ── Configuration ─────────────────────────────────────────────────────
 
@@ -411,6 +411,14 @@ def main():
     cutoff, label = current_window()
     if args.since:
         cutoff, label = args.since, f"since {args.since:%d %b %Y}"
+
+    # This is a ledger of completed deals, so pre-agreed moves dated months
+    # or years ahead don't belong in it. They also sorted above everything
+    # else, and the date badge omits the year, so a 2027 row read as a
+    # broken sort. One day of slack, since BeSoccer dates in European local
+    # time and can post tomorrow's date while it is still today in UTC.
+    horizon = (datetime.now(timezone.utc) + timedelta(days=1)).date().isoformat()
+
     targets = [(n, s) for n, s in LEAGUES if not args.league or s == args.league]
     if not targets:
         raise SystemExit(f"Unknown league: {args.league}")
@@ -425,6 +433,12 @@ def main():
             print(f"[error] {name}: {e}", file=sys.stderr)
             continue
         found = parse_league(page, name, slug, cutoff)
+        ahead = [r for r in found if r["date"] > horizon]
+        if ahead:
+            found = [r for r in found if r["date"] <= horizon]
+            print(f"[skip] {name}: {len(ahead)} row(s) dated ahead of today "
+                  f"({', '.join(sorted({r['date'] for r in ahead}))})",
+                  file=sys.stderr)
         print(f"[ok] {name}: {len(found)} rows since {cutoff:%Y-%m-%d}",
               file=sys.stderr)
         if not found:
