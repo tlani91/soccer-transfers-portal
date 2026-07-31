@@ -47,13 +47,13 @@ LEAGUES = [
 # The ledger covers a transfer window, not a rolling span of days: it starts
 # on a fixed date and grows until the window shuts. A rolling window shed a
 # fifth of the ledger the morning 1 Jul aged out, which is the opposite of
-# what a summer-window ledger should do.
+# what a window ledger should do.
 #
-# Roll this forward when the next window opens (2027-01-01 for the winter
-# window, 2027-07-01 for next summer).
-WINDOW_START = datetime(2026, 7, 1, tzinfo=timezone.utc)
-WINDOW_LABEL = "summer 2026"
-
+# The start is derived from the date rather than pinned, so it rolls over on
+# its own: the winter window on 1 Jan, the summer window on 1 Jul. Between
+# windows the ledger keeps showing the one that just closed, which is what
+# you want to read in October.
+SUMMER_OPENS_MONTH = 7
 PAUSE_SECONDS = 2
 OUTPUT = "transfers_data.json"
 
@@ -380,6 +380,16 @@ def show_html(slug, count=2):
     print("No dated transfer anchors found.")
 
 
+def current_window(now=None):
+    """Start and label of the transfer window in progress, or the last one
+    to close. Rolls on 1 Jan and 1 Jul so nothing needs maintaining."""
+    now = now or datetime.now(timezone.utc)
+    summer = now.month >= SUMMER_OPENS_MONTH
+    start = datetime(now.year, SUMMER_OPENS_MONTH if summer else 1, 1,
+                     tzinfo=timezone.utc)
+    return start, f"{'summer' if summer else 'winter'} {now.year}"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true",
@@ -390,14 +400,17 @@ def main():
     ap.add_argument("--since", metavar="YYYY-MM-DD",
                     type=lambda s: datetime.strptime(s, "%Y-%m-%d")
                                            .replace(tzinfo=timezone.utc),
-                    help=f"override the window start (default {WINDOW_START:%Y-%m-%d})")
+                    help="override the window start "
+                         f"(default {current_window()[0]:%Y-%m-%d})")
     args = ap.parse_args()
 
     if args.show_html:
         show_html(args.league or "premier_league")
         return
 
-    cutoff = args.since or WINDOW_START
+    cutoff, label = current_window()
+    if args.since:
+        cutoff, label = args.since, f"since {args.since:%d %b %Y}"
     targets = [(n, s) for n, s in LEAGUES if not args.league or s == args.league]
     if not targets:
         raise SystemExit(f"Unknown league: {args.league}")
@@ -443,7 +456,7 @@ def main():
     payload = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
         "window_start": cutoff.date().isoformat(),
-        "window_label": WINDOW_LABEL,
+        "window_label": label,
         "source": "BeSoccer",
         "leagues": [{"id": s, "name": n} for n, s in LEAGUES],
         "items": items,

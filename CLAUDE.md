@@ -93,12 +93,12 @@ write to `transfers_data.json`.
   differs and the daily commit always fires, even when no transfer changed.
 - **The plist in the repo is a backup.** launchd only reads
   `~/Library/LaunchAgents/`. Edit there, then copy across.
-- **`WINDOW_START` in `besoccer_fetch.py` is a fixed date, not a rolling
-  span.** The ledger grows for the length of a transfer window and must be
-  rolled forward by hand when the next one opens (2027-01-01, then
-  2027-07-01). Leave it stale and the ledger keeps serving the old window.
+- **The ledger window is derived, not stored.** `current_window()` returns
+  1 Jan or 1 Jul of the current year, so it rolls over on its own and the
+  ledger grows across a window instead of ageing rows out. Nothing to
+  maintain; `--since` overrides it for testing.
 - **BeSoccer's club pages only carry the current season**, roughly back to
-  the January window, so a `WINDOW_START` earlier than that silently returns
+  the January window, so a `--since` earlier than that silently returns
   whatever the page happens to hold rather than a complete history.
 - **Intra-league moves appear twice**, once per club. `dedupe()` keys on
   (player_url, date) and keeps the incoming record.
