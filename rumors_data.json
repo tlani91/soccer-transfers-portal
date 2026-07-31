@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T17:00:33.788391+00:00",
+  "last_updated": "2026-07-31T17:30:36.548540+00:00",
   "items": [
     {
       "title": "Liam Delap confirmed to leave Chelsea",
@@ -9,7 +9,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785517231.2198665,
+      "epoch": 1785519033.8888164,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785516933.2874422,
+      "epoch": 1785518736.0476105,
       "approx_time": true
     },
     {
@@ -31,7 +31,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785516931.2198665,
+      "epoch": 1785518733.8888164,
       "approx_time": true
     },
     {
@@ -42,7 +42,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785516631.2198665,
+      "epoch": 1785518433.8888164,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785516331.2198665,
+      "epoch": 1785518133.8888164,
       "approx_time": true
     },
     {
@@ -64,7 +64,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785516033.2874422,
+      "epoch": 1785517836.0476105,
       "approx_time": true
     },
     {
@@ -75,7 +75,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785516031.2198665,
+      "epoch": 1785517833.8888164,
       "approx_time": true
     },
     {
@@ -86,7 +86,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785515733.2874422,
+      "epoch": 1785517536.0476105,
       "approx_time": true
     },
     {
@@ -97,7 +97,117 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785515731.2198665,
+      "epoch": 1785517533.8888164,
+      "approx_time": true
+    },
+    {
+      "title": "Inter Milan reignite interest in Liverpool star",
+      "link": "https://www.transfernewslive.com/transfer-news/inter-milan-reignite-interest-in-liverpool-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1785517233.8888164,
+      "approx_time": true
+    },
+    {
+      "title": "Midfielder Kian Fitz-Jim leaves Ajax after seven years to join Torino",
+      "link": "https://www.flashscore.com/news/soccer-eredivisie-midfielder-kian-fitz-jim-leaves-ajax-after-seven-years-to-join-torino/jefMvyo1/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785516936.0476105,
+      "approx_time": true
+    },
+    {
+      "title": "Former Bayern Munich star offers himself to Barcelona",
+      "link": "https://www.transfernewslive.com/transfer-news/former-bayern-munich-star-offers-himself-to-barcelona/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1785516933.8888164,
+      "approx_time": true
+    },
+    {
+      "title": "Why Juventus would be taking a risk if they sign PSG & Tottenham flop Randal Kolo Muani",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-why-juventus-would-be-taking-a-risk-if-they-sign-psg-tottenham-flop-randal-kolo-muani/W00ZyiFD/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785516636.0476105,
+      "approx_time": true
+    },
+    {
+      "title": "Manchester United and Chelsea set to battle for Germany striker",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-and-chelsea-set-to-battle-for-germany-striker/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1785516633.8888164,
+      "approx_time": true
+    },
+    {
+      "title": "Real Madrid sign Carlos Espi from Levante after reportedly triggering his release clause",
+      "link": "https://www.flashscore.com/news/real-madrid-sign-carlos-espi-from-levante-after-reportedly-triggering-his-release-clause/WQVjhy3m/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785516336.0476105,
+      "approx_time": true
+    },
+    {
+      "title": "Newcastle United accept Arsenal\u2019s offer for Bruno Guimaraes",
+      "link": "https://www.transfernewslive.com/transfer-news/newcastle-united-accept-arsenals-offer-for-bruno-guimaraes/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1785516333.8888164,
+      "approx_time": true
+    },
+    {
+      "title": "Inter Milan announce signing of John Stones on two-year deal after leaving Man City",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-inter-milan-announce-signing-of-john-stones-on-two-year-deal-after-leaving-man-city/tYIjMLm2/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785516036.0476105,
+      "approx_time": true
+    },
+    {
+      "title": "Liverpool send offer for Bradley Barcola",
+      "link": "https://www.transfernewslive.com/transfer-news/liverpool-send-offer-for-bradley-barcola/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1785516033.8888164,
+      "approx_time": true
+    },
+    {
+      "title": "Barcelona make decision on Jullian Alvarez after Eli Junior Kroupi\u2019s injury",
+      "link": "https://www.transfernewslive.com/transfer-news/barcelona-make-decision-on-jullian-alvarez-after-eli-junior-kroupis-injury/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1785515733.8888164,
       "approx_time": true
     },
     {
@@ -112,58 +222,69 @@
       "approx_time": false
     },
     {
-      "title": "Inter Milan reignite interest in Liverpool star",
-      "link": "https://www.transfernewslive.com/transfer-news/inter-milan-reignite-interest-in-liverpool-star/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1785515431.2198665,
-      "approx_time": true
-    },
-    {
-      "title": "Midfielder Kian Fitz-Jim leaves Ajax after seven years to join Torino",
-      "link": "https://www.flashscore.com/news/soccer-eredivisie-midfielder-kian-fitz-jim-leaves-ajax-after-seven-years-to-join-torino/jefMvyo1/",
+      "title": "Roma and Nottingham open bidding war for Feyenoord defender Givairo Read",
+      "link": "https://www.flashscore.com/news/soccer-eredivisie-roma-and-nottingham-open-bidding-war-for-feyenoord-back-givairo-read/fJ3LUTOp/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785515133.2874422,
+      "epoch": 1785515436.0476105,
       "approx_time": true
     },
     {
-      "title": "Former Bayern Munich star offers himself to Barcelona",
-      "link": "https://www.transfernewslive.com/transfer-news/former-bayern-munich-star-offers-himself-to-barcelona/",
+      "title": "Manchester United make enquiry for AC Milan star",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-make-enquiry-for-ac-milan-star/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785515131.2198665,
+      "epoch": 1785515433.8888164,
       "approx_time": true
     },
     {
-      "title": "Why Juventus would be taking a risk if they sign PSG & Tottenham flop Randal Kolo Muani",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-why-juventus-would-be-taking-a-risk-if-they-sign-psg-tottenham-flop-randal-kolo-muani/W00ZyiFD/",
+      "title": "Flashscore sources: Tottenham pivot towards new elite forward targets after Kroupi blow",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-tottenham-pivot-towards-new-elite-forward-targets-after-kroupi-blow/b7hLaf7K/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785514833.2874422,
+      "epoch": 1785515136.0476105,
       "approx_time": true
     },
     {
-      "title": "Manchester United and Chelsea set to battle for Germany striker",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-and-chelsea-set-to-battle-for-germany-striker/",
+      "title": "Ruben Amorim want Arsenal star at AC Milan",
+      "link": "https://www.transfernewslive.com/transfer-news/ruben-amorim-want-arsenal-star-at-ac-milan/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785514831.2198665,
+      "epoch": 1785515133.8888164,
+      "approx_time": true
+    },
+    {
+      "title": "Finnish international Antman leaves Rangers for four-year deal at Anderlecht",
+      "link": "https://www.flashscore.com/news/soccer-europa-league-finnish-international-antman-leaves-rangers-for-four-year-deal-at-anderlecht/WxfWjKum/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785514836.0476105,
+      "approx_time": true
+    },
+    {
+      "title": "Manchester United identify Lewis Hall alternative",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-identify-lewis-hall-alternative/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1785514833.8888164,
       "approx_time": true
     },
     {
@@ -178,127 +299,6 @@
       "approx_time": false
     },
     {
-      "title": "Real Madrid sign Carlos Espi from Levante after reportedly triggering his release clause",
-      "link": "https://www.flashscore.com/news/real-madrid-sign-carlos-espi-from-levante-after-reportedly-triggering-his-release-clause/WQVjhy3m/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785514533.2874422,
-      "approx_time": true
-    },
-    {
-      "title": "Newcastle United accept Arsenal\u2019s offer for Bruno Guimaraes",
-      "link": "https://www.transfernewslive.com/transfer-news/newcastle-united-accept-arsenals-offer-for-bruno-guimaraes/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1785514531.2198665,
-      "approx_time": true
-    },
-    {
-      "title": "Inter Milan announce signing of John Stones on two-year deal after leaving Man City",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-inter-milan-announce-signing-of-john-stones-on-two-year-deal-after-leaving-man-city/tYIjMLm2/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785514233.2874422,
-      "approx_time": true
-    },
-    {
-      "title": "Liverpool send offer for Bradley Barcola",
-      "link": "https://www.transfernewslive.com/transfer-news/liverpool-send-offer-for-bradley-barcola/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1785514231.2198665,
-      "approx_time": true
-    },
-    {
-      "title": "Barcelona make decision on Jullian Alvarez after Eli Junior Kroupi\u2019s injury",
-      "link": "https://www.transfernewslive.com/transfer-news/barcelona-make-decision-on-jullian-alvarez-after-eli-junior-kroupis-injury/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1785513931.2198665,
-      "approx_time": true
-    },
-    {
-      "title": "Roma and Nottingham open bidding war for Feyenoord defender Givairo Read",
-      "link": "https://www.flashscore.com/news/soccer-eredivisie-roma-and-nottingham-open-bidding-war-for-feyenoord-back-givairo-read/fJ3LUTOp/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785513633.2874422,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United make enquiry for AC Milan star",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-make-enquiry-for-ac-milan-star/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1785513631.2198665,
-      "approx_time": true
-    },
-    {
-      "title": "Flashscore sources: Tottenham pivot towards new elite forward targets after Kroupi blow",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-tottenham-pivot-towards-new-elite-forward-targets-after-kroupi-blow/b7hLaf7K/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785513333.2874422,
-      "approx_time": true
-    },
-    {
-      "title": "Ruben Amorim want Arsenal star at AC Milan",
-      "link": "https://www.transfernewslive.com/transfer-news/ruben-amorim-want-arsenal-star-at-ac-milan/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1785513331.2198665,
-      "approx_time": true
-    },
-    {
-      "title": "Finnish international Antman leaves Rangers for four-year deal at Anderlecht",
-      "link": "https://www.flashscore.com/news/soccer-europa-league-finnish-international-antman-leaves-rangers-for-four-year-deal-at-anderlecht/WxfWjKum/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785513033.2874422,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United identify Lewis Hall alternative",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-identify-lewis-hall-alternative/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1785513031.2198665,
-      "approx_time": true
-    },
-    {
       "title": "Manchester City reportedly closing in on deal for Lille youngster Bouaddi",
       "link": "https://www.flashscore.com/news/soccer-premier-league-manchester-city-reportedly-closing-in-on-deal-for-lille-youngster-bouaddi/xtnTXVaK/",
       "description": "",
@@ -306,7 +306,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785512733.2874422,
+      "epoch": 1785514536.0476105,
       "approx_time": true
     },
     {
@@ -317,7 +317,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785512731.2198665,
+      "epoch": 1785514533.8888164,
       "approx_time": true
     },
     {
@@ -328,7 +328,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785512433.2874422,
+      "epoch": 1785514236.0476105,
       "approx_time": true
     },
     {
@@ -339,7 +339,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785512431.2198665,
+      "epoch": 1785514233.8888164,
       "approx_time": true
     },
     {
@@ -350,7 +350,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785512133.2874422,
+      "epoch": 1785513936.0476105,
       "approx_time": true
     },
     {
@@ -361,7 +361,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785512131.2198665,
+      "epoch": 1785513933.8888164,
       "approx_time": true
     },
     {
@@ -372,7 +372,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785511831.2198665,
+      "epoch": 1785513633.8888164,
       "approx_time": true
     },
     {
@@ -383,7 +383,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1785511531.2198665,
+      "epoch": 1785513333.8888164,
       "approx_time": true
     },
     {
@@ -641,13 +641,13 @@
     },
     {
       "title": "Washington's Fisch, QB Williams on same page after near transfer - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMXQ5bmJaR0tEVkFYd3BQUkQ1cEpXQkFDSWhQZjcydDE1OEZlcHgtZ1FBYjExTVV1X04tbC1OcUNNOGxPdTNLUE5VQ3pTMjFkeWxXRFJkdGNLd1BWTW5wemhuY2NncFg1Vnl5SXIzN2gxeTctRm12WVVPYlVOYXkxNVZZdGhPdGt4a29RUE90MExaai1EWHJPbkVZUndLMWtZTUZpYk16Vms?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMHd5a2VTcmNfU2pMb3RJY0NGZUt1cUJRNk1ROXR6M01WaFlhdUlqaFFibG1EMEpfT2RFdm9Za0stOEkwTHZKMVY3YU44ZFhhekx1SDAtR2c3M3BZTlJhanNQdDdnVU40c1hvWUtiRTdXdlJzSUlEMWlKS3ZkNEdXOGFXVWZZQkc2XzNtcmNYUDlkdDFCVzkwdlhiVWRIcWRaR05xMXlXYlhJQTJE?oc=5",
       "description": "Washington's Fisch, QB Williams on same page after near transfer ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
-      "pub_date_raw": "Thu, 30 Jul 2026 17:43:00 GMT",
-      "epoch": 1785433380.0,
+      "pub_date_raw": "Thu, 30 Jul 2026 17:51:06 GMT",
+      "epoch": 1785433866.0,
       "approx_time": false
     },
     {
@@ -1762,6 +1762,17 @@
       "approx_time": false
     },
     {
+      "title": "Romano reveals whether Arsenal will now threaten Liverpool for Bradley Barcola after Rogers \u2018shock\u2019 - Football365",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZkN1ZklQYmw3OE05aDItTFRReE5xYUVCNXJaOUVheE9LZFBqdlZCTzgwaDJDRmJob2VkWjNub1ZhTXlKQm9ycmtwbmU2eFcwaDJZNGdvX1hBTGtjNkZkTE1PbUZaeUJGTjhyQkdwT25tTVFCNXZhY3BnMVViRVRZcjBuT2ZfTjVnV2dSZmc0cW9nSHBxeHktUGRZYl82VEVmajVJaw?oc=5",
+      "description": "Romano reveals whether Arsenal will now threaten Liverpool for Bradley Barcola after Rogers \u2018shock\u2019 Football365",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Sat, 18 Jul 2026 07:00:00 GMT",
+      "epoch": 1784358000.0,
+      "approx_time": false
+    },
+    {
       "title": "David Ornstein: Top Arsenal target agrees shock Chelsea move - Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPck5YaGtXVVZrc1hMeXpsQU8wQUdkb3VEZUFyc1pxZmV1cWhrWlB2d2NhRnVUdE42VUNWaXkxQm1qOTZIbE1CRlRsakRoYkRtMHJ0SEU5ME04RExENkIzVklaWlVIZVpWczc4LTR3TktUMm1pX3djRjd5alJvaXJBN09TVmxlc0RRZHc?oc=5",
       "description": "David Ornstein: Top Arsenal target agrees shock Chelsea move Yahoo Sports",
@@ -2125,6 +2136,17 @@
       "approx_time": false
     },
     {
+      "title": "Romano says Arsenal waiting for \u2018final greenlight\u2019 to \u2018accelerate\u2019 deal for winger who \u2018wants move\u2019 - Football365",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQWVkSGRXUWgzN2JKeXUzeXFZbHpWTnVQWHRJQTFVeF95WEg1cnpjSVNXLXV3MnJTMzNoM205QzZueEk2cElCVk9yMzgzOGRHa1k0QzNsbU1QVWxNM0JmRF9xR3IzXzY2TWNZU2pfZDJvSXd2ZjlzVkZmSmJIbmlpVm5fWEhGX2N4R3Z4a2xDclZwY0FfWDdnWnZVWWk?oc=5",
+      "description": "Romano says Arsenal waiting for \u2018final greenlight\u2019 to \u2018accelerate\u2019 deal for winger who \u2018wants move\u2019 Football365",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Mon, 13 Jul 2026 07:00:00 GMT",
+      "epoch": 1783926000.0,
+      "approx_time": false
+    },
+    {
       "title": "Romano reveals Man Utd decision on re-signing Mason Greenwood as transfer twist emerges after \u2018agreement\u2019 - Football365",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQk5Eckcwd09KX1ZLWDI1NDU4Y1ZlQTU2VVZObXp3UDBmMHRBbXpUdVBDdnc2YXBLMDhLVGFYSGtpb3pubnJHbnUwSVhGN1VhUk1nVnFrdy1rTXZmaTJZTzQxZHU1b3BnUTFmaXo5eGlFYW5seU1vd1ZGZzQ5SkdFWGlyMWwwZEd2V2NSNW9uMDBkQV9SZzNLdmN3TDd0M19HSHpJemlRQWJnWklkUThIcW04WldjMi1vcGcycVlueUJMVXVYeFVtSTJFYWRXMlhrLWc?oc=5",
       "description": "Romano reveals Man Utd decision on re-signing Mason Greenwood as transfer twist emerges after \u2018agreement\u2019 Football365",
@@ -2139,28 +2161,6 @@
       "title": "Romano reveals how much Aston Villa want Arsenal to pay for Rogers after selling Youri Tielemans to Man Utd - Football365",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRTNEVkZfZzZJRFppNnVYWlVxNUFGZi12cEZpcmFzR1pCbVhPWmY0aDJPX3dqOEpzM3ZkR3EyUF9udE8xQjMxXzd4MFJZM3NDNEo5UWRKQ0RzckZNQmc4N291R2Y2YlVJMlRkNnduV0M5X0N4blVDeTFGNWJINmRxTjl1MjI5dEhpMWh0TUxpLUpTNmlZLU1nbHRnYmN6YXEyUExUeg?oc=5",
       "description": "Romano reveals how much Aston Villa want Arsenal to pay for Rogers after selling Youri Tielemans to Man Utd Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Mon, 13 Jul 2026 07:00:00 GMT",
-      "epoch": 1783926000.0,
-      "approx_time": false
-    },
-    {
-      "title": "Fabrizio Romano drops major Brighton and Tottenham update as transfer record smashed - SussexWorld",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdldVQW9EUnBvWlY4cG55amlZMkVqUTZhdXRxQ3JjdDRWMm9nbV9sUkRyeDhvY3VvVmhFWVVwV1RaRmR6WDBvREI1WVBPQVQ1eTBiZDhnZFFyMFhvd3dQVG1xbHQwM0tOeHROdzZXMkswWG5WWUJ2am5ZOHk5U0dSNUxQTVVuS2pmUjZaLWdoXzRfcWo1Mkxxd1Mzd0xQd18tS3l1RHNUYjJjOWNsUy1mSk5sMjJCZXhSZ2F5NVRuTWFhUnQwOGRSVmJNZ3o0M3BwcUZtZWthRmdGWTVzOWo5MExCMW40TTBuQ0pzaFhKLUNYVU9fNDNj?oc=5",
-      "description": "Fabrizio Romano drops major Brighton and Tottenham update as transfer record smashed SussexWorld",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Mon, 13 Jul 2026 07:00:00 GMT",
-      "epoch": 1783926000.0,
-      "approx_time": false
-    },
-    {
-      "title": "\u2018Here we go\u2019 \u2013 Fabrizio Romano confirms next Newcastle United signing - readnewcastle.com",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcjhOZklVMG1nanVWZmFBYUx1bFgyS2J4WURyd1AweEJGQ0x6MGR6TThaLUZIODVyS0VKVU40d215MEFTT080SzBUMlZMQXNvdUJ6THU3cFQ4bVY1SC12MElwZThmUzVWTkFaVEFJN1UxZUVna1JYam5Gc3FGNERzXzlPVnFISGpHUEJFOVZQLXhySmVoazRjdm5fN2QxTS10SENhcHh3?oc=5",
-      "description": "\u2018Here we go\u2019 \u2013 Fabrizio Romano confirms next Newcastle United signing readnewcastle.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
