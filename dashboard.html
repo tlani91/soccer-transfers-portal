@@ -149,8 +149,13 @@
     height: 2px;
     border-radius: 1px;
     background: var(--rule);
-    transition: height .5s cubic-bezier(.2,.7,.3,1);
+    transition: height .5s cubic-bezier(.2,.7,.3,1), opacity .15s linear;
   }
+
+  /* Hovering the rail pulls the read bucket forward; the legend below
+     carries the actual number, so this only has to point. */
+  .rail:hover .tick { opacity: .4; }
+  .rail:hover .tick.hot { opacity: 1; }
 
   .rail-legend {
     font-size: 10px;
@@ -579,6 +584,12 @@ for (let i = 0; i < BUCKETS; i++) {
   ticks.push(t);
 }
 
+/* Kept from the last draw so the hover readout doesn't recount. */
+let railCounts = new Array(BUCKETS).fill(0);
+let railStart = Date.now() / 1000 - 86400;
+let railLabelText = 'last 24 hours';
+let hoverBucket = null;
+
 function drawRail() {
   const now = Date.now() / 1000;
   const span = 86400;
@@ -606,9 +617,58 @@ function drawRail() {
       : 'var(--rule)';
   });
 
-  document.getElementById('railLabel').textContent =
+  railCounts = counts;
+  railStart = now - span;
+  railLabelText =
     total ? 'last 24 hours · ' + total + ' filed' : 'last 24 hours · quiet';
+
+  /* The 60s refresh lands while the pointer may still be on the rail. Writing
+     the total here unconditionally left the tick highlighted but the legend
+     describing the whole day, so re-render the hovered bucket instead. */
+  setLabel();
 }
+
+function setLabel() {
+  document.getElementById('railLabel').textContent =
+    hoverBucket === null ? railLabelText : bucketText(hoverBucket);
+}
+
+function bucketText(i) {
+  const n = railCounts[i];
+  const from = railStart + i * BUCKET_SECS;
+  return clockAt(from) + '–' + clockAt(from + BUCKET_SECS) + ' · ' +
+    (n ? n + (n === 1 ? ' rumour' : ' rumours') + ' filed' : 'nothing filed');
+}
+
+/* Hover readout. The pointer is tracked on the rail rather than on each
+   tick: an empty bucket is only 2px tall, so its own hover box is far
+   too small to hit. */
+
+const BUCKET_SECS = 86400 / BUCKETS;
+
+function clockAt(epoch) {
+  return new Date(epoch * 1000)
+    .toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+}
+
+railEl.addEventListener('mousemove', e => {
+  const rect = railEl.getBoundingClientRect();
+  if (!rect.width) return;
+  const i = Math.min(BUCKETS - 1,
+    Math.max(0, Math.floor(((e.clientX - rect.left) / rect.width) * BUCKETS)));
+  if (i === hoverBucket) return;   // most moves stay inside the same 5px tick
+
+  if (hoverBucket !== null) ticks[hoverBucket].classList.remove('hot');
+  ticks[i].classList.add('hot');
+  hoverBucket = i;
+  setLabel();
+});
+
+railEl.addEventListener('mouseleave', () => {
+  if (hoverBucket !== null) ticks[hoverBucket].classList.remove('hot');
+  hoverBucket = null;
+  setLabel();
+});
 
 /* ── Feed ────────────────────────────────────────────────── */
 
