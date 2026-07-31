@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T13:00:31.792497+00:00",
+  "last_updated": "2026-07-31T13:30:31.406389+00:00",
   "items": [
     {
       "title": "Transfer News LIVE: Ter Stegen heading for Ajax, Man United exploring deal for Hall Updated",
@@ -9,7 +9,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785502531.291573,
+      "epoch": 1785504330.9054568,
+      "approx_time": true
+    },
+    {
+      "title": "EXCLUSIVE: Newcastle facing new headache as Man United consider Lewis Hall offer",
+      "link": "https://www.flashscore.com/news/exclusive-newcastle-facing-new-headache-as-man-united-weigh-up-lewis-hall-offer/K2zsO1cM/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785503430.9054568,
       "approx_time": true
     },
     {
@@ -20,7 +31,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785501331.291573,
+      "epoch": 1785502830.9054568,
       "approx_time": true
     },
     {
@@ -31,7 +42,51 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785501031.291573,
+      "epoch": 1785502530.9054568,
+      "approx_time": true
+    },
+    {
+      "title": "Real Madrid sign Carlos Espi from Levante after reportedly triggering his release clause",
+      "link": "https://www.flashscore.com/news/real-madrid-sign-carlos-espi-from-levante-after-reportedly-triggering-his-release-clause/WQVjhy3m/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785502230.9054568,
+      "approx_time": true
+    },
+    {
+      "title": "Inter Milan announce signing of John Stones on two-year deal after leaving Man City",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-inter-milan-announce-signing-of-john-stones-on-two-year-deal-after-leaving-man-city/tYIjMLm2/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785501930.9054568,
+      "approx_time": true
+    },
+    {
+      "title": "Roma and Nottingham open bidding war for Feyenoord defender Givairo Read",
+      "link": "https://www.flashscore.com/news/soccer-eredivisie-roma-and-nottingham-open-bidding-war-for-feyenoord-back-givairo-read/fJ3LUTOp/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785501330.9054568,
+      "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: Tottenham pivot towards new elite forward targets after Kroupi blow",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-tottenham-pivot-towards-new-elite-forward-targets-after-kroupi-blow/b7hLaf7K/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785501030.9054568,
       "approx_time": true
     },
     {
@@ -46,14 +101,14 @@
       "approx_time": false
     },
     {
-      "title": "Real Madrid sign Carlos Espi from Levante after reportedly triggering his release clause",
-      "link": "https://www.flashscore.com/news/real-madrid-sign-carlos-espi-from-levante-after-reportedly-triggering-his-release-clause/WQVjhy3m/",
+      "title": "Finnish international Antman leaves Rangers for four-year deal at Anderlecht",
+      "link": "https://www.flashscore.com/news/soccer-europa-league-finnish-international-antman-leaves-rangers-for-four-year-deal-at-anderlecht/WxfWjKum/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785500731.291573,
+      "epoch": 1785500730.9054568,
       "approx_time": true
     },
     {
@@ -68,50 +123,6 @@
       "approx_time": false
     },
     {
-      "title": "Inter Milan announce signing of John Stones on two-year deal after leaving Man City",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-inter-milan-announce-signing-of-john-stones-on-two-year-deal-after-leaving-man-city/tYIjMLm2/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785500431.291573,
-      "approx_time": true
-    },
-    {
-      "title": "Roma and Nottingham open bidding war for Feyenoord defender Givairo Read",
-      "link": "https://www.flashscore.com/news/soccer-eredivisie-roma-and-nottingham-open-bidding-war-for-feyenoord-back-givairo-read/fJ3LUTOp/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785499831.291573,
-      "approx_time": true
-    },
-    {
-      "title": "Flashscore sources: Tottenham pivot towards new elite forward targets after Kroupi blow",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-tottenham-pivot-towards-new-elite-forward-targets-after-kroupi-blow/b7hLaf7K/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785499531.291573,
-      "approx_time": true
-    },
-    {
-      "title": "Finnish international Antman leaves Rangers for four-year deal at Anderlecht",
-      "link": "https://www.flashscore.com/news/soccer-europa-league-finnish-international-antman-leaves-rangers-for-four-year-deal-at-anderlecht/WxfWjKum/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785499231.291573,
-      "approx_time": true
-    },
-    {
       "title": "Manchester City reportedly closing in on deal for Lille youngster Bouaddi",
       "link": "https://www.flashscore.com/news/soccer-premier-league-manchester-city-reportedly-closing-in-on-deal-for-lille-youngster-bouaddi/xtnTXVaK/",
       "description": "",
@@ -119,7 +130,29 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1785498931.291573,
+      "epoch": 1785500430.9054568,
+      "approx_time": true
+    },
+    {
+      "title": "Chelsea complete signing of Crystal Palace defender Lacroix for reported \u00a352 million",
+      "link": "https://www.flashscore.com/news/chelsea-complete-signing-of-crystal-palace-defender-lacroix-for-reported-52-million/ImXlqVSG/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785500130.9054568,
+      "approx_time": true
+    },
+    {
+      "title": "Feyenoord winger Leo Sauer officially completes \u20ac15 million Stuttgart move",
+      "link": "https://www.flashscore.com/news/soccer-bundesliga-feyenoord-winger-leo-sauer-officially-completes-15-million-stuttgart-move/OWYK8jTF/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1785499830.9054568,
       "approx_time": true
     },
     {
@@ -143,39 +176,6 @@
       "pub_date_raw": "Fri, 31 Jul 2026 11:53:36 GMT",
       "epoch": 1785498816.0,
       "approx_time": false
-    },
-    {
-      "title": "Chelsea complete signing of Crystal Palace defender Lacroix for reported \u00a352 million",
-      "link": "https://www.flashscore.com/news/chelsea-complete-signing-of-crystal-palace-defender-lacroix-for-reported-52-million/ImXlqVSG/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785498631.291573,
-      "approx_time": true
-    },
-    {
-      "title": "Feyenoord winger Leo Sauer officially completes \u20ac15 million Stuttgart move",
-      "link": "https://www.flashscore.com/news/soccer-bundesliga-feyenoord-winger-leo-sauer-officially-completes-15-million-stuttgart-move/OWYK8jTF/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785498331.291573,
-      "approx_time": true
-    },
-    {
-      "title": "Brentford confirm Jordan Henderson exit as Chelsea close in on free transfer",
-      "link": "https://www.flashscore.com/news/brentford-confirm-jordan-henderson-exit-as-chelsea-close-in-on-free-transfer/04GTotZ8/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1785497131.291573,
-      "approx_time": true
     },
     {
       "title": "Romano Delivers 'Key' Friday Liverpool Transfer Update on Bradley Barcola - GiveMeSport",
@@ -252,17 +252,6 @@
       "byline": "",
       "pub_date_raw": "Fri, 31 Jul 2026 07:27:25 GMT",
       "epoch": 1785482845.0,
-      "approx_time": false
-    },
-    {
-      "title": "Ben Jacobs confirms growing interest in Manchester United's Harry Amass - Tribuna.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLUs4bkNOOUowb3g2aGJIbkU0RWM0U0prOXBqWHUtNVA2Yy1sOG1PTWhjV3g1QXc3YzJjOGFqWGJENW9wcm5VZl9BUWRZSE1Lc2tXTkJEd0ZPMUxMTTFjcDFKMDdBUWNwemVPTHVCR0JEOHk0YmhYUnEtU2ZVNU1ZVVVfM3FURmZCc2hMeFlJRWF5a3NXVGNwNkNLdnNpa1M1RnR0RktTOXVtUkRxWUxZ0gG0AUFVX3lxTE1QVFpLZHp5N1JKLVJZMjhXcTVVT0ZqdHdqMWwybm5hMVpqTThOWWFZVUFheGdHRXhTbHdRMzQ3ODZKd0ZvdGs1SUpxeFFPZHl1X1FSUkxXS3lYcXc3TWg0bHhVTTl2Y3FJc2NkWHN6SV9mMWZ2T1g3MEY5S0FDazBDSDJtNFYtN0JTdV9TNGlqeGlsSU42SVBrcVR2OGROSk9QWUNuTW0wcmV5aWdDM1lRdEpJTQ?oc=5",
-      "description": "Ben Jacobs confirms growing interest in Manchester United's Harry Amass Tribuna.com",
-      "source_id": "jacobs",
-      "source_name": "Ben Jacobs",
-      "byline": "",
-      "pub_date_raw": "Fri, 31 Jul 2026 07:24:39 GMT",
-      "epoch": 1785482679.0,
       "approx_time": false
     },
     {
@@ -676,8 +665,8 @@
       "title": "Transfer rumors, news: Tottenham eye move for Man City's Savinho - ESPN",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZktFZlZyanJ4ajhUN093ZE93Zm5Ia1FlUmdtTUJ1S2xsSEZPN0gxamJZd3BHOElkNnowd25uTlE4R3BVRlhrc0NhSW9Ud182N2ZadkUwQkxJU2d3Qm05UktXNFB3S1FaVGJuODBFRWdHVkZCUFJDeEpSdFVoUTJsYUdXUnJ4Qm9uSGNuV3NoYUtCd09Kd0xJYU9xcGVYdFhqNm1KMUJuRmVNT3gwa3BjUkM3WTIxcDVsZjFmUGE2MEVKMHYyVk1yNA?oc=5",
       "description": "Transfer rumors, news: Tottenham eye move for Man City's Savinho ESPN",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
       "byline": "",
       "pub_date_raw": "Wed, 29 Jul 2026 23:42:00 GMT",
       "epoch": 1785368520.0,
@@ -882,6 +871,17 @@
       "approx_time": false
     },
     {
+      "title": "Danny Welbeck to Chelsea: 'here we go' says Fabrizio Romano - The Argus",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ2dNV2pJeXZvVkMtOTNOMk1BZWtGSU5mc011dm5VZEdpb2twZ3Q2NnpzdEZWbEV1YjNHaTVIXzVJekZ2MEpTcFFBU2w2SVFUUHREMTA1V1E4RFlmYW1IYzZ3aWhydTU4Qm5hOEwzR19DVHhwd3duaFM3OWFVWExUNzAxUUVhWm92VmZGcTJLaWtIakxBMXUxaA?oc=5",
+      "description": "Danny Welbeck to Chelsea: 'here we go' says Fabrizio Romano The Argus",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Wed, 29 Jul 2026 06:35:33 GMT",
+      "epoch": 1785306933.0,
+      "approx_time": false
+    },
+    {
       "title": "Romano gives Chelsea \u2018here we go\u2019 to eighth signing as ninth transfer is \u2018agreed\u2019 - Football365",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd2N0SnQ5ai04UDVEQnd0UEJ4VkMtd2MtSWVVSDBUT1VTVHpla094cE96ODZJTllxLWNVM2ZkZDJTZnp4b2dKQ2FmUXlRNFpFWDJTZ1pvVUVvZnY3OXlxYTRtZFB4alVMZ0hpaEwyQmJyNms4MXNRZkh4NkYwSEtMc0d4aUNnSlFydGN3cEVZMmdLdC1NMGtF?oc=5",
       "description": "Romano gives Chelsea \u2018here we go\u2019 to eighth signing as ninth transfer is \u2018agreed\u2019 Football365",
@@ -893,9 +893,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano confirms \u00a330m transfer after Newcastle United talks - readnewcastle.com",
+      "title": "Fabrizio Romano confirms \u00a330m transfer after Newcastle United talks - Read Newcastle",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZjk0eXVNVEQzU1pqOWhqTmxTSXJVb3Y4MDRrWldGc3kwNG05QUtVQ1pLV2tWa3MyaHFWMTFEN1lYb2Z0OWpOU2FCUE95bUlOS2pRV2hpak1yYXk2Tk5TWXBYRGJjSF96WGRJRXliSHZpLWNHNUdzQnpNdVAzbm96WmkzM1hjT2p6alFPTlIzdkNTNUg0ME5YeDFR?oc=5",
-      "description": "Fabrizio Romano confirms \u00a330m transfer after Newcastle United talks readnewcastle.com",
+      "description": "Fabrizio Romano confirms \u00a330m transfer after Newcastle United talks Read Newcastle",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -1190,6 +1190,17 @@
       "approx_time": false
     },
     {
+      "title": "David Ornstein: Leeds United Make Move For Man City Star - OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV0E0d0tIZG9BWm9rQ1kwS0ZQOEtmMlBhM3ZEVjN1eDUxenhwenkzck4yeHpicWhTZFdKcjVWaXFfRWV6T3MtWEhtV2NMazJVRW5yUUhTa0lyanEtT1dsOHhSdk42X1V2NEdzeXRkWmtwQ2hJaHZVNTZiMHlPeGZ6VXZONWxTMS1TN2hxU0ItaGhDdVd1NjJsaTFOYjZCS0U2bUE?oc=5",
+      "description": "David Ornstein: Leeds United Make Move For Man City Star OneFootball",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Mon, 27 Jul 2026 13:34:09 GMT",
+      "epoch": 1785159249.0,
+      "approx_time": false
+    },
+    {
       "title": "Transfer journalists Florian Plettenberg and Fabrizio Romano in ITK spat following 'fake news' claims - FourFourTwo",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTFMtVGk5dHBwYTNpbTZycXFsWlhZYjBWVTNval9PT2QwLUgwaHhraVE3bFhPanRWYTNycHFxbmxNYXZvWjBIQ0FpZTA4aW5YdXJ4d1N5TWQwZ28yR05LaHRUVWlEdzREZ01Zd2ZxNjEzS2l6RDJMS1dMSU1fMkZpNWtMMkNNSFlTNE5GLWRjVFJaTE5GdzhNUGZjbW1ZWmppTTNqY3REQUNDR0Q3ODQ1QkYtSDdJWnZUZWFEUDNEX0lfLVR6b2lCYl9pV0lEMGRBTmV4VlFfTU9RWWVFZy1SazJEeDRxSUljSjV6MFV6YllJSVZlNXc?oc=5",
       "description": "Transfer journalists Florian Plettenberg and Fabrizio Romano in ITK spat following 'fake news' claims FourFourTwo",
@@ -1289,9 +1300,9 @@
       "approx_time": false
     },
     {
-      "title": "\u2018New approach\u2019 \u2013 Fabrizio Romano drops Newcastle United transfer news - readnewcastle.com",
+      "title": "\u2018New approach\u2019 \u2013 Fabrizio Romano drops Newcastle United transfer news - Read Newcastle",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQTlhdTRWaDJRTXVlbUY4MHgzVGtJTXVrdFEyNFV2UXk0V0xOUUFCQ0RPS2NrU0dLS2ZhS0JRNDhYRkdvUFB6U2lpQzYwaHlzZldzWjVqMm1aLVBwMHlXTWNBeHRCWWpvNXpzWXdHOVlrbkdRajMzaGVwOEVwXzJUVWp3UDhSMzFxaGc2bjJhM29raFFNbzkyZ2ZiUjRldw?oc=5",
-      "description": "\u2018New approach\u2019 \u2013 Fabrizio Romano drops Newcastle United transfer news readnewcastle.com",
+      "description": "\u2018New approach\u2019 \u2013 Fabrizio Romano drops Newcastle United transfer news Read Newcastle",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -1410,9 +1421,9 @@
       "approx_time": false
     },
     {
-      "title": "David Ornstein drops James Trafford to Newcastle United transfer news - readnewcastle.com",
+      "title": "David Ornstein drops James Trafford to Newcastle United transfer news - Read Newcastle",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTzJEblh3VlpkRm00dld2VVFSSW5iMXViMUt2clp4SVRaYWdKaHN3dXVUTmNnT0VpYXRlbE0zQXRHZno3WjhOMmZrX2d0c19zWlJCbl9XUWllbFdLbkVVLXBGcUxfMVRQZ2dqZFpRbUlHdmFkTEdLOGxMWDFFVDNjYmpjcGFza3pWa3BveW5fSl85VUU4SEt4UG5ITkZFTnBwWkpINUtPQQ?oc=5",
-      "description": "David Ornstein drops James Trafford to Newcastle United transfer news readnewcastle.com",
+      "description": "David Ornstein drops James Trafford to Newcastle United transfer news Read Newcastle",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -1558,6 +1569,17 @@
       "description": "Romano rules out three Man Utd transfers after \u00a360m offer is 'accepted' Football365",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Wed, 22 Jul 2026 07:00:00 GMT",
+      "epoch": 1784703600.0,
+      "approx_time": false
+    },
+    {
+      "title": "Newcastle United identify Manchester United target as Bruno Guimaraes replacement - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczZuYmw3XzY2NW12NGJCbTY3WFhDZFpIWlBpNDk5YmRHcXZpRnRXT3BjVnNkZUhWVGVWb2Y1Ti04Q2QyYzdPc2RBcG44Mnp4YVBkdVdYbGRlejRBYUNZZV95SjIwcDBNRTlzNVhMY0ZPbHhaZlZOQ2lCNzhKTnBWSlQ4YWdlSFBOZXE5NVN3ckhvcWttNHpNekh4bW8tUHJpcUxyNnhoVk9KUURNbi1jaExpajVqUndXbk1rMmxhQ3NyREVWekJLbA?oc=5",
+      "description": "Newcastle United identify Manchester United target as Bruno Guimaraes replacement transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
       "byline": "",
       "pub_date_raw": "Wed, 22 Jul 2026 07:00:00 GMT",
       "epoch": 1784703600.0,
@@ -1949,6 +1971,17 @@
       "approx_time": false
     },
     {
+      "title": "Romano reveals Chelsea \u2018working behind the scenes\u2019 to sign French star who\u2019s \u2018keen on a move\u2019 - Football365",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQkYtSXhna0x2MlBOZnItOFhRZUNWeHFCMTQyamdDTFA3ZE9jSnVpdThMYkU5OW1UR3FhTjFsd0VXdWNtb21hcVZ3SkRPS0k1XzBWYnl5VUowNjlHT0FSV29FRG4wbGpoQzlFdGJ4SlR1WFFQdENsUlBaNlV3WEl1NTJZVzJSc3NLV1FUc05NaElwNTRBeVg5ZXBB?oc=5",
+      "description": "Romano reveals Chelsea \u2018working behind the scenes\u2019 to sign French star who\u2019s \u2018keen on a move\u2019 Football365",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "epoch": 1784098800.0,
+      "approx_time": false
+    },
+    {
       "title": "Fabrizio Romano drops \u00a390m double Tottenham exit update as Liverpool lurk - Football365",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYUdVNUVpUkYwdTdPc1RVdDFSMnZMSHk4M1B1MU5EQWN2WFhYRWRXMmoxZkJKMjJYbEcxRmdwVjNLX256NTVxR2dZbjY2MWNfbTNyVFRJWk82aUFLQnlDbzdPWDByNV9ScVhBazBTd1dTd19rME9ld0hWekhiVFJkWDJLeU9JN25hYm81VnFSWnM1WlNjYmY0RlA5T2JZaFlMVjR2bHBWVjhjZHFaMXhV?oc=5",
       "description": "Fabrizio Romano drops \u00a390m double Tottenham exit update as Liverpool lurk Football365",
@@ -1960,9 +1993,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano confirms Man Utd transfer news that boosts Newcastle United - readnewcastle.com",
+      "title": "Fabrizio Romano confirms Man Utd transfer news that boosts Newcastle United - Read Newcastle",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObmMwdUdPVm8tSC1XTkhiUFl3OFFxeVNFYXRDS05XYzdJejYxWEU4bzQwWlBpa3NMWXVJbjFhZ2dWYmRGY0p1VXhQS0ZzalVCZF8zNUJYdnI5eDBYU0ZJMU9hRDNXbVlnVE9xOC1kOWh1eFdMUU1aaG56RTl5cUt5eDI2UDBhMWN1QURWbmU2WGtsLTVQTW01eGlJRk0wTDBr?oc=5",
-      "description": "Fabrizio Romano confirms Man Utd transfer news that boosts Newcastle United readnewcastle.com",
+      "description": "Fabrizio Romano confirms Man Utd transfer news that boosts Newcastle United Read Newcastle",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2001,6 +2034,17 @@
       "byline": "",
       "pub_date_raw": "Tue, 14 Jul 2026 14:40:25 GMT",
       "epoch": 1784040025.0,
+      "approx_time": false
+    },
+    {
+      "title": "Man Utd make stunning move to sign Youri Tielemans as David Ornstein reveals \u2018advanced talks\u2019 - OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVmNfSV9mVDRjNG41SEF4SWFWcFZfTlRTRGZDZEZjcVVFeHljamxYc3JhTER4dUc2NlM4aFMxalZIcDBMc1I5LXVyeWJCWkw3Y1ZrTktNRUo5YlJKYl9IQzFTQkRPeTRTU2JVbG94NTZfOWF3R2RqcUV0TkVwRmpMcXAxWXRpc0ZCeXRwOXNVdVMxN3ZkVGJkSV9sRE1pdjgzMktYS3k4a2ZZZkF0NjlpR21PT1l0WkZHcEhzX0tEZ2hWU2U1TmRfMWxMOEo?oc=5",
+      "description": "Man Utd make stunning move to sign Youri Tielemans as David Ornstein reveals \u2018advanced talks\u2019 OneFootball",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Tue, 14 Jul 2026 13:20:44 GMT",
+      "epoch": 1784035244.0,
       "approx_time": false
     },
     {
@@ -2053,17 +2097,6 @@
       "description": "Ornstein reveals Barcola stance on joining Liverpool in stunning \u00a3116m deal Football365",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Tue, 14 Jul 2026 07:00:00 GMT",
-      "epoch": 1784012400.0,
-      "approx_time": false
-    },
-    {
-      "title": "Arsenal prepare opening offer for Morgan Rogers - Ben Jacobs - Tribuna.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZlBQeEtlVThVUWlPbm4xSWxMR2N3NVA1cDNPSDNxcmY2Mkx0WjBCdGZtZzZ0SS1jR1RmeHBKa1lDSmtZSDlERHhWODdtZlFaTG5Bdmh2NE01LTRaOHd6VWhjMl8zUWoxVnNLYkxmaVdLY09GengzbGdmS3lKZFVoMmd1YkJWZVFlTzlQMEpzaXRYWXlGa0Y2X1lqVElCZFnSAaQBQVVfeXFMUDR0Mi1lWVRJcnRqT1FQM3h1NGpaSGFrZWF6Y3JOajNEazVWdHllUk5jeDgwaHNENnd2NVVoU2JNdWRjUkVxdDctQ1JyV3pFY0xxXzRrZi12V3VjR01IckotMFRWODcxMnFyLUpUZUhEU2hKYk10SzBSc0c5RlAtLXpsQzlVY29ieENTYmRubW1jd1RXNVo0cndEazlkdzBSa09JQkY?oc=5",
-      "description": "Arsenal prepare opening offer for Morgan Rogers - Ben Jacobs Tribuna.com",
-      "source_id": "jacobs",
-      "source_name": "Ben Jacobs",
       "byline": "",
       "pub_date_raw": "Tue, 14 Jul 2026 07:00:00 GMT",
       "epoch": 1784012400.0,
@@ -2136,9 +2169,9 @@
       "approx_time": false
     },
     {
-      "title": "\u2018Here we go\u2019 \u2013 Fabrizio Romano confirms next Newcastle United signing - readnewcastle.com",
+      "title": "\u2018Here we go\u2019 \u2013 Fabrizio Romano confirms next Newcastle United signing - Read Newcastle",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcjhOZklVMG1nanVWZmFBYUx1bFgyS2J4WURyd1AweEJGQ0x6MGR6TThaLUZIODVyS0VKVU40d215MEFTT080SzBUMlZMQXNvdUJ6THU3cFQ4bVY1SC12MElwZThmUzVWTkFaVEFJN1UxZUVna1JYam5Gc3FGNERzXzlPVnFISGpHUEJFOVZQLXhySmVoazRjdm5fN2QxTS10SENhcHh3?oc=5",
-      "description": "\u2018Here we go\u2019 \u2013 Fabrizio Romano confirms next Newcastle United signing readnewcastle.com",
+      "description": "\u2018Here we go\u2019 \u2013 Fabrizio Romano confirms next Newcastle United signing Read Newcastle",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2150,17 +2183,6 @@
       "title": "Manchester United set to finalise Youri Tielemans move from Aston Villa due to \u00a335m release clause - The Athletic - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU3lHaTE0RDBkRGJwdlRRVklLeXRnSU9Od011X1pIdWlJcGdEdzJ1Zy1QS3ZuT3QxWGV0NlhiVVYxdHlaR3lXTnBpMG5lUGFSd3BVMmFGenVxM2NpVjU0Tk95MUZ2RzNZLVBiczBfS2xQNWU5Z2dfTktTc3lweGR6ZVR4N3NTSV8zQk9xWFhUQXZ1M3cwcmptUDgtVVNNSXMybjROVlUwb3VWWTA?oc=5",
       "description": "Manchester United set to finalise Youri Tielemans move from Aston Villa due to \u00a335m release clause - The Athletic The New York Times",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Mon, 13 Jul 2026 07:00:00 GMT",
-      "epoch": 1783926000.0,
-      "approx_time": false
-    },
-    {
-      "title": "Man Utd make stunning move to sign Youri Tielemans as David Ornstein reveals \u2018advanced talks\u2019 - OneFootball",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdjIyU2RTaEU0YTEwR3Mwc2ZpS0xBNWRYeDdLR3BzMkpqeDNXV3BCelJjV2g2bldaUlJRMENuWVZYRGV1azQzaTA2aGFsYkVyUW1LRERzbnZEdW9aMEctWHIwTDRydHhEaHZ6TDZ2T2NoamNKRmZ3OUwwc2ZMV0UtREJtdkVPMEpNQ01TMlBhcDh2ZTVYaHVuTkRFcXNMYnpGeUpRSG9SM2NtX1NFOUZ4V1dwbjN4ZnRGRkdHUU42VnZ2U3NJX2s1TkpuMU4?oc=5",
-      "description": "Man Utd make stunning move to sign Youri Tielemans as David Ornstein reveals \u2018advanced talks\u2019 OneFootball",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -2906,17 +2928,6 @@
       "approx_time": false
     },
     {
-      "title": "David Ornstein: Elliot Anderson Nears Etihad Move as City Strike Forest Agreement - Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSS1QaVRlNTBuX2xBVWtuVjcxc0RIVHdpTG1mTl8wdmo0eHdfdEhJVkU4VS1aZFQwOHJjbDNFYWg1dXEwY2ZESkJLaUJjbE1QTDQtSlI4TGxEZ2dhNzQ4MFVYb2dibnhzVVlLVm82NTlhaUl1ZmNoM0NySHpGSHg5NGRjU1ZXUVJ5TWVMZS13?oc=5",
-      "description": "David Ornstein: Elliot Anderson Nears Etihad Move as City Strike Forest Agreement Yahoo Sports",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Thu, 25 Jun 2026 07:00:00 GMT",
-      "epoch": 1782370800.0,
-      "approx_time": false
-    },
-    {
       "title": "Elliot Anderson on verge of Premier League record transfer as huge breakthrough made - talkSPORT",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObmNIS0xTcGdxOUJfVURRdU1FMHhJM0JjTVJ2c2xZemJfdGFRaFcxR2lyZW95Nzc0cmxZMWZZcHIzV2tEa2dZaWNqS0d3N3lXRXowa1VLVUhOSTJBMnpQMzBTUjR3SzhiUUNaQWpLMzIxYUUxeUwtS2ZZanYydk44THpwRUxqN09XZFlUd3RtYk9CT1A2Q3ZTNXZSOEd1QldXTXNfVm5weEw1RW1DbVZXbmdmdHYydw?oc=5",
       "description": "Elliot Anderson on verge of Premier League record transfer as huge breakthrough made talkSPORT",
@@ -2972,36 +2983,14 @@
       "approx_time": false
     },
     {
-      "title": "Newcastle United handed transfer boost by David Ornstein update - readnewcastle.com",
+      "title": "Newcastle United handed transfer boost by David Ornstein update - Read Newcastle",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVENNdk5jVWl6VzhNVWJISk5RV3JGRnhzWWRuRThzWERncFBZTmdJb0M5Vnh6ZGk0eXBLUXZ2aEUzTTJfT0F6NHJxTTM5NEV1Z1BaRkY2d2U2ZjZQdG92UGRVTlJfemhjYnpvbU9SWjZ2Smg4T1otbW9keHlUZWRSeXo3NXdOWjFUeld2TUxEZk9wZmhDc3c?oc=5",
-      "description": "Newcastle United handed transfer boost by David Ornstein update readnewcastle.com",
+      "description": "Newcastle United handed transfer boost by David Ornstein update Read Newcastle",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
       "pub_date_raw": "Tue, 23 Jun 2026 07:00:00 GMT",
       "epoch": 1782198000.0,
-      "approx_time": false
-    },
-    {
-      "title": "Fabrizio Romano reveals Arsenal \u2018advancing\u2019 in deal for \u2018number one, two and three target\u2019 - Football365",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR0tSamZTQXUzcXFuVVhfN3hZQ3NQT2FVbHBEcFFMV05XdGxtWDFCc1JYeDJ6eFZFNHNoMlpIY2s3aDJNVmtCcnVXbUlPYjJDdzRzcDRRYXlYS1pFTkp2XzNXQWhpSWt4UU9wbkZDdFQ4SHAwd3JFNWxhUnpiUjZJZm42eWJhVlFzWi0xUVZYSDVYUWc?oc=5",
-      "description": "Fabrizio Romano reveals Arsenal \u2018advancing\u2019 in deal for \u2018number one, two and three target\u2019 Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Mon, 22 Jun 2026 07:00:00 GMT",
-      "epoch": 1782111600.0,
-      "approx_time": false
-    },
-    {
-      "title": "Fabrizio Romano reveals Man Utd face \u2018double problem\u2019 in signing \u2018dream\u2019 player - Football365",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSU5LWTVxeWxPNGlUWmRzVGhYY0RCWlFqYnBlRTg3ZS11b1FiVWt3dng3UWxwRzFLZWlnT01tc1pMeVoyTGQwc1FGRWtBQkF6eXRlYmJFSXhMWXE4dUltRm1fanU2dFlBTko4YXkxZ3l3WDVad1VLNU54cE5YODR5bVQtcDVVQkczbzBmVVcwcDR0MGdPekZLOFE5b2w2VUk?oc=5",
-      "description": "Fabrizio Romano reveals Man Utd face \u2018double problem\u2019 in signing \u2018dream\u2019 player Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Mon, 22 Jun 2026 07:00:00 GMT",
-      "epoch": 1782111600.0,
       "approx_time": false
     },
     {
@@ -3060,6 +3049,17 @@
       "approx_time": false
     },
     {
+      "title": "Ornstein: Tottenham considering move for West Ham\u2019s Fernandes - Cartilage Free Captain",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWDRveGdYdmpQU3kwSjItNVZZYXhfdFJHVTFzVXEwSjJOYWJXQjQyOVhEdkswNXhDVGR2Yk51aHVRc2JrNnBvV2t5dm5BX1F1U3BpNExYeUxkUmlDUEpPUThWLVp4WmkwRGFQN2FJd2wyTHFhbE9XTm5KYVNROG95UVMtVlpqdVNBNHVvVlk2Mm9xa3djdzJwelQ2Sm1wai1Va25MeGZmWWFocFVaTDYyNFN1NFJmcDFuMkU1UVY0bDVRLXZBNExqaS1qVXRpb2RLOFJBNHhfbHZRQXZmMW8wOA?oc=5",
+      "description": "Ornstein: Tottenham considering move for West Ham\u2019s Fernandes Cartilage Free Captain",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "epoch": 1781852400.0,
+      "approx_time": false
+    },
+    {
       "title": "Ben Jacobs Shares What He Is Hearing About Barcola to Arsenal Transfer - GiveMeSport",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xUktjZEE2WENuS0tUVl85cmF5MEFJZ1VBb2lBakowT2J5TEdzeUU5N0h6Tl9uX056dk9xWWdiRUxzaFd2b0J2N0l4YnJfRzhPOUwxbHk5eE5HVGJ1dUsyUHFjdkg0cURpekIxcjg0WkxBV1ZuVzgtd0dMZjI?oc=5",
       "description": "Ben Jacobs Shares What He Is Hearing About Barcola to Arsenal Transfer GiveMeSport",
@@ -3090,17 +3090,6 @@
       "byline": "",
       "pub_date_raw": "Thu, 18 Jun 2026 07:00:00 GMT",
       "epoch": 1781766000.0,
-      "approx_time": false
-    },
-    {
-      "title": "Rogers decides to 'give preference' to Arsenal with Aston Villa star 'sold' - Football365",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQXpzLWh6OFJPMDJlb29STkQxYnNLSVFlREJhNml4d1p0WW1oTU9ZNjlGcXpIbVB1bll1QXVmWTltTVdxUENuMlFHSlVDamxNT2hDajdsQVpNVzRGZnZJdjBZRFRndjZIUjZraHg1bnZ1T19nTHVsLXhBcFVEM25zR045R1p0NVNfaXg5ZHFTVzdvcGVhUTZ0MGFIZXc0cnItdS1ndDUzWHI1STlFM3piUg?oc=5",
-      "description": "Rogers decides to 'give preference' to Arsenal with Aston Villa star 'sold' Football365",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Wed, 17 Jun 2026 07:00:00 GMT",
-      "epoch": 1781679600.0,
       "approx_time": false
     }
   ]
