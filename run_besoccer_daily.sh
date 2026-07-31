@@ -27,11 +27,38 @@ if ! mkdir "$LOCK" 2>/dev/null; then
   log "another run is already in progress, skipping"
   exit 0
 fi
-trap 'rmdir "$LOCK"' EXIT
+
+STASHED=0
+
+cleanup() {
+  if [ "$STASHED" = 1 ]; then
+    if git stash pop --quiet; then
+      log "restored local changes"
+    else
+      log "WARN: could not restore local changes. They are safe in the stash;"
+      log "WARN: run 'git stash list' and pop it by hand."
+    fi
+  fi
+  rmdir "$LOCK"
+}
+trap cleanup EXIT
 
 cd "$REPO" || { log "FAIL: repo not found at $REPO"; exit 1; }
 
 log "=== daily BeSoccer fetch ==="
+
+# A dirty working tree makes `git pull --rebase` refuse to run, which used to
+# kill the entire run over an unrelated edit left open in an editor overnight.
+# Park local work for the duration and put it back in cleanup().
+if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
+  if git stash push --quiet -m "besoccer-daily auto-stash $(date -u '+%Y-%m-%dT%H:%M:%SZ')"; then
+    STASHED=1
+    log "stashed local changes for the duration of the run"
+  else
+    log "FAIL: local changes present and could not be stashed"
+    exit 1
+  fi
+fi
 
 # The rumour workflow commits rumors_data.json every 30 minutes, so a push
 # from here will be rejected unless we rebase onto it first.
