@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-07-31T14:37:13.546127+00:00",
+ "last_updated": "2026-08-01T11:15:22.330985+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -27,6 +27,20 @@
  ],
  "items": [
   {
+   "player": "Emanuele Rao",
+   "player_url": "https://www.besoccer.com/player/e-rao-3193630",
+   "league": "Serie A",
+   "league_id": "serie_a",
+   "club": "Napoli",
+   "club_url": "https://www.besoccer.com/team/transfers/napoli",
+   "direction": "out",
+   "other_club": "Pisa SC",
+   "type": "Loan",
+   "fee_eur_m": 1.0,
+   "date": "2026-07-31",
+   "epoch": 1785456000
+  },
+  {
    "player": "F. Ravaglia",
    "player_url": "https://www.besoccer.com/player/f-ravaglia-341113",
    "league": "Serie A",
@@ -41,6 +55,34 @@
    "epoch": 1785456000
   },
   {
+   "player": "J. Bisiwu",
+   "player_url": "https://www.besoccer.com/player/jesse-bisiwu-3321550",
+   "league": "LaLiga",
+   "league_id": "primera_division",
+   "club": "FC Barcelona",
+   "club_url": "https://www.besoccer.com/team/transfers/barcelona",
+   "direction": "in",
+   "other_club": "Club Brugge",
+   "type": "Transfer",
+   "fee_eur_m": 8.5,
+   "date": "2026-07-31",
+   "epoch": 1785456000
+  },
+  {
+   "player": "Julian Brandt",
+   "player_url": "https://www.besoccer.com/player/j-brandt-205928",
+   "league": "Bundesliga",
+   "league_id": "bundesliga",
+   "club": "B. Dortmund",
+   "club_url": "https://www.besoccer.com/team/transfers/borussia-dortmund",
+   "direction": "out",
+   "other_club": "Ajax",
+   "type": "Free transfer",
+   "fee_eur_m": null,
+   "date": "2026-07-31",
+   "epoch": 1785456000
+  },
+  {
    "player": "Kian Fitz-Jim",
    "player_url": "https://www.besoccer.com/player/kian-fitz-jim-887658",
    "league": "Serie A",
@@ -51,6 +93,34 @@
    "other_club": "Ajax",
    "type": "Transfer",
    "fee_eur_m": 2.5,
+   "date": "2026-07-31",
+   "epoch": 1785456000
+  },
+  {
+   "player": "Mario Mitaj",
+   "player_url": "https://www.besoccer.com/player/m-mitaj-808695",
+   "league": "Serie A",
+   "league_id": "serie_a",
+   "club": "Genoa",
+   "club_url": "https://www.besoccer.com/team/transfers/genoa",
+   "direction": "in",
+   "other_club": "",
+   "type": "Loan",
+   "fee_eur_m": 2.0,
+   "date": "2026-07-31",
+   "epoch": 1785456000
+  },
+  {
+   "player": "V. Valdepeñas",
+   "player_url": "https://www.besoccer.com/player/v-valdepenas-3314590",
+   "league": "Serie A",
+   "league_id": "serie_a",
+   "club": "Fiorentina",
+   "club_url": "https://www.besoccer.com/team/transfers/fiorentina",
+   "direction": "in",
+   "other_club": "RM Castilla",
+   "type": "Transfer",
+   "fee_eur_m": 8.0,
    "date": "2026-07-31",
    "epoch": 1785456000
   },
@@ -6621,20 +6691,6 @@
    "epoch": 1782864000
   },
   {
-   "player": "Alessandro Nunziante",
-   "player_url": "https://www.besoccer.com/player/alessandro-nunziante-3215452",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Udinese",
-   "club_url": "https://www.besoccer.com/team/transfers/udinese",
-   "direction": "out",
-   "other_club": "SS Arezzo",
-   "type": "Loan",
-   "fee_eur_m": null,
-   "date": "2026-07-01",
-   "epoch": 1782864000
-  },
-  {
    "player": "Alessandro Romano",
    "player_url": "https://www.besoccer.com/player/alessandro-romano-3176505",
    "league": "Serie A",
@@ -7457,20 +7513,6 @@
    "other_club": "Juventus Next Gen",
    "type": "Transfer",
    "fee_eur_m": 6.0,
-   "date": "2026-07-01",
-   "epoch": 1782864000
-  },
-  {
-   "player": "G. Faticanti",
-   "player_url": "https://www.besoccer.com/player/giacomo-faticanti-885905",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Lecce",
-   "club_url": "https://www.besoccer.com/team/transfers/lecce",
-   "direction": "out",
-   "other_club": "Juventus Next Gen",
-   "type": "Transfer",
-   "fee_eur_m": 1.0,
    "date": "2026-07-01",
    "epoch": 1782864000
   },
@@ -9081,20 +9123,6 @@
    "other_club": "Sint-Truidense VV",
    "type": "Transfer",
    "fee_eur_m": 7.0,
-   "date": "2026-07-01",
-   "epoch": 1782864000
-  },
-  {
-   "player": "Razvan Sava",
-   "player_url": "https://www.besoccer.com/player/razvan-sava-683560",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Udinese",
-   "club_url": "https://www.besoccer.com/team/transfers/udinese",
-   "direction": "out",
-   "other_club": "Universitatea Craiova",
-   "type": "Transfer",
-   "fee_eur_m": 2.5,
    "date": "2026-07-01",
    "epoch": 1782864000
   },
