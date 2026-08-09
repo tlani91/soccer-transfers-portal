@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T21:00:33.869245+00:00",
+  "last_updated": "2026-08-09T21:05:58.249754+00:00",
   "items": [
     {
       "title": "Transfer News LIVE: Aston Villa interested in Endrick, Suzuki set for PSG Updated",
@@ -9,7 +9,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786308633.3682961,
+      "epoch": 1786308957.7488916,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786308033.3682961,
+      "epoch": 1786308357.7488916,
       "approx_time": true
     },
     {
@@ -31,7 +31,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786307733.3682961,
+      "epoch": 1786308057.7488916,
       "approx_time": true
     },
     {
@@ -42,7 +42,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786307433.3682961,
+      "epoch": 1786307757.7488916,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786306833.3682961,
+      "epoch": 1786307157.7488916,
       "approx_time": true
     },
     {
@@ -64,7 +64,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786305633.3682961,
+      "epoch": 1786305957.7488916,
       "approx_time": true
     },
     {
@@ -75,7 +75,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786304733.3682961,
+      "epoch": 1786305057.7488916,
       "approx_time": true
     },
     {
@@ -86,7 +86,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786304433.3682961,
+      "epoch": 1786304757.7488916,
       "approx_time": true
     },
     {
@@ -97,7 +97,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786303833.3682961,
+      "epoch": 1786304157.7488916,
+      "approx_time": true
+    },
+    {
+      "title": "EXCLUSIVE: Ghana midfielder Fatawu Ganiwu set to join Dynamo Kyiv on three-year deal",
+      "link": "https://www.flashscore.com/news/exclusive-ghana-midfielder-fatawu-ganiwu-set-to-join-dynamo-kyiv-on-three-year-deal/6anK5WVa/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1786303857.7488916,
       "approx_time": true
     },
     {
@@ -110,17 +121,6 @@
       "pub_date_raw": "Sun, 09 Aug 2026 19:27:18 GMT",
       "epoch": 1786303638.0,
       "approx_time": false
-    },
-    {
-      "title": "EXCLUSIVE: Ghana midfielder Fatawu Ganiwu set to join Dynamo Kyiv on three-year deal",
-      "link": "https://www.flashscore.com/news/exclusive-ghana-midfielder-fatawu-ganiwu-set-to-join-dynamo-kyiv-on-three-year-deal/6anK5WVa/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1786303533.3682961,
-      "approx_time": true
     },
     {
       "title": "Transfer rumors, news: Barcelona step up Rodri chase from Man City - ESPN",
@@ -1033,6 +1033,17 @@
       "byline": "",
       "pub_date_raw": "Thu, 06 Aug 2026 07:43:27 GMT",
       "epoch": 1786002207.0,
+      "approx_time": false
+    },
+    {
+      "title": "Socceroos transfer tracker: Where Australia's stars will play in 2026-27 - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNnBDMDhubjgxc003VUJjLTFyQllOWDVMSUl6RWhTby04MHIyZVNpZFNac3FsQVBfQWRkM2h2a1VtZmRQZjZWRFI4TlVQMHpPenVXNkdxR2NjZE9DeFYzeFNaa0JjX3ZiSTk4SThQNFhWVFA0QUo5c0FKWWgwMlBZUHROeC0xSS1DVno3b3drRE91N3BjNkkzSklGdUM1a0VYNkpyN1VweHNfVDVZRDRV?oc=5",
+      "description": "Socceroos transfer tracker: Where Australia's stars will play in 2026-27 ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Thu, 06 Aug 2026 06:00:00 GMT",
+      "epoch": 1785996000.0,
       "approx_time": false
     },
     {
