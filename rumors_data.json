@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T17:00:36.107614+00:00",
+  "last_updated": "2026-08-09T17:18:42.245299+00:00",
   "items": [
     {
       "title": "Newell's Old Boys confirm Lionel Messi's father and agent Jorge has passed away",
@@ -9,7 +9,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786294535.6067116,
+      "epoch": 1786295621.744246,
       "approx_time": true
     },
     {
@@ -20,7 +20,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786293935.6067116,
+      "epoch": 1786295021.744246,
+      "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: Chelsea set Enzo Fernandez price-tag as transfer decision looms",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-chelsea-set-enzo-fernandez-price-tag-as-transfer-decision-looms/WOKVVbEO/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1786294721.744246,
       "approx_time": true
     },
     {
@@ -31,7 +42,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786293335.6067116,
+      "epoch": 1786294121.744246,
       "approx_time": true
     },
     {
@@ -42,7 +53,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786292135.6067116,
+      "epoch": 1786292921.744246,
       "approx_time": true
     },
     {
@@ -53,7 +64,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786291235.6067116,
+      "epoch": 1786292021.744246,
       "approx_time": true
     },
     {
@@ -64,7 +75,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786290935.6067116,
+      "epoch": 1786291721.744246,
       "approx_time": true
     },
     {
@@ -75,7 +86,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786290335.6067116,
+      "epoch": 1786291121.744246,
       "approx_time": true
     },
     {
@@ -86,7 +97,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786290035.6067116,
+      "epoch": 1786290821.744246,
       "approx_time": true
     },
     {
@@ -97,18 +108,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786289435.6067116,
-      "approx_time": true
-    },
-    {
-      "title": "Coventry City announce record signing of Ghana midfielder Caleb Yirenkyi",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-coventry-city-announce-record-signing-of-ghana-midfielder-caleb-yirenkyi/jLFKZLh2/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1786289135.6067116,
+      "epoch": 1786290221.744246,
       "approx_time": true
     },
     {
@@ -167,6 +167,17 @@
       "approx_time": false
     },
     {
+      "title": "Liverpool transfer news as pictures emerge of new signing arriving for medical - readliverpoolfc.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbndfNWh2ckN1aV9xVTZjbUZLRGpFcXZfOWYxUmp5aXlyVmYzYkQtSHBRWFROQlNTeDFtTG84TkRWRUlSdXJwUTc1eDZQTFhJM0NuRTBRd1pNaTJ2QXV2MzA0dnRhaGZLN1JGSXBZbG42bVJpQ01aTXFOMnZwVEY0a3B3M0lGam10MkQ3RVdwbUJKTVAtb01vUnFEN1puVzZycGMycGVleUtDTGVFbXhQTFpB?oc=5",
+      "description": "Liverpool transfer news as pictures emerge of new signing arriving for medical readliverpoolfc.com",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Sun, 09 Aug 2026 12:02:35 GMT",
+      "epoch": 1786276955.0,
+      "approx_time": false
+    },
+    {
       "title": "Transfer news 2026: live updates, rumours & done deals - BeSoccer Livescore",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ216NjdNS3kydEJBWllOM0xCUGM5Rm1iU3BaNUlJal84eGJCWFBEVFQ4cEZzX29CSG1oM2VYNzFVVmFlME9MUk9DZ0otVUh1dFFqWXM3LWx5Z0otbVdYZG92aUxqelQwZFdHQmpJaEJzVHo0Q3VrZENzaHNmQldJYUY1T0VWR0VVUHJIbNIBkgFBVV95cUxPbFhkZjNzbUxScGxvdzZkQzJPZUVLdVllTGhUWUNqTTJuYjl2Vk81UFZqN1JjVS1kMGp2ZzVuTjQ4bUlNT3hJTUk5ZXFLRGhyalB0WlYwQzRUZ0FGdi1rNHRiNl9PbVNJMGtpb0FiUlJLdlJxRlBFb2tnV2xiTjI2NWZOaW9PbGhVQTRpamYwc2JaZw?oc=5",
       "description": "Transfer news 2026: live updates, rumours & done deals BeSoccer Livescore",
@@ -175,17 +186,6 @@
       "byline": "",
       "pub_date_raw": "Sun, 09 Aug 2026 11:35:02 GMT",
       "epoch": 1786275302.0,
-      "approx_time": false
-    },
-    {
-      "title": "Fabrizio Romano confirms Liverpool transfer decision - Anfield Watch",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcFgtOGNzM185Vko5czJDUmtfc3VpNGZ1UTZUWDR2MXF6NzZJQmFaN2NpRnZGMGUxNXVoYlRYYnRsSjdkMHhNcjIxd29sODZCWno3NTM0TERtVUxiZl9FY2Z4NDBZV05KQWR4TzkzeFJ1RWphM29SeXd0X3lHajk0Qmx6d2h1ZzJ6NUxOTUVTYnhrRDJoRVZ3UHg0WWZ5MklSeG9nUg?oc=5",
-      "description": "Fabrizio Romano confirms Liverpool transfer decision Anfield Watch",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Sun, 09 Aug 2026 11:30:00 GMT",
-      "epoch": 1786275000.0,
       "approx_time": false
     },
     {
@@ -607,9 +607,9 @@
       "approx_time": false
     },
     {
-      "title": "Transfer rumors, news: Arsenal, Man United eye Shakhtar's Elias - ESPN",
+      "title": "Transfer rumors, news: Arsenal, Man United eye Shakhtar's Elias - espn.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdTZ4cEVxbVltZGVLeWY0dUM1M1F4WVlFYVh1cHBYclZvSW1vQS15Snc4WnQ5ZEYycW1YQklPbUxlOWZfSTlBQ3M1UWFZeUY4YXhlOWNSRWdIOWhQT3c0RnlMTWEteExFTi1Ob3Z4REVZbWFiN203Y1FmbWpqNm4tbmFFRGZ2Nm5HNXhuNHZfMXNRZ3ZocGNUUXlZYkZWLUFnb3B0cHZXLU9JV3pNNlJzc1pkdktzTHR5OUE?oc=5",
-      "description": "Transfer rumors, news: Arsenal, Man United eye Shakhtar's Elias ESPN",
+      "description": "Transfer rumors, news: Arsenal, Man United eye Shakhtar's Elias espn.co.uk",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2224,9 +2224,9 @@
       "approx_time": false
     },
     {
-      "title": "Transfer rumors, news: Man United eye move for Tchouam\u00e9ni - ESPN",
+      "title": "Transfer rumors, news: Man United eye move for Tchouam\u00e9ni - espn.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZU5JNHhzLXZSLW9mRGxTODRSdlE2UzhPVjJFZV9mTXdzQXhQZWpyWWo2eWhNQUlQMDB4TEJfMkJqR0tYQlAxWUxFeUJIbVp0QXJRYXpTTmRYRGNtTnVoTi1oa3g4QnFQQjFnOUFmTkpvQTN6N1M3dEJzSXpCT3FXcDhSTDZzcUpaaEZpZ2Q2TnZLQkxaSHlSNFVTM0w4VXdadWNSZVprb0E4N0tsVDdoX29vcTdQTnBH?oc=5",
-      "description": "Transfer rumors, news: Man United eye move for Tchouam\u00e9ni ESPN",
+      "description": "Transfer rumors, news: Man United eye move for Tchouam\u00e9ni espn.co.uk",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
