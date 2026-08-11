@@ -252,6 +252,17 @@
   }
   .comp { color: var(--mute); }
 
+  /* Tinted pill, so leagues read as a separate system from the deal-type
+     signal colours instead of competing with them. */
+  .league-tag {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    padding: 2px 5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+
   .money {
     flex: 0 0 92px;
     display: flex;
@@ -483,6 +494,16 @@ const SORTS = [
   { id: 'fee',    name: 'Biggest fee' },
 ];
 
+// League-associated colours, shifted for legibility on the dark field.
+// Ligue 1's real navy is invisible here, so this is their secondary.
+const LEAGUE_TAGS = {
+  premier_league:   { tag: 'PL',  colour: '#B98AE8' },
+  primera_division: { tag: 'LAL', colour: '#E8843C' },
+  serie_a:          { tag: 'SA',  colour: '#3FA9E0' },
+  bundesliga:       { tag: 'BUN', colour: '#E0555E' },
+  ligue_1:          { tag: 'L1',  colour: '#BFD94A' },
+};
+
 const PAGE = 80;
 
 let all = [];
@@ -632,6 +653,7 @@ function render() {
     const { from, to } = fromTo(d);
     const colour = colourOf(d);
     const fee = euros(d.fee_eur_m);
+    const lg = LEAGUE_TAGS[d.league_id] || { tag: '—', colour: '#6E7784' };
     const width = d.fee_eur_m ? Math.max(2, (d.fee_eur_m / scale) * 100) : 0;
 
     const row = document.createElement('a');
@@ -646,6 +668,7 @@ function render() {
         <p class="move">${esc(from) || '—'}<span class="arrow">&rarr;</span><span class="to">${esc(to) || '—'}</span></p>
         <div class="tags">
           <span class="kind mono" style="color:${colour}">${labelOf(d)}</span>
+          <span class="league-tag mono" style="background:${lg.colour}1F; color:${lg.colour}">${lg.tag}</span>
           <span class="comp mono">${esc(d.league)}</span>
         </div>
       </div>
