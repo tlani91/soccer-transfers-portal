@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T21:41:33.576787+00:00",
+  "last_updated": "2026-08-15T22:01:15.731247+00:00",
   "items": [
     {
       "title": "Transfer News LIVE: Inter secure Spence, PSG announce Ferran and Godts signings Updated",
@@ -9,7 +9,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786829793.0758166,
+      "epoch": 1786830975.2302506,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786828893.0758166,
+      "epoch": 1786830075.2302506,
       "approx_time": true
     },
     {
@@ -31,7 +31,51 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786828593.0758166,
+      "epoch": 1786829775.2302506,
+      "approx_time": true
+    },
+    {
+      "title": "Socceroos star Nestory Irankunda signs with Portuguese giants Sporting",
+      "link": "https://www.flashscore.com/news/soccer-championship-socceroos-star-nestory-irankunda-signs-with-portuguese-giants-sporting-until-2031/4Ar8uqWI/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1786829475.2302506,
+      "approx_time": true
+    },
+    {
+      "title": "Crystal Palace sign Israeli winger Khalaili from Royale Union Saint-Gilloise",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-crystal-palace-sign-israeli-winger-khalaili-from-royale-union-saint-gilloise/zZ0wxk8T/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1786829175.2302506,
+      "approx_time": true
+    },
+    {
+      "title": "Paris Saint-Germain seal signing of Spain forward Ferran Torres from Barcelona Updated",
+      "link": "https://www.flashscore.com/news/paris-saint-germain-seal-signing-of-spain-forward-ferran-torres-from-barcelona/fBXG5dvQ/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1786828875.2302506,
+      "approx_time": true
+    },
+    {
+      "title": "Hull City announce the signings of Joe Gelhardt and Lucas Gourna-Douath",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-hull-city-announce-the-signing-of-joe-gelhardt-from-leeds-united/pIwsV6y3/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1786828575.2302506,
       "approx_time": true
     },
     {
@@ -46,50 +90,6 @@
       "approx_time": false
     },
     {
-      "title": "Socceroos star Nestory Irankunda signs with Portuguese giants Sporting",
-      "link": "https://www.flashscore.com/news/soccer-championship-socceroos-star-nestory-irankunda-signs-with-portuguese-giants-sporting-until-2031/4Ar8uqWI/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1786828293.0758166,
-      "approx_time": true
-    },
-    {
-      "title": "Crystal Palace sign Israeli winger Khalaili from Royale Union Saint-Gilloise",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-crystal-palace-sign-israeli-winger-khalaili-from-royale-union-saint-gilloise/zZ0wxk8T/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1786827993.0758166,
-      "approx_time": true
-    },
-    {
-      "title": "Paris Saint-Germain seal signing of Spain forward Ferran Torres from Barcelona Updated",
-      "link": "https://www.flashscore.com/news/paris-saint-germain-seal-signing-of-spain-forward-ferran-torres-from-barcelona/fBXG5dvQ/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1786827693.0758166,
-      "approx_time": true
-    },
-    {
-      "title": "Hull City announce the signings of Joe Gelhardt and Lucas Gourna-Douath",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-hull-city-announce-the-signing-of-joe-gelhardt-from-leeds-united/pIwsV6y3/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1786827393.0758166,
-      "approx_time": true
-    },
-    {
       "title": "Atletico Madrid sign Argentine defender Cristian Romero from Tottenham",
       "link": "https://www.flashscore.com/news/atletico-madrid-sign-argentine-defender-cristian-romero-from-tottenham/Yuo1yx7d/",
       "description": "",
@@ -97,7 +97,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786827093.0758166,
+      "epoch": 1786828275.2302506,
       "approx_time": true
     },
     {
@@ -108,7 +108,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786826793.0758166,
+      "epoch": 1786827975.2302506,
       "approx_time": true
     },
     {
@@ -119,7 +119,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786826493.0758166,
+      "epoch": 1786827675.2302506,
       "approx_time": true
     },
     {
@@ -130,19 +130,8 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786826193.0758166,
+      "epoch": 1786827375.2302506,
       "approx_time": true
-    },
-    {
-      "title": "Transfer news LIVE: Arsenal twist, Bradley Barcola to Liverpool update, Man Utd's new plan - The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcWdrMnVDdUM2SllUclpDeU5HVGtuRmZfWlAxZk15Mkd4czJRalptUjM4WkpDNE1lMkZwTVBwWFJaaVlPcHJTaHdzSVpyYURYMklrbHh3b2t3MnJqWElUMURpbUZxWG1WRmRwUHFPQTd1Z01ST3ZvWTI1b0RmeGRtMXRSalhGSVBKR0E5dUhTZlEtTWM?oc=5",
-      "description": "Transfer news LIVE: Arsenal twist, Bradley Barcola to Liverpool update, Man Utd's new plan The Mirror",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Sat, 15 Aug 2026 20:27:05 GMT",
-      "epoch": 1786825625.0,
-      "approx_time": false
     },
     {
       "title": "Ajax star Mika Godts 'set to join' Paris Saint-Germain with large deal agreed",
@@ -152,7 +141,29 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786825593.0758166,
+      "epoch": 1786826775.2302506,
+      "approx_time": true
+    },
+    {
+      "title": "Transfer news LIVE: Arsenal twist, Bradley Barcola to Liverpool update, Man Utd's new plan - Daily Mirror",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcWdrMnVDdUM2SllUclpDeU5HVGtuRmZfWlAxZk15Mkd4czJRalptUjM4WkpDNE1lMkZwTVBwWFJaaVlPcHJTaHdzSVpyYURYMklrbHh3b2t3MnJqWElUMURpbUZxWG1WRmRwUHFPQTd1Z01ST3ZvWTI1b0RmeGRtMXRSalhGSVBKR0E5dUhTZlEtTWM?oc=5",
+      "description": "Transfer news LIVE: Arsenal twist, Bradley Barcola to Liverpool update, Man Utd's new plan Daily Mirror",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Sat, 15 Aug 2026 20:27:05 GMT",
+      "epoch": 1786825625.0,
+      "approx_time": false
+    },
+    {
+      "title": "How Victor Osimhen has emerged as a potential transfer candidate for Arsenal's attack",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-how-victor-osimhen-has-emerged-as-a-potential-transfer-candidate-for-arsenal-s-attack/48cFuJ06/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1786825575.2302506,
       "approx_time": true
     },
     {
@@ -165,17 +176,6 @@
       "pub_date_raw": "Sat, 15 Aug 2026 20:08:00 GMT",
       "epoch": 1786824480.0,
       "approx_time": false
-    },
-    {
-      "title": "How Victor Osimhen has emerged as a potential transfer candidate for Arsenal's attack",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-how-victor-osimhen-has-emerged-as-a-potential-transfer-candidate-for-arsenal-s-attack/48cFuJ06/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1786824393.0758166,
-      "approx_time": true
     },
     {
       "title": "Liverpool news as \u00a360m deal \u201899% done\u2019 after transfer request - readliverpoolfc.com",
@@ -233,9 +233,9 @@
       "approx_time": false
     },
     {
-      "title": "How Fabrizio Romano interrupted Celtic star\u2019s romantic lunch - Celtic Shorts",
+      "title": "How Fabrizio Romano interrupted Celtic star\u2019s romantic lunch - celticshorts.com",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUVCZXU1T3Exc2VfQnBVZDN1MV9VNld5Q1FkdFpyOU5fMHpUTE1yTkFoaUlwLVNxWnVfRWVseEFuRUJGVzRNQ2JNdGp5NzZ2YXZyU3hFM21JZ2k0YlFxdmd3bEo1YlZjd21Yc2VoUXp3eWFUc1QySzlKMDNpTEp4V0tTMTd5Nk5fa0tLcklFRXBQUlQweUFoeg?oc=5",
-      "description": "How Fabrizio Romano interrupted Celtic star\u2019s romantic lunch Celtic Shorts",
+      "description": "How Fabrizio Romano interrupted Celtic star\u2019s romantic lunch celticshorts.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -409,6 +409,17 @@
       "approx_time": false
     },
     {
+      "title": "Liverpool transfer news LIVE: Bradley Barcola timeline, Cody Gakpo agreement, \u00a375m Man City battle - Sports Mole",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQYzIxd0RXM2JqMHdTbnpFR0dLWnpWWXp6X2ZFSHJyNWwxcGxGcy1LWWdXaWk5T2pmRmxqUS1pb3ZtOFMwb2hXNnFlOVBscnhRcWhfeTBoQjIzQklDaXQzQndYV25mTUNwM3NYeVFpc3pXa1UzOUg3WUVzZllDcHRZdDBwUk1wTXM4YlAwZ0ozWlp1ZkJKWWVvc1luRlVpamZ5enh5V041OXE5UTJCWDhRdHMxOFI0cGVTUm1kRGxvM25xSG9WVGdCQ255eFdIUTVrZ3M4bEM3d0FsaGZibkFpeWpVSWw5ZzdSOGZrN2x3?oc=5",
+      "description": "Liverpool transfer news LIVE: Bradley Barcola timeline, Cody Gakpo agreement, \u00a375m Man City battle Sports Mole",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Sat, 15 Aug 2026 06:14:58 GMT",
+      "epoch": 1786774498.0,
+      "approx_time": false
+    },
+    {
       "title": "Transfer rumors, news: Tottenham continue interest for Liverpool's Gakpo - ESPN",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX2x5aEpXUlhnSGRyZnExT2VRa3JwOEw1cTV3Ql9URTEwazVuS3R6LUpkXzlWU011NjhicXA5aDgzb3J5a19ZRFB4RThYbnYzNGpFdjhXMjNYcXNGLXVnQmtmUFBEa1hleUdCYy0wcEJqaEpNeDUwLWNzMnVkZnRFRVBmYkZENkRtR0hZRlh3MFJjeU43S2MwUnBvaklKOXhIck5aYmtNdllkOV9rZXkwV0U0WUxZVGlXVUpaY2hqVEtQZw?oc=5",
       "description": "Transfer rumors, news: Tottenham continue interest for Liverpool's Gakpo ESPN",
@@ -439,17 +450,6 @@
       "byline": "",
       "pub_date_raw": "Fri, 14 Aug 2026 23:10:51 GMT",
       "epoch": 1786749051.0,
-      "approx_time": false
-    },
-    {
-      "title": "Fabrizio Romano confirms Arsenal star closing in on \u00a320m exit - now.arsenal",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWU9RSDVJeEdDeHFjc2tFUWQ2MEFMYVhLMnlKS3NnTHhmRWxoWkd2dGV3aFNzSTNvSE9oQzR1UXB3aExKZXJfSDlIQ2hsSTYxdkFVOXBFam8wN1llMVhXRlltVUpNUmNwLTI5WkI1bmxTRGhrRXJLZE02WTBXdmZwd2FSS3ZHdXZMbVA4RDR0aWFjWDZla2pnaFllZHVrWV8zWXRJQQ?oc=5",
-      "description": "Fabrizio Romano confirms Arsenal star closing in on \u00a320m exit now.arsenal",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Fri, 14 Aug 2026 20:02:36 GMT",
-      "epoch": 1786737756.0,
       "approx_time": false
     },
     {
@@ -596,17 +596,6 @@
       "approx_time": false
     },
     {
-      "title": "'Already over' - Fabrizio Romano makes bizarre Newcastle United transfer claim after \u00a3100m deal agreed - Shields Gazette",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNFdpaWNxRVV6OEh3OUlNZnhjQjgzY29SdHdyZVB4WEU0SFF2YWNNZWRfWXhtZ1pvd2V1bW1DRkxqWDFQSk1QU3NMd2I5S3h1R09qb1E2NVc4T2pQMk1MaUdFUHdiVFNpOVgyNHk3MXRoNXowdDJjUFo3aG9oZDlORlJ2c1RPOVltc1hZRFozd0RXWFV6aXZWd2diaG9aY3MyXzRnTzN3RTNBaFBDelJ1bVFVVjZhTFpqUnRBSDJCS3RfckIxdHVsLUMwX19FOTV1?oc=5",
-      "description": "'Already over' - Fabrizio Romano makes bizarre Newcastle United transfer claim after \u00a3100m deal agreed Shields Gazette",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Fri, 14 Aug 2026 10:00:00 GMT",
-      "epoch": 1786701600.0,
-      "approx_time": false
-    },
-    {
       "title": "Fabrizio Romano reveals Aston Villa\u2019s next transfer priority after Ruggeri deal - Read Aston Villa",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNejU0cFNyZHhYay1XZ0YtWU5OaTRHUzFZVjdHZG5ULU5aTks5LUJSMkEwRl9WdkpyUktXUjlycU5hTlFBeUVzM1NHaGtpandCb2JiYnhreFRQZ1lLdXdld0tRSExvdkVIRmlmZlFHbVdvZUVnZlRRSHZYbElxMFZFQm9vR3lDT1lCbVFxNVBGUWIxLVI4X1Y4NVd5OTdQby1UZ0RSTk8zZmRhZlk2M2dLbkdCdVY0YmlZ?oc=5",
       "description": "Fabrizio Romano reveals Aston Villa\u2019s next transfer priority after Ruggeri deal Read Aston Villa",
@@ -637,17 +626,6 @@
       "byline": "",
       "pub_date_raw": "Fri, 14 Aug 2026 08:37:18 GMT",
       "epoch": 1786696638.0,
-      "approx_time": false
-    },
-    {
-      "title": "Fabrizio Romano exclusive: Arsenal aware of transfer conditions to sign Premier League star - CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSGxoWjdBTTFYRWlNX2VST1oxNUVxTW1FUWFSZ0ZyZDlKSGNrbEEzLVFKcnltOW1YMUJDcFdlRGMtRzZHVFBKVGlnRkI1S0VONUtPamZBSkptYWZpeU9Sd3loR09BaTBZRXhTUXVRaUlEMjdFbGM2SHBrV0xVR2ZIeTZvdkdQbGpYR0RYMmxB0gGTAUFVX3lxTFB1RTdZTmw2Qkg2dGNWWTZXOUIxZGFTbmFiVGtiRnhmeWEtZUQxenVkRWpKUHlEX00telVMck80T29BSkdIeVY4YWdVYXJPOUNzc0NYR2JkNmlCUnBrV183NE5OOHhPTkRyajZUYnhCVk5pWVpFZEtPbE40Z3pNMzJPR0xqRHktM2E4MWZEYlFIU3N0dw?oc=5",
-      "description": "Fabrizio Romano exclusive: Arsenal aware of transfer conditions to sign Premier League star CaughtOffside",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Fri, 14 Aug 2026 07:58:14 GMT",
-      "epoch": 1786694294.0,
       "approx_time": false
     },
     {
@@ -692,17 +670,6 @@
       "byline": "",
       "pub_date_raw": "Fri, 14 Aug 2026 06:58:49 GMT",
       "epoch": 1786690729.0,
-      "approx_time": false
-    },
-    {
-      "title": "Romano confirms Liverpool, Barcola 'verbal agreement' reached as set fee revealed - Football365",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOW5CRjJiREVfODd5b3Y0anFpRVhIaF9PSDhLMkFzQnFDd205UDZsU2htWlctNGY2NW5HQUsyOEFtcFBoOFg0d2NVdE5xSDNHaDhIUWRZM29wWEJwTkx6MWtoNnp4cnZiT09PekNoSmRMOUY2N2ZQSElnRXY1bEQtMFlNenB0Ynh6ZVJ4NFFpQ0hzUnFnRy11cFdLX25OSmxWanE5dVNfM19LLVBRNkR4UHRWVnNRdw?oc=5",
-      "description": "Romano confirms Liverpool, Barcola 'verbal agreement' reached as set fee revealed Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Fri, 14 Aug 2026 06:17:11 GMT",
-      "epoch": 1786688231.0,
       "approx_time": false
     },
     {
@@ -1003,9 +970,9 @@
       "approx_time": false
     },
     {
-      "title": "The transfer window that broke Fabrizio Romano - The i Paper",
+      "title": "The transfer window that broke Fabrizio Romano - inews.co.uk",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yWTBXM0dtWHgyY1R6XzFvSVV5dFcyY0ZuSkxmQWMzeDJUQndTQ3VsS1BaOFZocEl1d0t0MmZuY29lZ25SQjhfTTEwQzQ0V2F6bGl1Y2V1SHI4VWhSX2FtRzBlbUhVSjRneFNfd1JTX3J1c241VjVheWxNSW9vTzQ?oc=5",
-      "description": "The transfer window that broke Fabrizio Romano The i Paper",
+      "description": "The transfer window that broke Fabrizio Romano inews.co.uk",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -1399,6 +1366,17 @@
       "approx_time": false
     },
     {
+      "title": "Barcelona's Roony Bardghji tears ACL in training, rules out possible transfer plans - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQckwyNXpSem1QSWRQbURRLVNWZ2RmNHB6QnREMHFkNGE2cDF1THJHRnJqeXdNTlhnTGxxVjNVa0g2WXZCSVFtVUp4UTkyWVRwazJWV0VMNDQtc0RYRXE0QXFXRUl0OTE2d29MamM3clZpSXp2WHBrWUtVZFFmVlcwc1JXU0VVTnVvMVFBQy1tbjVOS0JLcjFiRUpDZEw1T3B2NU1LcnpCaVgyTU0zcmw5YnNuS0pROXg1OGo1YWF0S3hyYXZfa0E?oc=5",
+      "description": "Barcelona's Roony Bardghji tears ACL in training, rules out possible transfer plans ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Tue, 11 Aug 2026 15:40:11 GMT",
+      "epoch": 1786462811.0,
+      "approx_time": false
+    },
+    {
       "title": "Barcelona optimistic of signing Rodri, plan improved Marc Bernal contract offer - source - ESPN",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOERDamh1RVRLUXpTUDNjZGVVdHB1T2ZhRTZmNUR5bjZIZGhNTWlRT0Nvd1hJYUhPNUhLRTMxTTZKWmtUTmtkVXltTUdZVXA4aE0weUZadWJjNjZvOWkyU1gtTGNTVGFsNUxpNWZfWHdwTWp5OFhTenNqbFkzR1VPTkVRS3Q1cTdLNDV4bDlHeU5DTl9hWlNJS04yanJPOC1MSHIzVg?oc=5",
       "description": "Barcelona optimistic of signing Rodri, plan improved Marc Bernal contract offer - source ESPN",
@@ -1429,17 +1407,6 @@
       "byline": "",
       "pub_date_raw": "Tue, 11 Aug 2026 14:47:45 GMT",
       "epoch": 1786459665.0,
-      "approx_time": false
-    },
-    {
-      "title": "Barcelona's Roony Bardghji tears ACL in training, rules out possible transfer plans - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUHJDZWJYYzBxcTFFNmFDbEFkRjNTUlp4WjNuTjROa01vRlhIbU5DRVA2VGN4U1g0bnE4WkpFWDRGTkVNcUlhNGNOVURXUGVkc3pDZXlWVEZ0M3hOMk9ZUXhjYWtuaDB1ZkRqeFV3M0Z2WmlZZ3hOZ213b1otdFJiTE1qWXVmQ3ZVbDE5SEtpbXhkbHJBMjNtdlZ0eW1uMzhiREF5N3ByVE42QmVFZEF6ZkcySTJqNnhHTnE2dEZ0VQ?oc=5",
-      "description": "Barcelona's Roony Bardghji tears ACL in training, rules out possible transfer plans ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Tue, 11 Aug 2026 14:45:00 GMT",
-      "epoch": 1786459500.0,
       "approx_time": false
     },
     {
@@ -2103,9 +2070,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano names Chelsea\u2019s fixed fee for defender transfer at last - talkchelsea.net",
+      "title": "Fabrizio Romano names Chelsea\u2019s fixed fee for defender transfer at last - Talk Chelsea",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPODlZeWYwZHpqUkNIVThGTUJOdkVUczBqOE5YM1VlVWhLcEdVdWhCR1gtNUdZYlRtSE1zSVFxOVVqV0I4VjFpX2FqRDNyV1l1b0JQcFl0TnNmcmVCMDRkQWs1TkQxLVJRYVJDZS1zS0Zta1NtbGZCVUF2WHZVSmlrRnV6YVXSAYoBQVVfeXFMTmxNeUE3MndHRFRSVUdsRWhDSXVMUkJMZ0lFWk9ORTVmNXRUQy1JSG4wWGhhSU9udUUzc1ZQTmo4ZFdtNVREZzhYUWZiOXZWeUNoalB3OUxsRUZXRHZXVTJ5Ykx1STdUWWpRR0t4dTZmZzI1ck4xWlp5MWktblVibzhFenVnUUtYb3NR?oc=5",
-      "description": "Fabrizio Romano names Chelsea\u2019s fixed fee for defender transfer at last talkchelsea.net",
+      "description": "Fabrizio Romano names Chelsea\u2019s fixed fee for defender transfer at last Talk Chelsea",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2139,17 +2106,6 @@
       "title": "Arsenal nearing agreement for Bruno Guimaraes transfer from Newcastle - The Athletic - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbVo2RWJyYnlqSmtYV3ZQcjI5SlhZRERxcFdUVERTdkNWSDl1T2hQZlg1UUdmMTNOdDhkTGpCRC1aS1k3VUY3Zy1SdDVpTFBpOVo3WUNDWnNSS0dmbE40NTZva0lzZjFkWUpCYW9vMFR5TFJEY09EOTJmaTZXdWlsZFVydEtxbkdQUmhDREk2ZjY5U3NPZ3pxLWtkNA?oc=5",
       "description": "Arsenal nearing agreement for Bruno Guimaraes transfer from Newcastle - The Athletic The New York Times",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Wed, 05 Aug 2026 07:00:00 GMT",
-      "epoch": 1785913200.0,
-      "approx_time": false
-    },
-    {
-      "title": "David Ornstein drops major Lewis Hall to Manchester United transfer news - Read Newcastle",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeUt5NkgzQ2o4dlg4Tk1weTNubGxzR0M5b3dLU0hpVjE0cVZDUW9DVnowbjVfUmpVOWxpQlJoUFQzVF9qYnFaRVBVMkliWE5DdjkwQWF3cXBKc1NhOVBnTEs1U0RDaG1nVFZuaXdrZGtsSVByMXBRV2daSFY4NUJ0dUNzNXN0eGFjOTlib21aS0h1dHZyWGNvalFURnJTUEpTMDFZ?oc=5",
-      "description": "David Ornstein drops major Lewis Hall to Manchester United transfer news Read Newcastle",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -2268,9 +2224,9 @@
       "approx_time": false
     },
     {
-      "title": "Vin\u00edcius J\u00fanior back in Real Madrid training amid Arsenal transfer links - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa2NCYVJ4eUVxcDl5QzVZMTUwX25CaFAyTUwwODhQbkRJRDhUNldJTkxtX2lmZ1J5Unpwdmc0UE91bENQc05IeFRXNDgzelRKSGZaMmRRLTU0STFFVDBGMHdtTURQWTdFZFMxWHd5SHlhS003U3JNRlI5Q3F6Y0ljdEFsWkJSSE9mMUp4ekcxZmtONldONVFmWlhTQVBfWlFYcVctRnZucmxPd3BlX1lCTDF6SEF5ZFI0?oc=5",
-      "description": "Vin\u00edcius J\u00fanior back in Real Madrid training amid Arsenal transfer links ESPN",
+      "title": "Transfer rumors, news: Atl\u00e9tico Madrid weigh move for Jack Grealish - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT1BYVGdVVmU1ZHVhMkdqNmlxdnJZS3JPNV9VeUQ1XzZfejNINVZZbndBVW1MckRwZmU1NjRCQ0pNcUJMVHBVTEY5X2owOXpQWVdpMjk2a0hQQVpRVW1KMzlGY3EwbFZsNmRNdnNhNGJVZVM1bWZIVmxTd2ZoeHVrb0NFdVMyLVVNaFhUdHk1LXhTNkE3YkZjN2stRi1SYnh3RUxpZmg3TUJzckQ1c1BuNA?oc=5",
+      "description": "Transfer rumors, news: Atl\u00e9tico Madrid weigh move for Jack Grealish ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
@@ -2279,9 +2235,9 @@
       "approx_time": false
     },
     {
-      "title": "Transfer rumors, news: Atl\u00e9tico Madrid weigh move for Jack Grealish - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT1BYVGdVVmU1ZHVhMkdqNmlxdnJZS3JPNV9VeUQ1XzZfejNINVZZbndBVW1MckRwZmU1NjRCQ0pNcUJMVHBVTEY5X2owOXpQWVdpMjk2a0hQQVpRVW1KMzlGY3EwbFZsNmRNdnNhNGJVZVM1bWZIVmxTd2ZoeHVrb0NFdVMyLVVNaFhUdHk1LXhTNkE3YkZjN2stRi1SYnh3RUxpZmg3TUJzckQ1c1BuNA?oc=5",
-      "description": "Transfer rumors, news: Atl\u00e9tico Madrid weigh move for Jack Grealish ESPN",
+      "title": "Vin\u00edcius J\u00fanior back in Real Madrid training amid Arsenal transfer links - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbDYwM3d1a1hjcTVnNkwzV3VHaGhPMzJiNVB5b0xNSjJZUktqT2R0bks2dVR2alc0eGZpT1E3U0sxSmFmNFVuMHhFZkhDV0t0WlNUQUYybjBwYVdRcGhveUZRcmFyeXJhWFVlNTg3VVo0dkl4aDRTNUd0M3ItQjBxT19sR3VnZ1didlJjdkJ2SUVNVnhZdVUyMlJZR09wcUNqNC1OUXRMQU0tdV9oOVhPRmdTdGMxUEdTLUFYQno0SQ?oc=5",
+      "description": "Vin\u00edcius J\u00fanior back in Real Madrid training amid Arsenal transfer links ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
@@ -2444,6 +2400,17 @@
       "approx_time": false
     },
     {
+      "title": "Romano confirms Chelsea 'here we go' coming 'very, very soon' in double deal - Football365",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZXY0UDc3MW9fNkZtVW8yY3NBbFhDbkpPNmJnMTFKa0RyZnRxV0pHTXQ2ZWlSMUR5UlJiaG02OUJ3LUlveVdic1hYWFFDem9FSFlZTWdudEdMUndlTENQSVFPYk9NeHphUjhzdDZGOHJzQkFCUUd4Vy13OEpZSVVIcjd0bHZmWjFu?oc=5",
+      "description": "Romano confirms Chelsea 'here we go' coming 'very, very soon' in double deal Football365",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Tue, 28 Jul 2026 07:00:00 GMT",
+      "epoch": 1785222000.0,
+      "approx_time": false
+    },
+    {
       "title": "Fabrizio Romano confirms Man Utd midfield transfer stance - Read Man Utd",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTVJMS2hwcGd6bnVkR1lPZDRhV2c4TjFObElxSUpXOWdUbmd0M3dBeUFZLUdoZ3kxemdsVWU2U1owSlBjNEdaVDB6MUtQRmtjNWtSWjNVbHRhWFJodXU0bWVNQjZzaFpEMEN3Y0RVdnJSWm81UGNHSDJISHd1OFNpMlEyd1ZfYUtvNGlZUTJnWWQydw?oc=5",
       "description": "Fabrizio Romano confirms Man Utd midfield transfer stance Read Man Utd",
@@ -2488,9 +2455,9 @@
       "approx_time": false
     },
     {
-      "title": "Transfer journalists Florian Plettenberg and Fabrizio Romano in ITK spat following 'fake news' claims - fourfourtwo.com",
+      "title": "Transfer journalists Florian Plettenberg and Fabrizio Romano in ITK spat following 'fake news' claims - FourFourTwo",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTFMtVGk5dHBwYTNpbTZycXFsWlhZYjBWVTNval9PT2QwLUgwaHhraVE3bFhPanRWYTNycHFxbmxNYXZvWjBIQ0FpZTA4aW5YdXJ4d1N5TWQwZ28yR05LaHRUVWlEdzREZ01Zd2ZxNjEzS2l6RDJMS1dMSU1fMkZpNWtMMkNNSFlTNE5GLWRjVFJaTE5GdzhNUGZjbW1ZWmppTTNqY3REQUNDR0Q3ODQ1QkYtSDdJWnZUZWFEUDNEX0lfLVR6b2lCYl9pV0lEMGRBTmV4VlFfTU9RWWVFZy1SazJEeDRxSUljSjV6MFV6YllJSVZlNXc?oc=5",
-      "description": "Transfer journalists Florian Plettenberg and Fabrizio Romano in ITK spat following 'fake news' claims fourfourtwo.com",
+      "description": "Transfer journalists Florian Plettenberg and Fabrizio Romano in ITK spat following 'fake news' claims FourFourTwo",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2631,9 +2598,9 @@
       "approx_time": false
     },
     {
-      "title": "Report: Arsenal working on move for Vinicius Junior - arseblog.news",
+      "title": "Report: Arsenal working on move for Vinicius Junior - Arseblog News",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOamNkdXJUZHNRMERTaWVGUVhGTkFNb0hacjZJYmkyQUkybEhTcy1kaFVNSGU4QnBuRGpkOXZhQUhKMGJVVk9EdVhLcjhCOUQ1OHVHNk4za3JPWk1WMmZjWFJDaWptbm83RHRkLXNUdlRaYU14UzhJY3RHQTRRMFBzNlVoZ0Y1YzZf?oc=5",
-      "description": "Report: Arsenal working on move for Vinicius Junior arseblog.news",
+      "description": "Report: Arsenal working on move for Vinicius Junior Arseblog News",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -2724,17 +2691,6 @@
       "description": "Fabrizio Romano says \u20ac150m superstar is \u2018top, top, top target of Liverpool\u2019 Football365",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Thu, 23 Jul 2026 07:00:00 GMT",
-      "epoch": 1784790000.0,
-      "approx_time": false
-    },
-    {
-      "title": "David Ornstein: Leeds United Make Move For Man City Star - Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXN2STI5a0hLMFhSRndYQU5jbHU4bGhmUnBtWl9QVnJrT2I1S3UwUE9wTWFJRXJ1Sm1TZmZkQlZwYTJGZ2NzcEh0VnZuTWR1aENJRjNZekdwU0xhMHR4QmNMZy1RT3kyclFsejQtQTR5REcxTnloVEF1TUE2N1YyTTJqU1BuenhN?oc=5",
-      "description": "David Ornstein: Leeds United Make Move For Man City Star Yahoo Sports",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
       "byline": "",
       "pub_date_raw": "Thu, 23 Jul 2026 07:00:00 GMT",
       "epoch": 1784790000.0,
@@ -2983,9 +2939,9 @@
       "approx_time": false
     },
     {
-      "title": "Romano names Arsenal\u2019s \u2018next major target\u2019 to be fourth signing with deal \u2018almost fully agreed\u2019 - Football365",
+      "title": "Romano names Arsenal 'next major target' as deal 'almost agreed' with fourth signing - Football365",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVkVaZ1BUZDI3cmRHTjBycG9CVDFFQjF2R2xVemRjUnZMUmpQYi1PdTdEY204OFpnRGtHZngyRk8yZ0xBOEpEUUYxZTdHXzk5SWlIaWhGZjFHN0ZMc1R1MG5Yd24yV2dZUWoxbUZSNWFkZzB3dlFKX1hzdXhNenUxZnBEcGFTVVdtaWQxVjB2SDEtRUFkS3BtU1Z3NF9KcnFrbGpFR0Y1MUJONmxLc0hLMw?oc=5",
-      "description": "Romano names Arsenal\u2019s \u2018next major target\u2019 to be fourth signing with deal \u2018almost fully agreed\u2019 Football365",
+      "description": "Romano names Arsenal 'next major target' as deal 'almost agreed' with fourth signing Football365",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
