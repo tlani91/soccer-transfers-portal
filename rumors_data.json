@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T22:52:58.066258+00:00",
+  "last_updated": "2026-08-16T23:01:11.673575+00:00",
   "items": [
     {
       "title": "Troy Parrott deal called off between West Ham and AZ, Hammers pivot to Piroe",
@@ -9,7 +9,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786920477.5653048,
+      "epoch": 1786920971.1726289,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786920177.5653048,
+      "epoch": 1786920671.1726289,
       "approx_time": true
     },
     {
@@ -31,7 +31,29 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786919577.5653048,
+      "epoch": 1786920071.1726289,
+      "approx_time": true
+    },
+    {
+      "title": "Juventus make bid for Martinez with Aston Villa set to sign Parma's Suzuki",
+      "link": "https://www.flashscore.com/news/soccer-juventus-make-bid-for-martinez-with-aston-villa-set-to-sign-parma-s-suzuki/fmHfggA7/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1786919171.1726289,
+      "approx_time": true
+    },
+    {
+      "title": "PSV star Joey Veerman set to sign for Dortmund with clause activated",
+      "link": "https://www.flashscore.com/news/soccer-eredivisie-psv-midfielder-joey-veerman-set-to-sign-for-dortmund-with-clause-activated/WWzcBRVh/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1786918871.1726289,
       "approx_time": true
     },
     {
@@ -46,28 +68,6 @@
       "approx_time": false
     },
     {
-      "title": "Juventus make bid for Martinez with Aston Villa set to sign Parma's Suzuki",
-      "link": "https://www.flashscore.com/news/soccer-juventus-make-bid-for-martinez-with-aston-villa-set-to-sign-parma-s-suzuki/fmHfggA7/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1786918677.5653048,
-      "approx_time": true
-    },
-    {
-      "title": "PSV star Joey Veerman set to sign for Dortmund with clause activated",
-      "link": "https://www.flashscore.com/news/soccer-eredivisie-psv-midfielder-joey-veerman-set-to-sign-for-dortmund-with-clause-activated/WWzcBRVh/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1786918377.5653048,
-      "approx_time": true
-    },
-    {
       "title": "Mika Godts officially joins Paris Saint-Germain from Ajax for \u20ac55 million",
       "link": "https://www.flashscore.com/news/soccer-ligue-1-mika-godts-officially-joins-paris-saint-germain-from-ajax-for-55-million/Iy9SRj5d/",
       "description": "",
@@ -75,7 +75,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786918077.5653048,
+      "epoch": 1786918571.1726289,
       "approx_time": true
     },
     {
@@ -86,7 +86,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786917777.5653048,
+      "epoch": 1786918271.1726289,
+      "approx_time": true
+    },
+    {
+      "title": "Socceroos star Nestory Irankunda signs with Portuguese giants Sporting",
+      "link": "https://www.flashscore.com/news/soccer-championship-socceroos-star-nestory-irankunda-signs-with-portuguese-giants-sporting-until-2031/4Ar8uqWI/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1786917971.1726289,
       "approx_time": true
     },
     {
@@ -101,17 +112,6 @@
       "approx_time": false
     },
     {
-      "title": "Socceroos star Nestory Irankunda signs with Portuguese giants Sporting",
-      "link": "https://www.flashscore.com/news/soccer-championship-socceroos-star-nestory-irankunda-signs-with-portuguese-giants-sporting-until-2031/4Ar8uqWI/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1786917477.5653048,
-      "approx_time": true
-    },
-    {
       "title": "Crystal Palace sign Israeli winger Khalaili from Royale Union Saint-Gilloise",
       "link": "https://www.flashscore.com/news/soccer-premier-league-crystal-palace-sign-israeli-winger-khalaili-from-royale-union-saint-gilloise/zZ0wxk8T/",
       "description": "",
@@ -119,7 +119,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786917177.5653048,
+      "epoch": 1786917671.1726289,
       "approx_time": true
     },
     {
@@ -130,7 +130,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786916877.5653048,
+      "epoch": 1786917371.1726289,
       "approx_time": true
     },
     {
@@ -141,7 +141,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786916577.5653048,
+      "epoch": 1786917071.1726289,
       "approx_time": true
     },
     {
@@ -152,7 +152,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786916277.5653048,
+      "epoch": 1786916771.1726289,
       "approx_time": true
     },
     {
@@ -163,7 +163,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786915977.5653048,
+      "epoch": 1786916471.1726289,
       "approx_time": true
     },
     {
@@ -174,7 +174,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786915677.5653048,
+      "epoch": 1786916171.1726289,
       "approx_time": true
     },
     {
@@ -185,7 +185,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1786915377.5653048,
+      "epoch": 1786915871.1726289,
       "approx_time": true
     },
     {
@@ -233,17 +233,6 @@
       "approx_time": false
     },
     {
-      "title": "Romano\u2019s \u201chere we go\u201d for \u20ac76.5m move means Chelsea must brace for bidding - Talk Chelsea",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa2JBbFM0RC1CN19mbWE0LWFxZGpLclVhNHV4UGhUNjNoemxfY3JNZnlhNzBOcVhjcVNQR0FjSDRGQ3poNnBOdTdHUC1zZG02a3Rkd2hSRGZBQ0pNY1k2MEwzRjhtckp4eExleW1wU0hJek8xbkhsd0Y5c3llZWJ6alNuQVB0bmlZ0gGOAUFVX3lxTFB0Z0c5dnlPZWpXNGhyUkVKcWRnUUFJeUFVelktU1pxbWtxV1BDY1VtVlpPbEJ5S3ZVZkRZd1dfNFlKX3VwV0FiekdiTWhUT2d2UWY4cnQ5Yjlpc1NXWThmTDJLa0RLSXJDWThUNWhzRWI0VEc3WmVSSUFReXFhNDQzWG1HVlJsTzY1WDN6Tmc?oc=5",
-      "description": "Romano\u2019s \u201chere we go\u201d for \u20ac76.5m move means Chelsea must brace for bidding Talk Chelsea",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Sun, 16 Aug 2026 19:30:43 GMT",
-      "epoch": 1786908643.0,
-      "approx_time": false
-    },
-    {
       "title": "Sources: Barcelona and Man City reach \u20ac76.5M deal for Rodri transfer - ESPN",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcy02VW01b3ZJNndQM3JBcVYxSmE4UWx1TERDaFdfQm9RUDkyTklPdkxObkVMalJNeU9rR0c3V1NxYk5fMXAxN3JfV1V5bFpDQnA2OFM4UUdtZUxhNjFHNTV3dWthWEpmSzgzZnQ3N1RsbFBVTkRFX0xaZWZPLXpWeFUwczdmcE8zXzlwa1NTSzF0Z3J1U181SFFTRHZmYWtmQzNoU2NsQ3JlUlhxYXpfemxB?oc=5",
       "description": "Sources: Barcelona and Man City reach \u20ac76.5M deal for Rodri transfer ESPN",
@@ -285,6 +274,17 @@
       "byline": "",
       "pub_date_raw": "Sun, 16 Aug 2026 17:28:59 GMT",
       "epoch": 1786901339.0,
+      "approx_time": false
+    },
+    {
+      "title": "'I Can Confirm' - Romano Issues Major Update On Man City Signing Enzo Fernandez - GiveMeSport",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS3NFS1E4VmFJZHExTTJCQ1pqdUN1MExLUFlUSXYwaVVYbHo3VERZQV9HdVJHOHdvbmVHcVJRZ05fbThwYmxEWEdYUEoxLTFkSURMajRCXzFJVlRic1RXYTZUeTRNTFFLTXRuajNYREVzYkV5VzJ3YUdNbndpQTBHMUU0dGJzWG9oU0VXTHZqbFVnMmMx?oc=5",
+      "description": "'I Can Confirm' - Romano Issues Major Update On Man City Signing Enzo Fernandez GiveMeSport",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Sun, 16 Aug 2026 16:35:14 GMT",
+      "epoch": 1786898114.0,
       "approx_time": false
     },
     {
@@ -373,6 +373,17 @@
       "byline": "",
       "pub_date_raw": "Sun, 16 Aug 2026 10:07:13 GMT",
       "epoch": 1786874833.0,
+      "approx_time": false
+    },
+    {
+      "title": "Transfer rumors, news: Liverpool step up Barcola chase as PSG sign Godts - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbE5YdnJlTG94S0NGOG50NlYtUnRWUm9QUEwwajYyNVBkU2FlSzJaMjJBSmpNa2Mta3JjT1FOTDRRZzZxUlVDaEFOYXdOcV9YRUJSc2o1dDRMbU9zOGR1MVFPemVPM25QVF9JQTJDUE5qVG82VXYtU1F3T2J4OTBqMVQyZVhEUkNIeXdPTzNCbmQtMHpWQnJKVXFCUFloc3U3YWdrazFodml3ak1nZy1iN0cyRGJsSDV6?oc=5",
+      "description": "Transfer rumors, news: Liverpool step up Barcola chase as PSG sign Godts ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Sun, 16 Aug 2026 08:51:55 GMT",
+      "epoch": 1786870315.0,
       "approx_time": false
     },
     {
@@ -838,6 +849,17 @@
       "approx_time": false
     },
     {
+      "title": "Manchester United learn new Carlos Baleba transfer price - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUXBfcGJ1TEduYjR3REk5dG00NHR3OTl5QUFnZU9yaFlGcU9LMXdKcmRaMWV1cjVXMVNEZWY3YmxiWUFwYThydW05cEhiN1RTbDI0SXZtZGZTcUx0bmVmQzZkWFRwcWJSQ08wbWZkQmUwSkNRUFFleGJkRmtleHBZTW96RUxzaWV4aVl0RmtZNlJhbDVkZnBkdE5mWmpicWlvR0pOVFY5TQ?oc=5",
+      "description": "Manchester United learn new Carlos Baleba transfer price transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Fri, 14 Aug 2026 07:00:00 GMT",
+      "epoch": 1786690800.0,
+      "approx_time": false
+    },
+    {
       "title": "Manchester United set to battle Barcelona for \u20ac50M striker - transfernewslive.com",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQnhaT2FmZWZVWXJza09UaGY5aER0VEl4NW9TOVlacFNLazJiS0NRdEhyeEFGMjBjVlZqcVgycnhHdHYxT2UwYy1iMnJfZm1HTWpSSHd5SzI3R0dMLVNWUnpPYndLQWZ4blE0VS00WDNfeWZGZ1ZVRW9XM0RlR2Z0ZHktRi14ZDFSa1c2aFJJUHktX2p2OWE4c3h3bWNCUGxyS0ZON2tLT1pxdw?oc=5",
       "description": "Manchester United set to battle Barcelona for \u20ac50M striker transfernewslive.com",
@@ -885,17 +907,6 @@
       "title": "Arsenal open talks to sign England star - transfernewslive.com",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc2lSNFY5aHdZaHVKZFFRcmRVQVBNWDBqMDJ5Z1kwRktzeTh3b3FlX3YxZ3RFbkt1SkozS3FkenpGcGJrSVNaUWViV2pJSUNBekUxMzNaWjV5S1dxcGNCWTBxQXJPbk82YzVKMnI1Q01QRVB1RGs5ZnZQZHVPYWxiRGxMSS1kTHd2UmZLMURfT3g?oc=5",
       "description": "Arsenal open talks to sign England star transfernewslive.com",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "",
-      "pub_date_raw": "Fri, 14 Aug 2026 07:00:00 GMT",
-      "epoch": 1786690800.0,
-      "approx_time": false
-    },
-    {
-      "title": "Manchester United learn new Carlos Baleba transfer price - transfernewslive.com",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUXBfcGJ1TEduYjR3REk5dG00NHR3OTl5QUFnZU9yaFlGcU9LMXdKcmRaMWV1cjVXMVNEZWY3YmxiWUFwYThydW05cEhiN1RTbDI0SXZtZGZTcUx0bmVmQzZkWFRwcWJSQ08wbWZkQmUwSkNRUFFleGJkRmtleHBZTW96RUxzaWV4aVl0RmtZNlJhbDVkZnBkdE5mWmpicWlvR0pOVFY5TQ?oc=5",
-      "description": "Manchester United learn new Carlos Baleba transfer price transfernewslive.com",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "",
@@ -2661,17 +2672,6 @@
       "byline": "",
       "pub_date_raw": "Fri, 24 Jul 2026 07:00:00 GMT",
       "epoch": 1784876400.0,
-      "approx_time": false
-    },
-    {
-      "title": "Transfer rumors, news: Chelsea near move for Palace's Lacroix - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOajg3SkQ4ZzRDOXFjT1VvSWVPbU9Uc1loMTZaVDJMb0hiUXVwWk5XcmwwTHptMllmUFhSNTJRQmp0NVdLb1hvNGVpTDAzMXdzbC1MUlpLTVRxV1BCQkJSUW5KZjhaQjE0VEFCOU1qcllTeGlId1M5aVBZYzBPZFVsZEJ1eU9tclV2LVd2dTEyQ2VITHZEM0pSSEhYY1lyYXVmU25SZjBJOXV0a0pmaE1iRw?oc=5",
-      "description": "Transfer rumors, news: Chelsea near move for Palace's Lacroix ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Thu, 23 Jul 2026 07:00:00 GMT",
-      "epoch": 1784790000.0,
       "approx_time": false
     },
     {
