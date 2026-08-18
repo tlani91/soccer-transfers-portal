@@ -1,7 +1,7 @@
 {
- "last_updated": "2026-08-18T02:12:07.651505+00:00",
- "date_from": "2026-08-08",
- "date_to": "2026-08-27",
+ "last_updated": "2026-08-18T02:13:17.431944+00:00",
+ "date_from": "2026-08-09",
+ "date_to": "2026-08-28",
  "source": "football-data.org",
  "leagues": [
   {
@@ -35,230 +35,6 @@
  ],
  "matches": [
   {
-   "id": 558215,
-   "league_id": "DED",
-   "league": "Eredivisie",
-   "matchday": 1,
-   "utc": "2026-08-08T14:30:00Z",
-   "epoch": 1786199400,
-   "date": "2026-08-08",
-   "status": "FINISHED",
-   "state": "finished",
-   "home": {
-    "name": "NEC",
-    "full": "NEC",
-    "tla": "NEC",
-    "crest": "https://crests.football-data.org/1915.png"
-   },
-   "away": {
-    "name": "Telstar",
-    "full": "Telstar 1963",
-    "tla": "TEL",
-    "crest": "https://crests.football-data.org/1912.png"
-   },
-   "ft": [
-    1,
-    2
-   ],
-   "ht": [
-    0,
-    2
-   ],
-   "winner": "AWAY_TEAM"
-  },
-  {
-   "id": 567263,
-   "league_id": "PPL",
-   "league": "Primeira Liga",
-   "matchday": 1,
-   "utc": "2026-08-08T14:30:00Z",
-   "epoch": 1786199400,
-   "date": "2026-08-08",
-   "status": "FINISHED",
-   "state": "finished",
-   "home": {
-    "name": "Marítimo",
-    "full": "CS Marítimo",
-    "tla": "CSM",
-    "crest": "https://crests.football-data.org/5575.png"
-   },
-   "away": {
-    "name": "Casa Pia",
-    "full": "Casa Pia AC",
-    "tla": "CAS",
-    "crest": "https://crests.football-data.org/6618.png"
-   },
-   "ft": [
-    1,
-    0
-   ],
-   "ht": [
-    0,
-    0
-   ],
-   "winner": "HOME_TEAM"
-  },
-  {
-   "id": 558216,
-   "league_id": "DED",
-   "league": "Eredivisie",
-   "matchday": 1,
-   "utc": "2026-08-08T16:45:00Z",
-   "epoch": 1786207500,
-   "date": "2026-08-08",
-   "status": "FINISHED",
-   "state": "finished",
-   "home": {
-    "name": "Go Ahead",
-    "full": "Go Ahead Eagles",
-    "tla": "GOA",
-    "crest": "https://crests.football-data.org/718.png"
-   },
-   "away": {
-    "name": "Willem II",
-    "full": "Willem II Tilburg",
-    "tla": "WII",
-    "crest": "https://crests.football-data.org/672.png"
-   },
-   "ft": [
-    4,
-    1
-   ],
-   "ht": [
-    1,
-    1
-   ],
-   "winner": "HOME_TEAM"
-  },
-  {
-   "id": 567258,
-   "league_id": "PPL",
-   "league": "Primeira Liga",
-   "matchday": 1,
-   "utc": "2026-08-08T17:00:00Z",
-   "epoch": 1786208400,
-   "date": "2026-08-08",
-   "status": "FINISHED",
-   "state": "finished",
-   "home": {
-    "name": "Vitória SC",
-    "full": "Vitória SC",
-    "tla": "GUI",
-    "crest": "https://crests.football-data.org/5543.png"
-   },
-   "away": {
-    "name": "Arouca",
-    "full": "FC Arouca",
-    "tla": "FCA",
-    "crest": "https://crests.football-data.org/712.png"
-   },
-   "ft": [
-    0,
-    1
-   ],
-   "ht": [
-    0,
-    0
-   ],
-   "winner": "AWAY_TEAM"
-  },
-  {
-   "id": 558217,
-   "league_id": "DED",
-   "league": "Eredivisie",
-   "matchday": 1,
-   "utc": "2026-08-08T18:00:00Z",
-   "epoch": 1786212000,
-   "date": "2026-08-08",
-   "status": "FINISHED",
-   "state": "finished",
-   "home": {
-    "name": "PSV",
-    "full": "PSV",
-    "tla": "PSV",
-    "crest": "https://crests.football-data.org/674.png"
-   },
-   "away": {
-    "name": "Sittard",
-    "full": "Fortuna Sittard",
-    "tla": "SIT",
-    "crest": "https://crests.football-data.org/1920.png"
-   },
-   "ft": [
-    2,
-    2
-   ],
-   "ht": [
-    0,
-    1
-   ],
-   "winner": "DRAW"
-  },
-  {
-   "id": 558218,
-   "league_id": "DED",
-   "league": "Eredivisie",
-   "matchday": 1,
-   "utc": "2026-08-08T19:00:00Z",
-   "epoch": 1786215600,
-   "date": "2026-08-08",
-   "status": "FINISHED",
-   "state": "finished",
-   "home": {
-    "name": "AZ",
-    "full": "AZ",
-    "tla": "AZ",
-    "crest": "https://crests.football-data.org/682.png"
-   },
-   "away": {
-    "name": "Den Haag",
-    "full": "ADO Den Haag",
-    "tla": "ADO",
-    "crest": "https://crests.football-data.org/680.png"
-   },
-   "ft": [
-    2,
-    0
-   ],
-   "ht": [
-    0,
-    0
-   ],
-   "winner": "HOME_TEAM"
-  },
-  {
-   "id": 567260,
-   "league_id": "PPL",
-   "league": "Primeira Liga",
-   "matchday": 1,
-   "utc": "2026-08-08T19:30:00Z",
-   "epoch": 1786217400,
-   "date": "2026-08-08",
-   "status": "FINISHED",
-   "state": "finished",
-   "home": {
-    "name": "Amadora",
-    "full": "CF Estrela da Amadora",
-    "tla": "AMA",
-    "crest": "https://crests.football-data.org/9136.png"
-   },
-   "away": {
-    "name": "Sporting CP",
-    "full": "Sporting Clube de Portugal",
-    "tla": "SPO",
-    "crest": "https://crests.football-data.org/498.png"
-   },
-   "ft": [
-    2,
-    2
-   ],
-   "ht": [
-    0,
-    0
-   ],
-   "winner": "DRAW"
-  },
-  {
    "id": 558219,
    "league_id": "DED",
    "league": "Eredivisie",
@@ -287,6 +63,38 @@
    "ht": [
     0,
     1
+   ],
+   "winner": "AWAY_TEAM"
+  },
+  {
+   "id": 558221,
+   "league_id": "DED",
+   "league": "Eredivisie",
+   "matchday": 1,
+   "utc": "2026-08-09T12:30:00Z",
+   "epoch": 1786278600,
+   "date": "2026-08-09",
+   "status": "FINISHED",
+   "state": "finished",
+   "home": {
+    "name": "Zwolle",
+    "full": "PEC Zwolle",
+    "tla": "ZWO",
+    "crest": "https://crests.football-data.org/684.png"
+   },
+   "away": {
+    "name": "Ajax",
+    "full": "AFC Ajax",
+    "tla": "AJA",
+    "crest": "https://crests.football-data.org/678.png"
+   },
+   "ft": [
+    0,
+    2
+   ],
+   "ht": [
+    0,
+    0
    ],
    "winner": "AWAY_TEAM"
   },
@@ -321,38 +129,6 @@
     0
    ],
    "winner": "HOME_TEAM"
-  },
-  {
-   "id": 558221,
-   "league_id": "DED",
-   "league": "Eredivisie",
-   "matchday": 1,
-   "utc": "2026-08-09T12:30:00Z",
-   "epoch": 1786278600,
-   "date": "2026-08-09",
-   "status": "FINISHED",
-   "state": "finished",
-   "home": {
-    "name": "Zwolle",
-    "full": "PEC Zwolle",
-    "tla": "ZWO",
-    "crest": "https://crests.football-data.org/684.png"
-   },
-   "away": {
-    "name": "Ajax",
-    "full": "AFC Ajax",
-    "tla": "AJA",
-    "crest": "https://crests.football-data.org/678.png"
-   },
-   "ft": [
-    0,
-    2
-   ],
-   "ht": [
-    0,
-    0
-   ],
-   "winner": "AWAY_TEAM"
   },
   {
    "id": 558222,
@@ -414,6 +190,38 @@
    ],
    "ht": [
     2,
+    0
+   ],
+   "winner": "HOME_TEAM"
+  },
+  {
+   "id": 567261,
+   "league_id": "PPL",
+   "league": "Primeira Liga",
+   "matchday": 1,
+   "utc": "2026-08-09T19:30:00Z",
+   "epoch": 1786303800,
+   "date": "2026-08-09",
+   "status": "FINISHED",
+   "state": "finished",
+   "home": {
+    "name": "Gil Vicente",
+    "full": "Gil Vicente FC",
+    "tla": "GIL",
+    "crest": "https://crests.football-data.org/5533.png"
+   },
+   "away": {
+    "name": "Rio Ave",
+    "full": "Rio Ave FC",
+    "tla": "RIO",
+    "crest": "https://crests.football-data.org/496.png"
+   },
+   "ft": [
+    1,
+    0
+   ],
+   "ht": [
+    0,
     0
    ],
    "winner": "HOME_TEAM"
@@ -481,38 +289,6 @@
     1
    ],
    "winner": "DRAW"
-  },
-  {
-   "id": 567261,
-   "league_id": "PPL",
-   "league": "Primeira Liga",
-   "matchday": 1,
-   "utc": "2026-08-09T19:30:00Z",
-   "epoch": 1786303800,
-   "date": "2026-08-09",
-   "status": "FINISHED",
-   "state": "finished",
-   "home": {
-    "name": "Gil Vicente",
-    "full": "Gil Vicente FC",
-    "tla": "GIL",
-    "crest": "https://crests.football-data.org/5533.png"
-   },
-   "away": {
-    "name": "Rio Ave",
-    "full": "Rio Ave FC",
-    "tla": "RIO",
-    "crest": "https://crests.football-data.org/496.png"
-   },
-   "ft": [
-    1,
-    0
-   ],
-   "ht": [
-    0,
-    0
-   ],
-   "winner": "HOME_TEAM"
   },
   {
    "id": 567257,
@@ -963,38 +739,6 @@
    "winner": "AWAY_TEAM"
   },
   {
-   "id": 558230,
-   "league_id": "DED",
-   "league": "Eredivisie",
-   "matchday": 2,
-   "utc": "2026-08-16T12:30:00Z",
-   "epoch": 1786883400,
-   "date": "2026-08-16",
-   "status": "FINISHED",
-   "state": "finished",
-   "home": {
-    "name": "Twente",
-    "full": "FC Twente '65",
-    "tla": "TWE",
-    "crest": "https://crests.football-data.org/666.png"
-   },
-   "away": {
-    "name": "Zwolle",
-    "full": "PEC Zwolle",
-    "tla": "ZWO",
-    "crest": "https://crests.football-data.org/684.png"
-   },
-   "ft": [
-    3,
-    1
-   ],
-   "ht": [
-    1,
-    1
-   ],
-   "winner": "HOME_TEAM"
-  },
-  {
    "id": 558229,
    "league_id": "DED",
    "league": "Eredivisie",
@@ -1025,6 +769,38 @@
     0
    ],
    "winner": "DRAW"
+  },
+  {
+   "id": 558230,
+   "league_id": "DED",
+   "league": "Eredivisie",
+   "matchday": 2,
+   "utc": "2026-08-16T12:30:00Z",
+   "epoch": 1786883400,
+   "date": "2026-08-16",
+   "status": "FINISHED",
+   "state": "finished",
+   "home": {
+    "name": "Twente",
+    "full": "FC Twente '65",
+    "tla": "TWE",
+    "crest": "https://crests.football-data.org/666.png"
+   },
+   "away": {
+    "name": "Zwolle",
+    "full": "PEC Zwolle",
+    "tla": "ZWO",
+    "crest": "https://crests.football-data.org/684.png"
+   },
+   "ft": [
+    3,
+    1
+   ],
+   "ht": [
+    1,
+    1
+   ],
+   "winner": "HOME_TEAM"
   },
   {
    "id": 567270,
@@ -1215,6 +991,70 @@
    "ht": [
     1,
     1
+   ],
+   "winner": "AWAY_TEAM"
+  },
+  {
+   "id": 564635,
+   "league_id": "PD",
+   "league": "LaLiga",
+   "matchday": 1,
+   "utc": "2026-08-17T19:00:00Z",
+   "epoch": 1786993200,
+   "date": "2026-08-17",
+   "status": "FINISHED",
+   "state": "finished",
+   "home": {
+    "name": "Deportivo",
+    "full": "RC Deportivo La Coruña",
+    "tla": "DEP",
+    "crest": "https://crests.football-data.org/560.png"
+   },
+   "away": {
+    "name": "Elche",
+    "full": "Elche CF",
+    "tla": "ELC",
+    "crest": "https://crests.football-data.org/285.png"
+   },
+   "ft": [
+    1,
+    1
+   ],
+   "ht": [
+    1,
+    0
+   ],
+   "winner": "DRAW"
+  },
+  {
+   "id": 567267,
+   "league_id": "PPL",
+   "league": "Primeira Liga",
+   "matchday": 2,
+   "utc": "2026-08-17T19:15:00Z",
+   "epoch": 1786994100,
+   "date": "2026-08-17",
+   "status": "FINISHED",
+   "state": "finished",
+   "home": {
+    "name": "Casa Pia",
+    "full": "Casa Pia AC",
+    "tla": "CAS",
+    "crest": "https://crests.football-data.org/6618.png"
+   },
+   "away": {
+    "name": "SL Benfica",
+    "full": "Sport Lisboa e Benfica",
+    "tla": "BEN",
+    "crest": "https://crests.football-data.org/1903.png"
+   },
+   "ft": [
+    0,
+    7
+   ],
+   "ht": [
+    0,
+    2
    ],
    "winner": "AWAY_TEAM"
   },
@@ -1891,6 +1731,38 @@
    "winner": null
   },
   {
+   "id": 559714,
+   "league_id": "FL1",
+   "league": "Ligue 1",
+   "matchday": 1,
+   "utc": "2026-08-22T18:45:00Z",
+   "epoch": 1787424300,
+   "date": "2026-08-22",
+   "status": "SCHEDULED",
+   "state": "upcoming",
+   "home": {
+    "name": "Troyes",
+    "full": "ES Troyes AC",
+    "tla": "ETR",
+    "crest": "https://crests.football-data.org/531.png"
+   },
+   "away": {
+    "name": "Paris FC",
+    "full": "Paris FC",
+    "tla": "PFC",
+    "crest": "https://crests.football-data.org/1045.png"
+   },
+   "ft": [
+    null,
+    null
+   ],
+   "ht": [
+    null,
+    null
+   ],
+   "winner": null
+  },
+  {
    "id": 559716,
    "league_id": "FL1",
    "league": "Ligue 1",
@@ -1943,38 +1815,6 @@
     "full": "Olympique Lyonnais",
     "tla": "LYO",
     "crest": "https://crests.football-data.org/523.png"
-   },
-   "ft": [
-    null,
-    null
-   ],
-   "ht": [
-    null,
-    null
-   ],
-   "winner": null
-  },
-  {
-   "id": 559714,
-   "league_id": "FL1",
-   "league": "Ligue 1",
-   "matchday": 1,
-   "utc": "2026-08-22T18:45:00Z",
-   "epoch": 1787424300,
-   "date": "2026-08-22",
-   "status": "SCHEDULED",
-   "state": "upcoming",
-   "home": {
-    "name": "Troyes",
-    "full": "ES Troyes AC",
-    "tla": "ETR",
-    "crest": "https://crests.football-data.org/531.png"
-   },
-   "away": {
-    "name": "Paris FC",
-    "full": "Paris FC",
-    "tla": "PFC",
-    "crest": "https://crests.football-data.org/1045.png"
    },
    "ft": [
     null,
@@ -2999,6 +2839,70 @@
     "full": "Real Sociedad de Fútbol",
     "tla": "RSO",
     "crest": "https://crests.football-data.org/92.png"
+   },
+   "ft": [
+    null,
+    null
+   ],
+   "ht": [
+    null,
+    null
+   ],
+   "winner": null
+  },
+  {
+   "id": 564636,
+   "league_id": "PD",
+   "league": "LaLiga",
+   "matchday": 1,
+   "utc": "2026-08-27T18:30:00Z",
+   "epoch": 1787855400,
+   "date": "2026-08-27",
+   "status": "TIMED",
+   "state": "upcoming",
+   "home": {
+    "name": "Celta",
+    "full": "RC Celta de Vigo",
+    "tla": "CEL",
+    "crest": "https://crests.football-data.org/558.png"
+   },
+   "away": {
+    "name": "Osasuna",
+    "full": "CA Osasuna",
+    "tla": "OSA",
+    "crest": "https://crests.football-data.org/79.png"
+   },
+   "ft": [
+    null,
+    null
+   ],
+   "ht": [
+    null,
+    null
+   ],
+   "winner": null
+  },
+  {
+   "id": 564630,
+   "league_id": "PD",
+   "league": "LaLiga",
+   "matchday": 1,
+   "utc": "2026-08-27T19:00:00Z",
+   "epoch": 1787857200,
+   "date": "2026-08-27",
+   "status": "TIMED",
+   "state": "upcoming",
+   "home": {
+    "name": "Barça",
+    "full": "FC Barcelona",
+    "tla": "FCB",
+    "crest": "https://crests.football-data.org/81.png"
+   },
+   "away": {
+    "name": "Athletic",
+    "full": "Athletic Club",
+    "tla": "ATH",
+    "crest": "https://crests.football-data.org/77.png"
    },
    "ft": [
     null,
