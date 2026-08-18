@@ -1,0 +1,93 @@
+name: Scores (football-data.org)
+
+on:
+  # Triggered by cron-job.org via the dispatch API, same as the rumour
+  # workflow. GitHub's own scheduler is unreliable and is not used.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scores
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch fixtures and results
+        env:
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+        run: python3 scores_fetch.py
+
+      # Deliberately does NOT fail on a low match count: a genuinely empty
+      # window happens every close season. It fails on malformed output,
+      # which is the thing that would actually break the page.
+      - name: Sanity-check the output
+        run: |
+          python3 - <<'PY'
+          import json, sys
+
+          with open('scores_data.json') as f:
+              data = json.load(f)
+
+          matches = data.get('matches')
+          if not isinstance(matches, list):
+              sys.exit('FAIL: no matches array.')
+
+          bad = [m for m in matches
+                 if not m.get('home', {}).get('name')
+                 or not m.get('away', {}).get('name')
+                 or not m.get('epoch')]
+          states = {}
+          for m in matches:
+              states[m.get('state')] = states.get(m.get('state'), 0) + 1
+
+          print(f'{len(matches)} matches | ' +
+                ' | '.join(f'{k}: {v}' for k, v in sorted(states.items())))
+
+          if bad:
+              sys.exit(f'FAIL: {len(bad)} matches missing a team or kickoff time.')
+          if not matches:
+              print('WARNING: window is empty. Normal in the close season.')
+          print('Looks healthy.')
+          PY
+
+      # scores_fetch.py stamps last_updated every run, so the file always
+      # differs. Committing on that alone would mean 48 commits a day even
+      # when no match has kicked off, so skip when nothing else moved.
+      - name: Commit if the fixtures actually changed
+        run: |
+          if git diff --quiet -- scores_data.json; then
+            echo "No change at all."
+            exit 0
+          fi
+
+          substantive=$(git diff -U0 -- scores_data.json \
+            | grep -E '^[+-]' \
+            | grep -vE '^(\+\+\+|---)' \
+            | grep -v '"last_updated"' \
+            | head -1)
+
+          if [ -z "$substantive" ]; then
+            echo "Only the timestamp moved, nothing to publish."
+            git checkout -- scores_data.json
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scores_data.json
+          git commit -m "Update scores ($(date -u '+%Y-%m-%d %H:%M') UTC)"
+          git push
