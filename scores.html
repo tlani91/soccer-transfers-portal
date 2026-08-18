@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scores — Transfer Wire</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --field:   #0B0E13;
+    --panel:   #121721;
+    --rule:    #1C2230;
+    --type:    #E9ECF1;
+    --mute:    #6E7784;
+
+    --live:    #34D399;
+    --off:     #FF5F5F;
+    --accent:  #6BA6FF;
+
+    --gutter:  20px;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--field);
+    color: var(--type);
+    font-family: "Archivo", -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-variation-settings: "wdth" 100;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .mono {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-feature-settings: "tnum" 1;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+
+  /* ── Shell (shared with the other two pages) ──────────────── */
+
+  .shell {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+  }
+  .side { display: contents; }
+
+  .masthead {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 26px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 0.95;
+    font-weight: 800;
+    font-variation-settings: "wdth" 78, "wght" 800;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+  h1 em { font-style: normal; color: var(--mute); }
+
+  .updated {
+    font-size: 11px;
+    color: var(--mute);
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+  }
+
+  nav {
+    display: flex;
+    gap: 18px;
+    padding: 18px 0 0;
+    flex-wrap: wrap;
+  }
+  nav a {
+    font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--mute);
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+  }
+  nav a:hover { color: var(--type); }
+  nav a[aria-current="page"] {
+    color: var(--type);
+    border-bottom-color: var(--accent);
+  }
+
+  .totals {
+    display: flex;
+    gap: 26px;
+    padding: 20px 0 18px;
+  }
+  .figure { display: flex; flex-direction: column; gap: 3px; }
+  .figure b {
+    font-size: 21px;
+    font-weight: 700;
+    font-variation-settings: "wdth" 84, "wght" 700;
+    letter-spacing: -0.01em;
+  }
+  .figure span {
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--mute);
+  }
+
+  /* ── Controls ─────────────────────────────────────────────── */
+
+  .controls {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: var(--field);
+    border-bottom: 1px solid var(--rule);
+    margin: 0 calc(var(--gutter) * -1);
+    padding: 10px var(--gutter);
+  }
+
+  #search {
+    width: 100%;
+    height: 34px;
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    color: var(--type);
+    padding: 0 11px;
+    font-family: inherit;
+    font-size: 16px; /* stops iOS Safari zooming on focus */
+  }
+  #search::placeholder { color: var(--mute); }
+  #search:focus { outline: none; border-color: var(--mute); }
+
+  .row-of-chips {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    mask-image: linear-gradient(90deg, #000 calc(100% - 24px), transparent);
+  }
+  .row-of-chips::-webkit-scrollbar { display: none; }
+
+  .chip {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    color: var(--mute);
+    font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 7px 11px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color .15s, border-color .15s, background .15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .chip:hover { color: var(--type); }
+  .chip[aria-pressed="true"] {
+    color: var(--field);
+    background: var(--type);
+    border-color: var(--type);
+  }
+  .count { display: none; opacity: 0.6; }
+
+  /* ── Fixture list ─────────────────────────────────────────── */
+
+  .board { padding: 6px 0 72px; }
+
+  .day {
+    margin: 0;
+    padding: 26px 0 8px;
+    font-size: 12px;
+    font-weight: 700;
+    font-variation-settings: "wdth" 88, "wght" 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .day:first-child { padding-top: 6px; }
+  .day.today { color: var(--accent); }
+
+  .comp {
+    padding: 12px 0 4px;
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--mute);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 2px;
+  }
+
+  /* time | home | score | away — the classic centred scoreline, so the
+     column of results reads straight down the middle of the page. */
+  .match {
+    display: grid;
+    grid-template-columns: 52px 1fr 62px 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 10px;
+    margin: 0 -10px;
+    border-radius: 4px;
+  }
+  .match:hover { background: var(--panel); }
+
+  .when {
+    font-size: 11px;
+    color: var(--mute);
+    letter-spacing: 0.02em;
+  }
+  .when.live { color: var(--live); }
+  .when.off { color: var(--off); }
+
+  .team {
+    font-size: 14.5px;
+    font-weight: 500;
+    line-height: 1.25;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .team.home { text-align: right; }
+  .team.beaten { color: var(--mute); font-weight: 400; }
+
+  .line {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .line.pending { color: var(--mute); font-size: 12px; }
+
+  .notice {
+    padding: 64px 0;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--mute);
+  }
+  .notice strong {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--type);
+    margin-bottom: 6px;
+  }
+  .notice.bad strong { color: var(--off); }
+
+  .credit {
+    padding: 22px 0 0;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--mute);
+  }
+  .credit a { color: var(--mute); }
+  .credit a:hover { color: var(--type); }
+
+  /* ── Phone ────────────────────────────────────────────────── */
+
+  @media (max-width: 640px) {
+    :root { --gutter: 16px; }
+    .masthead { padding-top: 20px; }
+    h1 { font-size: 25px; }
+    .totals { gap: 20px; padding: 16px 0 14px; }
+    .figure b { font-size: 18px; }
+    .match { grid-template-columns: 44px 1fr 54px 1fr; gap: 7px; padding: 9px 8px; }
+    .team { font-size: 13.5px; }
+    .line { font-size: 13px; }
+  }
+
+  /* ── Desktop ──────────────────────────────────────────────── */
+
+  @media (min-width: 1000px) {
+    :root { --gutter: 40px; }
+
+    .shell {
+      max-width: 1240px;
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      column-gap: 64px;
+      align-items: start;
+    }
+
+    .side {
+      display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 0;
+      max-height: 100vh;
+      overflow-y: auto;
+      scrollbar-width: none;
+      padding: 44px 0 32px;
+    }
+    .side::-webkit-scrollbar { display: none; }
+
+    .masthead { display: block; padding-top: 0; }
+    h1 { font-size: 40px; }
+    .updated { display: block; margin-top: 12px; }
+
+    nav { flex-direction: column; gap: 10px; padding: 22px 0 0; }
+    nav a { width: fit-content; }
+
+    .totals {
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 26px;
+      padding: 26px 0 0;
+      border-top: 1px solid var(--rule);
+    }
+    .figure { flex-direction: row; align-items: baseline; gap: 10px; }
+    .figure b { font-size: 24px; min-width: 96px; }
+
+    .controls {
+      position: static;
+      background: none;
+      border-bottom: 0;
+      border-top: 1px solid var(--rule);
+      margin: 26px 0 0;
+      padding: 26px 0 0;
+      gap: 14px;
+    }
+    .row-of-chips {
+      flex-direction: column;
+      gap: 2px;
+      overflow: visible;
+      mask-image: none;
+    }
+    .chip {
+      width: 100%;
+      justify-content: space-between;
+      border: 0;
+      border-radius: 4px;
+      padding: 7px 10px;
+      letter-spacing: 0.08em;
+    }
+    .chip:hover { background: var(--panel); }
+    .count { display: inline; }
+
+    .board { padding: 44px 0 96px; }
+    .match { grid-template-columns: 60px 1fr 72px 1fr; padding: 10px 12px; margin: 0 -12px; }
+    .team { font-size: 15.5px; }
+    .line { font-size: 15px; }
+    .notice { padding: 96px 0; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+<script data-goatcounter="https://tlani91.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+<div class="shell">
+
+  <aside class="side">
+    <div class="masthead">
+      <h1>Transfer<br><em>Wire</em></h1>
+      <span class="updated mono" id="updated">loading</span>
+    </div>
+
+    <nav>
+      <a href="dashboard.html">Rumour wire</a>
+      <a href="transfers.html">Completed deals</a>
+      <a href="scores.html" aria-current="page">Scores</a>
+    </nav>
+
+    <div class="totals" id="totals"></div>
+
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search teams" aria-label="Search teams">
+      <div class="row-of-chips" id="stateChips" role="group" aria-label="Filter by state"></div>
+      <div class="row-of-chips" id="leagueChips" role="group" aria-label="Filter by league"></div>
+    </div>
+
+    <p class="credit">
+      Data from <a href="https://www.football-data.org" target="_blank" rel="noopener">football-data.org</a>
+    </p>
+  </aside>
+
+  <main class="board" id="board" aria-label="Fixtures and results">
+    <div class="notice"><strong>Loading</strong>Reading scores_data.json.</div>
+  </main>
+
+</div>
+
+<script>
+const LEAGUES = [
+  { id: 'all', name: 'All leagues' },
+  { id: 'PL',  name: 'Premier League' },
+  { id: 'PD',  name: 'LaLiga' },
+  { id: 'SA',  name: 'Serie A' },
+  { id: 'BL1', name: 'Bundesliga' },
+  { id: 'FL1', name: 'Ligue 1' },
+  { id: 'DED', name: 'Eredivisie' },
+  { id: 'PPL', name: 'Primeira Liga' },
+];
+
+const STATES = [
+  { id: 'all',      name: 'Everything', match: () => true },
+  { id: 'results',  name: 'Results',    match: m => m.state === 'finished' },
+  { id: 'fixtures', name: 'Fixtures',   match: m => m.state === 'upcoming' },
+];
+
+let all = [];
+let league = 'all';
+let state = 'all';
+let query = '';
+
+/* ── Dates ───────────────────────────────────────────────────
+   Kickoffs are stored in UTC but grouped by the reader's LOCAL day,
+   so a 20:00 UTC match doesn't land on the wrong date for them. */
+
+function localKey(epoch) {
+  const d = new Date(epoch * 1000);
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') +
+         '-' + String(d.getDate()).padStart(2, '0');
+}
+
+function dayLabel(epoch) {
+  const d = new Date(epoch * 1000);
+  const today = new Date();
+  const diff = Math.round(
+    (new Date(d.getFullYear(), d.getMonth(), d.getDate()) -
+     new Date(today.getFullYear(), today.getMonth(), today.getDate())) / 86400000
+  );
+  if (diff === 0) return 'Today';
+  if (diff === -1) return 'Yesterday';
+  if (diff === 1) return 'Tomorrow';
+  return d.toLocaleDateString(undefined,
+    { weekday: 'short', day: 'numeric', month: 'short' });
+}
+
+function kickoff(epoch) {
+  return new Date(epoch * 1000)
+    .toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+}
+
+/* ── Chips ───────────────────────────────────────────────── */
+
+function buildChips(el, list, get, set) {
+  list.forEach(item => {
+    const chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = 'chip';
+    chip.dataset.id = item.id;
+    chip.innerHTML = '<span></span><span class="count"></span>';
+    chip.firstChild.textContent = item.name;
+    chip.addEventListener('click', () => { set(item.id); syncChips(); render(); });
+    el.appendChild(chip);
+  });
+  el._get = get;
+}
+
+const leagueEl = document.getElementById('leagueChips');
+const stateEl = document.getElementById('stateChips');
+
+buildChips(leagueEl, LEAGUES, () => league, v => league = v);
+buildChips(stateEl, STATES, () => state, v => state = v);
+
+function syncChips() {
+  [leagueEl, stateEl].forEach(el => {
+    const active = el._get();
+    el.querySelectorAll('.chip').forEach(c => {
+      c.setAttribute('aria-pressed', c.dataset.id === active);
+    });
+  });
+}
+
+function updateCounts(pool) {
+  leagueEl.querySelectorAll('.chip').forEach(c => {
+    const n = c.dataset.id === 'all'
+      ? pool.length
+      : pool.filter(m => m.league_id === c.dataset.id).length;
+    c.querySelector('.count').textContent = n || '';
+  });
+  stateEl.querySelectorAll('.chip').forEach(c => {
+    const rule = STATES.find(s => s.id === c.dataset.id);
+    c.querySelector('.count').textContent = pool.filter(rule.match).length || '';
+  });
+}
+
+document.getElementById('search').addEventListener('input', e => {
+  query = e.target.value.toLowerCase();
+  render();
+});
+
+/* ── Totals ──────────────────────────────────────────────── */
+
+function drawTotals(items) {
+  const done = items.filter(m => m.state === 'finished');
+  const goals = done.reduce((n, m) => n + (m.ft[0] || 0) + (m.ft[1] || 0), 0);
+  const figures = [
+    [done.length, 'played'],
+    [items.filter(m => m.state === 'upcoming').length, 'to come'],
+    [goals, 'goals'],
+  ];
+  document.getElementById('totals').innerHTML = figures.map(
+    ([v, label]) => `<div class="figure"><b class="mono">${v}</b><span>${label}</span></div>`
+  ).join('');
+}
+
+/* ── Render ──────────────────────────────────────────────── */
+
+function render() {
+  const board = document.getElementById('board');
+
+  const searched = query
+    ? all.filter(m => (m.home.full + ' ' + m.away.full + ' ' +
+                       m.home.name + ' ' + m.away.name).toLowerCase().includes(query))
+    : all;
+  updateCounts(searched);
+
+  let items = league === 'all' ? searched : searched.filter(m => m.league_id === league);
+  items = items.filter(STATES.find(s => s.id === state).match);
+
+  drawTotals(items);
+
+  if (!items.length) {
+    board.innerHTML = '<div class="notice"><strong>Nothing here</strong>' +
+      'No matches match this filter.</div>';
+    return;
+  }
+
+  // Group by local day, then by competition within the day.
+  const days = new Map();
+  items.forEach(m => {
+    const key = localKey(m.epoch);
+    if (!days.has(key)) days.set(key, new Map());
+    const comps = days.get(key);
+    if (!comps.has(m.league)) comps.set(m.league, []);
+    comps.get(m.league).push(m);
+  });
+
+  const todayKey = localKey(Date.now() / 1000);
+  let html = '';
+
+  [...days.keys()].sort().forEach(key => {
+    const comps = days.get(key);
+    const first = comps.values().next().value[0];
+    html += `<p class="day${key === todayKey ? ' today' : ''}">${dayLabel(first.epoch)}</p>`;
+
+    [...comps.keys()].sort().forEach(comp => {
+      html += `<div class="comp mono">${esc(comp)}</div>`;
+      comps.get(comp)
+        .sort((a, b) => a.epoch - b.epoch)
+        .forEach(m => { html += matchRow(m); });
+    });
+  });
+
+  board.innerHTML = html;
+}
+
+function matchRow(m) {
+  const played = m.ft[0] !== null && m.ft[0] !== undefined;
+  const homeWon = m.winner === 'HOME_TEAM';
+  const awayWon = m.winner === 'AWAY_TEAM';
+
+  let when, whenClass = '';
+  if (m.state === 'live')      { when = 'LIVE'; whenClass = ' live'; }
+  else if (m.state === 'off')  { when = 'P-P';  whenClass = ' off'; }
+  else if (played)             { when = 'FT'; }
+  else                         { when = kickoff(m.epoch); }
+
+  const line = played
+    ? `<span class="line mono">${m.ft[0]} &ndash; ${m.ft[1]}</span>`
+    : `<span class="line pending mono">${m.state === 'off' ? '&mdash;' : 'v'}</span>`;
+
+  return `
+    <div class="match">
+      <span class="when mono${whenClass}">${when}</span>
+      <span class="team home${played && awayWon ? ' beaten' : ''}" title="${esc(m.home.full)}">${esc(m.home.name)}</span>
+      ${line}
+      <span class="team${played && homeWon ? ' beaten' : ''}" title="${esc(m.away.full)}">${esc(m.away.name)}</span>
+    </div>`;
+}
+
+function esc(str) {
+  const div = document.createElement('div');
+  div.textContent = str || '';
+  return div.innerHTML;
+}
+
+/* ── Data ────────────────────────────────────────────────── */
+
+async function load() {
+  const updated = document.getElementById('updated');
+  try {
+    const res = await fetch('scores_data.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    all = data.matches || [];
+    const d = new Date(data.last_updated);
+    updated.textContent = 'updated ' +
+      d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    syncChips();
+    render();
+  } catch (err) {
+    updated.textContent = 'offline';
+    document.getElementById('board').innerHTML =
+      '<div class="notice bad"><strong>Scores unreachable</strong>' +
+      'scores_data.json didn\'t respond. Check the workflow has run at least once.</div>';
+  }
+}
+
+load();
+setInterval(load, 300000);
+</script>
+
+</body>
+</html>
