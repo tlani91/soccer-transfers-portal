@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T14:00:34.148405+00:00",
+  "last_updated": "2026-08-20T14:18:51.638144+00:00",
   "items": [
     {
       "title": "Arsenal finally make Ethan Nwaneri transfer decision",
@@ -9,7 +9,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787234431.5115347,
+      "epoch": 1787235529.5084643,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787234131.5115347,
+      "epoch": 1787235229.5084643,
       "approx_time": true
     },
     {
@@ -31,7 +31,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787233833.6474113,
+      "epoch": 1787234931.1371057,
       "approx_time": true
     },
     {
@@ -42,7 +42,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787233831.5115347,
+      "epoch": 1787234929.5084643,
       "approx_time": true
     },
     {
@@ -53,7 +53,62 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787233531.5115347,
+      "epoch": 1787234629.5084643,
+      "approx_time": true
+    },
+    {
+      "title": "Barcelona set to sign Croatia World Cup star",
+      "link": "https://www.transfernewslive.com/transfer-news/barcelona-set-to-sign-croatia-world-cup-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787234329.5084643,
+      "approx_time": true
+    },
+    {
+      "title": "Arsenal reignite interest in Serie A star",
+      "link": "https://www.transfernewslive.com/transfer-news/arsenal-reignite-interest-in-serie-a-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787234029.5084643,
+      "approx_time": true
+    },
+    {
+      "title": "Inside Tottenham\u2019s aggressive transfer strategy as Marmoush becomes latest target",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-inside-tottenham-s-aggressive-transfer-strategy-as-marmoush-becomes-latest-target/UJj13l1N/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787233731.1371057,
+      "approx_time": true
+    },
+    {
+      "title": "Liverpool identify Curtis Jones replacement",
+      "link": "https://www.transfernewslive.com/transfer-news/liverpool-identify-curtis-jones-replacement/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787233729.5084643,
+      "approx_time": true
+    },
+    {
+      "title": "Arsenal make decision on Ben White as Ezri Konsa deal gets closer",
+      "link": "https://www.transfernewslive.com/transfer-news/arsenal-make-decision-on-ben-white-as-ezri-konsa-deal-gets-closer/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787233429.5084643,
       "approx_time": true
     },
     {
@@ -68,36 +123,14 @@
       "approx_time": false
     },
     {
-      "title": "Barcelona set to sign Croatia World Cup star",
-      "link": "https://www.transfernewslive.com/transfer-news/barcelona-set-to-sign-croatia-world-cup-star/",
+      "title": "Manchester City make Enzo Fernandez transfer decision",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-city-make-enzo-fernandez-transfer-decision/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787233231.5115347,
-      "approx_time": true
-    },
-    {
-      "title": "Inside Tottenham\u2019s aggressive transfer strategy as Marmoush becomes latest target",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-inside-tottenham-s-aggressive-transfer-strategy-as-marmoush-becomes-latest-target/UJj13l1N/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787232933.6474113,
-      "approx_time": true
-    },
-    {
-      "title": "Arsenal reignite interest in Serie A star",
-      "link": "https://www.transfernewslive.com/transfer-news/arsenal-reignite-interest-in-serie-a-star/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787232931.5115347,
+      "epoch": 1787233129.5084643,
       "approx_time": true
     },
     {
@@ -112,25 +145,69 @@
       "approx_time": false
     },
     {
-      "title": "Liverpool identify Curtis Jones replacement",
-      "link": "https://www.transfernewslive.com/transfer-news/liverpool-identify-curtis-jones-replacement/",
+      "title": "Tijjani Reijnders leaves Manchester City to join Saudi side Al Qadsiah",
+      "link": "https://www.flashscore.com/news/tijjani-reijnders-leaves-manchester-city-to-join-saudi-side-al-qadsiah/6DXASuJE/",
       "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787232631.5115347,
+      "epoch": 1787232831.1371057,
       "approx_time": true
     },
     {
-      "title": "Arsenal make decision on Ben White as Ezri Konsa deal gets closer",
-      "link": "https://www.transfernewslive.com/transfer-news/arsenal-make-decision-on-ben-white-as-ezri-konsa-deal-gets-closer/",
+      "title": "Arsenal set to sign Ezri Konsa",
+      "link": "https://www.transfernewslive.com/transfer-news/arsenal-set-to-sign-ezri-konsa/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787232331.5115347,
+      "epoch": 1787232829.5084643,
+      "approx_time": true
+    },
+    {
+      "title": "Tijjani Reijnders reportedly leaves Man City for Saudi's Al Qadsiah",
+      "link": "https://www.flashscore.com/news/soccer-saudi-professional-league-tijjani-reijnders-reportedly-leaves-man-city-for-saudi-s-al-qadsiah/vF5OtdKr/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787232531.1371057,
+      "approx_time": true
+    },
+    {
+      "title": "Manchester United set to sign Carlos Baleba",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-set-to-sign-carlos-baleba/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787232529.5084643,
+      "approx_time": true
+    },
+    {
+      "title": "Bernhardsson leaves Kiel to join Wolfsburg as Eliasson makes history in Brazil",
+      "link": "https://www.flashscore.com/news/soccer-2-bundesliga-bernhardsson-leaves-kiel-to-join-wolfsburg-as-eliasson-makes-history-in-brazil/6Twq8sph/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787232231.1371057,
+      "approx_time": true
+    },
+    {
+      "title": "Aston Villa reject \u00a338M offer for top star",
+      "link": "https://www.transfernewslive.com/transfer-news/aston-villa-reject-38m-offer-for-top-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787232229.5084643,
       "approx_time": true
     },
     {
@@ -145,72 +222,6 @@
       "approx_time": false
     },
     {
-      "title": "Tijjani Reijnders leaves Manchester City to join Saudi side Al Qadsiah",
-      "link": "https://www.flashscore.com/news/tijjani-reijnders-leaves-manchester-city-to-join-saudi-side-al-qadsiah/6DXASuJE/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787232033.6474113,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester City make Enzo Fernandez transfer decision",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-city-make-enzo-fernandez-transfer-decision/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787232031.5115347,
-      "approx_time": true
-    },
-    {
-      "title": "Tijjani Reijnders reportedly leaves Man City for Saudi's Al Qadsiah",
-      "link": "https://www.flashscore.com/news/soccer-saudi-professional-league-tijjani-reijnders-reportedly-leaves-man-city-for-saudi-s-al-qadsiah/vF5OtdKr/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787231733.6474113,
-      "approx_time": true
-    },
-    {
-      "title": "Arsenal set to sign Ezri Konsa",
-      "link": "https://www.transfernewslive.com/transfer-news/arsenal-set-to-sign-ezri-konsa/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787231731.5115347,
-      "approx_time": true
-    },
-    {
-      "title": "Bernhardsson leaves Kiel to join Wolfsburg as Eliasson makes history in Brazil",
-      "link": "https://www.flashscore.com/news/soccer-2-bundesliga-bernhardsson-leaves-kiel-to-join-wolfsburg-as-eliasson-makes-history-in-brazil/6Twq8sph/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787231433.6474113,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United set to sign Carlos Baleba",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-set-to-sign-carlos-baleba/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787231431.5115347,
-      "approx_time": true
-    },
-    {
       "title": "Leeds confirm signing of Swiss defender Elvedi from Borussia Monchengladbach",
       "link": "https://www.flashscore.com/news/soccer-premier-league-leeds-confirm-signing-of-swiss-defender-elvedi-from-borussia-monchengladbach/MHF1aD1K/",
       "description": "",
@@ -218,29 +229,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787231133.6474113,
-      "approx_time": true
-    },
-    {
-      "title": "Aston Villa reject \u00a338M offer for top star",
-      "link": "https://www.transfernewslive.com/transfer-news/aston-villa-reject-38m-offer-for-top-star/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787231131.5115347,
-      "approx_time": true
-    },
-    {
-      "title": "Girona new signing Abdul Mumin reveals club's 'project' was key to move",
-      "link": "https://www.flashscore.com/news/girona-new-signing-abdul-mumin-reveals-club-s-project-was-key-to-move/neubS3RF/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787230833.6474113,
+      "epoch": 1787231931.1371057,
       "approx_time": true
     },
     {
@@ -251,18 +240,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787230831.5115347,
+      "epoch": 1787231929.5084643,
       "approx_time": true
     },
     {
-      "title": "Toulouse strengthen squad with promising Danish midfielder in record deal",
-      "link": "https://www.flashscore.com/news/soccer-superliga-toulouse-strengthen-squad-with-promising-danish-midfielder-in-record-deal/vo0ov9UI/",
+      "title": "Girona new signing Abdul Mumin reveals club's 'project' was key to move",
+      "link": "https://www.flashscore.com/news/girona-new-signing-abdul-mumin-reveals-club-s-project-was-key-to-move/neubS3RF/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787230533.6474113,
+      "epoch": 1787231631.1371057,
       "approx_time": true
     },
     {
@@ -273,18 +262,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787230531.5115347,
+      "epoch": 1787231629.5084643,
       "approx_time": true
     },
     {
-      "title": "Arsenal reportedly in 'advanced talks' with Aston Villa over defender Ezri Konsa",
-      "link": "https://www.flashscore.com/news/arsenal-reportedly-in-advanced-talks-with-aston-villa-over-defender-ezri-konsa/GANUsWDd/",
+      "title": "Toulouse strengthen squad with promising Danish midfielder in record deal",
+      "link": "https://www.flashscore.com/news/soccer-superliga-toulouse-strengthen-squad-with-promising-danish-midfielder-in-record-deal/vo0ov9UI/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787230233.6474113,
+      "epoch": 1787231331.1371057,
       "approx_time": true
     },
     {
@@ -295,18 +284,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787230231.5115347,
+      "epoch": 1787231329.5084643,
       "approx_time": true
     },
     {
-      "title": "Aston Villa bolster squad with signings of Zion Suzuki and Matteo Ruggeri",
-      "link": "https://www.flashscore.com/news/aston-villa-bolster-squad-with-signings-of-zion-suzuki-and-matteo-ruggeri/byvKSGFL/",
+      "title": "Arsenal reportedly in 'advanced talks' with Aston Villa over defender Ezri Konsa",
+      "link": "https://www.flashscore.com/news/arsenal-reportedly-in-advanced-talks-with-aston-villa-over-defender-ezri-konsa/GANUsWDd/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787229933.6474113,
+      "epoch": 1787231031.1371057,
       "approx_time": true
     },
     {
@@ -317,18 +306,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787229931.5115347,
+      "epoch": 1787231029.5084643,
       "approx_time": true
     },
     {
-      "title": "Aston Villa reportedly reject Al Hilal's opening bid for striker Ollie Watkins",
-      "link": "https://www.flashscore.com/news/aston-villa-reportedly-reject-al-hilal-s-opening-bid-for-striker-ollie-watkins/rJbgCLBb/",
+      "title": "Aston Villa bolster squad with signings of Zion Suzuki and Matteo Ruggeri",
+      "link": "https://www.flashscore.com/news/aston-villa-bolster-squad-with-signings-of-zion-suzuki-and-matteo-ruggeri/byvKSGFL/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787229633.6474113,
+      "epoch": 1787230731.1371057,
       "approx_time": true
     },
     {
@@ -339,7 +328,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787229631.5115347,
+      "epoch": 1787230729.5084643,
+      "approx_time": true
+    },
+    {
+      "title": "Aston Villa reportedly reject Al Hilal's opening bid for striker Ollie Watkins",
+      "link": "https://www.flashscore.com/news/aston-villa-reportedly-reject-al-hilal-s-opening-bid-for-striker-ollie-watkins/rJbgCLBb/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787230431.1371057,
       "approx_time": true
     },
     {
@@ -350,7 +350,40 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787229331.5115347,
+      "epoch": 1787230429.5084643,
+      "approx_time": true
+    },
+    {
+      "title": "Bruno Fernandes rejects Manchester United new contract offer",
+      "link": "https://www.transfernewslive.com/transfer-news/bruno-fernandes-rejects-manchester-united-new-contract-offer/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787230129.5084643,
+      "approx_time": true
+    },
+    {
+      "title": "Alessandro Circati is off to Benfica after clubs reach agreement",
+      "link": "https://www.flashscore.com/news/alessandro-circati-is-off-to-benfica-after-clubs-reach-agreement/fLr6QsdS/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787229831.1371057,
+      "approx_time": true
+    },
+    {
+      "title": "Manchester United plan move for Lewis Hall alternative",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-plan-move-for-lewis-hall-alternative/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787229829.5084643,
       "approx_time": true
     },
     {
@@ -363,39 +396,6 @@
       "pub_date_raw": "Thu, 20 Aug 2026 12:30:34 GMT",
       "epoch": 1787229034.0,
       "approx_time": false
-    },
-    {
-      "title": "Alessandro Circati is off to Benfica after clubs reach agreement",
-      "link": "https://www.flashscore.com/news/alessandro-circati-is-off-to-benfica-after-clubs-reach-agreement/fLr6QsdS/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787229033.6474113,
-      "approx_time": true
-    },
-    {
-      "title": "Bruno Fernandes rejects Manchester United new contract offer",
-      "link": "https://www.transfernewslive.com/transfer-news/bruno-fernandes-rejects-manchester-united-new-contract-offer/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787229031.5115347,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United plan move for Lewis Hall alternative",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-plan-move-for-lewis-hall-alternative/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787228731.5115347,
-      "approx_time": true
     },
     {
       "title": "Transfer news LIVE: Arsenal triple deal, Alvarez boost; Man Utd medical; Chelsea signing; Liverpool latest - London Evening Standard",
@@ -420,6 +420,17 @@
       "approx_time": false
     },
     {
+      "title": "David Ornstein confirms Manchester City interest in Liverpool target - DaveOCKOP",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ1FaM2Z5V1BMTUdRQWVQaWJUNVBZV2l5YkY4MXFxY0psdUI2RkxDRFQ2ZWVzOHFPTVNYQ2cwUGJBekZzZExtd1o3Y216UlNQTDhUSHFjbV9BZXJrOUZUd0RVY3FySEVnVG9GNXJzRm5JRzFQenNNb3Zld2N5aGZ5SlctZVJJaHl4VGVZeGZQdzNnaGphNW10X19oRW9uTXpXVm9rbFpTVU1TVEFHWkE?oc=5",
+      "description": "David Ornstein confirms Manchester City interest in Liverpool target DaveOCKOP",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Thu, 20 Aug 2026 11:35:07 GMT",
+      "epoch": 1787225707.0,
+      "approx_time": false
+    },
+    {
       "title": "Manchester City\u2019s Adam Wharton enquiry rebuffed by Crystal Palace - The Athletic - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcGVkcWFUSjRkMTVoZXJUdzVIeU5KTGtCMDNXZkFIZ0VkX0x5TlNlRzRSeTVBeGREcE1WOWhUY1VtWFlOZU5rWFBMd2p3R3lxamVqTDZKQ2Fydk84UEJQN09HMi03T1dpY2ozNmhGRzI3d3l3d2ZqLWFOWW80WF96U3pnWFF5OW84MUNnYWc1dW9mTDRYVE1fZzIyOUhHcnpvT3RLbHVaSVBjay1HVFdN?oc=5",
       "description": "Manchester City\u2019s Adam Wharton enquiry rebuffed by Crystal Palace - The Athletic The New York Times",
@@ -428,17 +439,6 @@
       "byline": "",
       "pub_date_raw": "Thu, 20 Aug 2026 11:30:18 GMT",
       "epoch": 1787225418.0,
-      "approx_time": false
-    },
-    {
-      "title": "'Quite open' - Fabrizio Romano issues Nico Gonzalez update as Newcastle United hold talks - NewcastleWorld",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPb25JSHdvajNwOS1Rbms1cjkzT3FsYm1PaGxjeTA4dndZempfcDI1eDBxZEdtRHl3RnZTS0Q2eWxkLS1nUE41RGlaOVZrSEZwaVJqYUhJcHlTUFNteVpQeC1GYU1YOUEwcFZMSWxQYk1VcWpucGM4TkhDZDQ0MWMyLXFMa2E1M2xGMHZfNGU3dUxfQ1M4dm54cUpod3NkTU1wYThsWmUwbWZpSGZzRkF0c0l3aVdfSVFydzluVlZLZTFyOG5uZ2NFMXBJVGdNTjU1ZEVHV2diallfeTVnQ2ZSRQ?oc=5",
-      "description": "'Quite open' - Fabrizio Romano issues Nico Gonzalez update as Newcastle United hold talks NewcastleWorld",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Thu, 20 Aug 2026 11:30:00 GMT",
-      "epoch": 1787225400.0,
       "approx_time": false
     },
     {
@@ -904,6 +904,17 @@
       "approx_time": false
     },
     {
+      "title": "Newcastle in talks to sign Nico Gonzalez from Manchester City - The Athletic - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN3E3QzVIal93R3RMUW4zbldTbWc5aGZicVZUbVhnb0ZzcEJ4Mm95MVJZTVhFdzR4V0w0clcwWUFfV1Bxek00QjV6UXZJYjJmbHZlNHF0SE1ObDdmblY0YXZGN19WdkR1YW5yLXB5azczQ241b1B5OUlfVEs4R0lNbmxPM01abFBmYW8wQlpld05VbEF5YUNUVGJB?oc=5",
+      "description": "Newcastle in talks to sign Nico Gonzalez from Manchester City - The Athletic The New York Times",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Wed, 19 Aug 2026 09:27:00 GMT",
+      "epoch": 1787131620.0,
+      "approx_time": false
+    },
+    {
       "title": "Man Utd closing in on huge midfielder signing out of nowhere as David Ornstein drops transfer bombshell - SPORTbible",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbllXem8xSnBqMVpYNWdEM2wtLThobWRIYnMyZEkwR0dZSlVYX1J6VXBjZnZGQjZwY3pJcjFFMkJJaHZhNmNKV2x6VW1Nemx0Q1FfbDZyczI5MEE4TUE2OVhOcmZJbTMzRjQ1QUFYSTkzcDd0ZFM4R1c3alpZZFF5YmlGamdBTXpVOFdfRnVzNGtsNnlSSDM4bGxuUUlKV0U3MXNaM19rSXRUQ3llaEhkbldjek5BOVlFSmJ1dzRuNA?oc=5",
       "description": "Man Utd closing in on huge midfielder signing out of nowhere as David Ornstein drops transfer bombshell SPORTbible",
@@ -1091,17 +1102,6 @@
       "approx_time": false
     },
     {
-      "title": "Sporting KC signs Brazilian Andr\u00e9 Luiz in club-record deal - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc1hvOHQwY2s5VmJBMkxaZWpfeFlSRDExeUhFMW1zQV9YLXNlazhrS0pfRUp1ZVpydmQxMUZpc3c0MEk0ZURjUC1kc2tnazdPNVp6OVh0QjJ0Z21TSTlRTURlTVpqQTVfVTFib1dXRHpsTTRtMWVuRjVPSGJzR1NiUXhSUGxvMVNrT1JILXN0NXo1akRUZEdJakEwTklXWEp4OUROVw?oc=5",
-      "description": "Sporting KC signs Brazilian Andr\u00e9 Luiz in club-record deal ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Tue, 18 Aug 2026 19:44:43 GMT",
-      "epoch": 1787082283.0,
-      "approx_time": false
-    },
-    {
       "title": "Newcastle show interest in signing Nico Gonz\u00e1lez from Man City - sources - ESPN",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX2VHMmZLcktuT0ExSmRJbFBpRExiUzdqbWJBNXJiR3E5UFF0MFhtSXpWSDMtc1NKSWVaUUxhU19ST04tOW0wMVRNM3ZoQWRDdXl4ZWJSTVJtVHVwSjZyZEx2TnotRG1mTG45VkFVV2JETkZmZGIzMEZvZlV3RTlLcmU0dUQ2aDRjcTlrOURsQVRxUFNscDRSaWItcmRxYXIyVlFnM1NxUEcyVjFGRE8w?oc=5",
       "description": "Newcastle show interest in signing Nico Gonz\u00e1lez from Man City - sources ESPN",
@@ -1121,17 +1121,6 @@
       "byline": "",
       "pub_date_raw": "Tue, 18 Aug 2026 18:00:00 GMT",
       "epoch": 1787076000.0,
-      "approx_time": false
-    },
-    {
-      "title": "Newcastle in talks to sign Nico Gonzalez from Manchester City - The Athletic - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN3E3QzVIal93R3RMUW4zbldTbWc5aGZicVZUbVhnb0ZzcEJ4Mm95MVJZTVhFdzR4V0w0clcwWUFfV1Bxek00QjV6UXZJYjJmbHZlNHF0SE1ObDdmblY0YXZGN19WdkR1YW5yLXB5azczQ241b1B5OUlfVEs4R0lNbmxPM01abFBmYW8wQlpld05VbEF5YUNUVGJB?oc=5",
-      "description": "Newcastle in talks to sign Nico Gonzalez from Manchester City - The Athletic The New York Times",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Tue, 18 Aug 2026 17:06:55 GMT",
-      "epoch": 1787072815.0,
       "approx_time": false
     },
     {
@@ -1209,17 +1198,6 @@
       "byline": "",
       "pub_date_raw": "Mon, 17 Aug 2026 19:16:02 GMT",
       "epoch": 1786994162.0,
-      "approx_time": false
-    },
-    {
-      "title": "Manchester United's Myles Lewis-Skelly interest could now be over - Ben Jacobs - Tribuna.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOHNVTEFoZDVCQXBSSmNnU0pJZzRZTlhCTVotOUdvVERqd2FiOENKUlE5d3lzQVhFYjVuNVhsTG00MFZTMTRtcGI3MUtESjNmeFY5OU1kMTRxT1c1RlRVRXN0WHNFSUUtdE5zMGZHZkdOTUdlTzEtdlBqTXRVbGdlR0FNQ2ZUUFM3VkprbGdPb2lVZk80MEU0dC1tQ25vR1U1MUNKSHltc1lBNThrbm1PTS0yaVdybnRNRVHSAboBQVVfeXFMTzhzVUxBaGQ1QkFwUkpjZ1NKSWc0WU5YQk1aLTlHb1REandhYjhDSlJROXd5c0FYRWI1bjVYbExtNDBWUzE0bXBiNzFLREozZnhWOTlNZDE0cU9XNUZUVUVzdFhzRUlFLXROczBmR2ZHTk1HZU8xLXZQak10VWxnZUdBTUNmVFBTN1ZKa2xnT29pVWZPNDBFNHQtbUNub0dVNTFDSkh5bXNZQTU4a25tT00tMmlXcm50TUVR?oc=5",
-      "description": "Manchester United's Myles Lewis-Skelly interest could now be over - Ben Jacobs Tribuna.com",
-      "source_id": "jacobs",
-      "source_name": "Ben Jacobs",
-      "byline": "",
-      "pub_date_raw": "Mon, 17 Aug 2026 15:24:49 GMT",
-      "epoch": 1786980289.0,
       "approx_time": false
     },
     {
@@ -2793,6 +2771,17 @@
       "byline": "",
       "pub_date_raw": "Sat, 18 Jul 2026 07:00:00 GMT",
       "epoch": 1784358000.0,
+      "approx_time": false
+    },
+    {
+      "title": "Fabrizio Romano confirms Man Utd call over next signing - Read Man Utd",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQlhteTM0Z2tSM3FHcFcydXpKRnJtTHByeG9BeGlkZHVvUmVZZENXYWxlZWxjc2x6Z1BXR002R2FtRXU3N2lDWEV1bUVlWjhiQnA3LWpzRlZRZVU2NFQ0NDFySFAzbl8xYXBRai11NXpjRnZoVnU4aUNUenBCcHlJVm1iOXh3czRs?oc=5",
+      "description": "Fabrizio Romano confirms Man Utd call over next signing Read Man Utd",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "epoch": 1784271600.0,
       "approx_time": false
     },
     {
