@@ -48,7 +48,7 @@ LEAGUES = [
 # fetched as two separate windows. Two requests per refresh is still trivial
 # against a 10-per-minute limit, and it buys a much wider span than one
 # cramped window would.
-DAYS_BACK = 9      # results: today-9 .. today
+DAYS_BACK = 7      # results: today-7 .. today
 DAYS_AHEAD = 10    # fixtures: today+1 .. today+10
 
 # The API's status vocabulary, collapsed into what the page actually shows.
