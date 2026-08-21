@@ -562,7 +562,19 @@ function render() {
   const todayKey = localKey(Date.now() / 1000);
   let html = '';
 
-  [...days.keys()].sort().forEach(key => {
+  /* Today first, then upcoming days nearest-first, then past days
+     most-recent-first. Reads as now -> next -> just happened. Keys are
+     YYYY-MM-DD, so string comparison is date comparison. */
+  const ordered = [...days.keys()].sort((a, b) => {
+    if (a === todayKey) return -1;
+    if (b === todayKey) return 1;
+    const aFuture = a > todayKey;
+    const bFuture = b > todayKey;
+    if (aFuture !== bFuture) return aFuture ? -1 : 1;
+    return aFuture ? a.localeCompare(b) : b.localeCompare(a);
+  });
+
+  ordered.forEach(key => {
     const comps = days.get(key);
     const first = comps.values().next().value[0];
     html += `<p class="day${key === todayKey ? ' today' : ''}">${dayLabel(first.epoch)}</p>`;
