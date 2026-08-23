@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23T03:29:22.285038+00:00",
+  "last_updated": "2026-08-23T04:00:33.040290+00:00",
   "items": [
     {
       "title": "Manchester City star set to join Coventry City",
@@ -9,7 +9,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787455759.8553655,
+      "epoch": 1787457630.5655591,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787455459.8553655,
+      "epoch": 1787457330.5655591,
       "approx_time": true
     },
     {
@@ -31,7 +31,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787455161.784058,
+      "epoch": 1787457032.5392487,
       "approx_time": true
     },
     {
@@ -42,7 +42,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787455159.8553655,
+      "epoch": 1787457030.5655591,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787454861.784058,
+      "epoch": 1787456732.5392487,
       "approx_time": true
     },
     {
@@ -64,7 +64,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787454859.8553655,
+      "epoch": 1787456730.5655591,
       "approx_time": true
     },
     {
@@ -75,7 +75,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787454561.784058,
+      "epoch": 1787456432.5392487,
       "approx_time": true
     },
     {
@@ -86,7 +86,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787454559.8553655,
+      "epoch": 1787456430.5655591,
       "approx_time": true
     },
     {
@@ -97,7 +97,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787454261.784058,
+      "epoch": 1787456132.5392487,
       "approx_time": true
     },
     {
@@ -108,7 +108,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787454259.8553655,
+      "epoch": 1787456130.5655591,
       "approx_time": true
     },
     {
@@ -119,7 +119,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787453961.784058,
+      "epoch": 1787455832.5392487,
       "approx_time": true
     },
     {
@@ -130,7 +130,117 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787453959.8553655,
+      "epoch": 1787455830.5655591,
+      "approx_time": true
+    },
+    {
+      "title": "Inter sign another Englishman as Jones joins from Liverpool on long-term deal",
+      "link": "https://www.flashscore.com/news/soccer-serie-a-inter-milan-sign-curtis-jones-from-liverpool/GCUp3MSa/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787455532.5392487,
+      "approx_time": true
+    },
+    {
+      "title": "Liverpool look to sign Real Madrid superstar",
+      "link": "https://www.transfernewslive.com/transfer-news/liverpool-look-to-sign-real-madrid-superstar/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787455530.5655591,
+      "approx_time": true
+    },
+    {
+      "title": "Leeds United want to sign Portugal superstar",
+      "link": "https://www.transfernewslive.com/transfer-news/leeds-united-want-to-sign-portugal-superstar/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787455230.5655591,
+      "approx_time": true
+    },
+    {
+      "title": "Manchester City set sights on Barcelona midfielder",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-city-set-sights-on-barcelona-midfielder/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787454930.5655591,
+      "approx_time": true
+    },
+    {
+      "title": "Arsenal announce signing of England defender Ezri Konsa from Aston Villa",
+      "link": "https://www.flashscore.com/news/arsenal-announce-signing-of-aston-villa-and-england-defender-ezri-konsa/dxi8yXue/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787454632.5392487,
+      "approx_time": true
+    },
+    {
+      "title": "Barcelona join Arsenal in race for prolific striker",
+      "link": "https://www.transfernewslive.com/transfer-news/barcelona-join-arsenal-in-race-for-prolific-striker/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787454630.5655591,
+      "approx_time": true
+    },
+    {
+      "title": "Ghana midfielder Partey joins Al Shabab as free agent after Villarreal departure",
+      "link": "https://www.flashscore.com/news/soccer-saudi-professional-league-ghana-midfielder-partey-joins-al-shabab-as-free-agent-after-villarreal-departure/phdJS7Mq/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787454332.5392487,
+      "approx_time": true
+    },
+    {
+      "title": "Agent of Julian Alvarez drops bombshell",
+      "link": "https://www.transfernewslive.com/transfer-news/agent-of-julian-alvarez-drops-bombshell/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787454330.5655591,
+      "approx_time": true
+    },
+    {
+      "title": "Iraola 'excited' for first Premier League test, hints at more signings for Liverpool",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-iraola-excited-for-first-league-test-hints-at-more-signings-for-liverpool/KSwbNCp4/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787454032.5392487,
+      "approx_time": true
+    },
+    {
+      "title": "Real Madrid star rejects Liverpool transfer",
+      "link": "https://www.transfernewslive.com/transfer-news/real-madrid-star-rejects-liverpool-transfer/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1787454030.5655591,
       "approx_time": true
     },
     {
@@ -145,116 +255,6 @@
       "approx_time": false
     },
     {
-      "title": "Inter sign another Englishman as Jones joins from Liverpool on long-term deal",
-      "link": "https://www.flashscore.com/news/soccer-serie-a-inter-milan-sign-curtis-jones-from-liverpool/GCUp3MSa/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787453661.784058,
-      "approx_time": true
-    },
-    {
-      "title": "Liverpool look to sign Real Madrid superstar",
-      "link": "https://www.transfernewslive.com/transfer-news/liverpool-look-to-sign-real-madrid-superstar/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787453659.8553655,
-      "approx_time": true
-    },
-    {
-      "title": "Leeds United want to sign Portugal superstar",
-      "link": "https://www.transfernewslive.com/transfer-news/leeds-united-want-to-sign-portugal-superstar/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787453359.8553655,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester City set sights on Barcelona midfielder",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-city-set-sights-on-barcelona-midfielder/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787453059.8553655,
-      "approx_time": true
-    },
-    {
-      "title": "Arsenal announce signing of England defender Ezri Konsa from Aston Villa",
-      "link": "https://www.flashscore.com/news/arsenal-announce-signing-of-aston-villa-and-england-defender-ezri-konsa/dxi8yXue/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787452761.784058,
-      "approx_time": true
-    },
-    {
-      "title": "Barcelona join Arsenal in race for prolific striker",
-      "link": "https://www.transfernewslive.com/transfer-news/barcelona-join-arsenal-in-race-for-prolific-striker/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787452759.8553655,
-      "approx_time": true
-    },
-    {
-      "title": "Ghana midfielder Partey joins Al Shabab as free agent after Villarreal departure",
-      "link": "https://www.flashscore.com/news/soccer-saudi-professional-league-ghana-midfielder-partey-joins-al-shabab-as-free-agent-after-villarreal-departure/phdJS7Mq/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787452461.784058,
-      "approx_time": true
-    },
-    {
-      "title": "Agent of Julian Alvarez drops bombshell",
-      "link": "https://www.transfernewslive.com/transfer-news/agent-of-julian-alvarez-drops-bombshell/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787452459.8553655,
-      "approx_time": true
-    },
-    {
-      "title": "Iraola 'excited' for first Premier League test, hints at more signings for Liverpool",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-iraola-excited-for-first-league-test-hints-at-more-signings-for-liverpool/KSwbNCp4/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787452161.784058,
-      "approx_time": true
-    },
-    {
-      "title": "Real Madrid star rejects Liverpool transfer",
-      "link": "https://www.transfernewslive.com/transfer-news/real-madrid-star-rejects-liverpool-transfer/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787452159.8553655,
-      "approx_time": true
-    },
-    {
       "title": "Man City boss Maresca ready for 'aggressive' Bournemouth, addresses transfer rumours",
       "link": "https://www.flashscore.com/news/soccer-premier-league-man-city-boss-maresca-ready-for-aggressive-bournemouth-addresses-transfer-rumours/dUzf5J7L/",
       "description": "",
@@ -262,7 +262,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787451861.784058,
+      "epoch": 1787453732.5392487,
       "approx_time": true
     },
     {
@@ -273,7 +273,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787451859.8553655,
+      "epoch": 1787453730.5655591,
       "approx_time": true
     },
     {
@@ -284,7 +284,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787451561.784058,
+      "epoch": 1787453432.5392487,
       "approx_time": true
     },
     {
@@ -295,7 +295,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787451559.8553655,
+      "epoch": 1787453430.5655591,
       "approx_time": true
     },
     {
@@ -306,7 +306,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787451261.784058,
+      "epoch": 1787453132.5392487,
       "approx_time": true
     },
     {
@@ -317,7 +317,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787451259.8553655,
+      "epoch": 1787453130.5655591,
       "approx_time": true
     },
     {
@@ -328,7 +328,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787450961.784058,
+      "epoch": 1787452832.5392487,
       "approx_time": true
     },
     {
@@ -339,7 +339,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787450959.8553655,
+      "epoch": 1787452830.5655591,
       "approx_time": true
     },
     {
@@ -350,7 +350,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787450661.784058,
+      "epoch": 1787452532.5392487,
       "approx_time": true
     },
     {
@@ -361,7 +361,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787450659.8553655,
+      "epoch": 1787452530.5655591,
       "approx_time": true
     },
     {
@@ -372,7 +372,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787450359.8553655,
+      "epoch": 1787452230.5655591,
       "approx_time": true
     },
     {
@@ -383,7 +383,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787450061.784058,
+      "epoch": 1787451932.5392487,
       "approx_time": true
     },
     {
@@ -394,7 +394,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1787450059.8553655,
+      "epoch": 1787451930.5655591,
       "approx_time": true
     },
     {
@@ -692,6 +692,17 @@
       "byline": "",
       "pub_date_raw": "Fri, 21 Aug 2026 20:00:59 GMT",
       "epoch": 1787342459.0,
+      "approx_time": false
+    },
+    {
+      "title": "Carlos Baleba set for Manchester United medical after \u00a370m deal agreed with Brighton - The Athletic - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNUhVVjdQNlltTE4tdndGTWpsWkRwV3B2TmxLX2JZck1lckxFUHc4U2ctdDVmcnRybWxIRk9KZkwwNVM1WXF6TGEyVkM1S21ZUlhfLVZ2U2Y1YTFIOEV2anowWHVuUGFNYWloeU5ZQW5vVjBrdGRQTXRZNWNpSUFEUGxQM0dOZ1JHNTlB?oc=5",
+      "description": "Carlos Baleba set for Manchester United medical after \u00a370m deal agreed with Brighton - The Athletic The New York Times",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Fri, 21 Aug 2026 19:59:45 GMT",
+      "epoch": 1787342385.0,
       "approx_time": false
     },
     {
@@ -1751,17 +1762,6 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano reveals Liverpool decision on Rio Ngumoha sale as Barcola deal advances - Football365",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcFdJeTI2NTF4UkpHZHVXeDdabkk0RHZmU2ZFZmljWXhwSWZQQ1J1NjBMTHV5WGhzWmZLcWh1QV9rZ19NNkEteTJKOUlybXM3cUwzSkRZaDhqT1pfQ3hqYldHb2NORzRuMGhaellSUnMxcFM0TzlOOVRDVE02dlktWWtVNFZnTzh6aXVobFVDb2F5M01EbEp0ZHloaXVVSzV4bml4cHVaY1BuSURFOEtnQ1lR?oc=5",
-      "description": "Fabrizio Romano reveals Liverpool decision on Rio Ngumoha sale as Barcola deal advances Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Fri, 14 Aug 2026 07:00:00 GMT",
-      "epoch": 1786690800.0,
-      "approx_time": false
-    },
-    {
       "title": "Tottenham's Djed Spence lands in Italy to complete Inter transfer - ESPN",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYUZZTnRJQW9rS0QyVER1U0hfVzNmSWp0OHhqSXNSNjlPektuZVRfMlJtQnFPUXhXbUgyRzh4dDNuVFRNVmJGNlBEekluR2dsQlQtQXFNazZld1EyYW9vV1NSN0QtS3BrUlRYU3FMYnAxUUlwX1hMX0JFWU9ncDF4aUlFNkhnaHF3SGlQakctX1Z2WXJDWWZKS3I4QQ?oc=5",
       "description": "Tottenham's Djed Spence lands in Italy to complete Inter transfer ESPN",
@@ -1998,6 +1998,17 @@
       "description": "Transfer rumors, news: Tottenham eye move for Liverpool's Gakpo ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Mon, 10 Aug 2026 07:00:00 GMT",
+      "epoch": 1786345200.0,
+      "approx_time": false
+    },
+    {
+      "title": "Fabrizio Romano says door \u2018closed\u2019 for Man Utd to sign midfielder after \u2018agreement\u2019 - Football365",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUmozSkx6cjVzLWtMZWlMMG5LUUNNSGZDNTZoT1F0TzJUY0NjbnZaeHdrQ2lIaUZXeUlqWGc2RHctRlhOT1lsVUJ2em9yTkFUZ0s0SkgwUV8xZ3otSnF3dGEya2VJemZrTWJjSFRQa3lrb2ZvTFpYS3k4RlNWZWFxQ0VyV2FoeUFmVEhGelhRTTA0OUstVUp3VXdIcnBqYlRUWVFzaE9GT3Q5UDhlbDAyMU5B?oc=5",
+      "description": "Fabrizio Romano says door \u2018closed\u2019 for Man Utd to sign midfielder after \u2018agreement\u2019 Football365",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
       "byline": "",
       "pub_date_raw": "Mon, 10 Aug 2026 07:00:00 GMT",
       "epoch": 1786345200.0,
@@ -2785,17 +2796,6 @@
       "approx_time": false
     },
     {
-      "title": "David Ornstein: Chelsea make move for Premier League striker - Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdHZaX3hIclR6QVBZbUJNbGVPWFJkSTE3M0Fma3lXSlp0YmphempLaVpOV2QySDU0Y0ZlTGVmNnNqUzhVRVFmZGhRTGpNT05KV0V0MGg2YmdFZ3BPQ0x5aEZOZU8tUDd2bmdHR3hXR29fNWVCMkhBTnRIRVpuRWhvVE1vS3M3dU9oaEVEVg?oc=5",
-      "description": "David Ornstein: Chelsea make move for Premier League striker Yahoo Sports",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Mon, 27 Jul 2026 07:00:00 GMT",
-      "epoch": 1785135600.0,
-      "approx_time": false
-    },
-    {
       "title": "Fabrizio Romano clarifies Man Utd stance on signing Carlos Baleba, Manu Kone and Danilo - Football365",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVzFmZ19mS2xKc3JDSGNXd1htWEx2MXUwNmdONXVnUDJFbDNLWEZXVUZOLTFjc3NmVzZCdVNKR2tZSkJnWVZ4d1dxQWVkVks2ODVuQkl6cVJSUThqQVBrRHBXQTFFb2hjTHpIUHlBTkpCRVlicmxyYXlKOFIyUmRSOFhFcG5vdEltS1d0NW8tbnNmU3ltQ1ZhVTFFWQ?oc=5",
       "description": "Fabrizio Romano clarifies Man Utd stance on signing Carlos Baleba, Manu Kone and Danilo Football365",
@@ -3123,17 +3123,6 @@
       "byline": "",
       "pub_date_raw": "Sun, 12 Jul 2026 07:00:00 GMT",
       "epoch": 1783839600.0,
-      "approx_time": false
-    },
-    {
-      "title": "Guimaraes will make Arsenal move \u2018on two grounds\u2019 with Newcastle \u2018flabbergasted\u2019 - Football365",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa2RaNUFFX24tTWQ2Zk5aMk1FVVExaGhIWFlnMnBtRlNfNE5QektPbzlyaHlzellLWDVNQ3lzQWx2WGNvbVlfSjJseFBmTTBOVjQ4cTBoVW1YRy1OS1ptRkl5ZGNxMm5Qa1BURlYybUltLXpxUGo5WlFqTzJmYml6N1Z0STZGUU5yRkh1bE96Umk5TzdGNExLZFFmNA?oc=5",
-      "description": "Guimaraes will make Arsenal move \u2018on two grounds\u2019 with Newcastle \u2018flabbergasted\u2019 Football365",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Sat, 11 Jul 2026 07:00:00 GMT",
-      "epoch": 1783753200.0,
       "approx_time": false
     },
     {
