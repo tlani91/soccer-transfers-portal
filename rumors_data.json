@@ -1,28 +1,6 @@
 {
-  "last_updated": "2026-08-28T23:00:32.539913+00:00",
+  "last_updated": "2026-08-29T00:01:21.752441+00:00",
   "items": [
-    {
-      "title": "Chelsea exploring move for Brazilian midfielder",
-      "link": "https://www.transfernewslive.com/transfer-news/chelsea-exploring-move-for-brazilian-midfielder/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787958030.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Aston Villa agree deal with Paris Saint-Germain for Liverpool target",
-      "link": "https://www.transfernewslive.com/transfer-news/aston-villa-agree-deal-with-paris-saint-germain-for-liverpool-target/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787957730.0824068,
-      "approx_time": true
-    },
     {
       "title": "Transfer News LIVE: Aston Villa agree fee for Mbaye, Galatasaray set to sign Leao Updated",
       "link": "https://www.flashscore.com/news/transfer-news-live-tracker-updates/8QqUWm3n/",
@@ -31,30 +9,151 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787957432.0389438,
+      "epoch": 1787961081.2515788,
       "approx_time": true
     },
     {
-      "title": "Manchester City get major boost in pursuit of Premier League winger",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-city-get-major-boost-in-pursuit-of-premier-league-winger/",
+      "title": "Flashscore sources: Arsenal in race against time to sign forward as they wait for Alvarez",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-arsenal-in-race-against-time-to-sign-forward-as-they-wait-for-alvarez/OvHopC8j/",
       "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787957430.0824068,
+      "epoch": 1787960481.2515788,
       "approx_time": true
     },
     {
-      "title": "Manchester United join race for Atletico Madrid forward",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-join-race-for-atletico-madrid-forward/",
+      "title": "Aston Villa confirm addition of Nicolas Jackson from Chelsea in \u00a365m deal",
+      "link": "https://www.flashscore.com/news/aston-villa-confirm-addition-of-nicolas-jackson-from-chelsea-in-65m-deal/nugbThhf/",
       "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787957130.0824068,
+      "epoch": 1787960181.2515788,
       "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: Man City seek to unlock a deal for \u00a3100m-rated Iliman Ndiaye",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-man-city-seek-to-unlock-a-deal-for-100m-rated-iliman-ndiaye/YcATXDrm/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787959881.2515788,
+      "approx_time": true
+    },
+    {
+      "title": "Nick Woltemade's potential Napoli loan shouldn't be seen as a risk by Newcastle",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-nick-woltemade-s-potential-napoli-loan-shouldn-t-be-seen-as-a-risk-by-newcastle/tAYFRSzB/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787959581.2515788,
+      "approx_time": true
+    },
+    {
+      "title": "Transfer rumors, news: Real Madrid eye move for Roma's Kon\u00e9 - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMXFSd2FWWjdUZWhXbV84M0dpeV9hQlp1cC02eEZsOWlNNml0bWtXRWgtREZiSEVMc2lCajNUMXljc3BBamg4b21QcU5BRzByb2lDb2s2SVpRMDBlVVIyYkdtWXRLeHNyNWl3OGRDdlEzbnpadmxiN04zYzlrTEpHajZ6Ml8tcFd6cFZXU1BFX0Y5N3VEX09LODJwODE4bnkzNFlqc3NoT0FXNndiNWlmUkVlRl90QQ?oc=5",
+      "description": "Transfer rumors, news: Real Madrid eye move for Roma's Kon\u00e9 ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Fri, 28 Aug 2026 23:22:33 GMT",
+      "epoch": 1787959353.0,
+      "approx_time": false
+    },
+    {
+      "title": "\u2018A bit surreal\u2019: Ward-Prowse completes Southampton return from West Ham",
+      "link": "https://www.flashscore.com/news/soccer-championship-a-bit-surreal-ward-prowse-completes-southampton-return-from-west-ham/AcnWEbAl/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787958981.2515788,
+      "approx_time": true
+    },
+    {
+      "title": "Brentford announce signing of Senegal defender El Hadji Malick Diouf from West Ham",
+      "link": "https://www.flashscore.com/news/brentford-announce-signing-of-senegal-defender-el-hadji-malick-diouf-from-west-ham/6oRtsNhl/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787958681.2515788,
+      "approx_time": true
+    },
+    {
+      "title": "Atletico Madrid chief reiterates they will 'never, ever' let Julian Alvarez join Barcelona",
+      "link": "https://www.flashscore.com/news/atletico-madrid-chief-reiterates-they-will-never-ever-let-julian-alvarez-join-barcelona/bNjtipsm/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787958381.2515788,
+      "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: Chelsea's potential Emi Martinez deal may lead to surprise exit",
+      "link": "https://www.flashscore.com/news/flashscore-sources-chelsea-s-potential-emi-martinez-deal-may-lead-to-surprise-exit/MkP7xdzG/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787958081.2515788,
+      "approx_time": true
+    },
+    {
+      "title": "Aston Villa sign former Bayern Munich midfielder Leon Goretzka on free transfer",
+      "link": "https://www.flashscore.com/news/aston-villa-sign-former-bayern-munich-midfielder-leon-goretzka-on-free-transfer/WpddJ1Bm/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787957781.2515788,
+      "approx_time": true
+    },
+    {
+      "title": "Real Madrid complete signing of Ghanaian defender Oscar Naasei from Granada",
+      "link": "https://www.flashscore.com/news/soccer-laliga-real-madrid-complete-signing-of-ghanaian-defender-oscar-naasei-from-granada/AwfqFhJ8/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787957481.2515788,
+      "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: Woltemade could be involved in late Newcastle transfer twist",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-woltemade-could-be-involved-in-late-newcastle-transfer-twist/MHDlgBdk/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1787957181.2515788,
+      "approx_time": true
+    },
+    {
+      "title": "Manchester City interested in signing Liverpool forward Cody Gakpo - The Athletic - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcXJ2OEoyQ0VUUG5QTXY0RnE3bk1vNkFzekdzRm5vTmc1XzFUSXpvVEtQdzR5UFo2WHVDRzJsR21oZ0VqUnQ2Q3NfaUNlaVBKaGl2TFBicGVVWlBwbGpmYjJqM2IzU2xNR0NjT0Zyby1pcVJQdUNJSXlCMmRLTldQdm13eDZmS1QzMXBfcjlFQU5XRktNdHc?oc=5",
+      "description": "Manchester City interested in signing Liverpool forward Cody Gakpo - The Athletic The New York Times",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Fri, 28 Aug 2026 22:46:00 GMT",
+      "epoch": 1787957160.0,
+      "approx_time": false
     },
     {
       "title": "Manchester City agree \u20ac40million deal to sign Allan Elias from Palmeiras - The Athletic - The New York Times",
@@ -68,169 +167,59 @@
       "approx_time": false
     },
     {
-      "title": "Flashscore sources: Arsenal in race against time to sign forward as they wait for Alvarez",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-arsenal-in-race-against-time-to-sign-forward-as-they-wait-for-alvarez/OvHopC8j/",
+      "title": "Arteta says new signings Guimaraes and Konsa could be involved against Aston Villa",
+      "link": "https://www.flashscore.com/news/soccer-fa-community-shield-arteta-says-new-signings-guimaraes-and-konsa-could-be-involved-against-aston-villa/dv4cLENi/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787956832.0389438,
+      "epoch": 1787956881.2515788,
       "approx_time": true
     },
     {
-      "title": "Chelsea identify \u20ac60M Enzo Fernandez replacement",
-      "link": "https://www.transfernewslive.com/transfer-news/chelsea-identify-e60m-enzo-fernandez-replacement/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787956830.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Aston Villa confirm addition of Nicolas Jackson from Chelsea in \u00a365m deal",
-      "link": "https://www.flashscore.com/news/aston-villa-confirm-addition-of-nicolas-jackson-from-chelsea-in-65m-deal/nugbThhf/",
+      "title": "Why Arsenal wanting to sign Marseille's Igor Paixao is a risk but an understandable one",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-why-arsenal-wanting-to-sign-marseille-s-igor-paixao-is-a-risk-but-an-understandable-one/ITjoBFsf/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787956532.0389438,
+      "epoch": 1787956581.2515788,
       "approx_time": true
     },
     {
-      "title": "Arsenal star defender attracts interest from Fenerbahce",
-      "link": "https://www.transfernewslive.com/transfer-news/arsenal-star-defender-attracts-interest-from-fenerbahce/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787956530.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Flashscore sources: Man City seek to unlock a deal for \u00a3100m-rated Iliman Ndiaye",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-man-city-seek-to-unlock-a-deal-for-100m-rated-iliman-ndiaye/YcATXDrm/",
+      "title": "Liverpool boss Iraola hoping for good news as Reds reportedly agree Barcola deal",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-liverpool-boss-iraola-hoping-for-good-news-as-reds-reportedly-agree-barcola-deal/p0zu3X7N/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787956232.0389438,
+      "epoch": 1787956281.2515788,
       "approx_time": true
     },
     {
-      "title": "Manchester City want Liverpool star as Enzo Fernandez alternative",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-city-want-liverpool-star-as-enzo-fernandez-alternative/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787956230.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Nick Woltemade's potential Napoli loan shouldn't be seen as a risk by Newcastle",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-nick-woltemade-s-potential-napoli-loan-shouldn-t-be-seen-as-a-risk-by-newcastle/tAYFRSzB/",
+      "title": "Man City forward Marmoush joins Tottenham on initial season-long loan",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-man-city-forward-marmoush-joins-tottenham-on-initial-season-long-loan/rgVG8yvn/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1787955932.0389438,
+      "epoch": 1787955981.2515788,
       "approx_time": true
     },
     {
-      "title": "Surprise club enter race for Marcus Rashford",
-      "link": "https://www.transfernewslive.com/transfer-news/surprise-club-enter-race-for-marcus-rashford/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787955930.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Arsenal set to reignite interest in Real Madrid forward",
-      "link": "https://www.transfernewslive.com/transfer-news/arsenal-set-to-reignite-interest-in-real-madrid-forward/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787955630.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "\u2018A bit surreal\u2019: Ward-Prowse completes Southampton return from West Ham",
-      "link": "https://www.flashscore.com/news/soccer-championship-a-bit-surreal-ward-prowse-completes-southampton-return-from-west-ham/AcnWEbAl/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787955332.0389438,
-      "approx_time": true
-    },
-    {
-      "title": "Arsenal target Marcus Rashford star to replace Gabriel Martinelli",
-      "link": "https://www.transfernewslive.com/transfer-news/arsenal-target-marcus-rashford-star-to-replace-gabriel-martinelli/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787955330.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Brentford announce signing of Senegal defender El Hadji Malick Diouf from West Ham",
-      "link": "https://www.flashscore.com/news/brentford-announce-signing-of-senegal-defender-el-hadji-malick-diouf-from-west-ham/6oRtsNhl/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787955032.0389438,
-      "approx_time": true
-    },
-    {
-      "title": "Liverpool set to battle Chelsea to secure Curtis Jones replacement",
-      "link": "https://www.transfernewslive.com/transfer-news/liverpool-set-to-battle-chelsea-to-secure-curtis-jones-replacement/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787955030.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Atletico Madrid chief reiterates they will 'never, ever' let Julian Alvarez join Barcelona",
-      "link": "https://www.flashscore.com/news/atletico-madrid-chief-reiterates-they-will-never-ever-let-julian-alvarez-join-barcelona/bNjtipsm/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787954732.0389438,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United offered chance to sign Chelsea star",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-offered-chance-to-sign-chelsea-star/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787954730.0824068,
-      "approx_time": true
+      "title": "Fabrizio Romano reveals Endrick \u2018decision\u2019 on joining Arsenal from Real Madrid - LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeHVrVkYzTW8zMlJFSnBqRk9NUFpwQ0VYa3FMTm9hM2p1QnpwY1JiRUNvaDVkV1F2UUxjRzlTRFR4RWhGR2VrUWg2aEtJcTlvenJFRVpYNVF4R2Q3cHhkRllaVXQ4ejBBMHJ4a2N1cU90WGtHS1lnc1BTcmlLME5NWl81dGR6ZHZWTDB2SlkxckdUZ0NKNDg3WE1tVEFuNDR4QVFfMlhOaUhUSVo2dGlJTHhUUmllYS1BYm5SUE96TzNJa1BUZE9zZDJqS1EyTm1FRDRoRXZFSUZ5cTlyeDBseg?oc=5",
+      "description": "Fabrizio Romano reveals Endrick \u2018decision\u2019 on joining Arsenal from Real Madrid LiveScore",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Fri, 28 Aug 2026 22:14:40 GMT",
+      "epoch": 1787955280.0,
+      "approx_time": false
     },
     {
       "title": "Fabrizio Romano reveals Endrick \u2018decision\u2019 on joining Arsenal from Real Madrid - Football365",
@@ -244,94 +233,6 @@
       "approx_time": false
     },
     {
-      "title": "Flashscore sources: Chelsea's potential Emi Martinez deal may lead to surprise exit",
-      "link": "https://www.flashscore.com/news/flashscore-sources-chelsea-s-potential-emi-martinez-deal-may-lead-to-surprise-exit/MkP7xdzG/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787954432.0389438,
-      "approx_time": true
-    },
-    {
-      "title": "Real Madrid identify Eduardo Camavinga replacement amid Manchester United links",
-      "link": "https://www.transfernewslive.com/transfer-news/real-madrid-identify-eduardo-camavinga-replacement-amid-manchester-united-links/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787954430.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Aston Villa sign former Bayern Munich midfielder Leon Goretzka on free transfer",
-      "link": "https://www.flashscore.com/news/aston-villa-sign-former-bayern-munich-midfielder-leon-goretzka-on-free-transfer/WpddJ1Bm/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787954132.0389438,
-      "approx_time": true
-    },
-    {
-      "title": "Julian Alvarez takes final call on his future to end transfer saga",
-      "link": "https://www.transfernewslive.com/transfer-news/julian-alvarez-takes-final-call-on-his-future-to-end-transfer-saga/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787954130.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Real Madrid complete signing of Ghanaian defender Oscar Naasei from Granada",
-      "link": "https://www.flashscore.com/news/soccer-laliga-real-madrid-complete-signing-of-ghanaian-defender-oscar-naasei-from-granada/AwfqFhJ8/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787953832.0389438,
-      "approx_time": true
-    },
-    {
-      "title": "Nottingham Forest set to sign Chelsea target",
-      "link": "https://www.transfernewslive.com/transfer-news/nottingham-forest-set-to-sign-chelsea-target/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787953830.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Flashscore sources: Woltemade could be involved in late Newcastle transfer twist",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-woltemade-could-be-involved-in-late-newcastle-transfer-twist/MHDlgBdk/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787953532.0389438,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United set sights on Premier League star as Lewis Hall alternative",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-set-sights-on-premier-league-star-as-lewis-hall-alternative/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787953530.0824068,
-      "approx_time": true
-    },
-    {
       "title": "Arsenal transfer news: Gunners hold talks for Real Madrid and Brazil forward Endrick - Paper Talk - Sky Sports",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRFZxVnA3ZXhKd3prNWRZay1YdVdfRllrZFNxbEFReHhySGstYkxXcFVwdjhsb3Q0dHd4VnhnTE9lMDl5d1R4S1ZYWEVXeFp6ZS1CeGg2c3cyTG15QzJDZEowdUhaVWNlOTg5elY0cVBNaWQzcno1Z3JFZllJaFRqOE02VFdONXRITTBxMFJSUXNiNTFyR0ZZeUI2VWliWGMxdjhESWFyckVnTEtoWjItVy1sdzB2SzFldFJEbzdwZDgwRU02bkNhWmFIWEl3ZXY3Y0JrMlAzVGk1cW1JaU5kaXY5WQ?oc=5",
       "description": "Arsenal transfer news: Gunners hold talks for Real Madrid and Brazil forward Endrick - Paper Talk Sky Sports",
@@ -341,94 +242,6 @@
       "pub_date_raw": "Fri, 28 Aug 2026 21:40:55 GMT",
       "epoch": 1787953255.0,
       "approx_time": false
-    },
-    {
-      "title": "Arteta says new signings Guimaraes and Konsa could be involved against Aston Villa",
-      "link": "https://www.flashscore.com/news/soccer-fa-community-shield-arteta-says-new-signings-guimaraes-and-konsa-could-be-involved-against-aston-villa/dv4cLENi/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787953232.0389438,
-      "approx_time": true
-    },
-    {
-      "title": "Atletico Madrid take firm stance on Julian Alvarez transfer saga",
-      "link": "https://www.transfernewslive.com/transfer-news/atletico-madrid-take-firm-stance-on-julian-alvarez-transfer-saga/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787953230.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Why Arsenal wanting to sign Marseille's Igor Paixao is a risk but an understandable one",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-why-arsenal-wanting-to-sign-marseille-s-igor-paixao-is-a-risk-but-an-understandable-one/ITjoBFsf/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787952932.0389438,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester City plan blockbuster swap deal with Everton",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-city-plan-blockbuster-swap-deal-with-everton/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787952930.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Liverpool boss Iraola hoping for good news as Reds reportedly agree Barcola deal",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-liverpool-boss-iraola-hoping-for-good-news-as-reds-reportedly-agree-barcola-deal/p0zu3X7N/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787952632.0389438,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United find Joshua Zirkzee replacement from Bundesliga",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-find-joshua-zirkzee-replacement-from-bundesliga/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787952630.0824068,
-      "approx_time": true
-    },
-    {
-      "title": "Man City forward Marmoush joins Tottenham on initial season-long loan",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-man-city-forward-marmoush-joins-tottenham-on-initial-season-long-loan/rgVG8yvn/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1787952332.0389438,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United plan \u20ac80M double swoop from LaLiga",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-plan-e80m-double-swoop-from-laliga/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1787952330.0824068,
-      "approx_time": true
     },
     {
       "title": "Transfer news LIVE: Secret Arsenal bid; Barcola medical, Chelsea deals - London Evening Standard",
@@ -497,6 +310,17 @@
       "approx_time": false
     },
     {
+      "title": "Liverpool 'preparing new proposal' for signing after Barcola with green light given - Football365",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTTVqdEZLQXhOVmMzU1ZmVTljTm45YkU0al9PRUVCbDV5eko1VFdXdkh3QlNFb05RR3l4M0NVdnJXaHFlMnpRenllYnA4R0UxeGF5b3UwZWdIU3NObVNyOWYtN1VvVWIzQW81SGZ5dU5ucVlkaGo3Nkp5WEplSnRlQXYtcURxQXpDRGQ3bDY3VDM1a1BtR1BCb0FTR2xqSTBOTEhWNWp0djdJYnlMZkhGOTlKOS0xOWVx?oc=5",
+      "description": "Liverpool 'preparing new proposal' for signing after Barcola with green light given Football365",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Fri, 28 Aug 2026 17:45:38 GMT",
+      "epoch": 1787939138.0,
+      "approx_time": false
+    },
+    {
       "title": "Liverpool transfer 'agreed' after Andoni Iraola verdict - London Evening Standard",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQal9HZGJxdkdOa3ltR3RDZGpUY2F6NVc0WDFmN3Ztc2Iwb0tiWFVYVGVpZFZ0a1pLdUFLUkJfcnFYM19sTHhGdkhBeXFqdEhTQ2pXOU5SLV9jQXVRTk9mQzY1WTlyYnRwOXprSy1UREFnZmJralVVS21pMkdRQVpteDhPRmhFVWN2d2x6Qi16OUtPejl6ektMbGlXd3lVdF8z?oc=5",
       "description": "Liverpool transfer 'agreed' after Andoni Iraola verdict London Evening Standard",
@@ -516,17 +340,6 @@
       "byline": "",
       "pub_date_raw": "Fri, 28 Aug 2026 17:06:45 GMT",
       "epoch": 1787936805.0,
-      "approx_time": false
-    },
-    {
-      "title": "Transfer rumors, news: Arsenal turn to Real Madrid's Endrick in left winger chase - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMXFSd2FWWjdUZWhXbV84M0dpeV9hQlp1cC02eEZsOWlNNml0bWtXRWgtREZiSEVMc2lCajNUMXljc3BBamg4b21QcU5BRzByb2lDb2s2SVpRMDBlVVIyYkdtWXRLeHNyNWl3OGRDdlEzbnpadmxiN04zYzlrTEpHajZ6Ml8tcFd6cFZXU1BFX0Y5N3VEX09LODJwODE4bnkzNFlqc3NoT0FXNndiNWlmUkVlRl90QQ?oc=5",
-      "description": "Transfer rumors, news: Arsenal turn to Real Madrid's Endrick in left winger chase ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Fri, 28 Aug 2026 16:25:58 GMT",
-      "epoch": 1787934358.0,
       "approx_time": false
     },
     {
@@ -640,6 +453,17 @@
       "approx_time": false
     },
     {
+      "title": "ChatGPT predicts every Premier League 2026/27 matchday 2 result - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZHphRE9TQldoaW5nNE5RMUxvUTNGWmg5czk0SC1wYmN6TDE4ZVF1aUlZZG1ZaVkyRmo5RTB4bWhRLVBBQXZLUUFTcHAwRnBmRW80NDQ2TDdhQ0VpbWtMNHVnR1FqMzV5UUN1WFFjYU9aeUtGZWxGMjBxRDJSTjNxSEM0YnpPVHM3ZXNWNzhndWpFRzhiV2wtNlo2cWZnM1NDX3FuNw?oc=5",
+      "description": "ChatGPT predicts every Premier League 2026/27 matchday 2 result transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Fri, 28 Aug 2026 10:56:04 GMT",
+      "epoch": 1787914564.0,
+      "approx_time": false
+    },
+    {
       "title": "Fabrizio Romano tips Man Utd to repeat surprise Tottenham raid - TEAMtalk",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbjRXZ2ZQMmlMY3gxQWYxczZucVRyT3JLdFVvdjdXdkp6NlpWQjVnSFpvMl9jNzRzX3YxX1ZjaThzWDJwTS1sekxIejRYLTQ2eXNKQU9ZV2J2OE1UekZrVlJYTW1JNnpCUksxUFpXeXRra0F1ZHlxUXpPOFB2TkRQLVg3c1pKd1FKNUZXRHZMLWFjQ0FjYUxBOVF3b0FSOTY1TTdRalBLVVFha2s?oc=5",
       "description": "Fabrizio Romano tips Man Utd to repeat surprise Tottenham raid TEAMtalk",
@@ -692,6 +516,17 @@
       "byline": "",
       "pub_date_raw": "Fri, 28 Aug 2026 09:51:36 GMT",
       "epoch": 1787910696.0,
+      "approx_time": false
+    },
+    {
+      "title": "Transfer rumors, news: Arsenal turn to Real Madrid's Endrick in left winger chase - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNDJMRWtiZjNROUU4WnNvc2U1MFR3YnRKYXZuWjg0VHhVcTBHS0lqdFNjT0FjV2JGWHlFMmo2WENyV01GY3RteG5qS204ckR2dEc5UndURzYtc2RzYmx1RjlQeDZySHVvRC10ZDZSWVJjT1RFUF9XeThKdzk0WUhKaGVFQlBCX1NPZDBCYllYYl9vdWtiNjlYajVrSGxsRFpaWUowUGgtTFZLb2tmYWlMX21mSkk3dw?oc=5",
+      "description": "Transfer rumors, news: Arsenal turn to Real Madrid's Endrick in left winger chase ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Fri, 28 Aug 2026 09:35:59 GMT",
+      "epoch": 1787909759.0,
       "approx_time": false
     },
     {
@@ -835,17 +670,6 @@
       "byline": "",
       "pub_date_raw": "Thu, 27 Aug 2026 18:56:10 GMT",
       "epoch": 1787856970.0,
-      "approx_time": false
-    },
-    {
-      "title": "Chelsea agree \u00a37.5m deal to sign Emiliano Martinez from Aston Villa - The Athletic - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVFAtS0pQMENEaVpNa1pOT2Y2ZTE3c3FhbzloUE9KeFlzRkdjb25xZHNSTGMwQkU2U3FMWlRqSnZLRk5US1FxRzhXX0hxRS1KSjZ2MVN6MzN3dTZyUGp1MGFiZlVIWWlMdEY0TEt3Y0NLQmhiSDIzMW5ZY2ZOUTIwTFMwa0t1dHRmOHYwUTZpQU4xamwxYnRqbGtoV25LcVE0?oc=5",
-      "description": "Chelsea agree \u00a37.5m deal to sign Emiliano Martinez from Aston Villa - The Athletic The New York Times",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Thu, 27 Aug 2026 18:26:39 GMT",
-      "epoch": 1787855199.0,
       "approx_time": false
     },
     {
@@ -1190,6 +1014,17 @@
       "approx_time": false
     },
     {
+      "title": "Manchester United plan \u20ac80M double swoop from LaLiga - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR2w2WjRqUE5FZlRzSmt2V19jdVhKeVZxRXlYdGg5eU5NRkRSNkVIS3ZUTWlkS1VrSmo4MGwxNGQzNjZURWdEWG1OQmpCNUlrSXJ3NHFWYmQ4em5GbkJpQTdIMk43T1B0WE8xRE1MT3Nkb3ZaTmdkLU1NeHBULTAtLW1IRDhHcTd1X1ZDMHlzeEZVQ1gtTUVER1FBUzNraU9CRkE?oc=5",
+      "description": "Manchester United plan \u20ac80M double swoop from LaLiga transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "epoch": 1787814000.0,
+      "approx_time": false
+    },
+    {
       "title": "Barcola to Liverpool now in \u2018final stages\u2019 as Fabrizio Romano issues Thursday morning update - The Empire of The Kop",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQVRsanJHMWRhR2FxMDdjQ0YzbU9SX1FHMzRXQ0FwUzIxdlpnRTY2M3N2Q2ZBa1RoVzcybXk5MzFxa0pwR3dYMmRkbmxpWmVKNGpKajh3bmw1eFF0c081VGdyWU5LYkI5SVlJU0lyaEljQU12RDZPUXNvMzJTY0FkWm5JeWxSUFJOWlBKZnE2bU5HcjZFbHRsNWN1Z3HSAaIBQVVfeXFMUHFtMmRUOWlid3FnS1dXYmhxTGtWNW1tSEhXYVFNaFV0TXlKX0oyeTBmOWJibkNFcjBLZWZDUTdVMUV2ZWZWYzBzaHJwWWZGTzBaTEUxcVRBX2hleWpNM21nUUZvdlhGd0xoN1VEeVZjUUpFb3E1aWUzSnJnNUQ0cGFjajV2dzNqMWVTd2RPVlloTGFSak9NZHNXZDFYRkxEQWV3?oc=5",
       "description": "Barcola to Liverpool now in \u2018final stages\u2019 as Fabrizio Romano issues Thursday morning update The Empire of The Kop",
@@ -1487,6 +1322,28 @@
       "approx_time": false
     },
     {
+      "title": "Liverpool identify Premier League midfielder to replace Curtis Jones - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbzEtbGE5U0RQbE0wS2VlZV9VMHltcHU1UWhJanZybHhwNVktdDJCbURSTFR4WHR2LU1FeXJXbEg3b2h3RzYyYkdtcnBHaVl0T09FTXhVYVloMmRWM3pSYnlUZDF2aFFVTElHRUtyWDlaWm5fR0Y4U242Ukd1RVNaV3NaUFEyYVNDT1ZYNzlhUDNJbTRWRGw1QXk1d0x6SXlQSUFubWVtQ2RHb2J4ZUNOcWRlZTlyTW8?oc=5",
+      "description": "Liverpool identify Premier League midfielder to replace Curtis Jones transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "epoch": 1787727600.0,
+      "approx_time": false
+    },
+    {
+      "title": "Nottingham Forest in advanced talks to sign former Real Madrid star - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdFVQaUpmMjA0ZmstZlVOVURzVHZfZjFaclY3aXNMa0M3OTFfemVJbHhNNTdMdmJ2VjRFdEJ6UlBIdl9sTHR0N0NNWFJ0OGotbl92VGJ6ZGRUcjVGcXVyeWMyUWxnRnlzd0FRSXZHS042VEpmZTJHNnZmTDlrQ0hKVHlsZDFMaVdiVVVkWndXckZ3SVhGSmRsTnFSbjV3QV9iN1VkNy05b004bW1PMkJpNXY3VHNNdw?oc=5",
+      "description": "Nottingham Forest in advanced talks to sign former Real Madrid star transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "epoch": 1787727600.0,
+      "approx_time": false
+    },
+    {
       "title": "David Ornstein\u2019s cryptic Liverpool transfer update as \u201ckey talks\u201d held - CaughtOffside",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSE9KejRoTjVUdlFwNHVsWHpTQjlxTXl2blpSYUJnMl83d3lkY19LcTYwNkEySmNvWUFaMjVvVGVFTHNBbHpJbWwtaTh0b2tCM0w1QU8wcWhSeVdrUWYtVFotcVg1QWd5WU9hWVdrUjctQi11Q0hMQUs5VUJadnpBMGE3cjhscEdwYmdQQUI1ZFQxVkJZTG5oQUpLY2VyZUpaM3ZXRtIBqgFBVV95cUxQN09qQkFpbEhJakZBeElOdXRJYjVMdnllT0N1bk1RNWlUQkRvbnVJWWppaGd4N1duMm1BcG1hN2N6cVBCaFA0T3kxYThUZkl4UXJaTmN4SmRFWjlyelpFUlhYXzlWcUlHOXg0NVdvY09la1g4V0dmRkdlN1BEQl9tNVJQd3NNUkNObDFuUTVmUzR4SjdBVjR0T2ZqZTk5YUU5bU9pelc5YWMtUQ?oc=5",
       "description": "David Ornstein\u2019s cryptic Liverpool transfer update as \u201ckey talks\u201d held CaughtOffside",
@@ -1608,14 +1465,36 @@
       "approx_time": false
     },
     {
-      "title": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more - The New York Times",
+      "title": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more - The Athletic - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa3YtdFp2Rk1NcUZJcjAwS2dGekNsWEJhMmRYeF9Od1c5eXRpYktZMHB2d2NVRkpKUVZWbWMwNXVOV3VqV1NwQTZILWhiVG5KdFdNRmcxcTUwMDJuZHdCeEg4MXhpU2FKM3pMR1dfeXhIN1R4Z2QzWEFTOFlWbWRhdEFTU3FtalNZdVNxUjBXYmlmS3hFbFBMNWV6TEpPUTg2dVBHcXhpNUY4dw?oc=5",
-      "description": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more The New York Times",
+      "description": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more - The Athletic The New York Times",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
-      "pub_date_raw": "Tue, 25 Aug 2026 14:32:47 GMT",
-      "epoch": 1787668367.0,
+      "pub_date_raw": "Tue, 25 Aug 2026 14:45:33 GMT",
+      "epoch": 1787669133.0,
+      "approx_time": false
+    },
+    {
+      "title": "Fabrizio Romano drops major update on Enzo Fernandez to Manchester City transfer - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd284VmJJaGJoWHFuTkVFN2RlS0laS1NhRWhwbU5TMTFsd0NuNkZfT1p1TWtWQ2NDQ3ZVUHFBZkp5NkNoWFFmSTVxUFRuc3RpQUtIRFFhem5wX2F2bGhVNUU0UldNX0hBMm5OOXBabFd2QS1ZU1pMMU13TFBEdElVZDlxUkt6TmNkU0RYb21RWGNjSFdzLWVRS2RMZGNpeTdlNDVhSG43QVNLVEw2Y09uSXBpTkx2ODNTUmdDbGs1OW1kUU5VT2Vv?oc=5",
+      "description": "Fabrizio Romano drops major update on Enzo Fernandez to Manchester City transfer transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Tue, 25 Aug 2026 14:22:36 GMT",
+      "epoch": 1787667756.0,
+      "approx_time": false
+    },
+    {
+      "title": "Manchester United make contact to sign Stuttgart star - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWlM1UVBqZkRWVzJYT3N2eUZpTkdzV3RXYnJhRzFoelUtbExFTm5hWVcwUWpmSEhmenBlaDJTUkY3WlJvVlotY3RvYTRoNWtQYmFnSkdBelU3LWw2NUxkZGlMM243X0ZsbU9BOHZoY19fZ0pEWXVLWnZldkpHejJvNGduOWVldGhDXy1TYUpETWY3U01GMVZqcFYxS0hJOE1GY1Rn?oc=5",
+      "description": "Manchester United make contact to sign Stuttgart star transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Tue, 25 Aug 2026 14:12:37 GMT",
+      "epoch": 1787667157.0,
       "approx_time": false
     },
     {
@@ -1704,6 +1583,17 @@
       "byline": "",
       "pub_date_raw": "Tue, 25 Aug 2026 07:00:46 GMT",
       "epoch": 1787641246.0,
+      "approx_time": false
+    },
+    {
+      "title": "Tottenham Hotspur plan hijack move for Manchester United target - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbHhpREpNVHM4Zk1JcEUwVm4zT1k4UmROeGhPcVZnQTV5Z0lWMXRVaXZ0ZjNoWEd3ZndoaXh2MnRoZzY3TE1ud3pMNGR4X0ZQZy1rX1NSM1R5Wkk1MlkzS3FOeDY4SW8zbWU1QmRhdkxUdnpGVGppVU1fUXJkeXAwOUpGM2h0S1BQaDNkNHVRWTNSUUVmTFNZMWxVQ0p2ODBMX2hPZlFWOWtVMW5xNXBySA?oc=5",
+      "description": "Tottenham Hotspur plan hijack move for Manchester United target transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "epoch": 1787641200.0,
       "approx_time": false
     },
     {
@@ -1822,6 +1712,28 @@
       "description": "Bruno Guimaraes to Arsenal transfer latest: Stats, fee and odds Squawka",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Mon, 24 Aug 2026 07:00:00 GMT",
+      "epoch": 1787554800.0,
+      "approx_time": false
+    },
+    {
+      "title": "Newcastle United make move for Belgian winger - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVUU0OU1hNWNHTkM2VC04ZVBQckpyU3NDdWVWMjByUTNZVmlHYndzaG45eG1tYmpJZUd5a0E0VGxsYTd2OGR3S3QwYm9jZDIzUFAwTzdhMnp3b3dMdzRQSW9EcnRXb0lfM1JXM3hYUmVHMHVpdllKRkNpSzhHOEhDR2pYVVJJbjhSLVJnUTRFeWdlTmE0dnZMUw?oc=5",
+      "description": "Newcastle United make move for Belgian winger transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Mon, 24 Aug 2026 07:00:00 GMT",
+      "epoch": 1787554800.0,
+      "approx_time": false
+    },
+    {
+      "title": "Manchester City eye shock move for Chelsea striker - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZVNXQWhkenp1ZS05a0JvN0tzN0FqWXd0aU82bjZ3emJGSXg3RlJYU2tFcnhiRHdYYlhMTlBRNG03bEd6ZTRha1VYQmwwVUtvdnQ5UGZtc2VEc3E5S3Bya0ZrYzVJNUdjVi1hYmJtTGZDN2hnRXBFaFZXcmVQeHR4eGFQSG05QmpFTnFoY3JVOTg4dzZnbzR6bGFYZUVGSmc?oc=5",
+      "description": "Manchester City eye shock move for Chelsea striker transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
       "byline": "",
       "pub_date_raw": "Mon, 24 Aug 2026 07:00:00 GMT",
       "epoch": 1787554800.0,
@@ -1990,6 +1902,50 @@
       "byline": "",
       "pub_date_raw": "Sat, 22 Aug 2026 11:16:51 GMT",
       "epoch": 1787397411.0,
+      "approx_time": false
+    },
+    {
+      "title": "Julian Alvarez takes firm stance on his future - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRFZhaXRpdHhmbnZFcDZmZGFlS3YyUEMwZnNSVUF2ajYwczFMZENCWlg2R0Z3OWhWUTF2emhPeDBtSlBoX1BYRkRpOHBBcFA1S1dnSmpRQ2owMGEyRGFoS3pRN1I0aFViNFdodXVuWFpDMGowUjJUWlRON0puQ0xuWjl2TnFVOHhxRHc2ODN1bDJyY0FiYVQzM2hn?oc=5",
+      "description": "Julian Alvarez takes firm stance on his future transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Sat, 22 Aug 2026 07:00:00 GMT",
+      "epoch": 1787382000.0,
+      "approx_time": false
+    },
+    {
+      "title": "Real Madrid star rejects Liverpool transfer - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdmdKM0ExS1lSYU1qSTVCTXRUR2RfbVVMalZmdnFjenFPVEpNYzdDaV8wZVc3am5pZ0pLQ3VjYm1lbU92NTloUTkwcWdfRTVJQ2lxNEFnMTZXUy14QkZrdy1tbzgzN3diRTlsSEhJRERRZ2V2a05WOERIQk1hdFgxMGNoX3Zma05EQ0EtT1hSOUZlQms3SFE?oc=5",
+      "description": "Real Madrid star rejects Liverpool transfer transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Sat, 22 Aug 2026 07:00:00 GMT",
+      "epoch": 1787382000.0,
+      "approx_time": false
+    },
+    {
+      "title": "Liverpool look to sign Real Madrid superstar - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVU0wWTBQTUZTblhTdFIyR2x5VGpxYWlKcjVEN3hDdE1mcW9MRzdRQUpCdTY3VUdUYlFqR3V5RnZfQ09TdkVEZmFLN3ZxOXJGWjZJVncxQnZ6YnJyQ3FMNU9DZDhZb282YjZXbWU1OWlacGR3WDZkS0lQQlZBX3VOdW9ncWcyQWdoUHJtWHFyXzdiSmxOZzRF?oc=5",
+      "description": "Liverpool look to sign Real Madrid superstar transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Sat, 22 Aug 2026 07:00:00 GMT",
+      "epoch": 1787382000.0,
+      "approx_time": false
+    },
+    {
+      "title": "Manchester United set to battle alongside Tottenham and Newcastle for star defender. - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc0tXZkRQdC03d21LTGVabEZLTUMxS2d1NWZKVVZja1Z1d2JSWlh0VVZFSFJSZGdPMEE2dkphREFaTnlqRTlrdDdoVk9laDU3UjNJVWlvWXBCUWNLdHdyVVNUdEs0RmpTNm1uNnlMNWFnYVVCRERPbk43elN2RXAxUGFaLTJqV3JXSUlBT1kzb0ZuRDktcVdPMDNnczNEbEVRLS1BbWt6WlR4LWtFY2dlanQ3azVaZWpTMFVMaHFQRWNZOVdrOVJrckIycw?oc=5",
+      "description": "Manchester United set to battle alongside Tottenham and Newcastle for star defender. transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Sat, 22 Aug 2026 07:00:00 GMT",
+      "epoch": 1787382000.0,
       "approx_time": false
     },
     {
@@ -2191,6 +2147,28 @@
       "approx_time": false
     },
     {
+      "title": "Manchester City set to sign \u00a3100m winger as Savinho replacement - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQajAwYVBSb2VZZ3pZMEZsWXpVNGlSWklGaEVFTmdkdTVpcERpc0VtY2JEbE0xWjd5em95LUpzWnFrUGkxY21kcWFrejZuYUV0aHA4U21jUEhrNEZlYXZnMUkyaGJOdHVCQVJlekQyckJpQS14dGJOc2JES2lDS1FoWkcyY3VFaUlJY1drb3dHZXZHbWViUUpJUFpkRmJtSlAwZDBobUtMX2JXRDA0bWtv?oc=5",
+      "description": "Manchester City set to sign \u00a3100m winger as Savinho replacement transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "epoch": 1787209200.0,
+      "approx_time": false
+    },
+    {
+      "title": "David Ornstein issues Carlos Baleba update after shock Manchester United and Brighton claim - SussexWorld",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxORHI5aUF6ajh0YWNMczNEVHpfNXc0a2FhWEo1UldJdVI3UUp1WUNmR3VwZUtRWGpBSjBqTGN5aXJ1aktxakFGeDA4ZlFxdGxrY2YzZkMyLXJxWXFWSS0xektoREh2WTk2aWtrS0RvTWUxbVpIVEpPTkNYLVBjWjVlYUVfVHhrV2lnM3U0UWRLV05FNGM0SGZlTzhONHlvRnFxUVNCTmdXN216N1J3UmpzdHcyNFZkaHppZTVSdUozQjJJTm5uQ3dBNDRUckFwRlNrSnFhdkFiX25uQ1ZfWDdHbm5Jd2FYZnZlWnQzWTNCTk42U0tWYnQ1NFIwVm9FcWhQ?oc=5",
+      "description": "David Ornstein issues Carlos Baleba update after shock Manchester United and Brighton claim SussexWorld",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Wed, 19 Aug 2026 09:06:00 GMT",
+      "epoch": 1787130360.0,
+      "approx_time": false
+    },
+    {
       "title": "Man Utd closing in on Carlos Baleba as \u00a365m package emerges - Read Man Utd",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeUY4VDJVZU85ZGptTTZaRzRQV2ZhUkplS053eWJUUDllT29TeHhsZ1lid3o3bFRxZWdpQnlXRUlyX2NwVTEzSElCRHdZdF9FWGxmWDZzd0dyMVlOYzJvUDF3eWtxUUt4TmVCNzZUQUIzTzM4MzdnVWpyRVp2UloyVWNsd0NMOGVXTXh3WDYtMGs4akZaemN3Tg?oc=5",
       "description": "Man Utd closing in on Carlos Baleba as \u00a365m package emerges Read Man Utd",
@@ -2257,17 +2235,6 @@
       "approx_time": false
     },
     {
-      "title": "Manchester United and Brighton closing in on deal for Carlos Baleba - The Athletic - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQanYxeGttZjYyS0xBODFyaVBab3hqUkV1b1RIeVV1dlpJcGNWblR5bDk4SGxITmNUSGZDTWVkTkprSk53ZFNxZjF3RDV2OWoyYVNoZWVuVGtoRjBvM2VSWjlZZ3RVaUU3TkhOOWdVNU5zX0hkZUM1UFd3YUZxRm9hM0V3Wm5BTnVFNzAxSFV4bGxFV3FFZjBwYQ?oc=5",
-      "description": "Manchester United and Brighton closing in on deal for Carlos Baleba - The Athletic The New York Times",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "epoch": 1787122800.0,
-      "approx_time": false
-    },
-    {
       "title": "David Ornstein bombshell: Man United finally closing in on third midfield signing in form of \u00a365m PL-proven youngster - Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZDcxRVdlXzJRdV9iSHJ1dlhTQjlrajFra2hiNVdZMVdIQXMwNjBBbVlHS2VBSEd2b3d0SDRlQUxSeURDOUF6TktoUERuS3dickFfN1l1RVlCUXFmYnBoWjBqWXM0VkJqZy1LSHlUOGd4UExxRjNRcHpDSm9qaWE0ZUotT0tkejBxZnZrLQ?oc=5",
       "description": "David Ornstein bombshell: Man United finally closing in on third midfield signing in form of \u00a365m PL-proven youngster Yahoo Sports",
@@ -2293,17 +2260,6 @@
       "title": "Arsenal agree \u00a351m Ezri Konsa deal with Aston Villa - The Athletic - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNE1YSTlkTjg3M09iNDRvZHptaU5Vblo0YklCMjlLbzFKZDloY25jMFYyTnJjeVFZY1JCdy1ya1Jjdm1vMUZfLWZ2QzhkU0U0c3lhT0U5QmllVG9JeTJuQ2FBWF96WkRNR051VDZvR2FSQU93R1ZzdjROWjI4U3ViOVhOdENObXNQQ1JIZXRIVzZtZkp0THQ4?oc=5",
       "description": "Arsenal agree \u00a351m Ezri Konsa deal with Aston Villa - The Athletic The New York Times",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "epoch": 1787122800.0,
-      "approx_time": false
-    },
-    {
-      "title": "David Ornstein issues Carlos Baleba update after shock Manchester United and Brighton claim - SussexWorld",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxORHI5aUF6ajh0YWNMczNEVHpfNXc0a2FhWEo1UldJdVI3UUp1WUNmR3VwZUtRWGpBSjBqTGN5aXJ1aktxakFGeDA4ZlFxdGxrY2YzZkMyLXJxWXFWSS0xektoREh2WTk2aWtrS0RvTWUxbVpIVEpPTkNYLVBjWjVlYUVfVHhrV2lnM3U0UWRLV05FNGM0SGZlTzhONHlvRnFxUVNCTmdXN216N1J3UmpzdHcyNFZkaHppZTVSdUozQjJJTm5uQ3dBNDRUckFwRlNrSnFhdkFiX25uQ1ZfWDdHbm5Jd2FYZnZlWnQzWTNCTk42U0tWYnQ1NFIwVm9FcWhQ?oc=5",
-      "description": "David Ornstein issues Carlos Baleba update after shock Manchester United and Brighton claim SussexWorld",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -2342,6 +2298,17 @@
       "byline": "",
       "pub_date_raw": "Tue, 18 Aug 2026 07:00:00 GMT",
       "epoch": 1787036400.0,
+      "approx_time": false
+    },
+    {
+      "title": "Manchester United identify Joshua Zirkzee replacement from Bundesliga - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNkVxTXZzdnhxWnhLWVVZYlNYb1pnNGJaUE1fTWNhZ0JwWkNWMzVsbTZPblFIMWlBRklJZjM5VS1ZZURIWGFNYVBzdFpuVDRZOXQzSHdEd0JhWjdBS3lzMnB1NEpFUUI4RTBOSmRpOGlZUDUwVmhTMnV1QXJfZUtwZjZoTS1ObjFZeXZVaVZsSWthZEdrN0pVcDRtajNrUE8yQjhHZ3dsVUswOGlZSnVabkhtM1VPalBp?oc=5",
+      "description": "Manchester United identify Joshua Zirkzee replacement from Bundesliga transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "",
+      "pub_date_raw": "Mon, 17 Aug 2026 18:52:03 GMT",
+      "epoch": 1786992723.0,
       "approx_time": false
     },
     {
@@ -3225,14 +3192,14 @@
       "approx_time": false
     },
     {
-      "title": "Romano gives \u2018here we go\u2019 to fourth Arsenal signing after bid is launched for Vinicius Jr - Football365",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUTFXc1BFaTlUb3JublJwWVpDYl9sdllFRlVzMXkxdEVueWMtbEExdWI5NGZDSms5UnA1YXoxazUtaEdNTGxxLWQ1dC0xRm9SSW9IWjZfVzJ5VzYyS2IwR0xVMUtWOEhudE5tYmtYLXE1VzczbWZjQTlpSF9uX1hTajU4TkRjZmFJb3Y0SjdQVzJwQlJjREZxNDY2cmtEWUR1ajVCaA?oc=5",
-      "description": "Romano gives \u2018here we go\u2019 to fourth Arsenal signing after bid is launched for Vinicius Jr Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
+      "title": "Bradley Barcola wants Liverpool move as Reds prepare huge opening bid to PSG - talkSPORT",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNjhpMzBYaTVTbDBISVBRSVNob2ZCWXZDTi1URUJQa0o3RU5JQVZGSTlCbmZlTmNWZmJ6T2xFbkFDNzZwc1BHbjJpTWwwRU9XWHBKbExkMjJYQkZ3SkNkV3pTbnRBVFhZZUkzbjNDOFZpU2gwMnptZFE1RnRkNlNxcjdzUVhOVW1vVHl0Nklyb3JCNFg2Tk1WeVc1M3lvTFk?oc=5",
+      "description": "Bradley Barcola wants Liverpool move as Reds prepare huge opening bid to PSG talkSPORT",
+      "source_id": "jacobs",
+      "source_name": "Ben Jacobs",
       "byline": "",
-      "pub_date_raw": "Sun, 26 Jul 2026 07:00:00 GMT",
-      "epoch": 1785049200.0,
+      "pub_date_raw": "Tue, 28 Jul 2026 07:00:00 GMT",
+      "epoch": 1785222000.0,
       "approx_time": false
     },
     {
@@ -3277,17 +3244,6 @@
       "byline": "",
       "pub_date_raw": "Thu, 23 Jul 2026 07:00:00 GMT",
       "epoch": 1784790000.0,
-      "approx_time": false
-    },
-    {
-      "title": "Romano rules out three Man Utd transfers after West Ham accept \u00a360m Summerville offer from Al-Hilal - Football365",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYUdjQVdfcS1ydkRMX2pKNUxkV1I3RUNIUDRNZEg0REltVjZlSHBBZ2w1VllHb0xJMmFsVVNTdncyZ2k4VWticV9lajVfc3pJamk5SnNMd1k0Ykt3YjkzM3FTd2x0RUxsMUxOa08wS1BXUl9QbEhKc212ZjRrVXBCV0hpYUw0WjVtbkRhdEEwMk00aUhodWNIS2ZBRWY5Z1Z3V0pOTWszeDRqYnFUT3c?oc=5",
-      "description": "Romano rules out three Man Utd transfers after West Ham accept \u00a360m Summerville offer from Al-Hilal Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Wed, 22 Jul 2026 07:00:00 GMT",
-      "epoch": 1784703600.0,
       "approx_time": false
     },
     {
