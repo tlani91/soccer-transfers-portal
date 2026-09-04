@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-03T11:15:14.550600+00:00",
+ "last_updated": "2026-09-04T11:15:19.031106+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -26,6 +26,76 @@
   }
  ],
  "items": [
+  {
+   "player": "A. Romagnoli",
+   "player_url": "https://www.besoccer.com/player/a-romagnoli-146071",
+   "league": "Serie A",
+   "league_id": "serie_a",
+   "club": "Lazio",
+   "club_url": "https://www.besoccer.com/team/transfers/lazio",
+   "direction": "out",
+   "other_club": "",
+   "type": "Transfer",
+   "fee_eur_m": 3.0,
+   "date": "2026-09-04",
+   "epoch": 1788480000
+  },
+  {
+   "player": "D. N'Guessan",
+   "player_url": "https://www.besoccer.com/player/d-n´guessan-3329899",
+   "league": "Ligue 1",
+   "league_id": "ligue_1",
+   "club": "Stade Brestois",
+   "club_url": "https://www.besoccer.com/team/transfers/stade-brestois-29",
+   "direction": "in",
+   "other_club": "Liverpool",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-04",
+   "epoch": 1788480000
+  },
+  {
+   "player": "A. Vermeeren",
+   "player_url": "https://www.besoccer.com/player/a-vermeeren-3201015",
+   "league": "Bundesliga",
+   "league_id": "bundesliga",
+   "club": "RB Leipzig",
+   "club_url": "https://www.besoccer.com/team/transfers/rb-leipzig",
+   "direction": "out",
+   "other_club": "Antwerp",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-03",
+   "epoch": 1788393600
+  },
+  {
+   "player": "D. N'Guessan",
+   "player_url": "https://www.besoccer.com/player/d-n´guessan-3329899",
+   "league": "Premier League",
+   "league_id": "premier_league",
+   "club": "Liverpool",
+   "club_url": "https://www.besoccer.com/team/transfers/liverpool",
+   "direction": "in",
+   "other_club": "Saint-Étienne",
+   "type": "Transfer",
+   "fee_eur_m": 5.0,
+   "date": "2026-09-03",
+   "epoch": 1788393600
+  },
+  {
+   "player": "Martinelli",
+   "player_url": "https://www.besoccer.com/player/martinelli-602900",
+   "league": "Premier League",
+   "league_id": "premier_league",
+   "club": "Arsenal",
+   "club_url": "https://www.besoccer.com/team/transfers/arsenal",
+   "direction": "out",
+   "other_club": "Al-Hilal SFC",
+   "type": "Transfer",
+   "fee_eur_m": 70.0,
+   "date": "2026-09-03",
+   "epoch": 1788393600
+  },
   {
    "player": "N. Mbuku",
    "player_url": "https://www.besoccer.com/player/n-mbuku-769943",
@@ -209,6 +279,20 @@
    "epoch": 1788307200
   },
   {
+   "player": "J. Malatini",
+   "player_url": "https://www.besoccer.com/player/j-malatini-924024",
+   "league": "Bundesliga",
+   "league_id": "bundesliga",
+   "club": "Werder Bremen",
+   "club_url": "https://www.besoccer.com/team/transfers/werder-bremen",
+   "direction": "out",
+   "other_club": "Cincinnati",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-02",
+   "epoch": 1788307200
+  },
+  {
    "player": "Julian Pauli",
    "player_url": "https://www.besoccer.com/player/julian-pauli-976353",
    "league": "Bundesliga",
@@ -247,6 +331,20 @@
    "other_club": "",
    "type": "Transfer",
    "fee_eur_m": 1.0,
+   "date": "2026-09-02",
+   "epoch": 1788307200
+  },
+  {
+   "player": "L. Coulibaly",
+   "player_url": "https://www.besoccer.com/player/l-coulibaly-3169839",
+   "league": "Ligue 1",
+   "league_id": "ligue_1",
+   "club": "Auxerre",
+   "club_url": "https://www.besoccer.com/team/transfers/auxerre",
+   "direction": "out",
+   "other_club": "Viborg FF",
+   "type": "Loan",
+   "fee_eur_m": null,
    "date": "2026-09-02",
    "epoch": 1788307200
   },
@@ -2109,20 +2207,6 @@
    "other_club": "RM Castilla",
    "type": "Transfer",
    "fee_eur_m": 4.0,
-   "date": "2026-09-01",
-   "epoch": 1788220800
-  },
-  {
-   "player": "Marc Casadó",
-   "player_url": "https://www.besoccer.com/player/m-casado-879165",
-   "league": "LaLiga",
-   "league_id": "primera_division",
-   "club": "RC Deportivo",
-   "club_url": "https://www.besoccer.com/team/transfers/deportivo",
-   "direction": "in",
-   "other_club": "FC Barcelona",
-   "type": "Loan",
-   "fee_eur_m": null,
    "date": "2026-09-01",
    "epoch": 1788220800
   },
@@ -5356,7 +5440,7 @@
    "direction": "in",
    "other_club": "Troyes",
    "type": "Transfer",
-   "fee_eur_m": 1.4,
+   "fee_eur_m": 0.2,
    "date": "2026-08-25",
    "epoch": 1787616000
   },
@@ -7447,20 +7531,6 @@
    "epoch": 1786924800
   },
   {
-   "player": "Jhon Lucumí",
-   "player_url": "https://www.besoccer.com/player/j-lucumi-285647",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Juventus",
-   "club_url": "https://www.besoccer.com/team/transfers/juventus-fc",
-   "direction": "in",
-   "other_club": "Bologna",
-   "type": "Transfer",
-   "fee_eur_m": 20.1,
-   "date": "2026-08-17",
-   "epoch": 1786924800
-  },
-  {
    "player": "Jofre Torrents",
    "player_url": "https://www.besoccer.com/player/jofre-torrents-3271197",
    "league": "LaLiga",
@@ -7540,20 +7610,6 @@
    "direction": "out",
    "other_club": "USL Dunkerque",
    "type": "Loan",
-   "fee_eur_m": null,
-   "date": "2026-08-17",
-   "epoch": 1786924800
-  },
-  {
-   "player": "Remo Freuler",
-   "player_url": "https://www.besoccer.com/player/r-freuler-191669",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Bologna",
-   "club_url": "https://www.besoccer.com/team/transfers/bologna",
-   "direction": "out",
-   "other_club": "Olympiacos",
-   "type": "Free transfer",
    "fee_eur_m": null,
    "date": "2026-08-17",
    "epoch": 1786924800
@@ -8931,20 +8987,6 @@
    "epoch": 1786060800
   },
   {
-   "player": "Caleb Yirenkyi",
-   "player_url": "https://www.besoccer.com/player/caleb-yirenkyi-3536789",
-   "league": "Premier League",
-   "league_id": "premier_league",
-   "club": "Coventry City",
-   "club_url": "https://www.besoccer.com/team/transfers/coventry-city",
-   "direction": "in",
-   "other_club": "Nordsjaelland",
-   "type": "Transfer",
-   "fee_eur_m": 27.0,
-   "date": "2026-08-07",
-   "epoch": 1786060800
-  },
-  {
    "player": "Dina Ebimbe",
    "player_url": "https://www.besoccer.com/player/eric-junior-dina-ebimbe-426912",
    "league": "Bundesliga",
@@ -9001,20 +9043,6 @@
    "epoch": 1786060800
   },
   {
-   "player": "J. Hjertø-Dahl",
-   "player_url": "https://www.besoccer.com/player/h-dahl-j-3248873",
-   "league": "Premier League",
-   "league_id": "premier_league",
-   "club": "Hull City",
-   "club_url": "https://www.besoccer.com/team/transfers/hull-city",
-   "direction": "in",
-   "other_club": "Tromsø IL",
-   "type": "Transfer",
-   "fee_eur_m": 9.5,
-   "date": "2026-08-07",
-   "epoch": 1786060800
-  },
-  {
    "player": "M. Kumbulla",
    "player_url": "https://www.besoccer.com/player/m-kumbulla-347675",
    "league": "LaLiga",
@@ -9066,20 +9094,6 @@
    "direction": "out",
    "other_club": "Nantes",
    "type": "Loan",
-   "fee_eur_m": null,
-   "date": "2026-08-07",
-   "epoch": 1786060800
-  },
-  {
-   "player": "Tyler Onyango",
-   "player_url": "https://www.besoccer.com/player/t-onyango-851816",
-   "league": "Premier League",
-   "league_id": "premier_league",
-   "club": "Everton",
-   "club_url": "https://www.besoccer.com/team/transfers/everton-fc",
-   "direction": "out",
-   "other_club": "Sheffield Wednesday",
-   "type": "Free transfer",
    "fee_eur_m": null,
    "date": "2026-08-07",
    "epoch": 1786060800
@@ -11143,20 +11157,6 @@
    "epoch": 1784246400
   },
   {
-   "player": "M. Nawrocki",
-   "player_url": "https://www.besoccer.com/player/m-nawrocki-474299",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Lens",
-   "club_url": "https://www.besoccer.com/team/transfers/lens",
-   "direction": "out",
-   "other_club": "Celtic",
-   "type": "Transfer",
-   "fee_eur_m": 2.5,
-   "date": "2026-07-17",
-   "epoch": 1784246400
-  },
-  {
    "player": "Nelson Weiper",
    "player_url": "https://www.besoccer.com/player/nelson-weiper-976152",
    "league": "Bundesliga",
@@ -11165,20 +11165,6 @@
    "club_url": "https://www.besoccer.com/team/transfers/mainz-amat",
    "direction": "out",
    "other_club": "Sturm Graz",
-   "type": "Loan",
-   "fee_eur_m": null,
-   "date": "2026-07-17",
-   "epoch": 1784246400
-  },
-  {
-   "player": "R. Majecki",
-   "player_url": "https://www.besoccer.com/player/r-majecki-290720",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Monaco",
-   "club_url": "https://www.besoccer.com/team/transfers/monaco",
-   "direction": "out",
-   "other_club": "Pafos",
    "type": "Loan",
    "fee_eur_m": null,
    "date": "2026-07-17",
@@ -11629,34 +11615,6 @@
    "other_club": "Bolton Wanderers",
    "type": "Loan",
    "fee_eur_m": 0.3,
-   "date": "2026-07-07",
-   "epoch": 1783382400
-  },
-  {
-   "player": "Kelven Frees",
-   "player_url": "https://www.besoccer.com/player/kelven-1014020",
-   "league": "Bundesliga",
-   "league_id": "bundesliga",
-   "club": "Hoffenheim",
-   "club_url": "https://www.besoccer.com/team/transfers/tsg-1899-hoffenheim",
-   "direction": "out",
-   "other_club": "Kaiserslautern",
-   "type": "Loan",
-   "fee_eur_m": 0.2,
-   "date": "2026-07-07",
-   "epoch": 1783382400
-  },
-  {
-   "player": "Marco Wörner",
-   "player_url": "https://www.besoccer.com/player/marco-worner-989336",
-   "league": "Bundesliga",
-   "league_id": "bundesliga",
-   "club": "Paderborn",
-   "club_url": "https://www.besoccer.com/team/transfers/paderborn",
-   "direction": "out",
-   "other_club": "Jahn Regensburg",
-   "type": "Loan",
-   "fee_eur_m": null,
    "date": "2026-07-07",
    "epoch": 1783382400
   }
