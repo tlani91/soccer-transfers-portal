@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-04T11:15:19.031106+00:00",
+ "last_updated": "2026-09-05T11:15:25.992775+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -50,6 +50,20 @@
    "direction": "in",
    "other_club": "Liverpool",
    "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-04",
+   "epoch": 1788480000
+  },
+  {
+   "player": "Xavi Grande",
+   "player_url": "https://www.besoccer.com/player/x-grande-1000518",
+   "league": "LaLiga",
+   "league_id": "primera_division",
+   "club": "Levante",
+   "club_url": "https://www.besoccer.com/team/transfers/levante",
+   "direction": "out",
+   "other_club": "",
+   "type": "Free transfer",
    "fee_eur_m": null,
    "date": "2026-09-04",
    "epoch": 1788480000
@@ -10999,20 +11013,6 @@
    "other_club": "Kaiserslautern",
    "type": "Loan",
    "fee_eur_m": 0.5,
-   "date": "2026-07-18",
-   "epoch": 1784332800
-  },
-  {
-   "player": "Franco Cervi",
-   "player_url": "https://www.besoccer.com/player/f-cervi-198761",
-   "league": "LaLiga",
-   "league_id": "primera_division",
-   "club": "Celta",
-   "club_url": "https://www.besoccer.com/team/transfers/celta",
-   "direction": "out",
-   "other_club": "Rosario Central",
-   "type": "Free transfer",
-   "fee_eur_m": null,
    "date": "2026-07-18",
    "epoch": 1784332800
   },
