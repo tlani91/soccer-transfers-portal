@@ -1,61 +1,6 @@
 {
-  "last_updated": "2026-09-06T11:00:35.764093+00:00",
+  "last_updated": "2026-09-06T11:01:15.332760+00:00",
   "items": [
-    {
-      "title": "Shock new club want Jadon Sancho",
-      "link": "https://www.transfernewslive.com/transfer-news/shock-new-club-want-jadon-sancho/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788692432.8155851,
-      "approx_time": true
-    },
-    {
-      "title": "Kylian Mbappe convinced Xabi Alonso to sign French international for Chelsea before move collapsed",
-      "link": "https://www.transfernewslive.com/transfer-news/kylian-mbappe-convinced-xabi-alonso-to-sign-french-international-for-chelsea-before-move-collapsed/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788692132.8155851,
-      "approx_time": true
-    },
-    {
-      "title": "Hansi Flick wants Barcelona to sell key star in January",
-      "link": "https://www.transfernewslive.com/transfer-news/hansi-flick-wants-barcelona-to-sell-key-star-in-january/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788691832.8155851,
-      "approx_time": true
-    },
-    {
-      "title": "Tottenham Hotspur pick first target for January",
-      "link": "https://www.transfernewslive.com/transfer-news/tottenham-hotspur-pick-first-target-for-january/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788691532.8155851,
-      "approx_time": true
-    },
-    {
-      "title": "Real Madrid midfielder could join Galatasaray",
-      "link": "https://www.transfernewslive.com/transfer-news/real-madrid-midfielder-could-join-galatasaray/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788691232.8155851,
-      "approx_time": true
-    },
     {
       "title": "Transfer News LIVE: Richarlison set for Spurs exit, Al Hilal announce Martinelli",
       "link": "https://www.flashscore.com/news/transfer-news-live-tracker-updates/8QqUWm3n/",
@@ -64,18 +9,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788690935.2630942,
-      "approx_time": true
-    },
-    {
-      "title": "AS Roma want to sign former Manchester United winger",
-      "link": "https://www.transfernewslive.com/transfer-news/as-roma-want-to-sign-former-manchester-united-winger/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788690932.8155851,
+      "epoch": 1788690974.831758,
       "approx_time": true
     },
     {
@@ -86,18 +20,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788690635.2630942,
-      "approx_time": true
-    },
-    {
-      "title": "Everton plot shock move for Premier League Golden Boot winner",
-      "link": "https://www.transfernewslive.com/transfer-news/everton-plot-shock-move-for-premier-league-golden-boot-winner/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788690632.8155851,
+      "epoch": 1788690674.831758,
       "approx_time": true
     },
     {
@@ -108,51 +31,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788690335.2630942,
-      "approx_time": true
-    },
-    {
-      "title": "Arsenal complete club-record sale of star player",
-      "link": "https://www.transfernewslive.com/transfer-news/arsenal-complete-club-record-sale-of-star-player/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788690332.8155851,
-      "approx_time": true
-    },
-    {
-      "title": "Tottenham Hotspur set Richarlison sale condition",
-      "link": "https://www.transfernewslive.com/transfer-news/tottenham-hotspur-set-richarlison-sale-condition/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788690032.8155851,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United set to sell four players next summer",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-set-to-sell-four-players-next-summer/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788689732.8155851,
-      "approx_time": true
-    },
-    {
-      "title": "Barcelona set timeline for Julian Alvarez transfer",
-      "link": "https://www.transfernewslive.com/transfer-news/barcelona-set-timeline-for-julian-alvarez-transfer/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788689432.8155851,
+      "epoch": 1788690374.831758,
       "approx_time": true
     },
     {
@@ -163,18 +42,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788689135.2630942,
-      "approx_time": true
-    },
-    {
-      "title": "Chelsea made late attempt to sign Everton midfielder on deadline day",
-      "link": "https://www.transfernewslive.com/transfer-news/chelsea-made-late-attempt-to-sign-everton-midfielder-on-deadline-day/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788689132.8155851,
+      "epoch": 1788689174.831758,
       "approx_time": true
     },
     {
@@ -185,18 +53,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788688835.2630942,
-      "approx_time": true
-    },
-    {
-      "title": "Chelsea make move to sign former Liverpool midfielder",
-      "link": "https://www.transfernewslive.com/transfer-news/chelsea-make-move-to-sign-former-liverpool-midfielder/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788688832.8155851,
+      "epoch": 1788688874.831758,
       "approx_time": true
     },
     {
@@ -207,40 +64,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788688535.2630942,
-      "approx_time": true
-    },
-    {
-      "title": "Jose Mourinho wanted Real Madrid to sign new Manchester City midfielder",
-      "link": "https://www.transfernewslive.com/transfer-news/jose-mourinho-wanted-real-madrid-to-sign-new-manchester-city-midfielder/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788688532.8155851,
-      "approx_time": true
-    },
-    {
-      "title": "Richarlison set to join surprise club after rejecting Everton on deadline day",
-      "link": "https://www.transfernewslive.com/transfer-news/richarlison-set-to-join-surprise-club-after-rejecting-everton-on-deadline-day/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788688232.8155851,
-      "approx_time": true
-    },
-    {
-      "title": "Liverpool set to replace Alexis Mac Allister next summer with Chelsea target",
-      "link": "https://www.transfernewslive.com/transfer-news/liverpool-set-to-replace-alexis-mac-allister-next-summer-with-chelsea-target/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788687932.8155851,
+      "epoch": 1788688574.831758,
       "approx_time": true
     },
     {
@@ -251,18 +75,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788687635.2630942,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United striker set to leave on loan",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-striker-set-to-leave-on-loan/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788687632.8155851,
+      "epoch": 1788687674.831758,
       "approx_time": true
     },
     {
@@ -273,18 +86,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788687335.2630942,
-      "approx_time": true
-    },
-    {
-      "title": "AS Monaco sporting director reveals why Folarin Balogun to Everton deal collapsed",
-      "link": "https://www.transfernewslive.com/transfer-news/as-monaco-sporting-director-reveals-why-folarin-balogun-to-everton-deal-collapsed/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788687332.8155851,
+      "epoch": 1788687374.831758,
       "approx_time": true
     },
     {
@@ -295,29 +97,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788687035.2630942,
-      "approx_time": true
-    },
-    {
-      "title": "Xabi Alonso blocked deadline day move for Chelsea star",
-      "link": "https://www.transfernewslive.com/transfer-news/xabi-alonso-blocked-deadline-day-move-for-chelsea-star/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788687032.8155851,
-      "approx_time": true
-    },
-    {
-      "title": "Former Manchester United star offered to Everton",
-      "link": "https://www.transfernewslive.com/transfer-news/former-manchester-united-star-offered-to-everton/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788686732.8155851,
+      "epoch": 1788687074.831758,
       "approx_time": true
     },
     {
@@ -328,7 +108,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788686435.2630942,
+      "epoch": 1788686474.831758,
       "approx_time": true
     },
     {
@@ -794,6 +574,17 @@
       "approx_time": false
     },
     {
+      "title": "Transfer rumors, news: Chelsea eye ex-Liverpool star Wijnaldum - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3JuaFBpLWIwZFdja1o4STAxVEluenhIemVHNGVaRmlMWS1STm4zb25kRV9CRVRVOXFCUkhzY3ZMLXdKS3hSTXZaT0YxemZaOHQzaURIWGNMNHRibXBZQUdwcFBjRnQzdG1qVWdyc084WU96YUw5NzE0Vi1PbWpGX3llSEJ0Y0Z0OS1ydlhldGMxNnVGSFNkTTYxUkJtWjNEMlp6X3VuZGEtZk04?oc=5",
+      "description": "Transfer rumors, news: Chelsea eye ex-Liverpool star Wijnaldum ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Thu, 03 Sep 2026 12:35:00 GMT",
+      "epoch": 1788438900.0,
+      "approx_time": false
+    },
+    {
       "title": "Transfer guru Fabrizio Romano drops another major hint he'll retire in heartfelt post 'looking forward to what's next' - The Sun",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTW5WRGdNU3ZUWFBERjdaR1ZXbVdWUG9MR1J6czJRY2ljTGMxSUJXN2dXNWh3anlJR2kyenZtSHlXVHE3NDloVHlPOE9nNUYzSURfd29JUll3dnlTVm5VaHlGckIwcjUtTnFZWHdIMExOZmhTd3hYYVFSODJzWTUwX0dTb2JCNlVITVlFdW1jRE5NQQ?oc=5",
       "description": "Transfer guru Fabrizio Romano drops another major hint he'll retire in heartfelt post 'looking forward to what's next' The Sun",
@@ -813,17 +604,6 @@
       "byline": "",
       "pub_date_raw": "Thu, 03 Sep 2026 08:50:00 GMT",
       "epoch": 1788425400.0,
-      "approx_time": false
-    },
-    {
-      "title": "Transfer rumors, news: Chelsea eye ex-Liverpool star Wijnaldum - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVElUQm5NbDdtLXNFSTNsd001ZFJQazlnSTdpdEdLVnVGUnM4SW9rWmFRZUZHQlNmMWVvWExuYjZiZ0JGc0E5N3JvR3FWRUF3Y0NXQjU4UVdzRk9nWTFZeEJxX1R6TkpoaVBCZFVXcjhxZmwtVEludGpGVVlMZDZCVmFDdUM3Q0F0RTVobUhqWmNrUjNWMmVmdlowUHl2Z3BGYmNNSC1sM29TMDM5czJKdE4tMA?oc=5",
-      "description": "Transfer rumors, news: Chelsea eye ex-Liverpool star Wijnaldum ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Thu, 03 Sep 2026 08:39:15 GMT",
-      "epoch": 1788424755.0,
       "approx_time": false
     },
     {
@@ -865,6 +645,17 @@
       "description": "Sancho, Pogba, Wijnaldum among top free agents in 2026 ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Thu, 03 Sep 2026 07:00:00 GMT",
+      "epoch": 1788418800.0,
+      "approx_time": false
+    },
+    {
+      "title": "Mason Greenwood under investigation - transfernewslive.com",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00NXB2cVBCUWszM0NFcFBOWHZrUElqcnE4Uk5Ra2R6bFhRTjFLWFdKTGNIYzRmQnk1VWVHSHh3cFpvM1hRVUpRRVdfbGs3czMzREJYWFFHdVNab29kZ0FFN1ZyZnc3aV93a1c2VHhtUXVlUEc2MWo0ODZKdGFhdkk?oc=5",
+      "description": "Mason Greenwood under investigation transfernewslive.com",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
       "byline": "",
       "pub_date_raw": "Thu, 03 Sep 2026 07:00:00 GMT",
       "epoch": 1788418800.0,
@@ -1586,9 +1377,9 @@
       "approx_time": false
     },
     {
-      "title": "Mykhailo Mudryk closing in on Tottenham loan move - Ben Jacobs - Tribuna.com",
+      "title": "Mykhailo Mudryk closing in on Tottenham loan move - Ben Jacobs - tribuna.com",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOG1GV1JGb0Jyc2hKdGZTTmZYWWZaeXBNRkpuNVYyQVNka3QyclhGUjh3RmlkbHo5QllXbUhFM0tmYlZnQ044RmY3R19pdURZSjkwaWlYaG1qaHpEaWU3UWZtN1hNSnp5S0RIY2E0T0ZVR0dScnUzT2NkS3pISEMzUm9lZnFPa2NlMklMVldOeUlMZ1ZRa2hKTVJvMWszTWsxQmfSAacBQVVfeXFMUEt0d0pOVEdValhieERJVHloRmlET0RvTzVwT0JkSDBITTZMa2pFZGxFOXVqWVJkaFNQdkJkSURyRkJQXzlKY1JzdURtVkg3NXRxTlVpN0I2RzFNNGp3eHpLY3Nja19lVzRvOFlETW1kWEtHYXZaXzdVOTZTOTVHQ3A1bExhamdlal91N0stTHRjbk9Vekp4bXQzendMYVRuWHRqdG1DNk0?oc=5",
-      "description": "Mykhailo Mudryk closing in on Tottenham loan move - Ben Jacobs Tribuna.com",
+      "description": "Mykhailo Mudryk closing in on Tottenham loan move - Ben Jacobs tribuna.com",
       "source_id": "jacobs",
       "source_name": "Ben Jacobs",
       "byline": "",
@@ -1597,9 +1388,9 @@
       "approx_time": false
     },
     {
-      "title": "Ornstein: Tottenham pivoting to Mykhailo Mudryk loan and I honestly can\u2019t even - cartilagefreecaptain.sbnation.com",
+      "title": "Ornstein: Tottenham pivoting to Mykhailo Mudryk loan and I honestly can\u2019t even - Cartilage Free Captain",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPenhwVTRTaEZ6aVJrYy1KR05aYjJrSFpjdzh0aHlkbFZha1JQTzB2S3daNVlEdHdvdWcyVTh4N2NsaERzaC1xbjlYNFBiMDcwbVZ6eHNwdXlSOC1FZkh3bzBNRzdPNERrQVB4V0Y5eWZIbW1CamZqR2JDM0VDNmJpYVdkc2ZGQmVwMnBJeGxpODJLbDRyY09vVlQ4UWtCWXFXc3RPdEJocHphQlNsaEo0U01ic3JZTGVDSnlBekJOT256WUtNYlMxZThycFdkMEhzVEpfQ3hIRWZ3bkZEcUxxVHJ6UDQ?oc=5",
-      "description": "Ornstein: Tottenham pivoting to Mykhailo Mudryk loan and I honestly can\u2019t even cartilagefreecaptain.sbnation.com",
+      "description": "Ornstein: Tottenham pivoting to Mykhailo Mudryk loan and I honestly can\u2019t even Cartilage Free Captain",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -1806,9 +1597,9 @@
       "approx_time": false
     },
     {
-      "title": "Arsenal Endrick Transfer Ruled Out by Fabrizio Romano - Read Arsenal",
+      "title": "Arsenal Endrick Transfer Ruled Out by Fabrizio Romano - readarsenal.com",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVGRuTzVZQ3pqSEhzSnBmVXdFNWtNZlVtbngyX2tEblkzU2dHanQxNlg4SXlSUzlwbmF1SnpScElGbVV3UzRyMXRzNGxlOFhURWVJbS1sT2ZiUFA2TTRUYUJzYjhxZjNXWWNSNFRDTFJmTnp2S19Eb2VJVU1UcFRlUE9Ob0pFRlpHSUlsNGt1QzUtN2pubDhEQ1hUc0VpbU5wYUNmU3Jn?oc=5",
-      "description": "Arsenal Endrick Transfer Ruled Out by Fabrizio Romano Read Arsenal",
+      "description": "Arsenal Endrick Transfer Ruled Out by Fabrizio Romano readarsenal.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2125,9 +1916,9 @@
       "approx_time": false
     },
     {
-      "title": "Chelsea and Liverpool offered chance to sign Monaco midfielder Lamine Camara - Ben Jacobs - Tribuna.com",
+      "title": "Chelsea and Liverpool offered chance to sign Monaco midfielder Lamine Camara - Ben Jacobs - tribuna.com",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWHAxM0otektNVkd1WTdlTS1GTTFhNE1nNTJTb0ptNGJvQ0ljaWVvYUdvblY0ekYya2dvTk5RaU1Md0VXeHpjZUVSN0RxamFTWEUwUTlOM2FjTktJSkEwOFlaU1FQaFgwcmpFTmVUSDkzZlVHaFJoZU9xQldMUllNYzlZbWdYYTlQOEQ3LVgzbVg0WUdXNTIzQjVjd3RkR1RiNWtod3BpQmtUdmx2RENKX3F1b0s1RVFvQUlvUlVFVF80U3NnUUHSAcsBQVVfeXFMUDBTVWRzR055UTBoUDh0QXUxcEV0WkpIRXBMVXRrVTkxVU9WUE5aREU1aTZubTgzaUVtSThQa3JaLUZDOHpTM01QQmRjU2FHZ2thLV9XeGZVY3ZkTDF6TDg4TG13NXBWd0J6Uk93QTlJSzNYMUxJWmdreXZNRGdKeUd2dXlRTmp4b0JnVkhXQ2tHU2lIZlgxdHlYSE4tMWNCNXdaaVAycjBCWlNRREliWUxMYUtaODVSQzdZUUZLLVRWTHRxNlViVzd3S2M?oc=5",
-      "description": "Chelsea and Liverpool offered chance to sign Monaco midfielder Lamine Camara - Ben Jacobs Tribuna.com",
+      "description": "Chelsea and Liverpool offered chance to sign Monaco midfielder Lamine Camara - Ben Jacobs tribuna.com",
       "source_id": "jacobs",
       "source_name": "Ben Jacobs",
       "byline": "",
@@ -2609,9 +2400,9 @@
       "approx_time": false
     },
     {
-      "title": "David Ornstein confirms financial details of Savinho to Tottenham - cartilagefreecaptain.sbnation.com",
+      "title": "David Ornstein confirms financial details of Savinho to Tottenham - Cartilage Free Captain",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcS1sS2xfMkdrM1NsdjJ0cUdMS2RrZ2dTV1U4QmQ1QzRBY0pEVlB3MzRoODk1bDJrT09XR1lJcW9XR3ZGdTd2enJEN0VVd2h1T2xGN0l4OWVIMmVOd0FiNmJPV0tlWmNZRHR0NHk3dFZlS0F2eXJYWDZhWkpvZnlDNDZ4V2hRY1VDV282c05Sci1Ha1I1QU11bnJCYll3SVY0ZFRTR3BNSlFkc0ZpLWpGMUhLb0h3M2NwZXc0bXdtM3ZiRXkzRHRnaXF3Y3RodFNraWtkaFlRTWpXOUtWMXB1ZXo0TWNSVlVLeHpSYk9yUmlOLTZ5V2Q4?oc=5",
-      "description": "David Ornstein confirms financial details of Savinho to Tottenham cartilagefreecaptain.sbnation.com",
+      "description": "David Ornstein confirms financial details of Savinho to Tottenham Cartilage Free Captain",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -2840,9 +2631,9 @@
       "approx_time": false
     },
     {
-      "title": "Ornstein: Tottenham in talks with Manchester City for \u00a3140m Marmoush-Savinho double-move - cartilagefreecaptain.sbnation.com",
+      "title": "Ornstein: Tottenham in talks with Manchester City for \u00a3140m Marmoush-Savinho double-move - Cartilage Free Captain",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOT2NhaktscGd3SElCY2I5bUdhSUdkNzBKaFlIajlJMEFyWXY2NEJVeXlSdkdHcWxvc18tbUpLSDByd0tNblN4RjlqM0s4Z0VUSEFlWVF3Sk0wck52MmZtamdBSUgxUzJNODhzd1ZpRVZZYXlWMUJLeTNxcWRQMzVMX09Ubm1aLVJ1OTFIQXFuaXVvU0VIYlBxZTFqWTJqcW0yTVBQWTM1SFJFVmpqYjZYc1k4a19yMVBtelVoTTFwRGlGR0dGSEFmcTZyRkVLN216NllfZ3pETXVXN0VmNVUxZFRyS0pwMlQtM1UySXZHVkNleHl4bXNTWVNn?oc=5",
-      "description": "Ornstein: Tottenham in talks with Manchester City for \u00a3140m Marmoush-Savinho double-move cartilagefreecaptain.sbnation.com",
+      "description": "Ornstein: Tottenham in talks with Manchester City for \u00a3140m Marmoush-Savinho double-move Cartilage Free Captain",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -3357,9 +3148,9 @@
       "approx_time": false
     },
     {
-      "title": "Chelsea close to Danny Welbeck deal as transfer could be finalised this week - Ben Jacobs - Tribuna.com",
+      "title": "Chelsea close to Danny Welbeck deal as transfer could be finalised this week - Ben Jacobs - tribuna.com",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX0w3RkFOaWx6U0ZpMDd0ZWJ0TGp3bkxadFBWTmhGYXBTUUdqT3BTTmNjUm5kYnNTdEl0ZWZMeUZrZ2M2YTVJMGwyMEVZdjRDaGdWbmtMVTlBT1FWeXNCMkt4eXlraFN1TWdqeGw5MU1Cb3RFYzBhVUt6OGlyUUM3Xzlnbk1lcTE2VmxXQmxlVTV6UXdsVWZyTU5Nc2doWnY3MVN3OXhjSEpkV2tiN1VMTW5Td01XUk9BZHRnOHhwbjNENUs0YkHSAcsBQVVfeXFMTmVqc1JDS2MyZ3lQcFNhOV9VeUVIQXhkcHl2TE5iS1VUbFoyU3lIcXk0VVJOTng2NGhMaEpOWUZ2eVRCclZTM1piblZQYVk1NDRNbzlkeVNZNzlfcDc1QVNEMS15UWVIU3FYLVUzNlFpSEFmQTNzbjBYWGhOMldHY1lvWFVSemlINjEtT28zVUVybWJESjM0OU9BU2x6bGJobnpSQXFkc1BDT0tHMUlaMXljVXFjVHVkVERIcHJub3R6WmE4V09TSjRDTVk?oc=5",
-      "description": "Chelsea close to Danny Welbeck deal as transfer could be finalised this week - Ben Jacobs Tribuna.com",
+      "description": "Chelsea close to Danny Welbeck deal as transfer could be finalised this week - Ben Jacobs tribuna.com",
       "source_id": "jacobs",
       "source_name": "Ben Jacobs",
       "byline": "",
@@ -3390,9 +3181,9 @@
       "approx_time": false
     },
     {
-      "title": "Report: Arsenal working on move for Vinicius Junior - arseblog.news",
+      "title": "Report: Arsenal working on move for Vinicius Junior - Arseblog News",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOamNkdXJUZHNRMERTaWVGUVhGTkFNb0hacjZJYmkyQUkybEhTcy1kaFVNSGU4QnBuRGpkOXZhQUhKMGJVVk9EdVhLcjhCOUQ1OHVHNk4za3JPWk1WMmZjWFJDaWptbm83RHRkLXNUdlRaYU14UzhJY3RHQTRRMFBzNlVoZ0Y1YzZf?oc=5",
-      "description": "Report: Arsenal working on move for Vinicius Junior arseblog.news",
+      "description": "Report: Arsenal working on move for Vinicius Junior Arseblog News",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
