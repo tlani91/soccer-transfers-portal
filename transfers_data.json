@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-06T11:15:25.574261+00:00",
+ "last_updated": "2026-09-07T11:15:27.272808+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -10625,20 +10625,6 @@
    "epoch": 1784764800
   },
   {
-   "player": "A. Fulgini",
-   "player_url": "https://www.besoccer.com/player/a-fulgini-224154",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Lens",
-   "club_url": "https://www.besoccer.com/team/transfers/lens",
-   "direction": "out",
-   "other_club": "Al-Khaleej",
-   "type": "Free transfer",
-   "fee_eur_m": null,
-   "date": "2026-07-22",
-   "epoch": 1784678400
-  },
-  {
    "player": "Akor Adams",
    "player_url": "https://www.besoccer.com/player/a-adams-766930",
    "league": "LaLiga",
@@ -10649,6 +10635,20 @@
    "other_club": "Venezia",
    "type": "Transfer",
    "fee_eur_m": 16.0,
+   "date": "2026-07-22",
+   "epoch": 1784678400
+  },
+  {
+   "player": "Angelo Fulgini",
+   "player_url": "https://www.besoccer.com/player/a-fulgini-224154",
+   "league": "Ligue 1",
+   "league_id": "ligue_1",
+   "club": "Lens",
+   "club_url": "https://www.besoccer.com/team/transfers/lens",
+   "direction": "out",
+   "other_club": "Al-Khaleej",
+   "type": "Free transfer",
+   "fee_eur_m": null,
    "date": "2026-07-22",
    "epoch": 1784678400
   },
