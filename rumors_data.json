@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-09-08T15:17:46.704112+00:00",
+  "last_updated": "2026-09-08T16:00:33.851548+00:00",
   "items": [
+    {
+      "title": "Manchester United join Chelsea and Tottenham Hotspur in race to sign \u20ac60M Brazilian striker",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-join-chelsea-and-tottenham-hotspur-in-race-to-sign-e60m-brazilian-striker/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1788883231.6195478,
+      "approx_time": true
+    },
     {
       "title": "Manchester United set sights on Atletico Madrid star",
       "link": "https://www.transfernewslive.com/transfer-news/manchester-united-set-sights-on-atletico-madrid-star/",
@@ -9,7 +20,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788880664.2817461,
+      "epoch": 1788882931.6195478,
       "approx_time": true
     },
     {
@@ -20,7 +31,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788880364.2817461,
+      "epoch": 1788882631.6195478,
       "approx_time": true
     },
     {
@@ -31,7 +42,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788880064.2817461,
+      "epoch": 1788882331.6195478,
       "approx_time": true
     },
     {
@@ -42,7 +53,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788879764.2817461,
+      "epoch": 1788882031.6195478,
+      "approx_time": true
+    },
+    {
+      "title": "Ghana captain Jordan Ayew joins Championship club Sheffield United as free agent",
+      "link": "https://www.flashscore.com/news/soccer-championship-jordan-ayew-joins-sheffield-united-on-one-year-deal/Mo50yO6D/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1788881733.350655,
       "approx_time": true
     },
     {
@@ -53,8 +75,19 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788879464.2817461,
+      "epoch": 1788881731.6195478,
       "approx_time": true
+    },
+    {
+      "title": "David Ornstein\u2019s The Athletic FC Q&A: Active teams in January? Camara, Liverpool and Chelsea? Bournemouth sales? - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdmp4MktjMTlNOEFCeFBNaWFQYndYTzB0Vnhvb2xlTlQ4dHlScVJNcDRWdVVuUUhISDhaMVF2a1hJZDdOMUFnV3I1WUpvUFkzbl9IUXJOS0QtaWYzWGV1RGpRQ0YzMlFtSzA5UE9Ta1QxbGg0bE1laExVVzdZLU4zWTE2WU1IM3VqMUtETEJOODhMOG0wRlVlUlVySlU0YTdNeFhF?oc=5",
+      "description": "David Ornstein\u2019s The Athletic FC Q&A: Active teams in January? Camara, Liverpool and Chelsea? Bournemouth sales? The New York Times",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Tue, 08 Sep 2026 15:30:44 GMT",
+      "epoch": 1788881444.0,
+      "approx_time": false
     },
     {
       "title": "Chelsea make major Alex Scott transfer decision",
@@ -64,18 +97,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788879164.2817461,
-      "approx_time": true
-    },
-    {
-      "title": "Could Arsenal's lack of signings come to haunt them later in the season?",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-could-arsenal-s-lack-of-signings-come-to-haunt-them-later-in-the-season/KWiGP5o4/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1788878866.2032409,
+      "epoch": 1788881431.6195478,
       "approx_time": true
     },
     {
@@ -86,18 +108,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788878864.2817461,
+      "epoch": 1788881131.6195478,
       "approx_time": true
     },
     {
-      "title": "Hadj Moussa deal off between Feyenoord and Al Ittihad due to bank guarantee and politics",
-      "link": "https://www.flashscore.com/news/soccer-eredivisie-feyenoord-and-al-ittihad-reportedly-reach-agreement-on-anis-hadj-moussa-deal/A7JOazdU/",
+      "title": "Could Arsenal's lack of signings come to haunt them later in the season?",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-could-arsenal-s-lack-of-signings-come-to-haunt-them-later-in-the-season/KWiGP5o4/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788878566.2032409,
+      "epoch": 1788880833.350655,
       "approx_time": true
     },
     {
@@ -108,18 +130,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788878564.2817461,
+      "epoch": 1788880831.6195478,
       "approx_time": true
     },
     {
-      "title": "Why Man City believe their \u00a3116m Elliot Anderson deal is already paying off",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-why-man-city-believe-their-116m-elliot-anderson-deal-is-already-paying-off/jiOlmcCO/",
+      "title": "Hadj Moussa deal off between Feyenoord and Al Ittihad due to bank guarantee and politics",
+      "link": "https://www.flashscore.com/news/soccer-eredivisie-feyenoord-and-al-ittihad-reportedly-reach-agreement-on-anis-hadj-moussa-deal/A7JOazdU/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788878266.2032409,
+      "epoch": 1788880533.350655,
       "approx_time": true
     },
     {
@@ -130,18 +152,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788878264.2817461,
+      "epoch": 1788880531.6195478,
       "approx_time": true
     },
     {
-      "title": "Transfer News LIVE: Vardy signs for Burnley, Hadj Moussa's move to Al Ittihad falls through",
-      "link": "https://www.flashscore.com/news/transfer-news-live-tracker-updates/8QqUWm3n/",
+      "title": "Why Man City believe their \u00a3116m Elliot Anderson deal is already paying off",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-why-man-city-believe-their-116m-elliot-anderson-deal-is-already-paying-off/jiOlmcCO/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788877966.2032409,
+      "epoch": 1788880233.350655,
       "approx_time": true
     },
     {
@@ -152,7 +174,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788877964.2817461,
+      "epoch": 1788880231.6195478,
+      "approx_time": true
+    },
+    {
+      "title": "Transfer News LIVE: Vardy signs for Burnley, Hadj Moussa's move to Al Ittihad falls through",
+      "link": "https://www.flashscore.com/news/transfer-news-live-tracker-updates/8QqUWm3n/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1788879933.350655,
       "approx_time": true
     },
     {
@@ -163,18 +196,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788877664.2817461,
-      "approx_time": true
-    },
-    {
-      "title": "Feyenoord reportedly receive club-record Saudi bid for Anis Hadj Moussa",
-      "link": "https://www.flashscore.com/news/feyenoord-reportedly-receive-club-record-saudi-bid-for-anis-hadj-moussa/nuq7tCT7/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1788877366.2032409,
+      "epoch": 1788879931.6195478,
       "approx_time": true
     },
     {
@@ -185,18 +207,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788877364.2817461,
+      "epoch": 1788879631.6195478,
       "approx_time": true
     },
     {
-      "title": "How PSG's leading trio created transfer history with remarkable profits",
-      "link": "https://www.flashscore.com/news/soccer-ligue-1-how-psg-s-leading-trio-created-transfer-history-with-remarkable-profits/tzfEMDrC/",
+      "title": "Feyenoord reportedly receive club-record Saudi bid for Anis Hadj Moussa",
+      "link": "https://www.flashscore.com/news/feyenoord-reportedly-receive-club-record-saudi-bid-for-anis-hadj-moussa/nuq7tCT7/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788877066.2032409,
+      "epoch": 1788879333.350655,
       "approx_time": true
     },
     {
@@ -207,7 +229,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788877064.2817461,
+      "epoch": 1788879331.6195478,
+      "approx_time": true
+    },
+    {
+      "title": "How PSG's leading trio created transfer history with remarkable profits",
+      "link": "https://www.flashscore.com/news/soccer-ligue-1-how-psg-s-leading-trio-created-transfer-history-with-remarkable-profits/tzfEMDrC/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1788879033.350655,
       "approx_time": true
     },
     {
@@ -218,7 +251,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788876764.2817461,
+      "epoch": 1788879031.6195478,
       "approx_time": true
     },
     {
@@ -229,7 +262,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788876464.2817461,
+      "epoch": 1788878731.6195478,
       "approx_time": true
     },
     {
@@ -240,18 +273,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788876164.2817461,
-      "approx_time": true
-    },
-    {
-      "title": "Arsenal focus turns towards Mikel Arteta contract extension as window closes",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-arsenal-focus-turns-towards-mikel-arteta-contract-extension-as-window-closes/Q5AlW6LU/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1788875866.2032409,
+      "epoch": 1788878431.6195478,
       "approx_time": true
     },
     {
@@ -262,18 +284,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788875864.2817461,
+      "epoch": 1788878131.6195478,
       "approx_time": true
     },
     {
-      "title": "Transfer window winners and losers: What \u00a33.49 billion bought in the Premier League",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-transfer-window-winners-and-losers-what-3-49-billion-actually-bought/d8Hu8QE5/",
+      "title": "Arsenal focus turns towards Mikel Arteta contract extension as window closes",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-arsenal-focus-turns-towards-mikel-arteta-contract-extension-as-window-closes/Q5AlW6LU/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1788875566.2032409,
+      "epoch": 1788877833.350655,
       "approx_time": true
     },
     {
@@ -284,18 +306,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788875564.2817461,
-      "approx_time": true
-    },
-    {
-      "title": "PSV confirm signing of Danish top talent Mikkel Bro Hansen from Bodo/Glimt",
-      "link": "https://www.flashscore.com/news/soccer-eredivisie-psv-confirm-signing-of-danish-top-talent-mikkel-bro-hansen-from-bodo-glimt/KpZc4qie/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1788875266.2032409,
+      "epoch": 1788877831.6195478,
       "approx_time": true
     },
     {
@@ -306,18 +317,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1788875264.2817461,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United reject chance to sign former Real Madrid star for free",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-reject-chance-to-sign-former-real-madrid-star-for-free/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1788874964.2817461,
+      "epoch": 1788877531.6195478,
       "approx_time": true
     },
     {
@@ -338,8 +338,8 @@
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
-      "pub_date_raw": "Tue, 08 Sep 2026 11:20:08 GMT",
-      "epoch": 1788866408.0,
+      "pub_date_raw": "Tue, 08 Sep 2026 12:22:54 GMT",
+      "epoch": 1788870174.0,
       "approx_time": false
     },
     {
@@ -486,9 +486,9 @@
       "approx_time": false
     },
     {
-      "title": "Who WON The Transfer Window? \ud83d\udcca David Ornstein GRADES the Winners & Losers - YouTube",
+      "title": "Who WON The Transfer Window? \ud83d\udcca David Ornstein GRADES the Winners & Losers - youtu.be",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hZGFHWEQtWnFjTnpobnhocXVobllpZXBjdWRtWXlfcE9fZExVMGZQYnRGMDY4eWpXWGxsSHJKWkFQTVJFTUNtRGJVejFqeVA4T3l4QlZkVFdMbkZE?oc=5",
-      "description": "Who WON The Transfer Window? \ud83d\udcca David Ornstein GRADES the Winners & Losers YouTube",
+      "description": "Who WON The Transfer Window? \ud83d\udcca David Ornstein GRADES the Winners & Losers youtu.be",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -519,9 +519,9 @@
       "approx_time": false
     },
     {
-      "title": "David Ornstein reveals Arsenal's view on their summer transfer business \ud83d\udc40 - YouTube",
+      "title": "David Ornstein reveals Arsenal's view on their summer transfer business \ud83d\udc40 - youtu.be",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBPUmhNblhIRGFYZHpPQXhNRU9NYjBqdWxFRzV4eEs5QXJ4cXpadVVZQm1VQ2J3OGFHOFZ0WEdhQ3Q2R0NKY2IxYlJR?oc=5",
-      "description": "David Ornstein reveals Arsenal's view on their summer transfer business \ud83d\udc40 YouTube",
+      "description": "David Ornstein reveals Arsenal's view on their summer transfer business \ud83d\udc40 youtu.be",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -629,9 +629,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano confirms legendary Real Madrid forward has not been offered to Barcelona - Yahoo Sports",
+      "title": "Fabrizio Romano confirms legendary Real Madrid forward has not been offered to Barcelona - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOakpuUnlRUFhPMWpyc0VpS2JMdmZFOWdFQ0VfRTFRc2NCSGVhLWVucVlIR000WktIX2F6RXI2d0ZEdUVRamZ2MGRXYjhNMG9wcWtkcjBOZHVuSDk0SzZmbEFDN3Z3eEZub1Y1ZDNLbHJYcTVBNEREUGUxV1J4ejhIamFXZTRjWXdLbkZsRm9LcGhyUQ?oc=5",
-      "description": "Fabrizio Romano confirms legendary Real Madrid forward has not been offered to Barcelona Yahoo Sports",
+      "description": "Fabrizio Romano confirms legendary Real Madrid forward has not been offered to Barcelona sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -824,17 +824,6 @@
       "byline": "",
       "pub_date_raw": "Fri, 04 Sep 2026 06:49:08 GMT",
       "epoch": 1788504548.0,
-      "approx_time": false
-    },
-    {
-      "title": "Romano confirms Arsenal 'deal formally sealed' for next signing - 'medical completed' - Football365",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVUpLUEF3Ymdlb2hSTlZsWmNqYmdyTFlDZ1RVSzg5YXZueUpUNmkwZHlIMVVDWnN3VDI2WDRkeWFHRDJyblBaaTZ4dDc3eTV4QjZvVWozYzRnQ3RyR2h2UlBBXzZhMmwtNXAyMWZJQmxncFVTOEtxcUNCRUl4X2xWQTRlUWFoV0lQYkJuSEhNSTFaQldNbnQwMld4VkFsdkc2QVBPMVRiRUstOVk?oc=5",
-      "description": "Romano confirms Arsenal 'deal formally sealed' for next signing - 'medical completed' Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Fri, 04 Sep 2026 06:44:04 GMT",
-      "epoch": 1788504244.0,
       "approx_time": false
     },
     {
@@ -1311,9 +1300,9 @@
       "approx_time": false
     },
     {
-      "title": "Watch DAZN Transfer by Fabrizio Romano: August 31 Live Stream Online | DAZN GB - DAZN",
+      "title": "Watch DAZN Transfer by Fabrizio Romano: August 31 Live Stream Online | DAZN GB - dazn.com",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc0JuM09PczdST091dElJR1llblZpSzF5YzI2TkVPbkQyRlQxclg3LU42WGZ5c2Zsc3FoUUhnYmhxcFhkcXBLeHFlT0ZvbFdqUkI0dTR2bG8xN2RCcGVIX3dBaGo0M1k4aFFBajBsSXlfUDFvWUVvWXdiNmVGd0FHbFhVQldWRDdvT2RIRw?oc=5",
-      "description": "Watch DAZN Transfer by Fabrizio Romano: August 31 Live Stream Online | DAZN GB DAZN",
+      "description": "Watch DAZN Transfer by Fabrizio Romano: August 31 Live Stream Online | DAZN GB dazn.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -1575,14 +1564,14 @@
       "approx_time": false
     },
     {
-      "title": "Bradley Barcola joins Liverpool in \u00a3123m move from Paris Saint-Germain - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS1BfX0VaRmw3MkxYWlR0a3pZa2FWODFTYWJqNHBZajh6eHRoSFlwVjItc1RXY0ZlZzVzMk1sQlBjWHdHUS02aDVYbkNXcDFxc2tLMWsza054cUlYTXpVRTBLR3VxNGRrRV9Sd3VZTUlHeHJLVFRPVTNlc0RLUVpFWW1EVnB0MzktY0RTTXJYZlRPZU01ZFhxbzVKMmlEYTltcDJlWDJlWnJrTlZUblNmTlVhbzl5Qjg?oc=5",
-      "description": "Bradley Barcola joins Liverpool in \u00a3123m move from Paris Saint-Germain ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
+      "title": "Romano confirms Man Utd transfer is off, but alternative deal 'here we go' confirmed for \u20ac17m - Football365",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZm80V1FEMHlndWNsbHBtTWJsTGEyOTFILVJrSDFJcXVPSUJiMHR0dGVITlNDRjVpMHNXUzhMbEhRUDFvZjBhenZBQUxBQTUyWHpFc3pPUXB5VnFhZjlUQlpDWl8xYVp3T19HODNVdXBVa3BuX1F0cXVCQmJ5LXByYTVvTHpJNlhPd0JWN3pCUE1naDluRDVRaGVHMWZLV1dHMjdVUGVIenpua2h3RFZEdml1Nlo5SWRVNS1fOHQyZXVkTy13TV9saS1uS2ZzcXlrSEJ2dXJ3?oc=5",
+      "description": "Romano confirms Man Utd transfer is off, but alternative deal 'here we go' confirmed for \u20ac17m Football365",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
       "byline": "",
-      "pub_date_raw": "Mon, 31 Aug 2026 13:00:00 GMT",
-      "epoch": 1788181200.0,
+      "pub_date_raw": "Mon, 31 Aug 2026 07:42:45 GMT",
+      "epoch": 1788162165.0,
       "approx_time": false
     },
     {
@@ -1592,19 +1581,8 @@
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
-      "pub_date_raw": "Mon, 31 Aug 2026 10:50:47 GMT",
-      "epoch": 1788173447.0,
-      "approx_time": false
-    },
-    {
-      "title": "Romano confirms Man Utd transfer is off, but alternative deal 'here we go' confirmed for \u20ac17m - Football365",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZm80V1FEMHlndWNsbHBtTWJsTGEyOTFILVJrSDFJcXVPSUJiMHR0dGVITlNDRjVpMHNXUzhMbEhRUDFvZjBhenZBQUxBQTUyWHpFc3pPUXB5VnFhZjlUQlpDWl8xYVp3T19HODNVdXBVa3BuX1F0cXVCQmJ5LXByYTVvTHpJNlhPd0JWN3pCUE1naDluRDVRaGVHMWZLV1dHMjdVUGVIenpua2h3RFZEdml1Nlo5SWRVNS1fOHQyZXVkTy13TV9saS1uS2ZzcXlrSEJ2dXJ3?oc=5",
-      "description": "Romano confirms Man Utd transfer is off, but alternative deal 'here we go' confirmed for \u20ac17m Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Mon, 31 Aug 2026 07:42:45 GMT",
-      "epoch": 1788162165.0,
+      "pub_date_raw": "Mon, 31 Aug 2026 07:00:00 GMT",
+      "epoch": 1788159600.0,
       "approx_time": false
     },
     {
@@ -1652,17 +1630,6 @@
       "approx_time": false
     },
     {
-      "title": "David Ornstein delivers final verdict on Julian Alvarez & Arsenal links - aftv.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQclp5a1pzc2dPMHdsWG5naWZLcVMwWk5wS2cxS1c2ckVGdkpGU3haMEFxR3o4bTJoM2Z2SU82akpLRmZ6RGNDR2RVellZYm15NFRzV2lmM0daR2NWck90b1NnRTNlS3JtNXhPUENsNXNBbGJDTXFDZGVSczF6M3JBYVQxU2NjNVJ4YzVqNGFfMFpwaUFIWmZqQVJ5dEpyYWxf?oc=5",
-      "description": "David Ornstein delivers final verdict on Julian Alvarez & Arsenal links aftv.co.uk",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Sun, 30 Aug 2026 18:38:15 GMT",
-      "epoch": 1788115095.0,
-      "approx_time": false
-    },
-    {
       "title": "Gabriel Martinelli to Al Hilal: David Ornstein confirms Arsenal close to \u20ac70m club-record transfer - aftv.co.uk",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUm5zMzc4eUlyeF9VaHJpbm0za01YVjRDRWVrR2dkWkRkcVJfYVB5REVVcndscnFScFJVemJtbTQ2LWZxUHVUY2JKUWtrWU02RnFJUzM3NXREVWYwd0FJb3l1SlhmTDFsdE9CVnFBS0doR1B1RWF3Z29nZmpkYWh1S2paVS1EejhwZW5WNmhLQ3FmcWFodV80WTNrVEpSMGlEX0xjRktQZ1dTekxvVU5zSGdJTk15aWJsbzdxMWRaNENTSW00b2c?oc=5",
       "description": "Gabriel Martinelli to Al Hilal: David Ornstein confirms Arsenal close to \u20ac70m club-record transfer aftv.co.uk",
@@ -1685,11 +1652,22 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano teases surprise new Liverpool transfer - Yahoo Sports",
+      "title": "Fabrizio Romano teases surprise new Liverpool transfer - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObHZkZHBubHFrakFIREZxMmVhOWNNdURONGxpV1V1TmRoRzlrY05YWmstQzdjWnZhM1l6NXNWQmRMTWpYVzEwLTRoby1VejlFMm1SSGFXODlnVXRjVmtsWHgzSG5zQmkwYW1SSHFwVVljcElBNW05bnY3aWxBTzNjV2VKbFJUc1JCZFZmTy1hbnlVRE9X?oc=5",
-      "description": "Fabrizio Romano teases surprise new Liverpool transfer Yahoo Sports",
+      "description": "Fabrizio Romano teases surprise new Liverpool transfer sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Sun, 30 Aug 2026 07:00:00 GMT",
+      "epoch": 1788073200.0,
+      "approx_time": false
+    },
+    {
+      "title": "David Ornstein delivers final verdict on Julian Alvarez & Arsenal links - aftv.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQclp5a1pzc2dPMHdsWG5naWZLcVMwWk5wS2cxS1c2ckVGdkpGU3haMEFxR3o4bTJoM2Z2SU82akpLRmZ6RGNDR2RVellZYm15NFRzV2lmM0daR2NWck90b1NnRTNlS3JtNXhPUENsNXNBbGJDTXFDZGVSczF6M3JBYVQxU2NjNVJ4YzVqNGFfMFpwaUFIWmZqQVJ5dEpyYWxf?oc=5",
+      "description": "David Ornstein delivers final verdict on Julian Alvarez & Arsenal links aftv.co.uk",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
       "byline": "",
       "pub_date_raw": "Sun, 30 Aug 2026 07:00:00 GMT",
       "epoch": 1788073200.0,
@@ -1872,9 +1850,9 @@
       "approx_time": false
     },
     {
-      "title": "Watch DAZN Transfer by Fabrizio Romano: August 28 Live Stream Online | DAZN GB - DAZN",
+      "title": "Watch DAZN Transfer by Fabrizio Romano: August 28 Live Stream Online | DAZN GB - dazn.com",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMTZwSlhwamVCMVgyS29vdXFPWm5pNEM4MDNvS1lyUjdoam9RTEJ3UEZBZlJYbXVLTnVCLU90VElfcDBtSDQtVnFuTnV3Y2U1VVM3OFZsVVQ0UE5fTXBOVmdoQ21uQTlXSUwzaDIyM082MU05Vy12ZWYzSG9mS0ZsWDdJd2xna2RPT19NRQ?oc=5",
-      "description": "Watch DAZN Transfer by Fabrizio Romano: August 28 Live Stream Online | DAZN GB DAZN",
+      "description": "Watch DAZN Transfer by Fabrizio Romano: August 28 Live Stream Online | DAZN GB dazn.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -1938,17 +1916,6 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano makes late-window \u2018guarantee\u2019 over Man Utd signing after call with Jorge Mendes - Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWTlEakxuNW52QW5ZRHNjV2p4bjZFRFlPcldIMExuR3RfUk1sRTVibWxlUGdqYnVodE42SVZTRkpfS2RwamFDR0JxZjN4aWE5WUwwTXY5NGFnN3VNTXpZeXhHWW42S0otZ3ZRYThNVHM4RmRFMy0zZWxoeUpuRE56UjlRdTVzTGdXTGplcmlGWXY?oc=5",
-      "description": "Fabrizio Romano makes late-window \u2018guarantee\u2019 over Man Utd signing after call with Jorge Mendes Yahoo Sports",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Fri, 28 Aug 2026 07:00:00 GMT",
-      "epoch": 1787900400.0,
-      "approx_time": false
-    },
-    {
       "title": "Aston Villa transfers: Ornstein reveals shock Villa 'agreement' struck to sign PSG star after Liverpool step aside - Football365",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb09Jck9GVVBsenMtTVZvN0xOdFhXb21mY3F3Z2oxQ1dWZlVjVWpYU1p0SDdzeWJXTnBzTW9OSV9iZHZmcC1sY2d4UU9EQWpPWEdiREk5M2ZKUlBDdVNROFkwMTFFQk1kR2xaTVlhNGptVndwV3JJODhWRTNjaFhlNHZVWGx4TWU2RGg0ZDZRQUVOVGhVV1hNVlFmVzV1NXRMbV90U3U2Q00?oc=5",
       "description": "Aston Villa transfers: Ornstein reveals shock Villa 'agreement' struck to sign PSG star after Liverpool step aside Football365",
@@ -1971,9 +1938,9 @@
       "approx_time": false
     },
     {
-      "title": "Watch DAZN Transfer by Fabrizio Romano: August 27 Live Stream Online | DAZN GB - DAZN",
+      "title": "Watch DAZN Transfer by Fabrizio Romano: August 27 Live Stream Online | DAZN GB - dazn.com",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaXRmeDR5QUJlSDhPRklTWVAxTFRjZGI3Umo3ckFOUHVKdmxGNjQ3VE9LVHhvZlFad0ZJbjdtSTF3YkQ4XzlfeFhocGd3dTF1MDRkZU1rTEkzQzJvUlBucENKNndWdGNuWFZhYW9DdTdKOTlTWlQyUFBwRjNSZjRtNnZqLXZ2T3BaZFVUag?oc=5",
-      "description": "Watch DAZN Transfer by Fabrizio Romano: August 27 Live Stream Online | DAZN GB DAZN",
+      "description": "Watch DAZN Transfer by Fabrizio Romano: August 27 Live Stream Online | DAZN GB dazn.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2007,6 +1974,17 @@
       "title": "Aston Villa smash transfer record as Fabrizio Romano declares \u2018here we go\u2019 - LiveScore",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcmo0bWxNcjdMWWJDN1kwaDFZbWZ2VXJaSnQ3elB4UVcyNE5RWUh4YmVOUkwtUkphLWllbFdDbi1pLUQtMGRrNzlaa1lBTGttVkh4TFRxMEM0ckxlWUlxMHpfZzNLUlVyaU9xZ2tlaXFIbDFQVF81TVRZZnJQN2lBa29jN28xcEhmVkx6TC0wU0ZNSVlmTldLei1IV1VVeHdiSE9wZVFySDNmd2xPZFQ3YU96ejk1MTU4NkN2QXF2d3B1a3VwZjZoY20zeUl5XzNMbjFrbXQzZw?oc=5",
       "description": "Aston Villa smash transfer record as Fabrizio Romano declares \u2018here we go\u2019 LiveScore",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "epoch": 1787814000.0,
+      "approx_time": false
+    },
+    {
+      "title": "\u2018Here we go\u2019 \u2013 Fabrizio Romano confirms \u20ac140m Liverpool transfer - readliverpoolfc.com",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN1pvLXR5TjZEQmxYLVgzTGYzMzV4ZHZIdDVHbjN4cWtBWjkwMXRYZEpwWm05dVJ2ZnpDVEZ2TFFoLUxtSXF1cmN3Qmc1Q3BaTnJXNlVudzVzb0EwbzYxN094NE50ZWI4YnBraVhOby1BQW9Pbi1oaXBxYWZtTGpPMmtRQWVGVDM2SFZuTW1pTngtNy1mQ2t4ekNn?oc=5",
+      "description": "\u2018Here we go\u2019 \u2013 Fabrizio Romano confirms \u20ac140m Liverpool transfer readliverpoolfc.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2114,6 +2092,17 @@
       "approx_time": false
     },
     {
+      "title": "Watch DAZN Transfer by Fabrizio Romano: August 24 Live Stream Online | DAZN GB - dazn.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOHIyNGxuRVBWa1BtS2hHSGQ3T2ttbUV4d0pUdGh3dGZncHVvaXNaSklNSGhKb1c2OHduaW1Qd2dkWkEyLWVLUmtEVVJHTHJ4djdjNjJiVllkRE9CMlpqNlJidEtaemZqUUtZUnhHcGYxakd1S2daRmFtN3NzWGdldzdfUXFNV3ZwTWk0?oc=5",
+      "description": "Watch DAZN Transfer by Fabrizio Romano: August 24 Live Stream Online | DAZN GB dazn.com",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Tue, 25 Aug 2026 09:09:01 GMT",
+      "epoch": 1787648941.0,
+      "approx_time": false
+    },
+    {
       "title": "Giant Arsenal transfer is off but connected \u00a355m deal still advancing \u2013 Fabrizio Romano - Football365",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTjNNczhNb1AyZEdRcU9FSDRYLVFHOVYwejVCOU9IOElhZkpaRTJtX3VvRGZnZ2xzSVFjc0VJUHhVU1FPOHVOTU84Um45U1hwQTBvNGRJc1ZaTFRJaDZBMkJFenJUMVhjNjlLbUIzRUllLUtWcThjYXd6SjZSclRnVHBNMEdKS0c5bFVTa09rWWxJQWR6Q0ZwWjZXU3dFSU1RZDdIc052UWc1RXZobVVYNnhlSHh6b1NmaXJEaENNcU8zUHdiNXJkTmJQV2lvS1R1R0E?oc=5",
       "description": "Giant Arsenal transfer is off but connected \u00a355m deal still advancing \u2013 Fabrizio Romano Football365",
@@ -2125,9 +2114,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano confirms agent contact for Liverpool transfer - Yahoo Sports",
+      "title": "Fabrizio Romano confirms agent contact for Liverpool transfer - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOS2hDRUVWWXgxNVJZbjhMZDZtbVRRNnR1Y21CcEgza2FKb3dUdWd1alBsV1ZVQ19EdjFUd0hXRGxvXzRTMkZlMVlLajhnOWlPWkliald3Z2k5MkhfQ2NUNEhKd3J0UU16NTNIUVFZM0U0SHZ2dGNlVjBFNmNwaGtxZDlUTjRFOXVtTTZuZ2R5Y3c?oc=5",
-      "description": "Fabrizio Romano confirms agent contact for Liverpool transfer Yahoo Sports",
+      "description": "Fabrizio Romano confirms agent contact for Liverpool transfer sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2136,9 +2125,9 @@
       "approx_time": false
     },
     {
-      "title": "David Ornstein provides fascinating Arsenal transfer update amid Julian Alvarez rumours - Yahoo Sports",
+      "title": "David Ornstein provides fascinating Arsenal transfer update amid Julian Alvarez rumours - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTXgxU3BTZ1NHT2piTXJNaDJwRTF1Ujk0ZkRfRk5LZXJCRWpSSnFZMk1ZVEV3Zi1fV29BZUx4TEltTURqOGhQQVpCUDBIUjd2V0FVT3pOamszTF8ySXlSRVlLTVlMcnE1ZE1NdWUyTlNZOEdoaTFrLTh5emdZM19DOFJGQVM2aVBacmQ0ZWdUUmsxTzRHRkZB?oc=5",
-      "description": "David Ornstein provides fascinating Arsenal transfer update amid Julian Alvarez rumours Yahoo Sports",
+      "description": "David Ornstein provides fascinating Arsenal transfer update amid Julian Alvarez rumours sports.yahoo.com",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -2158,9 +2147,9 @@
       "approx_time": false
     },
     {
-      "title": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more - The Athletic - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa3YtdFp2Rk1NcUZJcjAwS2dGekNsWEJhMmRYeF9Od1c5eXRpYktZMHB2d2NVRkpKUVZWbWMwNXVOV3VqV1NwQTZILWhiVG5KdFdNRmcxcTUwMDJuZHdCeEg4MXhpU2FKM3pMR1dfeXhIN1R4Z2QzWEFTOFlWbWRhdEFTU3FtalNZdVNxUjBXYmlmS3hFbFBMNWV6TEpPUTg2dVBHcXhpNUY4dw?oc=5",
-      "description": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more - The Athletic The New York Times",
+      "title": "David Ornstein cites \u201890%\u2019 likelihood of Liverpool signing Bradley Barcola this week - The Empire of The Kop",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMjBkZ3VmZEk2TGZ3Qkc2MHVrNE0yNEF0ZjJPNDlvNlBGWGppeG9fcE1rb2VibDlWSWxVNnpyNW94YXVZN2dDb3h1VlQ3M0dZRk10ZEF4R0g1c3dBVGlMZkpPVk1BNDBseEd5X0xrY3NXWXJPWW8xTFVlaFFmZ2syRDBLSHl5OThQekpSUGdRN1BDRFlnRXVHczU2TllLckxIaGfSAacBQVVfeXFMTjNHbElsbzdqdlBWTGlobG9mcWFlZGZxZjladzM4cXBFRWdyM1Z0RTlUUERRX1ZwYWlIdXdJMG1tcHZKTC1JWm14NUtDY203NE0xSW9JQ1o1aEotRnM0VlRjeXg0bGdScjlSbE5jYUlJcmRNWmxENFlyWWg3RnppZHpLc0ZzQTMzTTh0ZlliYkprdzZtejV3b29NaXJNYXlEb1VmRnoxMXM?oc=5",
+      "description": "David Ornstein cites \u201890%\u2019 likelihood of Liverpool signing Bradley Barcola this week The Empire of The Kop",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -2169,9 +2158,9 @@
       "approx_time": false
     },
     {
-      "title": "David Ornstein cites \u201890%\u2019 likelihood of Liverpool signing Bradley Barcola this week - The Empire of The Kop",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMjBkZ3VmZEk2TGZ3Qkc2MHVrNE0yNEF0ZjJPNDlvNlBGWGppeG9fcE1rb2VibDlWSWxVNnpyNW94YXVZN2dDb3h1VlQ3M0dZRk10ZEF4R0g1c3dBVGlMZkpPVk1BNDBseEd5X0xrY3NXWXJPWW8xTFVlaFFmZ2syRDBLSHl5OThQekpSUGdRN1BDRFlnRXVHczU2TllLckxIaGfSAacBQVVfeXFMTjNHbElsbzdqdlBWTGlobG9mcWFlZGZxZjladzM4cXBFRWdyM1Z0RTlUUERRX1ZwYWlIdXdJMG1tcHZKTC1JWm14NUtDY203NE0xSW9JQ1o1aEotRnM0VlRjeXg0bGdScjlSbE5jYUlJcmRNWmxENFlyWWg3RnppZHpLc0ZzQTMzTTh0ZlliYkprdzZtejV3b29NaXJNYXlEb1VmRnoxMXM?oc=5",
-      "description": "David Ornstein cites \u201890%\u2019 likelihood of Liverpool signing Bradley Barcola this week The Empire of The Kop",
+      "title": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more - The Athletic - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa3YtdFp2Rk1NcUZJcjAwS2dGekNsWEJhMmRYeF9Od1c5eXRpYktZMHB2d2NVRkpKUVZWbWMwNXVOV3VqV1NwQTZILWhiVG5KdFdNRmcxcTUwMDJuZHdCeEg4MXhpU2FKM3pMR1dfeXhIN1R4Z2QzWEFTOFlWbWRhdEFTU3FtalNZdVNxUjBXYmlmS3hFbFBMNWV6TEpPUTg2dVBHcXhpNUY4dw?oc=5",
+      "description": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more - The Athletic The New York Times",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -2334,9 +2323,9 @@
       "approx_time": false
     },
     {
-      "title": "Bombshell Liverpool transfer update as Fabrizio Romano relays major Friday decision - Yahoo Sports",
+      "title": "Bombshell Liverpool transfer update as Fabrizio Romano relays major Friday decision - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEduZ3JSZTg2QWp4a29oalp6MmpwUXhyOXFNb3pGQWtkUENhakItVHZuMTVYUnZZZ29jUUhMRkRQLVpITjJjeE9pQ0NsMDZaZWhrWDFoMThzZE1MM29XRWU2WUZJaEdXM0JsaF9DVlRiMXBuMUIxSTljbm8zaGNaYnFLd2VjdmtESkJuXzFPS01SY3NUYzdmdw?oc=5",
-      "description": "Bombshell Liverpool transfer update as Fabrizio Romano relays major Friday decision Yahoo Sports",
+      "description": "Bombshell Liverpool transfer update as Fabrizio Romano relays major Friday decision sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2367,6 +2356,17 @@
       "approx_time": false
     },
     {
+      "title": "Transfer rumors, news: Liverpool looking at Wharton as Jones replacement - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNU5waUdSblY3bEhKcXEwY3I1Sll1MlFrWDV3blhRLXVfWF90YU9Xc1RRNW1TSUZRT2stT3JERUtfLUNMcUUzWmllYmJtUGdQbHE1bFpSbWltcnlVczlxa0JRTWlQbGZVRHBBT0VHa1QzNUZFbDVIOF9HQ3VMSHl3V3JZZGdtWFo0WFNYQWh1Qnc4SnZL?oc=5",
+      "description": "Transfer rumors, news: Liverpool looking at Wharton as Jones replacement ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "epoch": 1787209200.0,
+      "approx_time": false
+    },
+    {
       "title": "Liverpool announce winger transfer and Romano confirms another deal 'agreed' - Football365",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV2lWUXhtVHNMcUYtM3hvY1NJMVV6bEpybkkxSEVUekxTRkhTaXVGdHU3N0l1M0l5WjhfRkFIU1VqOTFyUmVfemY5N0VlTlBZVkM5Q1Q3OEN4NXdDc2dIalhMXzFJclEydzcta292V0lCU19acEg3TlI5WXVySXNneUNnWFJlU1plS2ZIVm1BYlQ1R3pSOXg0VWlQbTBOem9lNzlxYm13cHJMalg1ZGllQ2JR?oc=5",
       "description": "Liverpool announce winger transfer and Romano confirms another deal 'agreed' Football365",
@@ -2389,9 +2389,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano expects United to make two more signings after Baleba, one deal is \u201calmost guaranteed\u201d - Yahoo Sports",
+      "title": "Fabrizio Romano expects United to make two more signings after Baleba, one deal is \u201calmost guaranteed\u201d - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeEdCV3gtRzBEN3VMVk5vWUxSSExFNEViSHRsdjVjd21BR2ZybUNMVkh0bUJINzhWSTVQS2NIOGc4d0VXNlhlem80V3hGWUN4VFBMaW1ZWDB5cXJmQnY0RmNnQ25tZkR3MF80TjYwWm40T0NJclhxQjZDeC1DQ0w4MDBNbE5DVGs2SHln?oc=5",
-      "description": "Fabrizio Romano expects United to make two more signings after Baleba, one deal is \u201calmost guaranteed\u201d Yahoo Sports",
+      "description": "Fabrizio Romano expects United to make two more signings after Baleba, one deal is \u201calmost guaranteed\u201d sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2400,9 +2400,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano confirms two forwards coming when Gakpo is sold - Yahoo Sports",
+      "title": "Fabrizio Romano confirms two forwards coming when Gakpo is sold - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeTNNVk44bW82Q2RfTmV6QnZxWlhYT2NCLTlRNkdiVmI4OHBnNG9RZDVZM3d4OWRYUjU5bjlHYjJnS2tvUlFFbklzODlxYnVBVXFVQkd2LUJaT1VET25zMVV3MUdLUHBWdGUwbXNHMWloYTczUW5iRS0tNnlKWVEtZ3Y1YkdBU2dKYzczU1hNSQ?oc=5",
-      "description": "Fabrizio Romano confirms two forwards coming when Gakpo is sold Yahoo Sports",
+      "description": "Fabrizio Romano confirms two forwards coming when Gakpo is sold sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2411,9 +2411,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano Explains Man Utd's Next Two Signings After Carlos Baleba - Yahoo Sports",
+      "title": "Fabrizio Romano Explains Man Utd's Next Two Signings After Carlos Baleba - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd1pSTTJCS2hGamVwYWRxaExEN2JMY3N1MTV4Y1VRODV2S2V6dnB2R25PdE1kQ1NPMU05WWswVEpMbGp6WHJVX2NKWWh3ZUpBdmZOenZXSzB6V0U5Z3ZvNnFka2tZWUlXd1c1MVV6a0ZiNy1xNnVDVldTakZkbFlLTUM3ZDlqU2tYcWc?oc=5",
-      "description": "Fabrizio Romano Explains Man Utd's Next Two Signings After Carlos Baleba Yahoo Sports",
+      "description": "Fabrizio Romano Explains Man Utd's Next Two Signings After Carlos Baleba sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2455,9 +2455,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano confirms exciting Liverpool double transfer is on - Yahoo Sports",
+      "title": "Fabrizio Romano confirms exciting Liverpool double transfer is on - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHpUbndaLTNYSzBLeGhoUi1kNW15eG9tZVhOM2xzNW45cEVjYUxiamhkQi1tZGRqY2c5Z0pVRmpGVFE0S0laMEx4VG9SZXBkSXRfMV80d1RKTko4MXlSTVBVZTRSS01rRjJwTm1CdHFRcEZTdmgxTFZNbnRfVl94SDAtMENXVmE2S01SWU9aV254RENXeS00?oc=5",
-      "description": "Fabrizio Romano confirms exciting Liverpool double transfer is on Yahoo Sports",
+      "description": "Fabrizio Romano confirms exciting Liverpool double transfer is on sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2488,9 +2488,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano confirms Liverpool reach agreement to complete defender deal - Yahoo Sports",
+      "title": "Fabrizio Romano confirms Liverpool reach agreement to complete defender deal - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbVJ3eTJDMDNYQUgyMWtKUE1XemRuWDR5bmFPOGxzS0RpY2RSdTNQeVdJRGdmVXZ5T05UY0p3UTJUb3ItNE02MW8tUkZObzJlczViaEdPeFY1MFZfRWxkbGVEc1haaDZKUWxHTVU4ZVMtNjVJN01aUHhwR2NiUEFsejN0bFJHZFpyZ0RYZUtIQTZKQWc?oc=5",
-      "description": "Fabrizio Romano confirms Liverpool reach agreement to complete defender deal Yahoo Sports",
+      "description": "Fabrizio Romano confirms Liverpool reach agreement to complete defender deal sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2532,9 +2532,9 @@
       "approx_time": false
     },
     {
-      "title": "David Ornstein bombshell: Man United finally closing in on third midfield signing in form of \u00a365m PL-proven youngster - Yahoo Sports",
+      "title": "David Ornstein bombshell: Man United finally closing in on third midfield signing in form of \u00a365m PL-proven youngster - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZDcxRVdlXzJRdV9iSHJ1dlhTQjlrajFra2hiNVdZMVdIQXMwNjBBbVlHS2VBSEd2b3d0SDRlQUxSeURDOUF6TktoUERuS3dickFfN1l1RVlCUXFmYnBoWjBqWXM0VkJqZy1LSHlUOGd4UExxRjNRcHpDSm9qaWE0ZUotT0tkejBxZnZrLQ?oc=5",
-      "description": "David Ornstein bombshell: Man United finally closing in on third midfield signing in form of \u00a365m PL-proven youngster Yahoo Sports",
+      "description": "David Ornstein bombshell: Man United finally closing in on third midfield signing in form of \u00a365m PL-proven youngster sports.yahoo.com",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -2576,9 +2576,9 @@
       "approx_time": false
     },
     {
-      "title": "Liverpool transfer news: Fabrizio Romano confirms Reds begin talks over midfielder - Yahoo Sports",
+      "title": "Liverpool transfer news: Fabrizio Romano confirms Reds begin talks over midfielder - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQenQ0b3R0MERlbjNxVEl5U2tnMkpFQS13UWpBRzlFVVBWamxaZUIwSEl1RG9RNEZNY21EWk54akZIR041UVdFWW9VWl84MVo2aGZmak5TSGhqZ2ZueVRDdm9sdFE0anFfTUZSVVBUSlg5VDVYbTc5RnNJclAyZkxLREpjVlZqcmtuMHBxeWVtLWEtdw?oc=5",
-      "description": "Liverpool transfer news: Fabrizio Romano confirms Reds begin talks over midfielder Yahoo Sports",
+      "description": "Liverpool transfer news: Fabrizio Romano confirms Reds begin talks over midfielder sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2587,9 +2587,9 @@
       "approx_time": false
     },
     {
-      "title": "Liverpool transfer news: Fabrizio Romano confirms amazing double deal is now possible - Yahoo Sports",
+      "title": "Liverpool transfer news: Fabrizio Romano confirms amazing double deal is now possible - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPd2xHbHV5ZnNtNWh1SnJaSTkxU2cyV3pVbTFhbGt5TVhPTE9laEdPa0FUakgxWmRuQkVWNjhJdmpPTFE5OWlmWUZwcUNiMWJRWmRIYnlnYlJ1OURES2xNRF9BUHkwZWhfQkV5cG9lXzhGMEFGSzhXcVpLeGpaVkRWbU5NTmV0UmhpSDQyb1QwQk10QQ?oc=5",
-      "description": "Liverpool transfer news: Fabrizio Romano confirms amazing double deal is now possible Yahoo Sports",
+      "description": "Liverpool transfer news: Fabrizio Romano confirms amazing double deal is now possible sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2719,9 +2719,9 @@
       "approx_time": false
     },
     {
-      "title": "Liverpool transfer news: This is massive! Fabrizio Romano confirms brand new deal - Yahoo Sports",
+      "title": "Liverpool transfer news: This is massive! Fabrizio Romano confirms brand new deal - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQekRNX2dsVkRmZlRjZzg1V3ZJa2lkOUxWeVhTRV92Y0hjV0xzZDNMVEFPaVVZQnhwaDdqeFFGbzVGNEVMVERqcXdxcXF4UlR5VDNXb3pSYnN0Znd4ZkJ5UExZUTNFU0V6ZjZ4Z2dfWDNBc1lpa0xWM1ZWOWhaeUZhS1Q4QnFCUjV4Um5BSHJieUdsRTg?oc=5",
-      "description": "Liverpool transfer news: This is massive! Fabrizio Romano confirms brand new deal Yahoo Sports",
+      "description": "Liverpool transfer news: This is massive! Fabrizio Romano confirms brand new deal sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2730,9 +2730,9 @@
       "approx_time": false
     },
     {
-      "title": "\u2018It\u2019s time to change\u2019 \u2013 Fabrizio Romano teases major shift to football transfer reporting after window closes - Yahoo Sports",
+      "title": "\u2018It\u2019s time to change\u2019 \u2013 Fabrizio Romano teases major shift to football transfer reporting after window closes - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYTZYU0tQdTFMdDdBTERGQ2MtTmV3eWdQOVRfRWdMaUpHTEd0ckMwM28tMWJNWkRBX2dJS1FkRVYwMGNwc2hob3JyUHVUdnlTeGpRVWJkZlcyTmF5M0pYeTB0M2FCME5UQW9lMXY0clplY015OTlZN0lUS253U0xoT19CSnk0aklBVW8w?oc=5",
-      "description": "\u2018It\u2019s time to change\u2019 \u2013 Fabrizio Romano teases major shift to football transfer reporting after window closes Yahoo Sports",
+      "description": "\u2018It\u2019s time to change\u2019 \u2013 Fabrizio Romano teases major shift to football transfer reporting after window closes sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2818,6 +2818,17 @@
       "approx_time": false
     },
     {
+      "title": "\u2018Decided\u2019 \u2013 David Ornstein transfer update is a massive blow for Tottenham - Read Tottenham",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOGRPZXB3VWNJcFZZaFJhb1RndkJ5UVRFWF8yM2RHT3pKMUtaY19LNUtJUWxKS1FEci10b0lWQVNtMERiWnNRQWRjQXpSRmhPYTBNVV9BM0lKdkN2ODJoU0U5Ym4wUnlQcTlsT25KbEl5ejZWZlRfNmhiUUlVOFBNUVNSUml6MUYxa1A4VmMwcnRPYUdRanNxS3pQekg4WXByVHZ3d080ZV9rWU5C?oc=5",
+      "description": "\u2018Decided\u2019 \u2013 David Ornstein transfer update is a massive blow for Tottenham Read Tottenham",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
+      "byline": "",
+      "pub_date_raw": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "epoch": 1786518000.0,
+      "approx_time": false
+    },
+    {
       "title": "Transfer guru Fabrizio Romano drops major hint he will RETIRE in bombshell Linkedin post - The Sun",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNENjZnd6Z1JnU0ZJM21HajBuMDJsU2lUcU5TZEFKZjZJOVozRVN6ZTdWWm1CT3ZKN0E2OTh5bGNlQk55THZhanRrX1lpcEk3WC1aTFJLeEtDTThSU1BLay1PQXlKQlRyR3VPRGZvTHBjUnZGQUoyWEl2QWRFdWZ6c3BHLWNRRDRJNE9EUXNR?oc=5",
       "description": "Transfer guru Fabrizio Romano drops major hint he will RETIRE in bombshell Linkedin post The Sun",
@@ -2829,9 +2840,9 @@
       "approx_time": false
     },
     {
-      "title": "\ud83d\udea8 Fabrizio Romano drops a bombshell in the transfer window! - Yahoo Sports",
+      "title": "\ud83d\udea8 Fabrizio Romano drops a bombshell in the transfer window! - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX0QybjYxZTdEZHBDLUJCSURRVmt6SEJ0M2YxZDlqSEhqX1JBLXJpMnhwaXB1aE1fTmNuc2dZZlZhRlU3WG5lV1VaVl9TQ2U3NlEzSzdCcW5RNThDQllubGhlaENqVUc0N1B4RWJ2T2RQU0JkNFBpVS1EY1FLbUEzS2ljVjlFZTI0OEV0dlZfdS15WmM?oc=5",
-      "description": "\ud83d\udea8 Fabrizio Romano drops a bombshell in the transfer window! Yahoo Sports",
+      "description": "\ud83d\udea8 Fabrizio Romano drops a bombshell in the transfer window! sports.yahoo.com",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -2895,9 +2906,9 @@
       "approx_time": false
     },
     {
-      "title": "David Ornstein provides update on Manchester United move for Lewis Hall - Yahoo Sports",
+      "title": "David Ornstein provides update on Manchester United move for Lewis Hall - sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNkxwLXQ4Z0NESXFiVl9ITm1PMkJLdzFuUGVmcjFtbmk4ZnllWmpSVE1fclBpSWRLSGlwWjdwVEZVY3VuSlRDeC1tbUJZV2M5THdnQUZocm5JNmlTcFhaNFYxbFhMOWlVUTQ2R2xsWmUza0h1U3pCd3p2ZUNYekVQbVMyc3AtYWVTaVpSQ3NsZElXdjRI?oc=5",
-      "description": "David Ornstein provides update on Manchester United move for Lewis Hall Yahoo Sports",
+      "description": "David Ornstein provides update on Manchester United move for Lewis Hall sports.yahoo.com",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -3054,17 +3065,6 @@
       "description": "David Ornstein confirms next Newcastle United signing close Read Newcastle",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Fri, 31 Jul 2026 07:00:00 GMT",
-      "epoch": 1785481200.0,
-      "approx_time": false
-    },
-    {
-      "title": "Ben Jacobs confirms growing interest in Manchester United's Harry Amass - Tribuna.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLUs4bkNOOUowb3g2aGJIbkU0RWM0U0prOXBqWHUtNVA2Yy1sOG1PTWhjV3g1QXc3YzJjOGFqWGJENW9wcm5VZl9BUWRZSE1Lc2tXTkJEd0ZPMUxMTTFjcDFKMDdBUWNwemVPTHVCR0JEOHk0YmhYUnEtU2ZVNU1ZVVVfM3FURmZCc2hMeFlJRWF5a3NXVGNwNkNLdnNpa1M1RnR0RktTOXVtUkRxWUxZ0gG0AUFVX3lxTE1QVFpLZHp5N1JKLVJZMjhXcTVVT0ZqdHdqMWwybm5hMVpqTThOWWFZVUFheGdHRXhTbHdRMzQ3ODZKd0ZvdGs1SUpxeFFPZHl1X1FSUkxXS3lYcXc3TWg0bHhVTTl2Y3FJc2NkWHN6SV9mMWZ2T1g3MEY5S0FDazBDSDJtNFYtN0JTdV9TNGlqeGlsSU42SVBrcVR2OGROSk9QWUNuTW0wcmV5aWdDM1lRdEpJTQ?oc=5",
-      "description": "Ben Jacobs confirms growing interest in Manchester United's Harry Amass Tribuna.com",
-      "source_id": "jacobs",
-      "source_name": "Ben Jacobs",
       "byline": "",
       "pub_date_raw": "Fri, 31 Jul 2026 07:00:00 GMT",
       "epoch": 1785481200.0,
