@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-09T11:15:27.428147+00:00",
+ "last_updated": "2026-09-10T11:15:21.412854+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -26,6 +26,34 @@
   }
  ],
  "items": [
+  {
+   "player": "B. Akintola",
+   "player_url": "https://www.besoccer.com/player/d-babajide-295264",
+   "league": "Premier League",
+   "league_id": "premier_league",
+   "club": "Hull City",
+   "club_url": "https://www.besoccer.com/team/transfers/hull-city",
+   "direction": "out",
+   "other_club": "Omonia Nicosia",
+   "type": "Free transfer",
+   "fee_eur_m": null,
+   "date": "2026-09-09",
+   "epoch": 1788912000
+  },
+  {
+   "player": "F. Sierralta",
+   "player_url": "https://www.besoccer.com/player/f-sierralta-285610",
+   "league": "Ligue 1",
+   "league_id": "ligue_1",
+   "club": "Auxerre",
+   "club_url": "https://www.besoccer.com/team/transfers/auxerre",
+   "direction": "out",
+   "other_club": "Piast Gliwice",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-09",
+   "epoch": 1788912000
+  },
   {
    "player": "K. Jakić",
    "player_url": "https://www.besoccer.com/player/k-jakic-317741",
@@ -2141,20 +2169,6 @@
    "epoch": 1788220800
   },
   {
-   "player": "J. Rowe",
-   "player_url": "https://www.besoccer.com/player/j-rowe-862041",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Atalanta",
-   "club_url": "https://www.besoccer.com/team/transfers/atalanta",
-   "direction": "in",
-   "other_club": "Bologna",
-   "type": "Loan",
-   "fee_eur_m": 5.0,
-   "date": "2026-09-01",
-   "epoch": 1788220800
-  },
-  {
    "player": "J. Todibo",
    "player_url": "https://www.besoccer.com/player/j-todibo-506831",
    "league": "Ligue 1",
@@ -2211,6 +2225,20 @@
    "epoch": 1788220800
   },
   {
+   "player": "Jens Cajuste",
+   "player_url": "https://www.besoccer.com/player/j-cajuste-346475",
+   "league": "LaLiga",
+   "league_id": "primera_division",
+   "club": "Málaga",
+   "club_url": "https://www.besoccer.com/team/transfers/malaga",
+   "direction": "in",
+   "other_club": "Napoli",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-01",
+   "epoch": 1788220800
+  },
+  {
    "player": "Jeremy Monga",
    "player_url": "https://www.besoccer.com/player/jeremy-monga-3533983",
    "league": "Premier League",
@@ -2235,6 +2263,20 @@
    "other_club": "Wigan Athletic",
    "type": "Free transfer",
    "fee_eur_m": null,
+   "date": "2026-09-01",
+   "epoch": 1788220800
+  },
+  {
+   "player": "Jon Rowe",
+   "player_url": "https://www.besoccer.com/player/j-rowe-862041",
+   "league": "Serie A",
+   "league_id": "serie_a",
+   "club": "Atalanta",
+   "club_url": "https://www.besoccer.com/team/transfers/atalanta",
+   "direction": "in",
+   "other_club": "Bologna",
+   "type": "Loan",
+   "fee_eur_m": 5.0,
    "date": "2026-09-01",
    "epoch": 1788220800
   },
@@ -3401,7 +3443,7 @@
    "epoch": 1788220800
   },
   {
-   "player": "S. Mbangula",
+   "player": "Samuel Mbangula",
    "player_url": "https://www.besoccer.com/player/s-mbangula-tshifunda-891265",
    "league": "Serie A",
    "league_id": "serie_a",
@@ -8847,7 +8889,7 @@
    "epoch": 1786406400
   },
   {
-   "player": "Dwight Mcneil",
+   "player": "Dwight McNeil",
    "player_url": "https://www.besoccer.com/player/d-mcneil-684710",
    "league": "Premier League",
    "league_id": "premier_league",
@@ -10933,20 +10975,6 @@
    "epoch": 1784678400
   },
   {
-   "player": "Angelo Fulgini",
-   "player_url": "https://www.besoccer.com/player/a-fulgini-224154",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Lens",
-   "club_url": "https://www.besoccer.com/team/transfers/lens",
-   "direction": "out",
-   "other_club": "Al-Khaleej",
-   "type": "Free transfer",
-   "fee_eur_m": null,
-   "date": "2026-07-22",
-   "epoch": 1784678400
-  },
-  {
    "player": "Coba da Costa",
    "player_url": "https://www.besoccer.com/player/mamadu-1029075",
    "league": "LaLiga",
@@ -11631,20 +11659,6 @@
    "fee_eur_m": 1.6,
    "date": "2026-07-10",
    "epoch": 1783641600
-  },
-  {
-   "player": "Cole Campbell",
-   "player_url": "https://www.besoccer.com/player/cole-campbell-3175229",
-   "league": "Bundesliga",
-   "league_id": "bundesliga",
-   "club": "SV Elversberg",
-   "club_url": "https://www.besoccer.com/team/transfers/elversberg",
-   "direction": "in",
-   "other_club": "B. Dortmund",
-   "type": "Transfer",
-   "fee_eur_m": 6.0,
-   "date": "2026-07-09",
-   "epoch": 1783555200
   },
   {
    "player": "Salih Özcan",
