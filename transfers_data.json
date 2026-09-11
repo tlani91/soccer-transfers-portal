@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-10T11:15:21.412854+00:00",
+ "last_updated": "2026-09-11T11:15:25.581496+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -37,8 +37,22 @@
    "other_club": "Omonia Nicosia",
    "type": "Free transfer",
    "fee_eur_m": null,
-   "date": "2026-09-09",
-   "epoch": 1788912000
+   "date": "2026-09-10",
+   "epoch": 1788998400
+  },
+  {
+   "player": "Josué Casimir",
+   "player_url": "https://www.besoccer.com/player/j-casimir-644858",
+   "league": "Ligue 1",
+   "league_id": "ligue_1",
+   "club": "Auxerre",
+   "club_url": "https://www.besoccer.com/team/transfers/auxerre",
+   "direction": "out",
+   "other_club": "Dinamo Moskva",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-10",
+   "epoch": 1788998400
   },
   {
    "player": "F. Sierralta",
@@ -7475,7 +7489,7 @@
    "epoch": 1787097600
   },
   {
-   "player": "O. Fayed",
+   "player": "Omar Fayed",
    "player_url": "https://www.besoccer.com/player/o-fayed-3305989",
    "league": "Serie A",
    "league_id": "serie_a",
@@ -10985,20 +10999,6 @@
    "other_club": "Al-Kholood",
    "type": "Transfer",
    "fee_eur_m": 2.0,
-   "date": "2026-07-22",
-   "epoch": 1784678400
-  },
-  {
-   "player": "Donovan Léon",
-   "player_url": "https://www.besoccer.com/player/d-leon-140323",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Auxerre",
-   "club_url": "https://www.besoccer.com/team/transfers/auxerre",
-   "direction": "out",
-   "other_club": "Abha",
-   "type": "Free transfer",
-   "fee_eur_m": null,
    "date": "2026-07-22",
    "epoch": 1784678400
   },
