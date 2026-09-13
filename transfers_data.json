@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-12T11:15:20.563026+00:00",
+ "last_updated": "2026-09-13T11:15:24.241699+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -26,6 +26,20 @@
   }
  ],
  "items": [
+  {
+   "player": "Nikola Maraš",
+   "player_url": "https://www.besoccer.com/player/nikola-maras",
+   "league": "LaLiga",
+   "league_id": "primera_division",
+   "club": "Deportivo Alavés",
+   "club_url": "https://www.besoccer.com/team/transfers/alaves",
+   "direction": "out",
+   "other_club": "",
+   "type": "Free transfer",
+   "fee_eur_m": null,
+   "date": "2026-09-11",
+   "epoch": 1789084800
+  },
   {
    "player": "B. Akintola",
    "player_url": "https://www.besoccer.com/player/d-babajide-295264",
