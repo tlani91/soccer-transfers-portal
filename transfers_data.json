@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-14T11:15:24.991658+00:00",
+ "last_updated": "2026-09-15T11:15:27.438120+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -26,6 +26,20 @@
   }
  ],
  "items": [
+  {
+   "player": "A. Salah-Eddine",
+   "player_url": "https://www.besoccer.com/player/a-salah-eddine-776719",
+   "league": "Serie A",
+   "league_id": "serie_a",
+   "club": "Roma",
+   "club_url": "https://www.besoccer.com/team/transfers/roma",
+   "direction": "out",
+   "other_club": "Panathinaikos",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-14",
+   "epoch": 1789344000
+  },
   {
    "player": "Nikola Maraš",
    "player_url": "https://www.besoccer.com/player/nikola-maras",
@@ -7405,20 +7419,6 @@
    "epoch": 1787097600
   },
   {
-   "player": "L. Montipò",
-   "player_url": "https://www.besoccer.com/player/l-montipo-201488",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Venezia",
-   "club_url": "https://www.besoccer.com/team/transfers/venezia",
-   "direction": "in",
-   "other_club": "Hellas Verona",
-   "type": "Transfer",
-   "fee_eur_m": 0.3,
-   "date": "2026-08-19",
-   "epoch": 1787097600
-  },
-  {
    "player": "Leonardo Buta",
    "player_url": "https://www.besoccer.com/player/leonardo-buta-878917",
    "league": "Serie A",
@@ -9337,7 +9337,7 @@
    "epoch": 1786147200
   },
   {
-   "player": "T. Almada",
+   "player": "Thiago Almada",
    "player_url": "https://www.besoccer.com/player/t-almada-749200",
    "league": "LaLiga",
    "league_id": "primera_division",
