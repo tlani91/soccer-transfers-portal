@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-15T11:15:27.438120+00:00",
+ "last_updated": "2026-09-16T11:15:25.365973+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -343,6 +343,20 @@
    "club_url": "https://www.besoccer.com/team/transfers/crystal-palace-fc",
    "direction": "out",
    "other_club": "Kasımpaşa",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-04",
+   "epoch": 1788480000
+  },
+  {
+   "player": "Leo Shahar",
+   "player_url": "https://www.besoccer.com/player/l-shahar-3196028",
+   "league": "Premier League",
+   "league_id": "premier_league",
+   "club": "Newcastle",
+   "club_url": "https://www.besoccer.com/team/transfers/newcastle-united-fc",
+   "direction": "out",
+   "other_club": "Arouca",
    "type": "Loan",
    "fee_eur_m": null,
    "date": "2026-09-04",
@@ -1631,20 +1645,6 @@
    "club_url": "https://www.besoccer.com/team/transfers/racing",
    "direction": "out",
    "other_club": "FC Andorra",
-   "type": "Loan",
-   "fee_eur_m": null,
-   "date": "2026-09-01",
-   "epoch": 1788220800
-  },
-  {
-   "player": "Dina Ebimbe",
-   "player_url": "https://www.besoccer.com/player/eric-junior-dina-ebimbe-426912",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Stade Brestois",
-   "club_url": "https://www.besoccer.com/team/transfers/stade-brestois-29",
-   "direction": "in",
-   "other_club": "Eintracht Frankfurt",
    "type": "Loan",
    "fee_eur_m": null,
    "date": "2026-09-01",
@@ -3667,7 +3667,7 @@
    "epoch": 1788220800
   },
   {
-   "player": "U. Konare",
+   "player": "Umaru Konaré",
    "player_url": "https://www.besoccer.com/player/u-konare-3506078",
    "league": "LaLiga",
    "league_id": "primera_division",
@@ -6999,20 +6999,6 @@
    "epoch": 1787270400
   },
   {
-   "player": "V. Vlahović",
-   "player_url": "https://www.besoccer.com/player/v-vlahovic-1001334",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Atalanta",
-   "club_url": "https://www.besoccer.com/team/transfers/atalanta",
-   "direction": "out",
-   "other_club": "Mantova",
-   "type": "Loan",
-   "fee_eur_m": null,
-   "date": "2026-08-21",
-   "epoch": 1787270400
-  },
-  {
    "player": "A. Petagna",
    "player_url": "https://www.besoccer.com/player/a-petagna-159324",
    "league": "Serie A",
@@ -7415,6 +7401,20 @@
    "other_club": "Rangers",
    "type": "Loan",
    "fee_eur_m": null,
+   "date": "2026-08-19",
+   "epoch": 1787097600
+  },
+  {
+   "player": "L. Montipò",
+   "player_url": "https://www.besoccer.com/player/l-montipo-201488",
+   "league": "Serie A",
+   "league_id": "serie_a",
+   "club": "Venezia",
+   "club_url": "https://www.besoccer.com/team/transfers/venezia",
+   "direction": "in",
+   "other_club": "Hellas Verona",
+   "type": "Transfer",
+   "fee_eur_m": 0.3,
    "date": "2026-08-19",
    "epoch": 1787097600
   },
@@ -11673,6 +11673,20 @@
    "fee_eur_m": 1.6,
    "date": "2026-07-10",
    "epoch": 1783641600
+  },
+  {
+   "player": "Cole Campbell",
+   "player_url": "https://www.besoccer.com/player/cole-campbell-3175229",
+   "league": "Bundesliga",
+   "league_id": "bundesliga",
+   "club": "SV Elversberg",
+   "club_url": "https://www.besoccer.com/team/transfers/elversberg",
+   "direction": "in",
+   "other_club": "B. Dortmund",
+   "type": "Transfer",
+   "fee_eur_m": 6.0,
+   "date": "2026-07-09",
+   "epoch": 1783555200
   },
   {
    "player": "Salih Özcan",
