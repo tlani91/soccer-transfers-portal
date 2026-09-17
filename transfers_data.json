@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-16T11:15:25.365973+00:00",
+ "last_updated": "2026-09-17T11:15:23.602357+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -27,6 +27,34 @@
  ],
  "items": [
   {
+   "player": "A. Bodart",
+   "player_url": "https://www.besoccer.com/player/a-bodart-373753",
+   "league": "Ligue 1",
+   "league_id": "ligue_1",
+   "club": "Le Havre",
+   "club_url": "https://www.besoccer.com/team/transfers/havre-ac",
+   "direction": "in",
+   "other_club": "Lille",
+   "type": "Free transfer",
+   "fee_eur_m": null,
+   "date": "2026-09-16",
+   "epoch": 1789516800
+  },
+  {
+   "player": "T. Gijselhart",
+   "player_url": "https://www.besoccer.com/player/gijselhart-919029",
+   "league": "LaLiga",
+   "league_id": "primera_division",
+   "club": "RC Deportivo",
+   "club_url": "https://www.besoccer.com/team/transfers/deportivo",
+   "direction": "out",
+   "other_club": "Al-Ain",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-16",
+   "epoch": 1789516800
+  },
+  {
    "player": "A. Salah-Eddine",
    "player_url": "https://www.besoccer.com/player/a-salah-eddine-776719",
    "league": "Serie A",
@@ -36,6 +64,20 @@
    "direction": "out",
    "other_club": "Panathinaikos",
    "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-14",
+   "epoch": 1789344000
+  },
+  {
+   "player": "Sofiane Boufal",
+   "player_url": "https://www.besoccer.com/player/s-boufal-193149",
+   "league": "Ligue 1",
+   "league_id": "ligue_1",
+   "club": "Le Havre",
+   "club_url": "https://www.besoccer.com/team/transfers/havre-ac",
+   "direction": "out",
+   "other_club": "",
+   "type": "Free transfer",
    "fee_eur_m": null,
    "date": "2026-09-14",
    "epoch": 1789344000
@@ -1175,20 +1217,6 @@
    "epoch": 1788220800
   },
   {
-   "player": "Ayodele Thomas",
-   "player_url": "https://www.besoccer.com/player/ayodele-thomas-3362278",
-   "league": "Bundesliga",
-   "league_id": "bundesliga",
-   "club": "RB Leipzig",
-   "club_url": "https://www.besoccer.com/team/transfers/rb-leipzig",
-   "direction": "out",
-   "other_club": "NEC Nijmegen",
-   "type": "Transfer",
-   "fee_eur_m": 1.0,
-   "date": "2026-09-01",
-   "epoch": 1788220800
-  },
-  {
    "player": "B. Balogh",
    "player_url": "https://www.besoccer.com/player/b-balogh-796230",
    "league": "Serie A",
@@ -1619,6 +1647,20 @@
    "other_club": "Wolves",
    "type": "Loan",
    "fee_eur_m": 0.6,
+   "date": "2026-09-01",
+   "epoch": 1788220800
+  },
+  {
+   "player": "Dele Thomas",
+   "player_url": "https://www.besoccer.com/player/ayodele-thomas-3362278",
+   "league": "Bundesliga",
+   "league_id": "bundesliga",
+   "club": "RB Leipzig",
+   "club_url": "https://www.besoccer.com/team/transfers/rb-leipzig",
+   "direction": "out",
+   "other_club": "NEC Nijmegen",
+   "type": "Transfer",
+   "fee_eur_m": 1.0,
    "date": "2026-09-01",
    "epoch": 1788220800
   },
@@ -11059,20 +11101,6 @@
    "epoch": 1784678400
   },
   {
-   "player": "Malang Sarr",
-   "player_url": "https://www.besoccer.com/player/m-sarr-321025",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Lens",
-   "club_url": "https://www.besoccer.com/team/transfers/lens",
-   "direction": "out",
-   "other_club": "Neom SC",
-   "type": "Free transfer",
-   "fee_eur_m": null,
-   "date": "2026-07-22",
-   "epoch": 1784678400
-  },
-  {
    "player": "Patson Daka",
    "player_url": "https://www.besoccer.com/player/p-daka-313131",
    "league": "Bundesliga",
@@ -11095,20 +11123,6 @@
    "club_url": "https://www.besoccer.com/team/transfers/auxerre",
    "direction": "in",
    "other_club": "Queens Park Rangers",
-   "type": "Free transfer",
-   "fee_eur_m": null,
-   "date": "2026-07-22",
-   "epoch": 1784678400
-  },
-  {
-   "player": "S. Agouzoul",
-   "player_url": "https://www.besoccer.com/player/s-agouzoul-667219",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Auxerre",
-   "club_url": "https://www.besoccer.com/team/transfers/auxerre",
-   "direction": "out",
-   "other_club": "Sochaux",
    "type": "Free transfer",
    "fee_eur_m": null,
    "date": "2026-07-22",
@@ -11222,20 +11236,6 @@
    "direction": "out",
    "other_club": "",
    "type": "Free transfer",
-   "fee_eur_m": null,
-   "date": "2026-07-20",
-   "epoch": 1784505600
-  },
-  {
-   "player": "Diego Conde",
-   "player_url": "https://www.besoccer.com/player/d-conde-341322",
-   "league": "LaLiga",
-   "league_id": "primera_division",
-   "club": "Real Betis",
-   "club_url": "https://www.besoccer.com/team/transfers/betis",
-   "direction": "in",
-   "other_club": "Villarreal",
-   "type": "Loan",
    "fee_eur_m": null,
    "date": "2026-07-20",
    "epoch": 1784505600
