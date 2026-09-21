@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-20T11:16:00.499658+00:00",
+ "last_updated": "2026-09-21T11:15:51.843173+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -26,6 +26,34 @@
   }
  ],
  "items": [
+  {
+   "player": "Alidu Seidu",
+   "player_url": "https://www.besoccer.com/player/a-seidu-918121",
+   "league": "Ligue 1",
+   "league_id": "ligue_1",
+   "club": "Nice",
+   "club_url": "https://www.besoccer.com/team/transfers/nice",
+   "direction": "in",
+   "other_club": "",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-18",
+   "epoch": 1789689600
+  },
+  {
+   "player": "Miloš Jović",
+   "player_url": "https://www.besoccer.com/player/milos-jovic-3202730",
+   "league": "Serie A",
+   "league_id": "serie_a",
+   "club": "Lecce",
+   "club_url": "https://www.besoccer.com/team/transfers/lecce",
+   "direction": "out",
+   "other_club": "FK Vozdovac",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-18",
+   "epoch": 1789689600
+  },
   {
    "player": "A. Bodart",
    "player_url": "https://www.besoccer.com/player/a-bodart-373753",
@@ -7447,20 +7475,6 @@
    "epoch": 1787097600
   },
   {
-   "player": "L. Montipò",
-   "player_url": "https://www.besoccer.com/player/l-montipo-201488",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Venezia",
-   "club_url": "https://www.besoccer.com/team/transfers/venezia",
-   "direction": "in",
-   "other_club": "Hellas Verona",
-   "type": "Transfer",
-   "fee_eur_m": 0.3,
-   "date": "2026-08-19",
-   "epoch": 1787097600
-  },
-  {
    "player": "Leonardo Buta",
    "player_url": "https://www.besoccer.com/player/leonardo-buta-878917",
    "league": "Serie A",
@@ -8161,7 +8175,7 @@
    "epoch": 1786752000
   },
   {
-   "player": "Cristian Romero",
+   "player": "Cuti Romero",
    "player_url": "https://www.besoccer.com/player/cristian-gabriel-romero-314118",
    "league": "LaLiga",
    "league_id": "primera_division",
@@ -8483,7 +8497,7 @@
    "epoch": 1786665600
   },
   {
-   "player": "V. Drkusic",
+   "player": "V. Drkušić",
    "player_url": "https://www.besoccer.com/player/v-drkusic-319043",
    "league": "LaLiga",
    "league_id": "primera_division",
@@ -10647,7 +10661,7 @@
    "club_url": "https://www.besoccer.com/team/transfers/strasbourg",
    "direction": "out",
    "other_club": "América",
-   "type": "Loan",
+   "type": "Transfer",
    "fee_eur_m": null,
    "date": "2026-07-28",
    "epoch": 1785196800
@@ -11109,20 +11123,6 @@
    "club_url": "https://www.besoccer.com/team/transfers/hamburger-sv",
    "direction": "in",
    "other_club": "Leicester",
-   "type": "Free transfer",
-   "fee_eur_m": null,
-   "date": "2026-07-22",
-   "epoch": 1784678400
-  },
-  {
-   "player": "Paul Nardi",
-   "player_url": "https://www.besoccer.com/player/p-nardi-138908",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Auxerre",
-   "club_url": "https://www.besoccer.com/team/transfers/auxerre",
-   "direction": "in",
-   "other_club": "Queens Park Rangers",
    "type": "Free transfer",
    "fee_eur_m": null,
    "date": "2026-07-22",
