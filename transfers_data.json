@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-23T11:15:43.403441+00:00",
+ "last_updated": "2026-09-25T11:15:54.999527+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -1777,20 +1777,6 @@
    "epoch": 1788220800
   },
   {
-   "player": "E. Eto'o",
-   "player_url": "https://www.besoccer.com/player/e-etoo-994034",
-   "league": "LaLiga",
-   "league_id": "primera_division",
-   "club": "Rayo Vallecano",
-   "club_url": "https://www.besoccer.com/team/transfers/rayo-vallecano",
-   "direction": "out",
-   "other_club": "Racing Ferrol",
-   "type": "Loan",
-   "fee_eur_m": null,
-   "date": "2026-09-01",
-   "epoch": 1788220800
-  },
-  {
    "player": "E. Fernández",
    "player_url": "https://www.besoccer.com/player/e-fernandez-842828",
    "league": "Premier League",
@@ -1869,6 +1855,20 @@
    "club_url": "https://www.besoccer.com/team/transfers/borussia-dortmund",
    "direction": "in",
    "other_club": "Arsenal",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-01",
+   "epoch": 1788220800
+  },
+  {
+   "player": "Etienne Eto'o",
+   "player_url": "https://www.besoccer.com/player/e-etoo-994034",
+   "league": "LaLiga",
+   "league_id": "primera_division",
+   "club": "Rayo Vallecano",
+   "club_url": "https://www.besoccer.com/team/transfers/rayo-vallecano",
+   "direction": "out",
+   "other_club": "Racing Ferrol",
    "type": "Loan",
    "fee_eur_m": null,
    "date": "2026-09-01",
@@ -3401,7 +3401,7 @@
    "epoch": 1788220800
   },
   {
-   "player": "Rafa Nuñez",
+   "player": "Rafa Núñez",
    "player_url": "https://www.besoccer.com/player/rafael-nunez-879628",
    "league": "LaLiga",
    "league_id": "primera_division",
@@ -7583,20 +7583,6 @@
    "other_club": "Dinamo Zagreb",
    "type": "Loan",
    "fee_eur_m": null,
-   "date": "2026-08-19",
-   "epoch": 1787097600
-  },
-  {
-   "player": "Rodrigo Mora",
-   "player_url": "https://www.besoccer.com/player/rodrigo-mora-3222151",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Roma",
-   "club_url": "https://www.besoccer.com/team/transfers/roma",
-   "direction": "in",
-   "other_club": "Porto",
-   "type": "Transfer",
-   "fee_eur_m": 25.0,
    "date": "2026-08-19",
    "epoch": 1787097600
   },
