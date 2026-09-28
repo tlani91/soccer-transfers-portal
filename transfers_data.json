@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-27T11:15:54.310063+00:00",
+ "last_updated": "2026-09-28T11:15:35.145966+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -26,6 +26,20 @@
   }
  ],
  "items": [
+  {
+   "player": "M. Dahoud",
+   "player_url": "https://www.besoccer.com/player/m-dahoud-232022",
+   "league": "Bundesliga",
+   "league_id": "bundesliga",
+   "club": "Eintracht Frankfurt",
+   "club_url": "https://www.besoccer.com/team/transfers/eintracht-frankfurt",
+   "direction": "out",
+   "other_club": "United FC",
+   "type": "Free transfer",
+   "fee_eur_m": null,
+   "date": "2026-09-24",
+   "epoch": 1790208000
+  },
   {
    "player": "Alidu Seidu",
    "player_url": "https://www.besoccer.com/player/a-seidu-918121",
@@ -11659,20 +11673,6 @@
    "fee_eur_m": 1.6,
    "date": "2026-07-10",
    "epoch": 1783641600
-  },
-  {
-   "player": "Cole Campbell",
-   "player_url": "https://www.besoccer.com/player/cole-campbell-3175229",
-   "league": "Bundesliga",
-   "league_id": "bundesliga",
-   "club": "SV Elversberg",
-   "club_url": "https://www.besoccer.com/team/transfers/elversberg",
-   "direction": "in",
-   "other_club": "B. Dortmund",
-   "type": "Transfer",
-   "fee_eur_m": 6.0,
-   "date": "2026-07-09",
-   "epoch": 1783555200
   },
   {
    "player": "Salih Özcan",
