@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-28T11:15:35.145966+00:00",
+ "last_updated": "2026-09-29T11:15:45.160903+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -26,6 +26,20 @@
   }
  ],
  "items": [
+  {
+   "player": "Patric",
+   "player_url": "https://www.besoccer.com/player/patric-81647",
+   "league": "Serie A",
+   "league_id": "serie_a",
+   "club": "Lazio",
+   "club_url": "https://www.besoccer.com/team/transfers/lazio",
+   "direction": "out",
+   "other_club": "Al-Ittifaq",
+   "type": "Transfer",
+   "fee_eur_m": null,
+   "date": "2026-09-28",
+   "epoch": 1790553600
+  },
   {
    "player": "M. Dahoud",
    "player_url": "https://www.besoccer.com/player/m-dahoud-232022",
@@ -2640,7 +2654,7 @@
    "direction": "in",
    "other_club": "Karlsruher SC",
    "type": "Transfer",
-   "fee_eur_m": 7.5,
+   "fee_eur_m": 10.0,
    "date": "2026-09-01",
    "epoch": 1788220800
   },
@@ -7307,20 +7321,6 @@
    "epoch": 1787097600
   },
   {
-   "player": "Costantino Favasuli",
-   "player_url": "https://www.besoccer.com/player/costantino-favasuli-983538",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Napoli",
-   "club_url": "https://www.besoccer.com/team/transfers/napoli",
-   "direction": "in",
-   "other_club": "Catanzaro",
-   "type": "Loan",
-   "fee_eur_m": 1.0,
-   "date": "2026-08-19",
-   "epoch": 1787097600
-  },
-  {
    "player": "Dani Budesca",
    "player_url": "https://www.besoccer.com/player/d-budesca-3189508",
    "league": "LaLiga",
@@ -7357,20 +7357,6 @@
    "club_url": "https://www.besoccer.com/team/transfers/1-fc-union-berlin",
    "direction": "out",
    "other_club": "Energie Cottbus",
-   "type": "Loan",
-   "fee_eur_m": null,
-   "date": "2026-08-19",
-   "epoch": 1787097600
-  },
-  {
-   "player": "Filippo Reale",
-   "player_url": "https://www.besoccer.com/player/filippo-reale-940471",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Roma",
-   "club_url": "https://www.besoccer.com/team/transfers/roma",
-   "direction": "out",
-   "other_club": "Carrarese",
    "type": "Loan",
    "fee_eur_m": null,
    "date": "2026-08-19",
@@ -9953,6 +9939,20 @@
    "epoch": 1785801600
   },
   {
+   "player": "Ø. Nyland",
+   "player_url": "https://www.besoccer.com/player/o-nyland-172726",
+   "league": "Bundesliga",
+   "league_id": "bundesliga",
+   "club": "RB Leipzig",
+   "club_url": "https://www.besoccer.com/team/transfers/rb-leipzig",
+   "direction": "in",
+   "other_club": "Sevilla",
+   "type": "Free transfer",
+   "fee_eur_m": null,
+   "date": "2026-08-04",
+   "epoch": 1785801600
+  },
+  {
    "player": "Abdoulaye Faye",
    "player_url": "https://www.besoccer.com/player/abdoulaye-faye-3451514",
    "league": "LaLiga",
@@ -11237,20 +11237,6 @@
    "other_club": "",
    "type": "Free transfer",
    "fee_eur_m": null,
-   "date": "2026-07-20",
-   "epoch": 1784505600
-  },
-  {
-   "player": "Hugo Sotelo",
-   "player_url": "https://www.besoccer.com/player/hugo-sotelo-950972",
-   "league": "LaLiga",
-   "league_id": "primera_division",
-   "club": "Levante",
-   "club_url": "https://www.besoccer.com/team/transfers/levante",
-   "direction": "in",
-   "other_club": "Celta",
-   "type": "Loan",
-   "fee_eur_m": 0.1,
    "date": "2026-07-20",
    "epoch": 1784505600
   },
