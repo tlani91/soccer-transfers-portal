@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-29T11:15:45.160903+00:00",
+ "last_updated": "2026-09-30T11:15:23.378534+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -53,6 +53,20 @@
    "fee_eur_m": null,
    "date": "2026-09-24",
    "epoch": 1790208000
+  },
+  {
+   "player": "P. Argney",
+   "player_url": "https://www.besoccer.com/player/p-argney-3211000",
+   "league": "Ligue 1",
+   "league_id": "ligue_1",
+   "club": "Le Havre",
+   "club_url": "https://www.besoccer.com/team/transfers/havre-ac",
+   "direction": "out",
+   "other_club": "Dinan-Léhon",
+   "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-19",
+   "epoch": 1789776000
   },
   {
    "player": "Alidu Seidu",
@@ -6523,7 +6537,7 @@
    "epoch": 1787529600
   },
   {
-   "player": "S. Byram",
+   "player": "Sam Byram",
    "player_url": "https://www.besoccer.com/player/s-byram-149124",
    "league": "Premier League",
    "league_id": "premier_league",
@@ -10961,20 +10975,6 @@
    "epoch": 1784851200
   },
   {
-   "player": "A. Laâziri",
-   "player_url": "https://www.besoccer.com/player/a-laaziri-3285018",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Olympique Lyonnais",
-   "club_url": "https://www.besoccer.com/team/transfers/olympique-lyonnais",
-   "direction": "out",
-   "other_club": "",
-   "type": "Free transfer",
-   "fee_eur_m": null,
-   "date": "2026-07-23",
-   "epoch": 1784764800
-  },
-  {
    "player": "K. Adeyemi",
    "player_url": "https://www.besoccer.com/player/karim-adeyemi-627329",
    "league": "LaLiga",
@@ -11082,20 +11082,6 @@
    "direction": "out",
    "other_club": "Derby County",
    "type": "Free transfer",
-   "fee_eur_m": null,
-   "date": "2026-07-22",
-   "epoch": 1784678400
-  },
-  {
-   "player": "I. Cissoko",
-   "player_url": "https://www.besoccer.com/player/ibrahim-cissoko-893151",
-   "league": "Ligue 1",
-   "league_id": "ligue_1",
-   "club": "Toulouse",
-   "club_url": "https://www.besoccer.com/team/transfers/toulouse-fc",
-   "direction": "out",
-   "other_club": "PEC Zwolle",
-   "type": "Transfer",
    "fee_eur_m": null,
    "date": "2026-07-22",
    "epoch": 1784678400
