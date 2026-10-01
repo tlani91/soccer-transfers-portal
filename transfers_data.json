@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-30T11:15:23.378534+00:00",
+ "last_updated": "2026-10-01T11:15:33.927969+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -1441,20 +1441,6 @@
    "epoch": 1788220800
   },
   {
-   "player": "C. Nikolaev",
-   "player_url": "https://www.besoccer.com/player/c-nikolaev-3494359",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Lecce",
-   "club_url": "https://www.besoccer.com/team/transfers/lecce",
-   "direction": "out",
-   "other_club": "Real Jaén",
-   "type": "Transfer",
-   "fee_eur_m": null,
-   "date": "2026-09-01",
-   "epoch": 1788220800
-  },
-  {
    "player": "C. Ogbene",
    "player_url": "https://www.besoccer.com/player/c-ogbene-286754",
    "league": "Premier League",
@@ -1464,6 +1450,20 @@
    "direction": "out",
    "other_club": "Lincoln City",
    "type": "Loan",
+   "fee_eur_m": null,
+   "date": "2026-09-01",
+   "epoch": 1788220800
+  },
+  {
+   "player": "C. Pehlivanov",
+   "player_url": "https://www.besoccer.com/player/c-nikolaev-3494359",
+   "league": "Serie A",
+   "league_id": "serie_a",
+   "club": "Lecce",
+   "club_url": "https://www.besoccer.com/team/transfers/lecce",
+   "direction": "out",
+   "other_club": "Real Jaén",
+   "type": "Transfer",
    "fee_eur_m": null,
    "date": "2026-09-01",
    "epoch": 1788220800
