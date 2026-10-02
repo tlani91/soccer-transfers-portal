@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-01T11:15:33.927969+00:00",
+ "last_updated": "2026-10-02T11:15:43.648354+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -11645,20 +11645,6 @@
    "fee_eur_m": 1.6,
    "date": "2026-07-10",
    "epoch": 1783641600
-  },
-  {
-   "player": "Salih Özcan",
-   "player_url": "https://www.besoccer.com/player/s-ozcan-295697",
-   "league": "Bundesliga",
-   "league_id": "bundesliga",
-   "club": "B. Dortmund",
-   "club_url": "https://www.besoccer.com/team/transfers/borussia-dortmund",
-   "direction": "out",
-   "other_club": "Beşiktaş",
-   "type": "Free transfer",
-   "fee_eur_m": null,
-   "date": "2026-07-09",
-   "epoch": 1783555200
   }
  ]
 }
