@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04T14:00:35.945086+00:00",
+  "last_updated": "2026-10-04T14:34:00.276713+00:00",
   "items": [
     {
       "title": "Flashscore sources: Michael Olise new contract talks to shape Real Madrid transfer chances",
@@ -9,7 +9,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791120935.4441712,
+      "epoch": 1791122939.775779,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791119735.4441712,
+      "epoch": 1791121739.775779,
       "approx_time": true
     },
     {
@@ -31,7 +31,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791119435.4441712,
+      "epoch": 1791121439.775779,
       "approx_time": true
     },
     {
@@ -42,7 +42,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791119135.4441712,
+      "epoch": 1791121139.775779,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791118835.4441712,
+      "epoch": 1791120839.775779,
       "approx_time": true
     },
     {
@@ -64,7 +64,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791118535.4441712,
+      "epoch": 1791120539.775779,
       "approx_time": true
     },
     {
@@ -75,7 +75,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791117635.4441712,
+      "epoch": 1791119639.775779,
       "approx_time": true
     },
     {
@@ -211,14 +211,14 @@
       "approx_time": false
     },
     {
-      "title": "Man City learned of guilty verdicts in summer before transfer activity - sources - espn.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTFJLQlBhbGJUV0w0WmkxSTlTbVJoeGl2UUNlWjdBaEx4RHRIMGcyZHRYTlZTRWo0bEVKYXBBa3g2a3gySzJrNVpqSHRvZ1R3S0VYb21CREFNZ054eFBTY19GbFI1MFZweXlZZlNwWVEtbGFFRXBfWHF6Q1BGYTZTS2lkUF9xbENQdkVMU3JvdjM0LWo5LV9WemNpMWlNQ2E5WTJ0ZGtKVlhMNkZDQnUwblJR?oc=5",
-      "description": "Man City learned of guilty verdicts in summer before transfer activity - sources espn.com",
+      "title": "Man City learned of guilty verdicts in summer before transfer activity - sources - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVmRIQnRVbUpqMHFQenRvcWZVQmdnQ1RHdFU3Y0J1Y3R5emRRZERXcFFMMXAyQ1ZzUUhxWnZpZ0lfeEQ3OS16aGx6a1BnMFB1RFp2ejFVaVl1eU9YZzQwYU5NcXBZSHhPN1RxaXhhRkxWMXdyaEVWeFFHM2xHcks0eDl2QW0xUGlNendENGNCbEx3dGN6V2NfLWVhRno5XzQyT3hyTEJfd205aENzWWJTSU9vUWg4N3FQ?oc=5",
+      "description": "Man City learned of guilty verdicts in summer before transfer activity - sources ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
-      "pub_date_raw": "Tue, 29 Sep 2026 12:30:00 GMT",
-      "epoch": 1790685000.0,
+      "pub_date_raw": "Tue, 29 Sep 2026 13:18:58 GMT",
+      "epoch": 1790687938.0,
       "approx_time": false
     },
     {
@@ -271,6 +271,17 @@
       "description": "Transfer rumors, news: Man United eye move for Brugge defender Seys espn.com",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "epoch": 1790319600.0,
+      "approx_time": false
+    },
+    {
+      "title": "Manchester City found guilty on almost all Premier League charges relating to financial breaches - The Athletic - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaUxLdVdlNk9kWGVQRC1sVEZiUjJjM0pUa0tZTk9VU0ZwS0YwUzRkdmlDd3FscDBYeFNlTTZRaE82WVNHR0NyajhabjdOeHZPb3RaU3B6RTBlOE53dk55Q3dheUI1MWJNbm80SDgwQ2RnOTMyTk5leks4WEJTOVRnc19ZdEFhY0hQem5jSFNfczcyQVpBNHVSakM3Z2x5eTZp?oc=5",
+      "description": "Manchester City found guilty on almost all Premier League charges relating to financial breaches - The Athletic The New York Times",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
       "byline": "",
       "pub_date_raw": "Fri, 25 Sep 2026 07:00:00 GMT",
       "epoch": 1790319600.0,
@@ -651,9 +662,9 @@
       "approx_time": false
     },
     {
-      "title": "What David Ornstein is already predicting for Everton ahead of January transfer window - Yahoo",
+      "title": "What David Ornstein is already predicting for Everton ahead of January transfer window - uk.sports.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQME1iN0J0LVY5SDI1OUdoV09lZnBldGNFYzBYTVZJZ2lHVlBUREdvQmQzREN1bjg2Q1p2WnA5cGhUSl9IeVd1VzhNX0NOVkJraWFidVcyRG1QVW5MQ0JDWjFGMV85TDFJUTZGcVNITmpyMzZIRkJPUDBGWXo1Y2RpRVZxMWtkNUUxZWRjQW4xSmNiZjQ?oc=5",
-      "description": "What David Ornstein is already predicting for Everton ahead of January transfer window Yahoo",
+      "description": "What David Ornstein is already predicting for Everton ahead of January transfer window uk.sports.yahoo.com",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -750,9 +761,9 @@
       "approx_time": false
     },
     {
-      "title": "Transfer guru Fabrizio Romano drops another major hint he'll retire in heartfelt post 'looking forward to what's next' - The Sun",
+      "title": "Transfer guru Fabrizio Romano drops another major hint he'll retire in heartfelt post 'looking forward to what's next' - thesun.co.uk",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTW5WRGdNU3ZUWFBERjdaR1ZXbVdWUG9MR1J6czJRY2ljTGMxSUJXN2dXNWh3anlJR2kyenZtSHlXVHE3NDloVHlPOE9nNUYzSURfd29JUll3dnlTVm5VaHlGckIwcjUtTnFZWHdIMExOZmhTd3hYYVFSODJzWTUwX0dTb2JCNlVITVlFdW1jRE5NQQ?oc=5",
-      "description": "Transfer guru Fabrizio Romano drops another major hint he'll retire in heartfelt post 'looking forward to what's next' The Sun",
+      "description": "Transfer guru Fabrizio Romano drops another major hint he'll retire in heartfelt post 'looking forward to what's next' thesun.co.uk",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -1102,17 +1113,6 @@
       "approx_time": false
     },
     {
-      "title": "Manchester City\u2019s Adam Wharton enquiry rebuffed by Crystal Palace - The Athletic - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcGVkcWFUSjRkMTVoZXJUdzVIeU5KTGtCMDNXZkFIZ0VkX0x5TlNlRzRSeTVBeGREcE1WOWhUY1VtWFlOZU5rWFBMd2p3R3lxamVqTDZKQ2Fydk84UEJQN09HMi03T1dpY2ozNmhGRzI3d3l3d2ZqLWFOWW80WF96U3pnWFF5OW84MUNnYWc1dW9mTDRYVE1fZzIyOUhHcnpvT3RLbHVaSVBjay1HVFdN?oc=5",
-      "description": "Manchester City\u2019s Adam Wharton enquiry rebuffed by Crystal Palace - The Athletic The New York Times",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Fri, 28 Aug 2026 07:00:00 GMT",
-      "epoch": 1787900400.0,
-      "approx_time": false
-    },
-    {
       "title": "Man City's Enzo Maresca keen to sign a 'captain' before transfer window shuts - ESPN",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdUlMWGV0Y1lELV9heVpvTnpLWnJmRUtLV2NuMzBNbjdkbGhEQ2R3UVppRVdUTmxtWDluTmtxMHRmU0w0bkhxV3dIZkw2eHlwaEpucUt0b2djcTF5WWF0bHNiV0w1dTJKSlpQWERsbGVKV0txWVdNb0g0a201akoxcVZQMC1ZZS1nQ2V5d2tjeXhzNjdyU29FN1doNWQtc0pDZWZfekw5TFRZX2hsVklya0k5YUo?oc=5",
       "description": "Man City's Enzo Maresca keen to sign a 'captain' before transfer window shuts ESPN",
@@ -1294,6 +1294,17 @@
       "description": "Romano reveals Man Utd transfer boost as Newcastle make final decision selling Hall to the Red Devils Football365",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Mon, 24 Aug 2026 07:00:00 GMT",
+      "epoch": 1787554800.0,
+      "approx_time": false
+    },
+    {
+      "title": "David Ornstein confirms Liverpool\u2019s stance on selling Cody Gakpo this summer - readliverpoolfc.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbkJOcmg5ZVA2ZXFtWG9hdTk4amxDVUhRSEhhXzNGanNiZXE5TTVCRUJRbi1xbWxibk5tOURGZkNGUDRkbE04Um8yQVpIUHM2UWdPZnF4bW9KZnkzVTRSZmdtcGRYS2NwMmt5ODNuUWhJanBNU1kydzBlVlpIWF9saEgyOUpxZDFwUk1zQjY1UldKSUVyTW1rTlhteUp5Rk5uSi1HVzBhS2lnVmFhTmc?oc=5",
+      "description": "David Ornstein confirms Liverpool\u2019s stance on selling Cody Gakpo this summer readliverpoolfc.com",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
       "byline": "",
       "pub_date_raw": "Mon, 24 Aug 2026 07:00:00 GMT",
       "epoch": 1787554800.0,
