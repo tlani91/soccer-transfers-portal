@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05T04:01:13.773218+00:00",
+  "last_updated": "2026-10-05T05:00:34.865274+00:00",
   "items": [
     {
       "title": "Flashscore sources: Gilberto Mora transfer will be for development as much as destination",
@@ -9,7 +9,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791171673.2721708,
+      "epoch": 1791175234.364321,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791171073.2721708,
+      "epoch": 1791174634.364321,
       "approx_time": true
     },
     {
@@ -31,7 +31,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791169873.2721708,
+      "epoch": 1791173434.364321,
       "approx_time": true
     },
     {
@@ -42,7 +42,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791169573.2721708,
+      "epoch": 1791173134.364321,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791169273.2721708,
+      "epoch": 1791172834.364321,
       "approx_time": true
     },
     {
@@ -64,7 +64,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791168973.2721708,
+      "epoch": 1791172534.364321,
       "approx_time": true
     },
     {
@@ -75,7 +75,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791168673.2721708,
+      "epoch": 1791172234.364321,
+      "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: Kulusevski will feel like new signing but Spurs not rushing him back",
+      "link": "https://www.flashscore.com/news/flashscore-sources-kulusevski-will-feel-like-new-signing-but-spurs-not-rushing-him-back/ra4jBDld/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1791171334.364321,
       "approx_time": true
     },
     {
@@ -88,17 +99,6 @@
       "pub_date_raw": "Mon, 05 Oct 2026 02:51:04 GMT",
       "epoch": 1791168664.0,
       "approx_time": false
-    },
-    {
-      "title": "Flashscore sources: Kulusevski will feel like new signing but Spurs not rushing him back",
-      "link": "https://www.flashscore.com/news/flashscore-sources-kulusevski-will-feel-like-new-signing-but-spurs-not-rushing-him-back/ra4jBDld/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1791167773.2721708,
-      "approx_time": true
     },
     {
       "title": "Transfer rumors, news: Arsenal among clubs chasing winger Yildiz - espn.com",
@@ -186,17 +186,6 @@
       "byline": "",
       "pub_date_raw": "Thu, 01 Oct 2026 07:00:00 GMT",
       "epoch": 1790838000.0,
-      "approx_time": false
-    },
-    {
-      "title": "Transfer rumors, news: Liverpool eye move for Mexico's Mora - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdWExTXd0TWpwQ2VPOEdKRnRNTy04NXFobUVRcjRRZjZPeW0weUtWamNTbFBISXRPM3FzYVBqN25tQnlSeHczNjgyOEpEc3lLb2FuLU5Jam5zNmluZFJSeFBHWDEwZlAtdDludVNNdTQ1Qlh0TF83NDY0cHJKdUpUblBfYi0xZ3dYZzJJY3VrUjFNb3ZKNDk2NFVmWHBwd1luVmFUanZHTmZZNWRVT1BNTWhTQmpPX3N6U0RTMWY5ZkxMZmE3TVQ4UHNDeDV6dw?oc=5",
-      "description": "Transfer rumors, news: Liverpool eye move for Mexico's Mora ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Thu, 01 Oct 2026 06:00:47 GMT",
-      "epoch": 1790834447.0,
       "approx_time": false
     },
     {
@@ -329,17 +318,6 @@
       "byline": "",
       "pub_date_raw": "Thu, 24 Sep 2026 07:00:00 GMT",
       "epoch": 1790233200.0,
-      "approx_time": false
-    },
-    {
-      "title": "Transfer rumors, news: Could Man United replace Shaw with Mitchell? - espn.com",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjRxdW84YUhEU19iRkdrWlRLRndHVzR2dHZVaUhuREZHMWdsRjVKWmp6OVVrc1l2XzhuMTk5dWsxUTRvaG9SUzVfU0V0NGJxdXhkSG1EWlMxbXFzVng3UnhVZWgxSFNiOFpsd2NVMHdtQUdOejMwR0dHU0wwc18yRHlOTFBJanltbnIwUjdxaDBUVUE4TWR4LW56dVVOeUxSOW5BcGRlS2V5eGlHYUxLOGhwTUFYc1FYaGktN2V3?oc=5",
-      "description": "Transfer rumors, news: Could Man United replace Shaw with Mitchell? espn.com",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Wed, 23 Sep 2026 21:08:00 GMT",
-      "epoch": 1790197680.0,
       "approx_time": false
     },
     {
@@ -750,11 +728,11 @@
       "approx_time": false
     },
     {
-      "title": "Transfer guru Fabrizio Romano drops another major hint he'll retire in heartfelt post 'looking forward to what's next' - The Sun",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTW5WRGdNU3ZUWFBERjdaR1ZXbVdWUG9MR1J6czJRY2ljTGMxSUJXN2dXNWh3anlJR2kyenZtSHlXVHE3NDloVHlPOE9nNUYzSURfd29JUll3dnlTVm5VaHlGckIwcjUtTnFZWHdIMExOZmhTd3hYYVFSODJzWTUwX0dTb2JCNlVITVlFdW1jRE5NQQ?oc=5",
-      "description": "Transfer guru Fabrizio Romano drops another major hint he'll retire in heartfelt post 'looking forward to what's next' The Sun",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
+      "title": "Inside Manchester United's 'building blocks' transfer strategy - espn.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS1ZhNmUzWUtkY2FMZGVIWHVwcjN6cjFibHpNbEtfeDYtSVM4WkotcDF1cGVkQnZrSHNoVXNuZFQ2bHpGNm5JTTV2dEJJZ1JTNWtnSGNPbTRRcjE5cGZMMnR4RHI2U1Q3dWJ6bXA3NThMX0xjWi1HVjNYaXhBcmg2clpFLXB3SG9iVXZLM1pULVIwTFZkR2U2d0FodzR5WG9ZeHRyWFIwYUE2enc?oc=5",
+      "description": "Inside Manchester United's 'building blocks' transfer strategy espn.com",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
       "byline": "",
       "pub_date_raw": "Thu, 03 Sep 2026 07:00:00 GMT",
       "epoch": 1788418800.0,
@@ -1113,6 +1091,17 @@
       "approx_time": false
     },
     {
+      "title": "Romano reveals Chelsea 'here we go' after 'secret talks' with Camara stance on joining - football365.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTkpYOWxldVcyZm5EM2lnRl9Sb3FHa214R2RtMFdlTVI2M0N4V3J0WFU2RmxTNTRzTEVNWXYzaXprSXhiUDVjV2dpdmdpSmY3N2F1YkxaN1hZdmJGa1N3ejN4OGJ5VWRheEwtczV1Znp3X0o0Rjk1enh0LW0wTGEzSkcxOFJBX3NSQXZ5dE1zZ01velFaSXU2Wlczc3RoXzRTMmY2Q1M3TU4wVFJaMXVJ?oc=5",
+      "description": "Romano reveals Chelsea 'here we go' after 'secret talks' with Camara stance on joining football365.com",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Fri, 28 Aug 2026 07:00:00 GMT",
+      "epoch": 1787900400.0,
+      "approx_time": false
+    },
+    {
       "title": "Arsenal transfer news: Gunners hold talks for Real Madrid and Brazil forward Endrick - Paper Talk - Sky Sports",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNFBETDZyWFItdU5EZ3NjVE5vbFRaU3Nqa2wyRWZ2bTk2Y3J3UE5XdjlpMTMtMGlqTFBCNXl5R1pPd1VVb0dvTXo4WF9rYkMyc1d6WDZkNjMwN3hodGl5MGlka0Rjc092LW5XQkMtbUQ2V0RzTlJTeHZYNFBCb2VDdmZkRncySWZPU0I1Mlo3ZW5DZWZjM1J1cXFEcTlzSmZ3WFF4MWxEUXZETUwyazUzeW12eWJvMGcwWGxPbHNYX0kzdWFBb1ljN0oxVFZ5VnFkMVhBMEZVb3JIREE?oc=5",
       "description": "Arsenal transfer news: Gunners hold talks for Real Madrid and Brazil forward Endrick - Paper Talk Sky Sports",
@@ -1190,9 +1179,9 @@
       "approx_time": false
     },
     {
-      "title": "Man Utd offered chance to sign Chelsea star ahead of transfer deadline - metro.co.uk",
+      "title": "Man Utd offered chance to sign Chelsea star ahead of transfer deadline - Metro.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb3BycGF0RGh5bW9BTVo3ZFo1QnJ3Rk43QTNtZlJYSnNzT1pWSF9yQTVveVp5Q0RKeGNWeTlTVHcxVHZfUHV5OEJCWDNCalY2Q1VRdDFGRHdIUFRfNkZEWkx1R1JVdlFGckl4OVhPclVsU2xBdjZDRnk0YXNoZE1Yb1dSUHRmWTZqZEV6cjk1VWdfVFJzX3lTSnU5NXRINVJFX3B0Q09WT0_SAa4BQVVfeXFMTjlQcXRSdVhlQmY0QTZKUGRfTVFWcmx3WC1yT0FGTTlHcVc3NV9hQzFHdnhHQ180eHdZRVl3LWwza0xRMmZPUUlJcXFfVWtqWnhzcy1qRnZwdnZFc0JieTIxcWw0bFVjRGxPTExnMXlieDV5V1BhcEQ5ZmpVU0hWb29ac0JaNy05WWUwc2RNMTRrZlB6SzlrWlFGaVN0NEdLaExWd0RKU3RlWVJKYm13?oc=5",
-      "description": "Man Utd offered chance to sign Chelsea star ahead of transfer deadline metro.co.uk",
+      "description": "Man Utd offered chance to sign Chelsea star ahead of transfer deadline Metro.co.uk",
       "source_id": "jacobs",
       "source_name": "Ben Jacobs",
       "byline": "",
@@ -1201,9 +1190,9 @@
       "approx_time": false
     },
     {
-      "title": "Atletico Madrid hold secret talks with Arsenal over Julian Alvarez sale - talksport.com",
+      "title": "Atletico Madrid hold secret talks with Arsenal over Julian Alvarez sale - talkSPORT",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcVhVVTE5MWxyeEtGdmhmX0ZfVldZcHd1OUd6MFNqYllxcGlrWk4zZjk2RkNQMEllTFNEREo5Z0w1MG1HVkgyZ3FUck5DSnc2TFlVNWFPcGdMdWljanhXX2NQMWEwVEJRVnBSMmdyUnVkYlRTNXRFM2FmWHZ6MWVKV2hUM1JNZGxoZWV1M0hEd2YwY0lLWmhLZHpvX0h3REVJRkE?oc=5",
-      "description": "Atletico Madrid hold secret talks with Arsenal over Julian Alvarez sale talksport.com",
+      "description": "Atletico Madrid hold secret talks with Arsenal over Julian Alvarez sale talkSPORT",
       "source_id": "jacobs",
       "source_name": "Ben Jacobs",
       "byline": "",
@@ -1355,9 +1344,9 @@
       "approx_time": false
     },
     {
-      "title": "Chelsea's four-man shortlist to replace Enzo Fernandez as Newcastle transfer could begin domino effect - talksport.com",
+      "title": "Chelsea's four-man shortlist to replace Enzo Fernandez as Newcastle transfer could begin domino effect - talkSPORT",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOa3RrNWxTMnZXYW9EMThESEVMUndCRVcxd3ZmWk5JaTlOSzdDa0toR0lKYWduOHNBSTJCVnFVX3hkVndtd1JlLWNiSnU4NnhtRzY5VEZERHd3VEJUcmxINFowd09lLTR3aEY5bDVSVGxaUF9IUEdzclJmRXp2YWxNMnBsWjdRYjgtMEIxMmlTb014Z0pBcFhtUG03VFdZMm5hSUlJZ1V5N0NKRWdHSk00S3NMTXRCUEt6UnZFR3lxaEZTVVRnUk1QUmxLYjhDenlwTnhBM2p2VEtBQQ?oc=5",
-      "description": "Chelsea's four-man shortlist to replace Enzo Fernandez as Newcastle transfer could begin domino effect talksport.com",
+      "description": "Chelsea's four-man shortlist to replace Enzo Fernandez as Newcastle transfer could begin domino effect talkSPORT",
       "source_id": "jacobs",
       "source_name": "Ben Jacobs",
       "byline": "",
