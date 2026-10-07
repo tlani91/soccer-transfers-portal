@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T11:00:41.648067+00:00",
+  "last_updated": "2026-10-07T12:00:39.127284+00:00",
   "items": [
     {
       "title": "Ronaldo releases statement detailing fall-out, confirms he remains available for Portugal",
@@ -9,7 +9,227 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791370841.1472232,
+      "epoch": 1791374438.6261332,
+      "approx_time": true
+    },
+    {
+      "title": "Tottenham Hotspur set sights on 52-goal LaLiga striker for January",
+      "link": "https://www.transfernewslive.com/transfer-news/tottenham-hotspur-set-sights-on-52-goal-laliga-striker-for-january/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791374435.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Paris Saint-Germain eye move for Manchester City star",
+      "link": "https://www.transfernewslive.com/transfer-news/paris-saint-germain-eye-move-for-manchester-city-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791374135.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Erling Haaland picks his next club if he leaves Manchester City",
+      "link": "https://www.transfernewslive.com/transfer-news/erling-haaland-picks-his-next-club-if-he-leaves-manchester-city/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791373835.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Bayern Munich want two Premier League stars in summer 2027",
+      "link": "https://www.transfernewslive.com/transfer-news/bayern-munich-want-two-premier-league-stars-in-summer-2027/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791373535.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Arsenal make contact to sign Mexico star in January",
+      "link": "https://www.transfernewslive.com/transfer-news/arsenal-make-contact-to-sign-mexico-star-in-january/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791373235.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "What would Arsenal get out of signing Josh King from Premier League neighbours Fulham?",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-what-would-arsenal-get-out-of-signing-josh-king-from-premier-league-neighbours-fulham/WWjcHe7r/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1791372938.6261332,
+      "approx_time": true
+    },
+    {
+      "title": "Cardiff City officially sign Manchester City midfielder",
+      "link": "https://www.transfernewslive.com/transfer-news/cardiff-city-officially-sign-manchester-city-midfielder/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791372935.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Why Chelsea need to do their homework before signing Barcelona's Jules Kounde",
+      "link": "https://www.flashscore.com/news/soccer-laliga-why-chelsea-need-to-do-their-homework-before-signing-barcelona-s-jules-kounde/nXQMZ8WO/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1791372638.6261332,
+      "approx_time": true
+    },
+    {
+      "title": "Arsenal and Liverpool send scouts to watch USA wonderkid",
+      "link": "https://www.transfernewslive.com/transfer-news/arsenal-and-liverpool-send-scouts-to-watch-usa-wonderkid/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791372635.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Manchester United plan to sign Luke Shaw replacement for free",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-plan-to-sign-luke-shaw-replacement-for-free/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791372335.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Chelsea and Liverpool receive transfer boost as Bournemouth identify Alex Scott replacement",
+      "link": "https://www.transfernewslive.com/transfer-news/chelsea-and-liverpool-receive-transfer-boost-as-bournemouth-identify-alex-scott-replacement/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791372035.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Real Madrid set to rival Chelsea and Liverpool for Alex Scott",
+      "link": "https://www.transfernewslive.com/transfer-news/real-madrid-set-to-rival-chelsea-and-liverpool-for-alex-scott/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791371735.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Arsenal plan move for Serie A striker",
+      "link": "https://www.transfernewslive.com/transfer-news/arsenal-plan-move-for-serie-a-striker/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791371435.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Barcelona set sights on \u00a335M Liverpool star",
+      "link": "https://www.transfernewslive.com/transfer-news/barcelona-set-sights-on-35m-liverpool-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791371135.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: Gilberto Mora transfer will be for development as much as destination",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-gilberto-mora-transfer-will-be-for-development-as-much-as-destination/z1aJyZ6t/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1791370838.6261332,
+      "approx_time": true
+    },
+    {
+      "title": "Liverpool leading Arsenal and Tottenham Hotspur in race to sign Premier League right-back",
+      "link": "https://www.transfernewslive.com/transfer-news/liverpool-leading-arsenal-and-tottenham-hotspur-in-race-to-sign-premier-league-right-back/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791370835.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Chelsea lining up \u00a3100M move for Barcelona star",
+      "link": "https://www.transfernewslive.com/transfer-news/chelsea-lining-up-100m-move-for-barcelona-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791370535.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: Michael Olise new contract talks to shape Real Madrid transfer chances",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-michael-olise-new-contract-talks-to-shape-real-madrid-transfer-chances/KrIymduJ/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1791370238.6261332,
+      "approx_time": true
+    },
+    {
+      "title": "Arsenal plan move for \u00a385M Serie A winger",
+      "link": "https://www.transfernewslive.com/transfer-news/arsenal-plan-move-for-85m-serie-a-winger/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791370235.9872515,
+      "approx_time": true
+    },
+    {
+      "title": "Bayern Munich fear losing Michael Olise as Real Madrid plan \u20ac200M move",
+      "link": "https://www.transfernewslive.com/transfer-news/bayern-munich-fear-losing-michael-olise-as-real-madrid-plan-e200m-move/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791369935.9872515,
       "approx_time": true
     },
     {
@@ -24,47 +244,25 @@
       "approx_time": false
     },
     {
-      "title": "What would Arsenal get out of signing Josh King from Premier League neighbours Fulham?",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-what-would-arsenal-get-out-of-signing-josh-king-from-premier-league-neighbours-fulham/WWjcHe7r/",
+      "title": "Barcelona open door for Chelsea to sign long-term target",
+      "link": "https://www.transfernewslive.com/transfer-news/barcelona-open-door-for-chelsea-to-sign-long-term-target/",
       "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1791369341.1472232,
+      "epoch": 1791369635.9872515,
       "approx_time": true
     },
     {
-      "title": "Why Chelsea need to do their homework before signing Barcelona's Jules Kounde",
-      "link": "https://www.flashscore.com/news/soccer-laliga-why-chelsea-need-to-do-their-homework-before-signing-barcelona-s-jules-kounde/nXQMZ8WO/",
+      "title": "Manchester United target set to leave club in 2027",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-target-set-to-leave-club-in-2027/",
       "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1791369041.1472232,
-      "approx_time": true
-    },
-    {
-      "title": "Flashscore sources: Gilberto Mora transfer will be for development as much as destination",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-gilberto-mora-transfer-will-be-for-development-as-much-as-destination/z1aJyZ6t/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1791367241.1472232,
-      "approx_time": true
-    },
-    {
-      "title": "Flashscore sources: Michael Olise new contract talks to shape Real Madrid transfer chances",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-michael-olise-new-contract-talks-to-shape-real-madrid-transfer-chances/KrIymduJ/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1791366641.1472232,
+      "epoch": 1791369335.9872515,
       "approx_time": true
     },
     {
@@ -75,7 +273,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791365441.1472232,
+      "epoch": 1791369038.6261332,
+      "approx_time": true
+    },
+    {
+      "title": "Liverpool lead race to sign \u00a346M Chelsea target",
+      "link": "https://www.transfernewslive.com/transfer-news/liverpool-lead-race-to-sign-46m-chelsea-target/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791369035.9872515,
       "approx_time": true
     },
     {
@@ -86,7 +295,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1791365141.1472232,
+      "epoch": 1791368738.6261332,
+      "approx_time": true
+    },
+    {
+      "title": "Arsenal and Paris Saint-Germain tracking Manchester United defender",
+      "link": "https://www.transfernewslive.com/transfer-news/arsenal-and-paris-saint-germain-tracking-manchester-united-defender/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1791368735.9872515,
       "approx_time": true
     },
     {
@@ -310,17 +530,6 @@
       "approx_time": false
     },
     {
-      "title": "Sean Dyche set for Premier League return - transfernewslive.com",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTlVUV2V3SExRbVNrQ3Y3VTB5UExsMGFodk5ET2trWlp0SUw4ZW9jVllqam1KdDNvZmZwc2NoS3gxVFJBZ1RaZ0tlYmVhUVNFZmkxZXpqaFBqZWVrVFhudmhWcGpJcmFVcXZsanhxbUhibkVxSFd2bHJNcHdOME1yNThmUDc4Zw?oc=5",
-      "description": "Sean Dyche set for Premier League return transfernewslive.com",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "",
-      "pub_date_raw": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "epoch": 1791183600.0,
-      "approx_time": false
-    },
-    {
       "title": "\u2018Keen\u2019 \u2013 Fabrizio Romano makes huge Liverpool transfer claim - Read Liverpool",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUlIVFVoUlN0YTJGSDdjUnRWa2lhVnNteUVad1JxRkdYQjVkM3BIazI0SnZlYUEydXYyMDRpdjhlN1lYSV9JNjVBeGxjaGZfTlRuWi1aMnUyUWpRcTQ4ckg2WVVFeGZzZV9yVzc3MG1yRncycmpTV1hWOVBIdmpzRFNpaTA1SHBoaTQ0MXFSWnZfb0JFazZONDNDbw?oc=5",
       "description": "\u2018Keen\u2019 \u2013 Fabrizio Romano makes huge Liverpool transfer claim Read Liverpool",
@@ -332,17 +541,6 @@
       "approx_time": false
     },
     {
-      "title": "Transfer rumors, news: Arsenal among clubs chasing winger Yildiz - ESPN Global",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNmpWQ2ctY1pYckVxQTJXV2JSRk5vVkRWUDgyZzkyLVZ1MmNuMGdGOEpYTkRnMDdtbnUzMXpNT0t1bDhKeFZRb3Y0ZU1qQy1hTExUaWxZRFdsZTV0elF5ZG01TFRqVDJGaThUdGFySlo4ZS1KRm9USmdMa3JTck41MHlSWUlfRjRGc01BdjUtcWNaemhfbFpxellEVjB1WGoyZEZHeTRqdW9HQkZW?oc=5",
-      "description": "Transfer rumors, news: Arsenal among clubs chasing winger Yildiz ESPN Global",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Mon, 05 Oct 2026 01:07:30 GMT",
-      "epoch": 1791162450.0,
-      "approx_time": false
-    },
-    {
       "title": "Transfer rumors, news: Arsenal among clubs chasing winger Yildiz - ESPN",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZTJaY2VIcTl3dGZDYllGeXg1N3pidXBvLXFHOGNDbUVrY0pLckFaR0ZJTHJ0cTlrOWFCRXNQekt1TXh5aXBZRllTMENzdlg1QUo2YVppbUN5Z0tKREdUYm93dERXUi0xdE5vdlY0U2kwUmo0NVBfU1VkWmxRTnItVmdsRkFqLXF0eUE1aW1uRWVibjBkcktHeldaemw1LWZwaHJrUWJ3?oc=5",
       "description": "Transfer rumors, news: Arsenal among clubs chasing winger Yildiz ESPN",
@@ -351,17 +549,6 @@
       "byline": "",
       "pub_date_raw": "Sun, 04 Oct 2026 18:14:00 GMT",
       "epoch": 1791137640.0,
-      "approx_time": false
-    },
-    {
-      "title": "Liverpool in contact to sign 'next big thing' - Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WT1drTHJkQS1yU2NwM3gwZHU3X3p5dm5Ja1c0cldWS3lvQi05eHl4VlVTQVhxRTBMSHVfUUZFX2R4cEZEWXp5bWRzelotd1BUNS14XzJ3V2hucDByVm8tTTN1SkJWVldBV05nc1lac0lsVFEwd0hwNk1n0gGCAUFVX3lxTE1uZFZLSnF5dS13V0NGSXpUUXZMcm5pTGdxLVU3VWV0U3ljbDMyT1BVdkd3VFl6UTlhbGlGLTBPbzF3RjFTVm1xdElON0JlMHB4MnpIQmcwR1hhWUJZUmlMT05PVVQyTjhfYS1pV2xlTWJkWnF4VUZkdkxYdkdXX0xMaVE?oc=5",
-      "description": "Liverpool in contact to sign 'next big thing' Liverpool FC",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Sun, 04 Oct 2026 08:38:10 GMT",
-      "epoch": 1791103090.0,
       "approx_time": false
     },
     {
@@ -384,17 +571,6 @@
       "byline": "",
       "pub_date_raw": "Sat, 03 Oct 2026 06:13:56 GMT",
       "epoch": 1791008036.0,
-      "approx_time": false
-    },
-    {
-      "title": "FA release statement on Manchester City FFP verdict - transfernewslive.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNel9sUy1JRjFrX0NhTi1wYVI0X1NZajNGSnJrUE1ITHd2WDNYQlJJNnZsb01QUU95eWUzSWJBeHNvMkZFTWdtdWdGVjdCWEhpVGZ1aTVTbkF5QzFhVmNqTkpTWVh1QklKTk9WSkExUzcxSGRTQVNmUDZodnZBbUJTZmp4V3dBWFp0Vkhlal81bjYyQXhN?oc=5",
-      "description": "FA release statement on Manchester City FFP verdict transfernewslive.com",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "",
-      "pub_date_raw": "Sat, 03 Oct 2026 00:55:23 GMT",
-      "epoch": 1790988923.0,
       "approx_time": false
     },
     {
@@ -1069,31 +1245,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano: What transfer expert has said about late Celtic and Rangers business - GlasgowWorld",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMUJUelVJcEdkNGY3QkROTmp4dUVfRk82Wk5iWTZuWTdpdnB3MkRwY1JxeGV4ZUxvSWM2THk5WWVjZDJvMlU1YTdra1BRbUxHZW9MYXFTNnJqZzBuNS12aEQ5MWpjdXRZbDcwUkdfeVlhWXg0ektoRWNTcmtrNEhBOGhHR2lJWkEyNy16c0dJSmxvaE1lWnk2ZzNMWk8zZzFrUkpSUHU1aHY5OWVRVTJjSWludkN1ei1ZdUFNcUlrODlvLTRncmpiUkFXb3AzWG9iMW9Z?oc=5",
-      "description": "Fabrizio Romano: What transfer expert has said about late Celtic and Rangers business GlasgowWorld",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Tue, 01 Sep 2026 07:00:00 GMT",
-      "epoch": 1788246000.0,
-      "approx_time": false
-    },
-    {
       "title": "Fabrizio Romano: the blockbuster deadline day transfer deals that have yet to happen - The Scotsman",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdE1XaVZxTE83eTQ5RGwyZUVIT0ZBRnFYMm1oU2hKTThrQ2RoZWUydFRBRHdrU184a2I4V1FJbnNRa09kV1B5UkhFUzJvYjZDbHR1SnVVSGh2T09aRmdNcWRDUFlqamJPZlRHQnZVSkx0dU13RVZZSEttc0lCV2tFdkduaV9hc1FQNWk4cFRLZXNuamZDemtVSjNBY0JDSEtFZzcySTUyMXVleEFzM1ZUUHRmcllNQzgzR2JwQ3FpeG93bEtWcTVaUw?oc=5",
       "description": "Fabrizio Romano: the blockbuster deadline day transfer deals that have yet to happen The Scotsman",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Tue, 01 Sep 2026 07:00:00 GMT",
-      "epoch": 1788246000.0,
-      "approx_time": false
-    },
-    {
-      "title": "'Green light' - Fabrizio Romano's fresh claim regarding Leeds United transfer chase - Yorkshire Post",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUzFZNVhvd3JqdlE5WmVfRjhCU2ZHWExldjR1VmFKbGFwZUEzT2ZNdnhkQ0wtNkNTYU1JWTBwekd6R2ZrTjNCRzl4bDg0dWpDSU5sOWlpb1BYX1BZVUZvdlQ5a2J3SGJhOGYyTHZvMHdXTXVHZWNnakJZWTNPRXV5MTJ3UjlDUGtlMXc2QUtVV3FxSTI0SkRjS01ueHl6VWJRZDRRUg?oc=5",
-      "description": "'Green light' - Fabrizio Romano's fresh claim regarding Leeds United transfer chase Yorkshire Post",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
