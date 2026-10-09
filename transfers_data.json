@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-08T11:15:24.691665+00:00",
+ "last_updated": "2026-10-09T11:15:24.030517+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -14671,20 +14671,6 @@
    "epoch": 1784246400
   },
   {
-   "player": "A. Vinciguerra",
-   "player_url": "https://www.besoccer.com/player/alessandro-vinciguerra-3149458",
-   "league": "Serie A",
-   "league_id": "serie_a",
-   "club": "Cagliari",
-   "club_url": "https://www.besoccer.com/team/transfers/cagliari",
-   "direction": "out",
-   "other_club": "Audace Cerignola",
-   "type": "Free transfer",
-   "fee_eur_m": null,
-   "date": "2026-07-16",
-   "epoch": 1784160000
-  },
-  {
    "player": "Alex Král",
    "player_url": "https://www.besoccer.com/player/a-kral-309780",
    "league": "Bundesliga",
@@ -17674,7 +17660,7 @@
    "club": "Tottenham Hotspur",
    "club_url": "https://www.besoccer.com/team/transfers/tottenham-hotspur-fc",
    "direction": "out",
-   "other_club": "Bahía",
+   "other_club": "Bahia",
    "type": "Transfer",
    "fee_eur_m": 9.0,
    "date": "2026-07-01",
