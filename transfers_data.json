@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-10T11:15:46.206523+00:00",
+ "last_updated": "2026-10-11T11:15:43.650385+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -14669,6 +14669,20 @@
    "fee_eur_m": 37.0,
    "date": "2026-07-17",
    "epoch": 1784246400
+  },
+  {
+   "player": "A. Vinciguerra",
+   "player_url": "https://www.besoccer.com/player/alessandro-vinciguerra-3149458",
+   "league": "Serie A",
+   "league_id": "serie_a",
+   "club": "Cagliari",
+   "club_url": "https://www.besoccer.com/team/transfers/cagliari",
+   "direction": "out",
+   "other_club": "Audace Cerignola",
+   "type": "Free transfer",
+   "fee_eur_m": null,
+   "date": "2026-07-16",
+   "epoch": 1784160000
   },
   {
    "player": "Alex Král",
