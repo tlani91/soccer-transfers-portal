@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-10-15T15:00:40.084904+00:00",
+  "last_updated": "2026-10-15T16:00:32.816404+00:00",
   "items": [
+    {
+      "title": "Chelsea receive transfer boost as Bayern Munich leave race for Barcelona star",
+      "link": "https://www.transfernewslive.com/transfer-news/chelsea-receive-transfer-boost-as-bayern-munich-leave-race-for-barcelona-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792080030.1677794,
+      "approx_time": true
+    },
+    {
+      "title": "Real Madrid set to battle Barcelona for Tottenham Hotspur star",
+      "link": "https://www.transfernewslive.com/transfer-news/real-madrid-set-to-battle-barcelona-for-tottenham-hotspur-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792079730.1677794,
+      "approx_time": true
+    },
     {
       "title": "Barcelona eye Lisandro Martinez move after Manchester United outburst",
       "link": "https://www.transfernewslive.com/transfer-news/barcelona-eye-lisandro-martinez-move-after-manchester-united-outburst/",
@@ -9,7 +31,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792076437.3003929,
+      "epoch": 1792079430.1677794,
       "approx_time": true
     },
     {
@@ -20,7 +42,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792076137.3003929,
+      "epoch": 1792079130.1677794,
       "approx_time": true
     },
     {
@@ -31,7 +53,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792075837.3003929,
+      "epoch": 1792078830.1677794,
       "approx_time": true
     },
     {
@@ -42,7 +64,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792075537.3003929,
+      "epoch": 1792078530.1677794,
       "approx_time": true
     },
     {
@@ -53,7 +75,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792075237.3003929,
+      "epoch": 1792078230.1677794,
       "approx_time": true
     },
     {
@@ -64,29 +86,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792074937.3003929,
-      "approx_time": true
-    },
-    {
-      "title": "Chelsea ready to offer \u2018hefty\u2019 contract to lure Barcelona midfielder to Stamford Bridge",
-      "link": "https://www.transfernewslive.com/transfer-news/chelsea-ready-to-offer-hefty-contract-to-lure-barcelona-midfielder-to-stamford-bridge/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792074637.3003929,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United and Arsenal tracking Newcastle United star",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-and-arsenal-tracking-newcastle-united-star/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792074337.3003929,
+      "epoch": 1792077930.1677794,
       "approx_time": true
     },
     {
@@ -97,18 +97,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792074039.583855,
+      "epoch": 1792077632.315464,
       "approx_time": true
     },
     {
-      "title": "Lisandro Martinez picks his next club after Manchester United bombshell",
-      "link": "https://www.transfernewslive.com/transfer-news/lisandro-martinez-picks-his-next-club-after-manchester-united-bombshell/",
+      "title": "Chelsea ready to offer \u2018hefty\u2019 contract to lure Barcelona midfielder to Stamford Bridge",
+      "link": "https://www.transfernewslive.com/transfer-news/chelsea-ready-to-offer-hefty-contract-to-lure-barcelona-midfielder-to-stamford-bridge/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792074037.3003929,
+      "epoch": 1792077630.1677794,
       "approx_time": true
     },
     {
@@ -119,29 +119,29 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792073739.583855,
+      "epoch": 1792077332.315464,
       "approx_time": true
     },
     {
-      "title": "Barcelona plan move for Tottenham Hotspur star",
-      "link": "https://www.transfernewslive.com/transfer-news/barcelona-plan-move-for-tottenham-hotspur-star/",
+      "title": "Manchester United and Arsenal tracking Newcastle United star",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-and-arsenal-tracking-newcastle-united-star/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792073737.3003929,
+      "epoch": 1792077330.1677794,
       "approx_time": true
     },
     {
-      "title": "Julian Alvarez changes his agent to facilitate Barcelona move",
-      "link": "https://www.transfernewslive.com/transfer-news/julian-alvarez-changes-his-agent-to-facilitate-barcelona-move/",
+      "title": "Lisandro Martinez picks his next club after Manchester United bombshell",
+      "link": "https://www.transfernewslive.com/transfer-news/lisandro-martinez-picks-his-next-club-after-manchester-united-bombshell/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792073437.3003929,
+      "epoch": 1792077030.1677794,
       "approx_time": true
     },
     {
@@ -152,18 +152,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792073139.583855,
+      "epoch": 1792076732.315464,
       "approx_time": true
     },
     {
-      "title": "Manchester United plan move for Croatian striker",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-plan-move-for-croatian-striker/",
+      "title": "Barcelona plan move for Tottenham Hotspur star",
+      "link": "https://www.transfernewslive.com/transfer-news/barcelona-plan-move-for-tottenham-hotspur-star/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792073137.3003929,
+      "epoch": 1792076730.1677794,
       "approx_time": true
     },
     {
@@ -174,18 +174,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792072839.583855,
+      "epoch": 1792076432.315464,
       "approx_time": true
     },
     {
-      "title": "Arsenal learn reduced Julian Alvarez transfer price",
-      "link": "https://www.transfernewslive.com/transfer-news/arsenal-learn-reduced-julian-alvarez-transfer-price/",
+      "title": "Julian Alvarez changes his agent to facilitate Barcelona move",
+      "link": "https://www.transfernewslive.com/transfer-news/julian-alvarez-changes-his-agent-to-facilitate-barcelona-move/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792072837.3003929,
+      "epoch": 1792076430.1677794,
       "approx_time": true
     },
     {
@@ -196,18 +196,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792072539.583855,
+      "epoch": 1792076132.315464,
       "approx_time": true
     },
     {
-      "title": "Paris Saint-Germain and Bayern Munich set to battle for Manchester United star",
-      "link": "https://www.transfernewslive.com/transfer-news/paris-saint-germain-and-bayern-munich-set-to-battle-for-manchester-united-star/",
+      "title": "Manchester United plan move for Croatian striker",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-plan-move-for-croatian-striker/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792072537.3003929,
+      "epoch": 1792076130.1677794,
       "approx_time": true
     },
     {
@@ -218,7 +218,29 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792072239.583855,
+      "epoch": 1792075832.315464,
+      "approx_time": true
+    },
+    {
+      "title": "Arsenal learn reduced Julian Alvarez transfer price",
+      "link": "https://www.transfernewslive.com/transfer-news/arsenal-learn-reduced-julian-alvarez-transfer-price/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792075830.1677794,
+      "approx_time": true
+    },
+    {
+      "title": "Paris Saint-Germain and Bayern Munich set to battle for Manchester United star",
+      "link": "https://www.transfernewslive.com/transfer-news/paris-saint-germain-and-bayern-munich-set-to-battle-for-manchester-united-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792075530.1677794,
       "approx_time": true
     },
     {
@@ -229,7 +251,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792072237.3003929,
+      "epoch": 1792075230.1677794,
       "approx_time": true
     },
     {
@@ -240,29 +262,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792071937.3003929,
-      "approx_time": true
-    },
-    {
-      "title": "Chelsea confident of completing blockbuster deal for Premier League midfielder in January",
-      "link": "https://www.transfernewslive.com/transfer-news/chelsea-confident-of-completing-blockbuster-deal-for-premier-league-midfielder-in-january/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792071637.3003929,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United join race to sign Atletico Madrid forward",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-join-race-to-sign-atletico-madrid-forward/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792071337.3003929,
+      "epoch": 1792074930.1677794,
       "approx_time": true
     },
     {
@@ -273,29 +273,29 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792071039.583855,
+      "epoch": 1792074632.315464,
       "approx_time": true
     },
     {
-      "title": "Real Madrid set sights on \u00a385M Premier League midfielder",
-      "link": "https://www.transfernewslive.com/transfer-news/real-madrid-set-sights-on-85m-premier-league-midfielder/",
+      "title": "Chelsea confident of completing blockbuster deal for Premier League midfielder in January",
+      "link": "https://www.transfernewslive.com/transfer-news/chelsea-confident-of-completing-blockbuster-deal-for-premier-league-midfielder-in-january/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792071037.3003929,
+      "epoch": 1792074630.1677794,
       "approx_time": true
     },
     {
-      "title": "Manchester City plan blockbuster move for Bayern Munich star",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-city-plan-blockbuster-move-for-bayern-munich-star/",
+      "title": "Manchester United join race to sign Atletico Madrid forward",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-join-race-to-sign-atletico-madrid-forward/",
       "description": "",
       "source_id": "ddl",
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792070737.3003929,
+      "epoch": 1792074330.1677794,
       "approx_time": true
     },
     {
@@ -948,6 +948,17 @@
       "approx_time": false
     },
     {
+      "title": "Transfer rumors, news: Liverpool, Man City eye Real Sociedad's Aramburu - ESPN Global",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMDk3QzNnY2JMLTVOV0UwVVhiaklwb3Y4LUFHWWhEaVNrLUdQRktGdk1YdldTcjJxaHRFd0xnMzZwRlpoRDVSd3pZM2ZXMkM0M3BwczNyTEZTRFJaNHFLNk9QTEVCNFhNLUJNWEx6NDlodkJpMXVrV2NoTTdmNGVUN1lzX0NyWHZ2MjRKcXhkSnVsNC11Vk5HRE0xZUQ5NDhqZlA4Nzg4Vm53ZVpmRVJIWEc0TTZ0MGFKLU1v?oc=5",
+      "description": "Transfer rumors, news: Liverpool, Man City eye Real Sociedad's Aramburu ESPN Global",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "epoch": 1789887600.0,
+      "approx_time": false
+    },
+    {
       "title": "Transfer rumors, news: Liverpool, Man City eye Real Sociedad's Aramburu - ESPN",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZFZyOFdISUlYejN6bWpmT09xMGdmd1l2Y2VBQ2h2NGtrTEhIcExsWG5LU3dLbHpwTzh5a0Jlb0pybDFtVzZId3hrUGtiZERsZUxZR25BRDVDYmw5VTFXMm1qY00xQkRGVUFubEdqdGNUdHJTbV9wTFVoTjFxU0ZDMGk1VE12cEZTRmZDeHlBcVFRd1VveW9wejhfU2Q2ZG4xQ18xelBSV0laVkRQT0JMSUZackU?oc=5",
       "description": "Transfer rumors, news: Liverpool, Man City eye Real Sociedad's Aramburu ESPN",
@@ -1146,28 +1157,6 @@
       "approx_time": false
     },
     {
-      "title": "Manchester City confirm Enzo Fernandez signing from Chelsea - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaXJyRU9MVE45ZXgwaE5keE9Ha1FudEZMSFVIX01PWTY2NlZ2cnRmLU1jaWNzeFp0QWU1U1YyU0djbWZ5Rm82ZGRQTkxDNVNLLUVfdHhkWFdXQTlyYnFiblNfRUdCQzdXamFhVXB1UWpjOHpYbDNKcl9NaE9ING9mS3c0NnpFSmcxeWZQZ2R3cndaeTkybDFJbw?oc=5",
-      "description": "Manchester City confirm Enzo Fernandez signing from Chelsea The New York Times",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Sun, 06 Sep 2026 07:00:00 GMT",
-      "epoch": 1788678000.0,
-      "approx_time": false
-    },
-    {
-      "title": "Journalist says Liverpool transfer window will be seen as better eventually - Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ1FuaExzS1pnT25KbDBJeEtISy1qUmRJQnVTNDVlTlNtdEs1YkxCUlVNckw0ejVwbXZmS1VncEZPMDJRY1gtYUx3UUhsV1RWOHRRUU1SYUFvS2FrcG5mS1lxZmdCXzIxNWo3VnFFWVdpdmdLLWJDcE9xQy04T0dpWlFhbFVlWEZxVzFUNTF3Y042M1Vz?oc=5",
-      "description": "Journalist says Liverpool transfer window will be seen as better eventually Yahoo Sports",
-      "source_id": "ornstein",
-      "source_name": "David Ornstein",
-      "byline": "",
-      "pub_date_raw": "Sun, 06 Sep 2026 07:00:00 GMT",
-      "epoch": 1788678000.0,
-      "approx_time": false
-    },
-    {
       "title": "Liverpool had no plans to sign midfielder after Curtis Jones' departure - Ben Jacobs - Tribuna.com",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVVBsTkp5SXZ4Z2NGeUVMRzVrc1VWNVpRZGdHT09jUG5EczR0Q3o2b1VUSmxmeEF4MVlnMUFfbkotdUlXTG9vcGlBR0ZMeVhuWGpzRHNUdG1halVHRDVkcHNZZl9CbjNjUThQREZsS2FOSFl4SmZFZWh5NHE0Nk9IdEFnejduSVpSUDdWdW9jdE5tOXdLR3QwMlZpSk5oTTIwTFBvcjNNb3RBa2dPel9ZYW9QQmhIMDljSm5DUnFR0gHDAUFVX3lxTFBmdmZaNmRpTVpzR2dKcDh5elJOOTBLWnRBaEFlamVjQVJ0YmV4RGNSYmVldjdkVTJ2UmF6MVJCLTRWOFVhcTROSUhzTkNZenl2dWZmUUFBT0dsNXZTb2Z0c1NwTFA1YnpGdElmT25lbS1nVFg3alBXTkQ4Z2FMc2JfdlJTdmtVaVB6UFdUa3dFblA0QWpHV0lfc2tPYjRVaGVHaDBGNlp1azJ5TUhzR3BWMlNKNmFGaTdoR3I5S2RwODNiZw?oc=5",
       "description": "Liverpool had no plans to sign midfielder after Curtis Jones' departure - Ben Jacobs Tribuna.com",
@@ -1234,9 +1223,9 @@
       "approx_time": false
     },
     {
-      "title": "Ornstein questions Man Utd transfer business and makes \u2018flow of cash\u2019 claim - Football365",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLXN4R091SHd3eFNPdkVCTU5FUXRGcHVfSVNxYmJ1SVVzek5HVGpCb2taa1p5OHBEb0lJa0IxT3dVbV93LXFpRmtpZkp1cWZYdFpmS0kxTFFFWmhObm5VOW1LVHFjQnZ6M2pvUkE4UXdnVDMyZUpqR2VLRTd4R1ZRVXhPYzNMak9MZ1pmcVAyNmJoOG0wdjloWktXRUdqaVRzWms2dklR?oc=5",
-      "description": "Ornstein questions Man Utd transfer business and makes \u2018flow of cash\u2019 claim Football365",
+      "title": "The three left-backs Man Utd considered signing before deadline amid \u2018cash flow\u2019 issues - Ornstein - TNT Sports",
+      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQN2FKaTI5TmluclZQaEFNa2wycVJEQ0xuaHdadV9KSFdwQ2cxV3NKWmxtWXlJQWhDb1VjbTZSSy1LcXhBbVhuLXZ2Q2V4SHpRUFBGZ0hQUGwxTFMyTUFrNVgtbFFrOGNBeG1CRndSam9FX1JVOXZtbGlLUFRPOWwwTF9FT25Fa3hLQl9uSjFsYjl5UXBwTF9GeHF1ei02ZmktTzhnNnE4OWFmRW9mWVdLd01mNEd3ZjNPT0tsZDBzc0ZJZ25temNManRLMHFtTi0xV1NDWU1VVnhpOUhqQjJEQ0llbUp2MG9KeUs1eUhfVXRvYUFXaEZSeG12TlduaktnNmhxTGZJS1I5SVdLSWowTTMyMEMwOGdpMHM2MFNWdjVNZXU1REs5MGFQajhMX1kz?oc=5",
+      "description": "The three left-backs Man Utd considered signing before deadline amid \u2018cash flow\u2019 issues - Ornstein TNT Sports",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -1245,9 +1234,9 @@
       "approx_time": false
     },
     {
-      "title": "The three left-backs Man Utd considered signing before deadline amid \u2018cash flow\u2019 issues - Ornstein - TNT Sports",
-      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQN2FKaTI5TmluclZQaEFNa2wycVJEQ0xuaHdadV9KSFdwQ2cxV3NKWmxtWXlJQWhDb1VjbTZSSy1LcXhBbVhuLXZ2Q2V4SHpRUFBGZ0hQUGwxTFMyTUFrNVgtbFFrOGNBeG1CRndSam9FX1JVOXZtbGlLUFRPOWwwTF9FT25Fa3hLQl9uSjFsYjl5UXBwTF9GeHF1ei02ZmktTzhnNnE4OWFmRW9mWVdLd01mNEd3ZjNPT0tsZDBzc0ZJZ25temNManRLMHFtTi0xV1NDWU1VVnhpOUhqQjJEQ0llbUp2MG9KeUs1eUhfVXRvYUFXaEZSeG12TlduaktnNmhxTGZJS1I5SVdLSWowTTMyMEMwOGdpMHM2MFNWdjVNZXU1REs5MGFQajhMX1kz?oc=5",
-      "description": "The three left-backs Man Utd considered signing before deadline amid \u2018cash flow\u2019 issues - Ornstein TNT Sports",
+      "title": "Ornstein questions Man Utd transfer business and makes \u2018flow of cash\u2019 claim - Football365",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLXN4R091SHd3eFNPdkVCTU5FUXRGcHVfSVNxYmJ1SVVzek5HVGpCb2taa1p5OHBEb0lJa0IxT3dVbV93LXFpRmtpZkp1cWZYdFpmS0kxTFFFWmhObm5VOW1LVHFjQnZ6M2pvUkE4UXdnVDMyZUpqR2VLRTd4R1ZRVXhPYzNMak9MZ1pmcVAyNmJoOG0wdjloWktXRUdqaVRzWms2dklR?oc=5",
+      "description": "Ornstein questions Man Utd transfer business and makes \u2018flow of cash\u2019 claim Football365",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -1345,7 +1334,7 @@
     },
     {
       "title": "Man United transfer news: LIVE updates, rumours and deals - ESPN Global",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQM2RRSG1BV3JQc1R1b2tKeUxNQTBrUThpRE5HOWFKaUl4Q01kMmthUEs5VUNIRFFRLWFvV1U4a3l2QmZBV2d0YkpERFNlVVBGRGpOVG4wWklWM3hyaGlQS1JCYXFoYTV1S19RMnJnWDBlTXNscGhCYzVUWlowLUU0X181WG1JZXlrdmZ5MEF4ZE45eDhOVUhNcG1XNVpDS3pOTUMxNE5SSXRjUjlDNlkwc1NNUGJnLVlVUVIyYW9wWVVZOVlMb3FHRXZ6MlI5MDJBekRITENHTmVNZm44ekFYN01DODg4cDVFT0NSWU5pYUw4NXNWM3FXLURNMGM0OXJQOHhZd0RGRkdFS3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNd25aNC1LdmNGYWZDTFIwQ2hOTEhMeURmTk1RUEtzOXR1eTBXM2Jtb29TRXJPSkk3RHBfSHNpTE4tbmdXMWdxbm44SUVvNEotQWVCRl9GQ0FmclhoNUpLZUl5azdCak9rYzY1S0VjekhCd3NQTnczcGNraElBVXZLeDE4NDVsV3JvRVZBV3NGMWl6ZzlOYnR0czFHU1ZGT3lRem5GY2tqS3dXa0JmR1lvdHRtek1wcUpnUUV6enA4VS1HSlYxMmFtLUlDZ0hPOWRmaXhwWEVyRlRRMlA1WmFkUERaZw?oc=5",
       "description": "Man United transfer news: LIVE updates, rumours and deals ESPN Global",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
@@ -1448,6 +1437,17 @@
       "description": "'Green light' - Fabrizio Romano's fresh claim regarding Leeds United transfer chase Yorkshire Post",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Tue, 01 Sep 2026 07:00:00 GMT",
+      "epoch": 1788246000.0,
+      "approx_time": false
+    },
+    {
+      "title": "Manchester City confirm Enzo Fernandez signing from Chelsea - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaXJyRU9MVE45ZXgwaE5keE9Ha1FudEZMSFVIX01PWTY2NlZ2cnRmLU1jaWNzeFp0QWU1U1YyU0djbWZ5Rm82ZGRQTkxDNVNLLUVfdHhkWFdXQTlyYnFiblNfRUdCQzdXamFhVXB1UWpjOHpYbDNKcl9NaE9ING9mS3c0NnpFSmcxeWZQZ2R3cndaeTkybDFJbw?oc=5",
+      "description": "Manchester City confirm Enzo Fernandez signing from Chelsea The New York Times",
+      "source_id": "ornstein",
+      "source_name": "David Ornstein",
       "byline": "",
       "pub_date_raw": "Tue, 01 Sep 2026 07:00:00 GMT",
       "epoch": 1788246000.0,
