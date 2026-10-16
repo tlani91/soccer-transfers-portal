@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T05:00:37.536413+00:00",
+  "last_updated": "2026-10-16T06:00:32.444458+00:00",
   "items": [
     {
       "title": "Manchester City and Arsenal suffer setback as Real Madrid star agrees new contract",
@@ -9,7 +9,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792126834.6912932,
+      "epoch": 1792130429.7237675,
       "approx_time": true
     },
     {
@@ -20,18 +20,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792126534.6912932,
-      "approx_time": true
-    },
-    {
-      "title": "Real Madrid set to battle Barcelona for Tottenham Hotspur star",
-      "link": "https://www.transfernewslive.com/transfer-news/real-madrid-set-to-battle-barcelona-for-tottenham-hotspur-star/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792126234.6912932,
+      "epoch": 1792130129.7237675,
       "approx_time": true
     },
     {
@@ -42,7 +31,18 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792125937.0356574,
+      "epoch": 1792129831.943696,
+      "approx_time": true
+    },
+    {
+      "title": "Real Madrid set to battle Barcelona for Tottenham Hotspur star",
+      "link": "https://www.transfernewslive.com/transfer-news/real-madrid-set-to-battle-barcelona-for-tottenham-hotspur-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792129829.7237675,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792125934.6912932,
+      "epoch": 1792129529.7237675,
       "approx_time": true
     },
     {
@@ -64,7 +64,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792125634.6912932,
+      "epoch": 1792129229.7237675,
       "approx_time": true
     },
     {
@@ -75,7 +75,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792125334.6912932,
+      "epoch": 1792128929.7237675,
       "approx_time": true
     },
     {
@@ -86,7 +86,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792125034.6912932,
+      "epoch": 1792128629.7237675,
       "approx_time": true
     },
     {
@@ -97,7 +97,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792124734.6912932,
+      "epoch": 1792128329.7237675,
       "approx_time": true
     },
     {
@@ -108,7 +108,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792124434.6912932,
+      "epoch": 1792128029.7237675,
       "approx_time": true
     },
     {
@@ -119,7 +119,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792124137.0356574,
+      "epoch": 1792127731.943696,
       "approx_time": true
     },
     {
@@ -130,7 +130,183 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792124134.6912932,
+      "epoch": 1792127729.7237675,
+      "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: Newcastle set to double down on Hall valuation if Man Utd return",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-newcastle-set-to-double-down-on-hall-valuation-if-man-utd-return/nHxFxQFr/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1792127431.943696,
+      "approx_time": true
+    },
+    {
+      "title": "Manchester United and Arsenal tracking Newcastle United star",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-and-arsenal-tracking-newcastle-united-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792127429.7237675,
+      "approx_time": true
+    },
+    {
+      "title": "Lisandro Martinez picks his next club after Manchester United bombshell",
+      "link": "https://www.transfernewslive.com/transfer-news/lisandro-martinez-picks-his-next-club-after-manchester-united-bombshell/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792127129.7237675,
+      "approx_time": true
+    },
+    {
+      "title": "Bournemouth 'open' to selling Chelsea target Alex Scott in January",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-bournemouth-open-to-selling-chelsea-target-alex-scott-in-january/8ERDwirn/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1792126831.943696,
+      "approx_time": true
+    },
+    {
+      "title": "Barcelona plan move for Tottenham Hotspur star",
+      "link": "https://www.transfernewslive.com/transfer-news/barcelona-plan-move-for-tottenham-hotspur-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792126829.7237675,
+      "approx_time": true
+    },
+    {
+      "title": "Why Man Utd are exploring the possibility of signing Atletico Madrid's Giuliano Simeone",
+      "link": "https://www.flashscore.com/news/why-man-utd-are-exploring-the-possibility-of-signing-atletico-madrid-s-giuliano-simeone/08EorJf5/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1792126531.943696,
+      "approx_time": true
+    },
+    {
+      "title": "Julian Alvarez changes his agent to facilitate Barcelona move",
+      "link": "https://www.transfernewslive.com/transfer-news/julian-alvarez-changes-his-agent-to-facilitate-barcelona-move/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792126529.7237675,
+      "approx_time": true
+    },
+    {
+      "title": "Former Real Madrid full-back Dani Carvajal signs for Getafe on free transfer",
+      "link": "https://www.flashscore.com/news/soccer-laliga-former-real-madrid-full-back-dani-carvajal-signs-for-getafe-on-free-transfer/G6iNsFPr/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1792126231.943696,
+      "approx_time": true
+    },
+    {
+      "title": "Manchester United plan move for Croatian striker",
+      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-plan-move-for-croatian-striker/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792126229.7237675,
+      "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: Welbeck transfer decision adds to Man United's growing striker dilemma",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-welbeck-transfer-decision-adds-to-man-united-s-growing-striker-dilemma/2H2ie6eD/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1792125931.943696,
+      "approx_time": true
+    },
+    {
+      "title": "Arsenal learn reduced Julian Alvarez transfer price",
+      "link": "https://www.transfernewslive.com/transfer-news/arsenal-learn-reduced-julian-alvarez-transfer-price/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792125929.7237675,
+      "approx_time": true
+    },
+    {
+      "title": "Paris Saint-Germain and Bayern Munich set to battle for Manchester United star",
+      "link": "https://www.transfernewslive.com/transfer-news/paris-saint-germain-and-bayern-munich-set-to-battle-for-manchester-united-star/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792125629.7237675,
+      "approx_time": true
+    },
+    {
+      "title": "Chelsea eye Enzo Fernandez replacement from Barcelona",
+      "link": "https://www.transfernewslive.com/transfer-news/chelsea-eye-enzo-fernandez-replacement-from-barcelona/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792125329.7237675,
+      "approx_time": true
+    },
+    {
+      "title": "Liverpool join Real Madrid and Barcelona in race for Germany international",
+      "link": "https://www.transfernewslive.com/transfer-news/liverpool-join-real-madrid-and-barcelona-in-race-for-germany-international/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792125029.7237675,
+      "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: Garnacho hoping for lift-off as he targets permanent Villa move",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-garnacho-hoping-for-lift-off-as-he-targets-permanent-villa-move/OE7Brucf/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1792124731.943696,
+      "approx_time": true
+    },
+    {
+      "title": "Chelsea confident of completing blockbuster deal for Premier League midfielder in January",
+      "link": "https://www.transfernewslive.com/transfer-news/chelsea-confident-of-completing-blockbuster-deal-for-premier-league-midfielder-in-january/",
+      "description": "",
+      "source_id": "ddl",
+      "source_name": "Deadline Day Live",
+      "byline": "Transfer News Live",
+      "pub_date_raw": "",
+      "epoch": 1792124729.7237675,
       "approx_time": true
     },
     {
@@ -143,182 +319,6 @@
       "pub_date_raw": "Fri, 16 Oct 2026 04:13:26 GMT",
       "epoch": 1792124006.0,
       "approx_time": false
-    },
-    {
-      "title": "Flashscore sources: Newcastle set to double down on Hall valuation if Man Utd return",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-newcastle-set-to-double-down-on-hall-valuation-if-man-utd-return/nHxFxQFr/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1792123837.0356574,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United and Arsenal tracking Newcastle United star",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-and-arsenal-tracking-newcastle-united-star/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792123834.6912932,
-      "approx_time": true
-    },
-    {
-      "title": "Lisandro Martinez picks his next club after Manchester United bombshell",
-      "link": "https://www.transfernewslive.com/transfer-news/lisandro-martinez-picks-his-next-club-after-manchester-united-bombshell/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792123534.6912932,
-      "approx_time": true
-    },
-    {
-      "title": "Bournemouth 'open' to selling Chelsea target Alex Scott in January",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-bournemouth-open-to-selling-chelsea-target-alex-scott-in-january/8ERDwirn/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1792123237.0356574,
-      "approx_time": true
-    },
-    {
-      "title": "Barcelona plan move for Tottenham Hotspur star",
-      "link": "https://www.transfernewslive.com/transfer-news/barcelona-plan-move-for-tottenham-hotspur-star/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792123234.6912932,
-      "approx_time": true
-    },
-    {
-      "title": "Why Man Utd are exploring the possibility of signing Atletico Madrid's Giuliano Simeone",
-      "link": "https://www.flashscore.com/news/why-man-utd-are-exploring-the-possibility-of-signing-atletico-madrid-s-giuliano-simeone/08EorJf5/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1792122937.0356574,
-      "approx_time": true
-    },
-    {
-      "title": "Julian Alvarez changes his agent to facilitate Barcelona move",
-      "link": "https://www.transfernewslive.com/transfer-news/julian-alvarez-changes-his-agent-to-facilitate-barcelona-move/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792122934.6912932,
-      "approx_time": true
-    },
-    {
-      "title": "Former Real Madrid full-back Dani Carvajal signs for Getafe on free transfer",
-      "link": "https://www.flashscore.com/news/soccer-laliga-former-real-madrid-full-back-dani-carvajal-signs-for-getafe-on-free-transfer/G6iNsFPr/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1792122637.0356574,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United plan move for Croatian striker",
-      "link": "https://www.transfernewslive.com/transfer-news/manchester-united-plan-move-for-croatian-striker/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792122634.6912932,
-      "approx_time": true
-    },
-    {
-      "title": "Flashscore sources: Welbeck transfer decision adds to Man United's growing striker dilemma",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-welbeck-transfer-decision-adds-to-man-united-s-growing-striker-dilemma/2H2ie6eD/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1792122337.0356574,
-      "approx_time": true
-    },
-    {
-      "title": "Arsenal learn reduced Julian Alvarez transfer price",
-      "link": "https://www.transfernewslive.com/transfer-news/arsenal-learn-reduced-julian-alvarez-transfer-price/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792122334.6912932,
-      "approx_time": true
-    },
-    {
-      "title": "Paris Saint-Germain and Bayern Munich set to battle for Manchester United star",
-      "link": "https://www.transfernewslive.com/transfer-news/paris-saint-germain-and-bayern-munich-set-to-battle-for-manchester-united-star/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792122034.6912932,
-      "approx_time": true
-    },
-    {
-      "title": "Chelsea eye Enzo Fernandez replacement from Barcelona",
-      "link": "https://www.transfernewslive.com/transfer-news/chelsea-eye-enzo-fernandez-replacement-from-barcelona/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792121734.6912932,
-      "approx_time": true
-    },
-    {
-      "title": "Liverpool join Real Madrid and Barcelona in race for Germany international",
-      "link": "https://www.transfernewslive.com/transfer-news/liverpool-join-real-madrid-and-barcelona-in-race-for-germany-international/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792121434.6912932,
-      "approx_time": true
-    },
-    {
-      "title": "Flashscore sources: Garnacho hoping for lift-off as he targets permanent Villa move",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-garnacho-hoping-for-lift-off-as-he-targets-permanent-villa-move/OE7Brucf/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1792121137.0356574,
-      "approx_time": true
-    },
-    {
-      "title": "Chelsea confident of completing blockbuster deal for Premier League midfielder in January",
-      "link": "https://www.transfernewslive.com/transfer-news/chelsea-confident-of-completing-blockbuster-deal-for-premier-league-midfielder-in-january/",
-      "description": "",
-      "source_id": "ddl",
-      "source_name": "Deadline Day Live",
-      "byline": "Transfer News Live",
-      "pub_date_raw": "",
-      "epoch": 1792121134.6912932,
-      "approx_time": true
     },
     {
       "title": "Sources: College Football Playoff nearing deal for 24-team format in '27 - ESPN",
@@ -481,8 +481,8 @@
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
-      "pub_date_raw": "Wed, 14 Oct 2026 09:34:00 GMT",
-      "epoch": 1791970440.0,
+      "pub_date_raw": "Wed, 14 Oct 2026 09:34:32 GMT",
+      "epoch": 1791970472.0,
       "approx_time": false
     },
     {
@@ -1378,8 +1378,19 @@
     },
     {
       "title": "Liverpool transfer news: LIVE updates, rumours and deals - ESPN Global",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQN2NEdVIwbW5PV0xSdDFUVXdScnN0ZTJsdVdkZ1NHRmZnUDRtUW5Zc01UWVFlYWdWZlNYQUtPZjJUY1FKTDY1alNPWDczQlBHRGlueDhESF9hUXJSb1RSLS1vQVRzTVdRdk85c3FPTGNFcHU0RnB2aTBPeHRaTmNjR1ZVcjZRbzBqV2tBQ0p5NWRNVW9EWGdvUVJ4RGR4ZlowbUlfR2FEcnZMN01MOGtwcW1QSXczSEx1NFFsNGstRDhabnpfNDl4ODRZLXZ4Z1IwXzlPeTE2enUwR2JuVWdZWml4QUdNSE9BSk9QTk5ZTXBGTGJJc3lULVU1X1RBRjVrRjF3MEprVWtzaW8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPX0ZMb0JPZV80WU1vSnZ4M2ZhVktEUTdiNVRhU25fVnRaRTV4MjNRUGEyVVhEMlotTFpDbFVPNzF3WWNiNzJDTEJJSGMtN01SN3RuclBnbnlNQXRmcGJCbzZxaGFOaE56T0ZZS1NFaXVsRDlTNWtkNGFKRUVMTnB1bG9KdFRqSzcwX2hqOHl3RXRBbVJzWFpwNktuZzBnRkFEZzBtTEhiaEEwbDlGVHFSbjQ2c2ZLQUU5VnRINzhiZmZTOGRjcXpBZ21JQ28wdDhXVHFLQmNOVVlwZw?oc=5",
       "description": "Liverpool transfer news: LIVE updates, rumours and deals ESPN Global",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Tue, 01 Sep 2026 07:00:00 GMT",
+      "epoch": 1788246000.0,
+      "approx_time": false
+    },
+    {
+      "title": "Arsenal transfer news: LIVE updates, rumours and deals - ESPN Global",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQUWU3MlhJNFVjRzRwaGViOHNMMkNkb3NFLWpWeTZFcFZsUEFhQlVoa2xDamtkR2pQU3FsRmY2c0V1elpJQVh5eXlENElVejQxbzFpYkxWX2RLVmF4T2w0bVJmSm5IUmNnbUZIUzNVajdMRm5vbG1Mamh0c09DNXlDVFBpandWcUhXaHYyNmc3VFd1YWpGcWdGVVRPYUJqc0M4dVJjR0tiRkdPQ1Y3enBGeTRvWFVxTnhKZl9KTDY2QU9zZUdIeG8yTjlScHJrNFhBQkJhZEZLYnBWZ2NwS0VrQXE5ZHY2ZUxud1lpeWVFYkpOeUQzRDVMNzktUUY0QlFHSWxHMFZ6dlNTVVEtZzVYUVE5UW1zY2VKcUt0VnNXZ0FjZDRy?oc=5",
+      "description": "Arsenal transfer news: LIVE updates, rumours and deals ESPN Global",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
