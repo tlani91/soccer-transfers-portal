@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17T19:00:28.147931+00:00",
+  "last_updated": "2026-10-17T19:20:25.073964+00:00",
   "items": [
     {
       "title": "Flashscore sources: Porto determined to keep Froholdt despite growing transfer interest",
@@ -9,7 +9,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792262127.6471834,
+      "epoch": 1792263324.5730383,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792261827.6471834,
+      "epoch": 1792263024.5730383,
       "approx_time": true
     },
     {
@@ -31,7 +31,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792260027.6471834,
+      "epoch": 1792261224.5730383,
       "approx_time": true
     },
     {
@@ -42,7 +42,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792259727.6471834,
+      "epoch": 1792260924.5730383,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792259127.6471834,
+      "epoch": 1792260324.5730383,
       "approx_time": true
     },
     {
@@ -64,7 +64,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792258827.6471834,
+      "epoch": 1792260024.5730383,
       "approx_time": true
     },
     {
@@ -75,7 +75,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792258527.6471834,
+      "epoch": 1792259724.5730383,
       "approx_time": true
     },
     {
@@ -86,7 +86,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792258227.6471834,
+      "epoch": 1792259424.5730383,
       "approx_time": true
     },
     {
@@ -153,6 +153,17 @@
       "byline": "",
       "pub_date_raw": "Fri, 16 Oct 2026 08:56:51 GMT",
       "epoch": 1792141011.0,
+      "approx_time": false
+    },
+    {
+      "title": "Transfer rumors, news: Arsenal eye January move for Bayern Munich defender - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUXY5Wkt5U3h1aWR1Wmk3eHVvX1JnS1FOdEhFUXcxOC1kV1ZsUGtRWXJhNlE1b01Md3dKQUdJanAwU3BNWFpKLWtYMmxnSGVIaGwzdHlmd1FrVjFKdy03UUlncXk4TjhVMUhsTGxrYWllVEFHMU9td3otQUVNc1RSWDNiemtMbXVIYmI0ZGxCSDl0cFFRMnd2aEtTNFdMNjlkU0VGZ0FXdDdqaVhhOHk5N3RDbjl2WW1NbndCOW5B?oc=5",
+      "description": "Transfer rumors, news: Arsenal eye January move for Bayern Munich defender ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Fri, 16 Oct 2026 08:18:26 GMT",
+      "epoch": 1792138706.0,
       "approx_time": false
     },
     {
@@ -263,6 +274,17 @@
       "byline": "",
       "pub_date_raw": "Thu, 15 Oct 2026 11:45:00 GMT",
       "epoch": 1792064700.0,
+      "approx_time": false
+    },
+    {
+      "title": "Transfer rumors, news: Mart\u00ednez's future at Man United in doubt after bust-up - ESPN Global",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa3lVYlRLZWVLdHB6cEJxUFlyaHM3NUt0ZWNoUXBsNkQ3TTZMNk0zSDJlYVA3NWc4bzU0anloSnBXV21FRVFXLU1QbHVyR0hBejVYeUI0RGlTa3RnbVBTM0l0aUVTcVlJaUVsRHZfdVJLOUhrd3pfRVZpaTBOSHBpU1BVY2ZydjZzYTl3QXBRa1Z3cDdWZkw3Z2wtQ0hzVGpjWUF0dTlOSWNCODJOY2lLaVhxdGZUbVJnaGJPUXpGbkY?oc=5",
+      "description": "Transfer rumors, news: Mart\u00ednez's future at Man United in doubt after bust-up ESPN Global",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Thu, 15 Oct 2026 11:24:39 GMT",
+      "epoch": 1792063479.0,
       "approx_time": false
     },
     {
@@ -673,6 +695,17 @@
       "approx_time": false
     },
     {
+      "title": "Transfer rumors, news: Liverpool eye move for Mexico's Mora - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdWExTXd0TWpwQ2VPOEdKRnRNTy04NXFobUVRcjRRZjZPeW0weUtWamNTbFBISXRPM3FzYVBqN25tQnlSeHczNjgyOEpEc3lLb2FuLU5Jam5zNmluZFJSeFBHWDEwZlAtdDludVNNdTQ1Qlh0TF83NDY0cHJKdUpUblBfYi0xZ3dYZzJJY3VrUjFNb3ZKNDk2NFVmWHBwd1luVmFUanZHTmZZNWRVT1BNTWhTQmpPX3N6U0RTMWY5ZkxMZmE3TVQ4UHNDeDV6dw?oc=5",
+      "description": "Transfer rumors, news: Liverpool eye move for Mexico's Mora ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "epoch": 1790751600.0,
+      "approx_time": false
+    },
+    {
       "title": "\u201cHere we go\u201d: Fabrizio Romano confirms ex-Man United ace Chris Smalling set for unexpected move - Yahoo Sports",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQTd4ME9mVVY1dVZZcW9TdWtDSzZZeS1sY2c2Ty00aVBKS0hIZzFYamdYLVJvckFKZTFTSUNYTHFncUFEaWhnOGRWcnBqbkRGNDJkSjY5OFZzd05zN2RhcUticHdtWGY2Q2oxd3BJTUEzWUNyX3R1ZGdYY3Q5OHBLT2QtUWpyYnM?oc=5",
       "description": "\u201cHere we go\u201d: Fabrizio Romano confirms ex-Man United ace Chris Smalling set for unexpected move Yahoo Sports",
@@ -863,17 +896,6 @@
       "title": "Carrick has an impossible job at Man United after transfer failures - ESPN Global",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORGR5MTkwLTJaLThraVQ0cE16VUNGVXNkcVhzYlRjRFhVVVNYaHZjQjFtbV96NkhyOG1TSExsM19EWEF1VlpGUkdyU041Q2xUVUVhRTlaUjlKMnVoWk0xc1BPVWhRdlpuSEtXaFUzaG5BMl9EaEphQkQ0aW9VcVZVYUtGS01nNFRuSHZxcEFRd2hTNUo0ekx6dWJaQ3d2Y3A4ZjhfdW5JT0o2X1NnV2JtZU5B?oc=5",
       "description": "Carrick has an impossible job at Man United after transfer failures ESPN Global",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Mon, 21 Sep 2026 07:00:00 GMT",
-      "epoch": 1789974000.0,
-      "approx_time": false
-    },
-    {
-      "title": "Transfer rumors, news: Mesloub to replace Gabriel at Man United? - ESPN Global",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVHlNZUFvMFNHY25sbXNkXy1xcUlBMXZvZzlPcmloNmVtRXloVGg3Um1qVThUamVsc21JeXhQT013dFBJNUNvd01wZEdDV2N4dVFmbFpVU2VwVmpRekk0WmdmMWVXbkVYWUdPODNidHpJYjlGU2JxRmtUU1pxN2U4T1RLdHFkQURNWjJGcWVSaFBZWVQ5R3k1UzliSXEteFJaMTF2VThnc3dhQjZWUUNzYnA5QmpUT3JVWVE?oc=5",
-      "description": "Transfer rumors, news: Mesloub to replace Gabriel at Man United? ESPN Global",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
