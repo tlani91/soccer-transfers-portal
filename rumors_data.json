@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T05:00:32.547443+00:00",
+  "last_updated": "2026-10-19T05:04:22.296017+00:00",
   "items": [
     {
       "title": "Flashscore sources: Porto determined to keep Froholdt despite growing transfer interest",
@@ -9,7 +9,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792384532.0464978,
+      "epoch": 1792384761.7951646,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792384232.0464978,
+      "epoch": 1792384461.7951646,
       "approx_time": true
     },
     {
@@ -31,7 +31,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792382432.0464978,
+      "epoch": 1792382661.7951646,
       "approx_time": true
     },
     {
@@ -42,7 +42,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792382132.0464978,
+      "epoch": 1792382361.7951646,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792381532.0464978,
+      "epoch": 1792381761.7951646,
       "approx_time": true
     },
     {
@@ -64,7 +64,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792381232.0464978,
+      "epoch": 1792381461.7951646,
       "approx_time": true
     },
     {
@@ -75,7 +75,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792380932.0464978,
+      "epoch": 1792381161.7951646,
       "approx_time": true
     },
     {
@@ -86,7 +86,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792380632.0464978,
+      "epoch": 1792380861.7951646,
       "approx_time": true
     },
     {
@@ -574,6 +574,17 @@
       "approx_time": false
     },
     {
+      "title": "Transfer rumors, news: Mbapp\u00e9 future at Real Madrid in doubt? - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSUUtYmM4RXdaeHNpNGtCRUdxM1NOTDd0UzBNaVZ0ektueE96clhicTBGS0hvd19hLVR2NUZoV3d2bjA3N2ZQRVprQjhlZXBid3BwNWs0WGlnQXBscEFKQWpfZHk3VmMzVUlXek8tQW9jaF82TFJ2U2o0YVFfeFNKRDQ5dkFDb1FlMjYzWW9wZlhMdmdGZVVoT211X2hTeFpOTDc4QWhuYktQeWM?oc=5",
+      "description": "Transfer rumors, news: Mbapp\u00e9 future at Real Madrid in doubt? ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Thu, 08 Oct 2026 07:00:00 GMT",
+      "epoch": 1791442800.0,
+      "approx_time": false
+    },
+    {
       "title": "\u20ac70m Brazilian striker to Liverpool transfer now possible after Fabrizio Romano drops update - Football365",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbGcyX3VTQ2t1SUg0bG1NaVNWdnY5eHF3SmxPZUREd0RaemNmaGZTYVNtY3NaUW1qUmk4Z1U5b3dnZV96VWlvbU43MGV3TC13eWFyQ0o1cWV1dlprMmpBTElfTUkybFFiYUNPOTloT2kzQXhyVVNxaFlHZ3N2Ql9IVFdvMi1rR2hrejR1Ug?oc=5",
       "description": "\u20ac70m Brazilian striker to Liverpool transfer now possible after Fabrizio Romano drops update Football365",
@@ -629,9 +640,9 @@
       "approx_time": false
     },
     {
-      "title": "\u2018Fears\u2019 \u2013 David Ornstein confirms massive Liverpool transfer blow - Read Liverpool",
+      "title": "\u2018Fears\u2019 \u2013 David Ornstein confirms massive Liverpool transfer blow - readliverpoolfc.com",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVTNaWTcwNnhjcFVURXBTUXJxOWJtY0h1anI3aElNYU9wMi03YWxGa3BSYVFwaGdNcENWbldZVmxfNzFsdDFTa3JYRzhyWFp2ZExHZmUtR3NTR1FSOVBqa25qb3paYTdmVFNyVDIteDhGMFpQN2RnaFJVejRzOEZnbTd4TlVOTmJOU2lWc2xQUEh5NGxoU2pRX0h1RQ?oc=5",
-      "description": "\u2018Fears\u2019 \u2013 David Ornstein confirms massive Liverpool transfer blow Read Liverpool",
+      "description": "\u2018Fears\u2019 \u2013 David Ornstein confirms massive Liverpool transfer blow readliverpoolfc.com",
       "source_id": "ornstein",
       "source_name": "David Ornstein",
       "byline": "",
@@ -747,6 +758,17 @@
       "byline": "",
       "pub_date_raw": "Sat, 26 Sep 2026 07:00:00 GMT",
       "epoch": 1790406000.0,
+      "approx_time": false
+    },
+    {
+      "title": "Transfer rumors, news: Man United eye move for Brugge defender Seys - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTUpNcmZ6YTFlUzJaWkxGR1hHXzRFUUhOeWdYUUxRM1dQczBZUGJsaW5oV0g3WU9rTTc2c0RiWGxkUzBjU2FXa1FHQUtKazF0UllpYnRXb2J4R2liSUpDUHJ2SHN6bVhpekJMRjJqbXlpNGpqRW1RMVIzTXRCU05PS0p5Tnd5RjFVbV9pSXZ0aGROSDFVNVYtRVJhYw?oc=5",
+      "description": "Transfer rumors, news: Man United eye move for Brugge defender Seys ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "epoch": 1790319600.0,
       "approx_time": false
     },
     {
@@ -1127,17 +1149,6 @@
       "title": "Transfer rumors, news: Liverpool, Man United eye Mane - ESPN Global",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOV84TEE2NjdXcE4tN1NRYk1rSXI4T2lVbGF5RDliSDliQlBHLUJBdkU3M1hvRWhxa3FLaTRFMmFPNE5Zb2RmOXlYdUNwQUg1QjBEUU9OTUJsMDdiVGd5V3BVQ1hpN2l4THdWMlk0aFFheWRvTGNUZjBZZ1pJbXlsYU5zYUtwOU8zejNmU19OUFNKWGdsMHExTzc2RDR3WUpyX2JYYzd3WkxNS1JCTzJ2TVgyXzlkMDJrQUE?oc=5",
       "description": "Transfer rumors, news: Liverpool, Man United eye Mane ESPN Global",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Sat, 05 Sep 2026 07:00:00 GMT",
-      "epoch": 1788591600.0,
-      "approx_time": false
-    },
-    {
-      "title": "Transfer rumors, news: Liverpool, Man United eye Mane - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU0FCREFub1ZmeUlxTHo0YmExWTRvSHVYeTFXZUNfQjhpSjBCTGp0bkNmbXlnSUlDeHkzQnJHbnZCRlcwRWY2LUpJTktNRlNJTkUyVmJsREhMZEZkX2RQOFhCT1BLLVB3NDA5YWVWUmEwVGZZa0tPakN5eGhQNUpVNG5ndVJ1Rkh2Y1BmUklDNzF2TWdVck5UdHU1SUhDRjdMcUNLRkFMNWhZVlhBMlc5ZEdjVQ?oc=5",
-      "description": "Transfer rumors, news: Liverpool, Man United eye Mane ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
