@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T08:00:30.538222+00:00",
+  "last_updated": "2026-10-19T09:00:29.341156+00:00",
   "items": [
     {
       "title": "Arsenal face competition from Liverpool for \u00a360M Premier League attacker",
@@ -9,7 +9,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792396828.3885,
+      "epoch": 1792400426.9828541,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792396528.3885,
+      "epoch": 1792400126.9828541,
       "approx_time": true
     },
     {
@@ -31,7 +31,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792396228.3885,
+      "epoch": 1792399826.9828541,
       "approx_time": true
     },
     {
@@ -42,7 +42,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792395928.3885,
+      "epoch": 1792399526.9828541,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792395628.3885,
+      "epoch": 1792399226.9828541,
       "approx_time": true
     },
     {
@@ -64,7 +64,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792395328.3885,
+      "epoch": 1792398926.9828541,
       "approx_time": true
     },
     {
@@ -75,7 +75,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792395030.0372732,
+      "epoch": 1792398628.8400922,
       "approx_time": true
     },
     {
@@ -86,7 +86,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792395028.3885,
+      "epoch": 1792398626.9828541,
       "approx_time": true
     },
     {
@@ -97,7 +97,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792394730.0372732,
+      "epoch": 1792398328.8400922,
       "approx_time": true
     },
     {
@@ -108,7 +108,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792394728.3885,
+      "epoch": 1792398326.9828541,
       "approx_time": true
     },
     {
@@ -119,19 +119,8 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792394428.3885,
+      "epoch": 1792398026.9828541,
       "approx_time": true
-    },
-    {
-      "title": "Transfer rumors, news: Galatasaray eye Man Utd's Fernandes - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNczVEM2laY25RajI4TzZMTDdhc3RjM1B6a09YWDRlRlI3aU5Dc09iN2U3T1p2M2draGxxbTN1SHFLdzM0MjBqRWVfZ3lMMFpkNVcyWFJVZ2dYeklrN0lXLVdVbW5Ma09yQVFFbnc0TndydlVqZGtpTThNN0FDMnJ3aS02UXZ0RzVRLWlzSXZvaW5ZeDdyOUVjbTI5SXMxbE1kckRSMFQ2N01ZMkNYVzRvSGhWMVFNZVUtVjVKV3ZR?oc=5",
-      "description": "Transfer rumors, news: Galatasaray eye Man Utd's Fernandes ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Mon, 19 Oct 2026 07:19:00 GMT",
-      "epoch": 1792394340.0,
-      "approx_time": false
     },
     {
       "title": "Liverpool suffer transfer blow as target prefers Real Madrid move",
@@ -141,8 +130,19 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792394128.3885,
+      "epoch": 1792397726.9828541,
       "approx_time": true
+    },
+    {
+      "title": "Liverpool: Romano puts Reds in mix for bombshell \u00a3100m January transfer after huge U-turn - Football365",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWk1vanR3QjhKQXRnS0RTb2hHdUNHWWo0a0Q2R0plLTNlczF3bzM0bWpfY3c5U0ZBeEthQjJlUG5lTDluUWFydldVNTlSYk8xREVlYlo3dDBFdlVOODRoSVlzaGdpUXNfT05nTnplQmtaTG5LSUc3MFNYYk1WWFlVbVBxUzNrM2Ric3NFS0pMbWhkZXNnS0hlaHR5QUY?oc=5",
+      "description": "Liverpool: Romano puts Reds in mix for bombshell \u00a3100m January transfer after huge U-turn Football365",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Mon, 19 Oct 2026 08:14:59 GMT",
+      "epoch": 1792397699.0,
+      "approx_time": false
     },
     {
       "title": "Andoni Iraola makes decision on \u00a3100M Alex Scott signing for Liverpool",
@@ -152,7 +152,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792393828.3885,
+      "epoch": 1792397426.9828541,
       "approx_time": true
     },
     {
@@ -163,7 +163,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792393528.3885,
+      "epoch": 1792397126.9828541,
       "approx_time": true
     },
     {
@@ -174,7 +174,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792393228.3885,
+      "epoch": 1792396826.9828541,
       "approx_time": true
     },
     {
@@ -185,7 +185,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792392930.0372732,
+      "epoch": 1792396528.8400922,
       "approx_time": true
     },
     {
@@ -196,7 +196,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792392928.3885,
+      "epoch": 1792396526.9828541,
       "approx_time": true
     },
     {
@@ -207,7 +207,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792392630.0372732,
+      "epoch": 1792396228.8400922,
       "approx_time": true
     },
     {
@@ -218,7 +218,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792392628.3885,
+      "epoch": 1792396226.9828541,
       "approx_time": true
     },
     {
@@ -229,7 +229,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792392328.3885,
+      "epoch": 1792395926.9828541,
       "approx_time": true
     },
     {
@@ -240,7 +240,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792392030.0372732,
+      "epoch": 1792395628.8400922,
       "approx_time": true
     },
     {
@@ -251,7 +251,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792392028.3885,
+      "epoch": 1792395626.9828541,
       "approx_time": true
     },
     {
@@ -262,7 +262,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792391730.0372732,
+      "epoch": 1792395328.8400922,
       "approx_time": true
     },
     {
@@ -273,7 +273,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792391728.3885,
+      "epoch": 1792395326.9828541,
       "approx_time": true
     },
     {
@@ -284,7 +284,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792391430.0372732,
+      "epoch": 1792395028.8400922,
       "approx_time": true
     },
     {
@@ -295,7 +295,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792391428.3885,
+      "epoch": 1792395026.9828541,
       "approx_time": true
     },
     {
@@ -306,7 +306,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792391130.0372732,
+      "epoch": 1792394728.8400922,
       "approx_time": true
     },
     {
@@ -317,8 +317,19 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1792391128.3885,
+      "epoch": 1792394726.9828541,
       "approx_time": true
+    },
+    {
+      "title": "Transfer rumors, news: Galatasaray eye Man Utd's Fernandes - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNkUweHFneXNHbWV6cDRoM2FYZEtjdVJWeG5aaGVFdUZJTkwwVGZ5OUV1YWo0OHdVVkQ3bXZkSXFiRjB5dWE2ckR4YVd5M3c3WU9QazBkemR6cGR1R2VwVVVWanVxd3NKUURvYkc5ODItdVh1Y244REduQVBXSnlrYWZ1N0d2c1dXQ2drd0lJLTdnbGItazJXUUNMRGNjX3pDR1F1WE1janBsUHBQXzRBX2xsdlNfblhNNW1UbHdDTngtLTRS?oc=5",
+      "description": "Transfer rumors, news: Galatasaray eye Man Utd's Fernandes ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Mon, 19 Oct 2026 07:25:05 GMT",
+      "epoch": 1792394705.0,
+      "approx_time": false
     },
     {
       "title": "Transfer rumors, news: Could Viktor Gy\u00f6keres leave Arsenal in January? - ESPN",
@@ -377,13 +388,13 @@
     },
     {
       "title": "Transfer rumors, news: JJ Gabriel move revealed soon amid Barcelona, Real Madrid talks - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOS3lvR1lyZ0JoZV9WYWVXVm10VkJfZGNBZmtmVXE2QlBnOG1lWTctX0lSbmRwSUh4cklwdVNfb0U0aXRzUlB5SFF5WGpfREROOXhhYlV6UGI2Wl9wekZOX0FfUGlpWXlNNGNhT2FHUW80cVVWZTdtSWdqWXBaVnR2eXdaRlNoWUxnWmg0SE5BeUJBMm9DNmNvTkFObkdjSGZfckxwUlpRZk80NUdEWDRVWGJGaWN3VVNjTDZjblFjcWEwbC1vclZ3eEdJZzBDSUxoOVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdEw3MnVTWl8yQUFRWVNTcms5Y2RwYjBDaDdCMFV6c2pyQUh4SE5CZmlSd19yRjNDMmg4blNZemdTVE9DZl9PZDFDVUFkTlk3cVB2NUtIN0tQejlaNVBwbDVlMVF5WldlaGdQX0o5OG1VWXBRMW9uMkdVUGZDYVJ4SUZ0OVgwcjlQb3U0RzhzT0pqRkdTNFcya0NpQ1YwdHJHRmxMUkFCaTFMajFoRmZ1WDhQbjZsMXpZYTB4aUFITnNMd2d1SUpWUTJ4NA?oc=5",
       "description": "Transfer rumors, news: JJ Gabriel move revealed soon amid Barcelona, Real Madrid talks ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
-      "pub_date_raw": "Sat, 17 Oct 2026 16:07:56 GMT",
-      "epoch": 1792253276.0,
+      "pub_date_raw": "Sat, 17 Oct 2026 16:08:00 GMT",
+      "epoch": 1792253280.0,
       "approx_time": false
     },
     {
@@ -549,17 +560,6 @@
       "byline": "",
       "pub_date_raw": "Thu, 15 Oct 2026 11:45:00 GMT",
       "epoch": 1792064700.0,
-      "approx_time": false
-    },
-    {
-      "title": "Transfer rumors, news: Mart\u00ednez's future at Man United in doubt after bust-up - ESPN Global",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa3lVYlRLZWVLdHB6cEJxUFlyaHM3NUt0ZWNoUXBsNkQ3TTZMNk0zSDJlYVA3NWc4bzU0anloSnBXV21FRVFXLU1QbHVyR0hBejVYeUI0RGlTa3RnbVBTM0l0aUVTcVlJaUVsRHZfdVJLOUhrd3pfRVZpaTBOSHBpU1BVY2ZydjZzYTl3QXBRa1Z3cDdWZkw3Z2wtQ0hzVGpjWUF0dTlOSWNCODJOY2lLaVhxdGZUbVJnaGJPUXpGbkY?oc=5",
-      "description": "Transfer rumors, news: Mart\u00ednez's future at Man United in doubt after bust-up ESPN Global",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Thu, 15 Oct 2026 11:24:39 GMT",
-      "epoch": 1792063479.0,
       "approx_time": false
     },
     {
@@ -794,9 +794,9 @@
       "approx_time": false
     },
     {
-      "title": "\u20ac70m Brazilian striker to Liverpool transfer now possible after Fabrizio Romano drops update - Football365",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbGcyX3VTQ2t1SUg0bG1NaVNWdnY5eHF3SmxPZUREd0RaemNmaGZTYVNtY3NaUW1qUmk4Z1U5b3dnZV96VWlvbU43MGV3TC13eWFyQ0o1cWV1dlprMmpBTElfTUkybFFiYUNPOTloT2kzQXhyVVNxaFlHZ3N2Ql9IVFdvMi1rR2hrejR1Ug?oc=5",
-      "description": "\u20ac70m Brazilian striker to Liverpool transfer now possible after Fabrizio Romano drops update Football365",
+      "title": "\u20ac70m Brazilian striker to Liverpool transfer now possible after Fabrizio Romano drops update - LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPZXNfb1d6WUdsVlMxMkx3dFViWHdWc2prc1gxMG14Yi1IRUJRSjAwNnZfZmFGNjlDX1NUMTk1Nk1pejhRWmxlTFlVaGhqeGZkbzRMVkpBaG9aQS02RkNjeTA3WWp3ZTJLeWpvRndkajRBbjlGaEYwTXlMbF9VS0JsRUludF9ldUlTUkhva29abEJhTmRkUGJSWmhXc3FnSHN0US1tUklWYmRvOGtDZ29ZWW14dHR5NVk4QldqcDNUWllsUU1TUnFhRXhfVWNjLVBwVUg2VDRlN2g2OGo3S1NCZ1p0R3hLVlU4eDV1cmZiUE1RR3lT?oc=5",
+      "description": "\u20ac70m Brazilian striker to Liverpool transfer now possible after Fabrizio Romano drops update LiveScore",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
@@ -1182,17 +1182,6 @@
       "title": "Fabrizio Romano reveals Rodrygo decision on joining Arsenal from Real Madrid in January \u2013 \u2018I can guarantee\u2019 - Football365",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb0JpVGNCWE1TNjBoTG4yNm1LaDdfTnlfSWtuYXVyUE5LdWxPSHVHOE9KRS14YjJzbVBUUk5kZW9nQ1YtZGR2d3F1QlpKWFA3RjBya05HWnlJVk5sTEVxVzFZdzhESVhTQkJrZmRFaGl1OFF5UnI0aEpqX3czcDRmeXJOekkxcXBKM2pUVXc4VkhYM1FCNXRtaQ?oc=5",
       "description": "Fabrizio Romano reveals Rodrygo decision on joining Arsenal from Real Madrid in January \u2013 \u2018I can guarantee\u2019 Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Thu, 17 Sep 2026 07:00:00 GMT",
-      "epoch": 1789628400.0,
-      "approx_time": false
-    },
-    {
-      "title": "\u201cThey like the player\u201d \u2013 Fabrizio Romano confirms Arsenal transfer interest in 2x UCL winner - LiveScore",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNmF5dWpubUtSb3VuYTRPTTd5ZlZfc3JRYjFGZGxSS2pteEZRcldyWC1od1VXZ0dJeU5rOXJTTU9nUkdaYWthck90SUJoejQzUU0tOVFfN0U1eG9aaUQ5NlY0MW9zaDNzVkMtVk5XcWFfVGs4SVNRR1YtRnlXZXZDel9QZnpnWkRvaGR2eUhHcTdzdjM4Ym5IYXFfRzhiTWgxMGdYVTlQZHJtY2ZZNWdaZVN1S0E5bllndzFhRVo4andITGt2eFpWNE1USTJDYmg5Rk9yaHNkUlNldDVadmhmbjdnVVY0TXlldEx0Yi1ldHd1NE5jN3c?oc=5",
-      "description": "\u201cThey like the player\u201d \u2013 Fabrizio Romano confirms Arsenal transfer interest in 2x UCL winner LiveScore",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
