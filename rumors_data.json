@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T05:00:30.682623+00:00",
+  "last_updated": "2026-10-20T05:23:26.835359+00:00",
   "items": [
     {
       "title": "Flashscore sources: Porto determined to keep Froholdt despite growing transfer interest",
@@ -9,7 +9,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792470030.1816683,
+      "epoch": 1792471406.334552,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792469730.1816683,
+      "epoch": 1792471106.334552,
       "approx_time": true
     },
     {
@@ -31,7 +31,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792467930.1816683,
+      "epoch": 1792469306.334552,
       "approx_time": true
     },
     {
@@ -42,7 +42,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792467630.1816683,
+      "epoch": 1792469006.334552,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792467030.1816683,
+      "epoch": 1792468406.334552,
       "approx_time": true
     },
     {
@@ -64,7 +64,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792466730.1816683,
+      "epoch": 1792468106.334552,
       "approx_time": true
     },
     {
@@ -123,17 +123,6 @@
       "approx_time": false
     },
     {
-      "title": "Man Utd choose two top priority January signings as Romano confirms Barcelona star 'for sure' could join - Football365",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNng3NGRxUnM5RTN4OF82c3BPeWlTSk9BckR3bjVkRTB0ekhvSkJuSVlMU0RmZ0drYUZEeW1KVVJWSDE4R2pJdlV4UGJVWEhKY1RUdWx5cU11NHFqVEZGT09FQzhyVGNHTHc1YVBaZEVhY1pHSFpDT0VxcVQtRzlCM0sweVowdHlpTTR0VVFvTER5T0FKMUNDUG52X19PNUEyeklBVTN3?oc=5",
-      "description": "Man Utd choose two top priority January signings as Romano confirms Barcelona star 'for sure' could join Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Mon, 19 Oct 2026 10:51:02 GMT",
-      "epoch": 1792407062.0,
-      "approx_time": false
-    },
-    {
       "title": "Liverpool star Rio Ngumoha responds after Arsenal transfer link - Metro.co.uk",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS0pZeHpCR1dFd2ZmTGtSQmUwQWFCR01vTnFmZVdGampSSW1fd29TOVRiczBjbWtpcDVzTzJtN2xlSE5XYXU5OGFuNDJrdWhnU3ZfZUhkT3RHUVBvWDhZNmFUSy1vTWVIVDZvM2NPdTlvejkyUGsyZGp1bkR2dno0TlJuM1JmR2R3YV9aU1Y0UmxCVnVEZUd4cVdxRkstZ3PSAaQBQVVfeXFMTVpHa0tmMzk2Z3pWNm8zTWRPbGJoOEdXZDNJeDFJMjFNS2pRU3QzZ2RWb00tX1E0d1BKMmdyUE9meVBtTUpRZE5ET2ZQLUsteFMtYnJDZ1lDVkdwdGZ0ZlUzVm91WlZmbTgtVDY0SXg0UWxCcVJ4Q0tLNTF5UjFlZmhTVE5ITW9FRVRreXVYaDVmR2FVMHQ1M2JXb0I1MDdtWVZWa2E?oc=5",
       "description": "Liverpool star Rio Ngumoha responds after Arsenal transfer link Metro.co.uk",
@@ -142,6 +131,17 @@
       "byline": "",
       "pub_date_raw": "Mon, 19 Oct 2026 10:40:00 GMT",
       "epoch": 1792406400.0,
+      "approx_time": false
+    },
+    {
+      "title": "Man Utd choose two top priority January signings as Romano confirms Barcelona star 'for sure' could join - Football365",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNng3NGRxUnM5RTN4OF82c3BPeWlTSk9BckR3bjVkRTB0ekhvSkJuSVlMU0RmZ0drYUZEeW1KVVJWSDE4R2pJdlV4UGJVWEhKY1RUdWx5cU11NHFqVEZGT09FQzhyVGNHTHc1YVBaZEVhY1pHSFpDT0VxcVQtRzlCM0sweVowdHlpTTR0VVFvTER5T0FKMUNDUG52X19PNUEyeklBVTN3?oc=5",
+      "description": "Man Utd choose two top priority January signings as Romano confirms Barcelona star 'for sure' could join Football365",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Mon, 19 Oct 2026 09:51:02 GMT",
+      "epoch": 1792403462.0,
       "approx_time": false
     },
     {
@@ -454,13 +454,13 @@
     },
     {
       "title": "How transfer QBs keep working for Miami, Indiana and others - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU3VYUDVGUDFYQjNZZ0pHNlRDRmpiU2F3QlRxYUU3Ui15dWhrcXBReGxyYnlyaTZXbHAtY25NZXZyQmlGd3p2M3d3SkhLV3I0TmhVb1M0V2xRRlFSX1VUdkxkY1U1T3lHNDhUZExKWEtKUWMwMWhOcV82Ukc3YXhaWVJjel92UWttb1MtT0NiaWV1WGU0cUVMMUNNaWNjVGw3UTkwSi1XZlNPR2ln?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeTZ4Z1BrWTFzQkJWNmtUVmVVeGVHYTQzcVdyMW5pRVhNYzJSQ3plR2J3b3BmOVpReHNxYVlJTmpyNkZFY1VQSFVjZ2owOWFjZUJCVW5La2RfZkc5RlRBRlRqY1ZodEg2QUVPNVhDTWkyVnZJVmVCMk16dlFLUUoxNDBwb0RwdC1HZ1ZjQ1JRUnlDV09fOXFEZXZwVmR6UTg1Y0tVMmUyWXJmLVN6ejRIQw?oc=5",
       "description": "How transfer QBs keep working for Miami, Indiana and others ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
-      "pub_date_raw": "Tue, 13 Oct 2026 10:30:00 GMT",
-      "epoch": 1791887400.0,
+      "pub_date_raw": "Tue, 13 Oct 2026 11:44:59 GMT",
+      "epoch": 1791891899.0,
       "approx_time": false
     },
     {
@@ -926,9 +926,9 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano to headline SBC Summit 2026 Super Stage - Insider Sport",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WXzNCRWdUbFMxSnZwUWR3ODM1eXJETHoyVkZINldhcHVsYkVqT0VZOHhzemw5enVsTDFaaWYtOXUxLXdtdHpKQmlLUkFwaTlONkxDTE01ZllUc3ZoZHA5SElYVU54cDdBb2Y3YnJJa082RFVBclBr0gF8QVVfeXFMT2h0TEJWZ2ZqclVwRjJjanlRV0dxYXdMbV9ibGFYTVRjUFV5NkpHRU93M3cwZVZMSWtyWXpmd3VIWFRQUWlCZTZGeEFRb2NQV2tkYldZWGU3dkRKN2JoakVVYnBzQVQ4ZkRnc1dQalptMXlLb21YQjd0ZVlxVQ?oc=5",
-      "description": "Fabrizio Romano to headline SBC Summit 2026 Super Stage Insider Sport",
+      "title": "Here We Go! Superstar Transfer Journalist Fabrizio Romano to Headline SBC Summit - Insider Sport",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WXzNCRWdUbFMxSnZwUWR3ODM1eXJETHoyVkZINldhcHVsYkVqT0VZOHhzemw5enVsTDFaaWYtOXUxLXdtdHpKQmlLUkFwaTlONkxDTE01ZllUc3ZoZHA5SElYVU54cDdBb2Y3YnJJa082RFVBclBr?oc=5",
+      "description": "Here We Go! Superstar Transfer Journalist Fabrizio Romano to Headline SBC Summit Insider Sport",
       "source_id": "romano",
       "source_name": "Fabrizio Romano",
       "byline": "",
