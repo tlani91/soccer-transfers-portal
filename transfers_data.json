@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-19T11:15:36.007171+00:00",
+ "last_updated": "2026-10-20T11:15:45.077589+00:00",
  "window_start": "2026-07-01",
  "window_label": "summer 2026",
  "source": "BeSoccer",
@@ -12249,7 +12249,7 @@
    "epoch": 1785369600
   },
   {
-   "player": "Cheick Conde",
+   "player": "Cheick Condé",
    "player_url": "https://www.besoccer.com/player/c-conde-917751",
    "league": "Serie A",
    "league_id": "serie_a",
@@ -17383,20 +17383,6 @@
    "other_club": "West Ham",
    "type": "Transfer",
    "fee_eur_m": 99.0,
-   "date": "2026-07-02",
-   "epoch": 1782950400
-  },
-  {
-   "player": "Noel Aseko",
-   "player_url": "https://www.besoccer.com/player/n-aseko-3176154",
-   "league": "Bundesliga",
-   "league_id": "bundesliga",
-   "club": "Bayern München",
-   "club_url": "https://www.besoccer.com/team/transfers/bayern-munchen",
-   "direction": "in",
-   "other_club": "Hannover 96",
-   "type": "Transfer",
-   "fee_eur_m": 3.5,
    "date": "2026-07-02",
    "epoch": 1782950400
   },
