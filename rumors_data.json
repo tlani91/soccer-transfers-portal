@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T01:26:20.880781+00:00",
+  "last_updated": "2026-10-22T02:00:31.016580+00:00",
   "items": [
     {
       "title": "Flashscore sources: Liverpool to accelerate Ngumoha contract plans before rivals pounce",
@@ -9,7 +9,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792630880.3799713,
+      "epoch": 1792632930.515673,
       "approx_time": true
     },
     {
@@ -20,7 +20,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792630580.3799713,
+      "epoch": 1792632630.515673,
       "approx_time": true
     },
     {
@@ -31,7 +31,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792629980.3799713,
+      "epoch": 1792632030.515673,
       "approx_time": true
     },
     {
@@ -42,7 +42,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792628480.3799713,
+      "epoch": 1792630530.515673,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792628180.3799713,
+      "epoch": 1792630230.515673,
       "approx_time": true
     },
     {
@@ -134,17 +134,6 @@
       "approx_time": false
     },
     {
-      "title": "Here we go, Fabrizio Romano confirms massive Liverpool transfer is coming - AnfieldWatch",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdzlUYVRfT0x2Qlc5eFN1MkNHTEdtNjV0b3M3bDhxdnNTV0JEYkxVS3hlTW80STEwZng4dFZQZjFxd2haaE82bk9lajRiaEozdXNuUWwzb0QzMDBDMmhZMDNrUE9zWXpvdE9iVlpoNEZ0NUNjeWJmSWZQNFU3aDdjUUxkY2hLbkxhVnBUYlVqYjRReHgyUVJXNVZYa3laRl9SOXU0QUJYR2hfWUFZazdrd2dCbTlsVi1GYjItVFhudw?oc=5",
-      "description": "Here we go, Fabrizio Romano confirms massive Liverpool transfer is coming AnfieldWatch",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "epoch": 1792566000.0,
-      "approx_time": false
-    },
-    {
       "title": "Transfer rumors, news: Barcelona, Bayern eye Aston Villa's Manzambi - ESPN Global",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdDFheVZyeGh4VFMzYTFvX3V3dGlIclVFa1VQeE53TTlUbmctdUtKQlFVYkRNQURnMWlqWTVlSnNDM0s4cGszUHcwWFhMNjZoREd5NjF6MTlRZnp6WFNpRDdBMTZmUEVmMUF6T1FSOXNkZUNCV0I3eWQ1dEJTcWFfTDh3Vjh1cWZrNV9tRk9ZZFZaTzd6NG1kb2JfNzdzVVFuNGxYRWItRm00VWZTdll3X2xob2c5dTgycGJ1aTZ6c1FvbDEwRWhSeVg4eFFjek9UQldBNGVGUElkMzFa?oc=5",
       "description": "Transfer rumors, news: Barcelona, Bayern eye Aston Villa's Manzambi ESPN Global",
@@ -197,6 +186,17 @@
       "byline": "",
       "pub_date_raw": "Tue, 20 Oct 2026 18:02:19 GMT",
       "epoch": 1792519339.0,
+      "approx_time": false
+    },
+    {
+      "title": "Transfer news LIVE: Kvaratskhelia to Arsenal; Chelsea beat Man Utd - London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHpOci01ajd0bmFsejIzWUxEUnJreXk4aXRBS1UwLTh0R01OdFJxMV9XWU5RNGVpMEpnSkh2M04wWjIycGtRX2tuX0VGZ1N0SXJSTXlDajFSOW42eWFHWFlabG5XMEF0RmZhdjFtZ3p2VXd5Wm12M2lqOTBkdThFUE9qY1k5Z0hsUkREbm5iOGw0ZnNFRW9Ba3gzbWpqZzVKcUFueUMybWtISmhvX0RQSl9xa1RFNXpUXzJDUFBHenJ2M2M?oc=5",
+      "description": "Transfer news LIVE: Kvaratskhelia to Arsenal; Chelsea beat Man Utd London Evening Standard",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Tue, 20 Oct 2026 16:53:24 GMT",
+      "epoch": 1792515204.0,
       "approx_time": false
     },
     {
@@ -450,17 +450,6 @@
       "byline": "",
       "pub_date_raw": "Thu, 15 Oct 2026 11:45:00 GMT",
       "epoch": 1792064700.0,
-      "approx_time": false
-    },
-    {
-      "title": "Transfer rumors, news: Liverpool eye move for Juventus' Kalulu - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeUZ3MndRTnN6eTNndHo4TVNmQ3lYVzYteW9wU2JJLXEya2p6b0hCeUFGZEVsVzNKVjRVZTZhb252ZWdlWDUtb19VeGZOZmRESzQzN0tvYURZTUl3SDROLWVVcGstQnhKUDdmblRMRmd6M2ZuVHR0bFV0bmh4YXk0RG1BT081Q254ZkltMmg0T1gwWm90RXdlN0NCWklhNlRpTlJmY3c5MzhsTlE2bDJDZ0ZTNnBvWjRPSUFMaFZFQQ?oc=5",
-      "description": "Transfer rumors, news: Liverpool eye move for Juventus' Kalulu ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Thu, 15 Oct 2026 07:20:43 GMT",
-      "epoch": 1792048843.0,
       "approx_time": false
     },
     {
