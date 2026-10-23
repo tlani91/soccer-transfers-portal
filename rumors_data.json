@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T13:00:33.605570+00:00",
+  "last_updated": "2026-10-23T13:19:42.871968+00:00",
   "items": [
     {
       "title": "Flashscore sources: Liverpool to accelerate Ngumoha contract plans before rivals pounce",
@@ -9,7 +9,29 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792758333.1046789,
+      "epoch": 1792759482.3710544,
+      "approx_time": true
+    },
+    {
+      "title": "Flashscore sources: James Maddison's return sparks desire to earn new Spurs deal",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-james-maddison-s-return-sparks-desire-to-earn-new-spurs-deal/WEgZZj33/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1792759182.3710544,
+      "approx_time": true
+    },
+    {
+      "title": "Why Liverpool should be wary of trying to re-sign Alexander-Arnold from Real Madrid",
+      "link": "https://www.flashscore.com/news/soccer-why-liverpool-should-be-wary-of-trying-to-re-sign-alexander-arnold-from-real-madrid/8pOqwzSP/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1792758582.3710544,
       "approx_time": true
     },
     {
@@ -24,28 +46,6 @@
       "approx_time": false
     },
     {
-      "title": "Flashscore sources: James Maddison's return sparks desire to earn new Spurs deal",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-james-maddison-s-return-sparks-desire-to-earn-new-spurs-deal/WEgZZj33/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1792758033.1046789,
-      "approx_time": true
-    },
-    {
-      "title": "Why Liverpool should be wary of trying to re-sign Alexander-Arnold from Real Madrid",
-      "link": "https://www.flashscore.com/news/soccer-why-liverpool-should-be-wary-of-trying-to-re-sign-alexander-arnold-from-real-madrid/8pOqwzSP/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1792757433.1046789,
-      "approx_time": true
-    },
-    {
       "title": "Flashscore sources: Porto determined to keep Froholdt despite growing transfer interest",
       "link": "https://www.flashscore.com/news/soccer-liga-portugal-flashscore-sources-porto-determined-to-keep-froholdt-despite-growing-transfer-interest/0EBNOD9r/",
       "description": "",
@@ -53,7 +53,7 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792755933.1046789,
+      "epoch": 1792757082.3710544,
       "approx_time": true
     },
     {
@@ -64,13 +64,13 @@
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1792755633.1046789,
+      "epoch": 1792756782.3710544,
       "approx_time": true
     },
     {
-      "title": "Transfer rumors, news: Como's Paz destroyed Man United, now they want to sign him - ESPN",
+      "title": "Transfer rumors, news: Como's Paz destroyed Man United -- now they want to sign him - ESPN",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYTdzUURFaE8zOEx1d3gxeV9TNER1RjZGVjRhVXNaU2FLMHpvZWZfbkh5SzFaNW5mdGVuTk1oY1dLeUFIRzJVd0VQWG5UMVp5SWc2eHRjR0YwLVQwVi1vSmQ1VFpGVkJzZU50UjMxQnJtXzlEZEJlNVVGS1JTOFpjdDRqSFRmSFEtTlZhTms2bEtnd2ZiOVdkaXJzbnVrOFZ5NHZIOG1EZjZBa2FoSVVzaXdZSGVfNTM2?oc=5",
-      "description": "Transfer rumors, news: Como's Paz destroyed Man United, now they want to sign him ESPN",
+      "description": "Transfer rumors, news: Como's Paz destroyed Man United -- now they want to sign him ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
@@ -175,17 +175,6 @@
       "byline": "",
       "pub_date_raw": "Wed, 21 Oct 2026 16:23:02 GMT",
       "epoch": 1792599782.0,
-      "approx_time": false
-    },
-    {
-      "title": "Liverpool: Romano drops huge Ngumoha contract update amid Arsenal, Bayern Munich links - Football365",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNajljcXpOVW4wVmlmUU95VnFpR256SEx5MW9qQzVTWXZnWWdzVWRfMWRWNEhqbW1ubEhNblk0WnlBUEl6OGxnS0RmYzl4b2lGUGdvU1ZhTWlsNXZKMktBZms4RWZnakFWVUY3eTNVdGRaV1JKOHVPdHRvQ294d0pMWFRBSnZvX24wblZUR2ZPTUN0WTFkZnc?oc=5",
-      "description": "Liverpool: Romano drops huge Ngumoha contract update amid Arsenal, Bayern Munich links Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Wed, 21 Oct 2026 09:21:31 GMT",
-      "epoch": 1792574491.0,
       "approx_time": false
     },
     {
