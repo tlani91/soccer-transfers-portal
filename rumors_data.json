@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T03:39:26.748351+00:00",
+  "last_updated": "2026-11-13T11:36:52.911473+00:00",
   "items": [
     {
       "title": "Liverpool open discussions over Atletico Madrid star with \u20ac500M release clause",
@@ -9,7 +9,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794541164.0823748,
+      "epoch": 1794569809.5001261,
       "approx_time": true
     },
     {
@@ -20,18 +20,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794540864.0823748,
-      "approx_time": true
-    },
-    {
-      "title": "Manchester United announce Carrick sacking with Pochettino poised to take over",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-manchester-united-sack-michael-carrick/jcT83FRG/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1794540566.247642,
+      "epoch": 1794569509.5001261,
       "approx_time": true
     },
     {
@@ -42,7 +31,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794540564.0823748,
+      "epoch": 1794569209.5001261,
+      "approx_time": true
+    },
+    {
+      "title": "Manchester United announce Carrick sacking with Pochettino poised to take over",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-manchester-united-sack-michael-carrick/jcT83FRG/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1794568912.4109428,
       "approx_time": true
     },
     {
@@ -53,7 +53,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794540264.0823748,
+      "epoch": 1794568909.5001261,
       "approx_time": true
     },
     {
@@ -64,8 +64,19 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794539964.0823748,
+      "epoch": 1794568609.5001261,
       "approx_time": true
+    },
+    {
+      "title": "Bruno Fernandes rejects contract, Man United relaxed as talks continue - sources - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVWVWV3hqcHNmS3JDdGFYY0VnOTdmVDJEV3MwbUFvQ3JXeGEyb0tGU0FPZFVaVlQ1cU9mSW1KN25nX2JiaTVvT2V0Y3RpOWdHMGFGYmNPdVRieHRlWjc1TFZnT0tZUzB2R2VlYldrZE9uLU9SSHFURTJ1VW5nd09RTnNibDlfekNrc1llNXFXNHREdw?oc=5",
+      "description": "Bruno Fernandes rejects contract, Man United relaxed as talks continue - sources ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Fri, 13 Nov 2026 11:16:42 GMT",
+      "epoch": 1794568602.0,
+      "approx_time": false
     },
     {
       "title": "Manchester United handed surprise January transfer opportunity after Mauricio Pochettino breakthrough",
@@ -75,18 +86,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794539664.0823748,
-      "approx_time": true
-    },
-    {
-      "title": "PSV 'in talks' with Kevin De Bruyne as club set sights on shock transfer",
-      "link": "https://www.flashscore.com/news/soccer-eredivisie-psv-in-talks-with-kevin-de-bruyne-as-club-set-sights-on-shock-transfer/CWa07cSi/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1794539366.247642,
+      "epoch": 1794568309.5001261,
       "approx_time": true
     },
     {
@@ -97,18 +97,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794539364.0823748,
+      "epoch": 1794568009.5001261,
       "approx_time": true
     },
     {
-      "title": "Chelsea defender Malo Gusto reportedly open to January move amid lack of opportunities",
-      "link": "https://www.flashscore.com/news/chelsea-defender-malo-gusto-reportedly-open-to-january-move-amid-lack-of-opportunities/6ZpagCid/",
+      "title": "PSV 'in talks' with Kevin De Bruyne as club set sights on shock transfer",
+      "link": "https://www.flashscore.com/news/soccer-eredivisie-psv-in-talks-with-kevin-de-bruyne-as-club-set-sights-on-shock-transfer/CWa07cSi/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1794539066.247642,
+      "epoch": 1794567712.4109428,
       "approx_time": true
     },
     {
@@ -119,7 +119,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794539064.0823748,
+      "epoch": 1794567709.5001261,
+      "approx_time": true
+    },
+    {
+      "title": "Chelsea defender Malo Gusto reportedly open to January move amid lack of opportunities",
+      "link": "https://www.flashscore.com/news/chelsea-defender-malo-gusto-reportedly-open-to-january-move-amid-lack-of-opportunities/6ZpagCid/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1794567412.4109428,
       "approx_time": true
     },
     {
@@ -130,8 +141,19 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794538764.0823748,
+      "epoch": 1794567409.5001261,
       "approx_time": true
+    },
+    {
+      "title": "Alexis Mac Allister's father: No contract renewal talks with Liverpool yet - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeHZsVC15TFBJaTlDNTZUSWhIZXhmSjFNMnpaQ2tWVkNtNG84eUlwQVhVcnNwYUZpYzktczAzT2gwQjFybmdoN01tVWJDaENPbFNSVG1lTFRHUmJEWHdFMWw2SjNFV29OTW9RQjdQSEVEQTZYSllEMWtBaC1hYzJkX2NMZ0ZqYVNOS1Rla0xuTXBpRFRCN0g3Tlc1VEI1MGxBRmtyVElrRjI?oc=5",
+      "description": "Alexis Mac Allister's father: No contract renewal talks with Liverpool yet ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Fri, 13 Nov 2026 10:52:30 GMT",
+      "epoch": 1794567150.0,
+      "approx_time": false
     },
     {
       "title": "Chelsea plot surprise January move for Arsenal star pushed aside by \u00a385M signing",
@@ -141,7 +163,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794538464.0823748,
+      "epoch": 1794567109.5001261,
       "approx_time": true
     },
     {
@@ -152,7 +174,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794538164.0823748,
+      "epoch": 1794566809.5001261,
       "approx_time": true
     },
     {
@@ -163,7 +185,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794537864.0823748,
+      "epoch": 1794566509.5001261,
       "approx_time": true
     },
     {
@@ -174,18 +196,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794537564.0823748,
-      "approx_time": true
-    },
-    {
-      "title": "Flashscore sources: Trey Nyoni's progress shapes Liverpool's midfield transfer plans",
-      "link": "https://www.flashscore.com/news/flashscore-sources-trey-nyoni-s-progress-shapes-liverpool-s-midfield-transfer-plans/08nMFnJl/",
-      "description": "",
-      "source_id": "flashscore",
-      "source_name": "Flashscore",
-      "byline": "Flashscore",
-      "pub_date_raw": "",
-      "epoch": 1794537266.247642,
+      "epoch": 1794566209.5001261,
       "approx_time": true
     },
     {
@@ -196,18 +207,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794537264.0823748,
+      "epoch": 1794565909.5001261,
       "approx_time": true
     },
     {
-      "title": "'I'm happy to stay': Liverpool goalkeeper Alisson hints at wanting new deal",
-      "link": "https://www.flashscore.com/news/soccer-premier-league-liverpool-goalkeeper-alisson-hints-at-wanting-new-deal/2X23VC8C/",
+      "title": "Flashscore sources: Trey Nyoni's progress shapes Liverpool's midfield transfer plans",
+      "link": "https://www.flashscore.com/news/flashscore-sources-trey-nyoni-s-progress-shapes-liverpool-s-midfield-transfer-plans/08nMFnJl/",
       "description": "",
       "source_id": "flashscore",
       "source_name": "Flashscore",
       "byline": "Flashscore",
       "pub_date_raw": "",
-      "epoch": 1794536966.247642,
+      "epoch": 1794565612.4109428,
       "approx_time": true
     },
     {
@@ -218,7 +229,18 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794536964.0823748,
+      "epoch": 1794565609.5001261,
+      "approx_time": true
+    },
+    {
+      "title": "'I'm happy to stay': Liverpool goalkeeper Alisson hints at wanting new deal",
+      "link": "https://www.flashscore.com/news/soccer-premier-league-liverpool-goalkeeper-alisson-hints-at-wanting-new-deal/2X23VC8C/",
+      "description": "",
+      "source_id": "flashscore",
+      "source_name": "Flashscore",
+      "byline": "Flashscore",
+      "pub_date_raw": "",
+      "epoch": 1794565312.4109428,
       "approx_time": true
     },
     {
@@ -229,7 +251,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794536664.0823748,
+      "epoch": 1794565309.5001261,
       "approx_time": true
     },
     {
@@ -240,7 +262,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794536364.0823748,
+      "epoch": 1794565009.5001261,
       "approx_time": true
     },
     {
@@ -251,7 +273,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794536064.0823748,
+      "epoch": 1794564709.5001261,
       "approx_time": true
     },
     {
@@ -262,7 +284,7 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794535764.0823748,
+      "epoch": 1794564409.5001261,
       "approx_time": true
     },
     {
@@ -273,8 +295,63 @@
       "source_name": "Deadline Day Live",
       "byline": "Transfer News Live",
       "pub_date_raw": "",
-      "epoch": 1794535464.0823748,
+      "epoch": 1794564109.5001261,
       "approx_time": true
+    },
+    {
+      "title": "Chelsea transfer news: Pedro Porro interest, Levi Colwill update, and more - LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUlBQYTlIWElpU3haNVViT0x6bFEyWEowdWRvdVBSaFFTQkxKQXhxREJFWkN5bngydmFWcVVmM1hlNVVfSjZRazJQV3c3dnRUOGNrVXpFM1FWVGcyWlNINE5PN1dvUld3NHZ6NjJkLUNMT2F6SnEtSloxMXNsVUctVzJHWk40Z2dZWFFzSkJyWHVkODR2SG04LXphNjI5WS1hVXE3Yk04aFFUcHhLaTZtTzBxT0NZM2FneldIMjQ0TE5ZcVJxRVhST1d5UVFaTmVQUlYyN0tlaFZhTDdiNldBUXB6UEM?oc=5",
+      "description": "Chelsea transfer news: Pedro Porro interest, Levi Colwill update, and more LiveScore",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Fri, 13 Nov 2026 09:19:50 GMT",
+      "epoch": 1794561590.0,
+      "approx_time": false
+    },
+    {
+      "title": "Transfer rumors, news: Man United eye USMNT's Balogun, Freeman for Pochettino - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSjZ1QnlkRDNEMWZEcEVGUXlGazhBTkZQeFdNbmpuSGVVTDNUQnBZOFotMERRWXg2d25SQnZMdk1aRGxxbjd0NTdwN2RReUJ3bXlQN09GVmV3ZmIxaWhkZjFEd1dmRGxRTmNjSFhCNnBOZmVhS1VFVjFDbnp5ZGF4VnRpTHAzLWNBWDFXTE1lcFV6YVk1amttX0xfb1Z0dmxWdnJ0N3hnbmtydw?oc=5",
+      "description": "Transfer rumors, news: Man United eye USMNT's Balogun, Freeman for Pochettino ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Fri, 13 Nov 2026 09:00:00 GMT",
+      "epoch": 1794560400.0,
+      "approx_time": false
+    },
+    {
+      "title": "Man Utd: Romano reveals two real reasons why Pochettino has accepted job - 'he is 100% convinced' - Football365",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdUpkdlVCWmJIRlJGQVNYaHNzSW1WNzBRSHV2QmVhVFE1U09MNWd4SUFkOEdvMDlPX2dTUnVPa0ZDXzljbXotRHBReTlqYy0tWEQ5RW5CTEx6VVY1eURmZ1ByMVI5MmE2NURpeDRSUnR2QTNKcXM3VDNhVnRRaENnUkJTdGpZVnltVFEtZG5meTNIU2d4UTM2VGgxWjk?oc=5",
+      "description": "Man Utd: Romano reveals two real reasons why Pochettino has accepted job - 'he is 100% convinced' Football365",
+      "source_id": "romano",
+      "source_name": "Fabrizio Romano",
+      "byline": "",
+      "pub_date_raw": "Fri, 13 Nov 2026 08:25:48 GMT",
+      "epoch": 1794558348.0,
+      "approx_time": false
+    },
+    {
+      "title": "Mauricio Pochettino agrees Man United deal, announcement expected - sources - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeUxwM3d3MnkzZ3lCVC1BajB5S2szRzd3Rlg1OEd6VGNGS1lzTWlabU1zUnJRMnBXZkxjRlJwWjZhdktVRU5Sa2JwTmpoaVdvSk1ReU0wRzFpUUxFSEFRU2JpTmh3M3dHMGQ2bFhIX29zZUEyTVlQOTN2NG1URnh3SVE0WEExdUpUeS15cWVWSGt0emlHRnc?oc=5",
+      "description": "Mauricio Pochettino agrees Man United deal, announcement expected - sources ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Fri, 13 Nov 2026 07:56:00 GMT",
+      "epoch": 1794556560.0,
+      "approx_time": false
+    },
+    {
+      "title": "Transfer rumors, news: Liverpool eye move for Brentford's Diouf - ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWklCT0g0X0hOcTBUd2N4ZVZTV2tUaHFBR2NkcmktSlZRU1hYSmVCaDBPZTlFNExHWXdBOEJxUGlPai1IMDdubjVFZUxjbG9zM010OUZVb0U3OFlpM0JqWWt0YlpRWS1LNGdIMGVWQlE4aGgteG8yTi1Gak5wWjZMWDdVXzVYMm9LZXp5a2Q4N09PTEQ2WDdLZjFhUGJMSnh2SF9CX3g1REQ2OGc?oc=5",
+      "description": "Transfer rumors, news: Liverpool eye move for Brentford's Diouf ESPN",
+      "source_id": "espn_fc",
+      "source_name": "ESPN FC",
+      "byline": "",
+      "pub_date_raw": "Thu, 12 Nov 2026 21:11:00 GMT",
+      "epoch": 1794517860.0,
+      "approx_time": false
     },
     {
       "title": "Arsenal Transfer News Today: Evanilson wanted as exit stance confirmed - FootballTransfers.com",
@@ -399,24 +476,13 @@
     },
     {
       "title": "Florida set to give QB Aaron Philo another start vs. Kentucky, source confirms - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX0xRQWQ2MVJ3Z0pWOWtzZktDdlduSVlWRlF0R182d1J6OUpjTEd0ZExkcFNZemdvVHlDYW5vRk02SEJ4V3VWZ2Q3X0cyUkNiUEhzRzRSWElwNG9ncnhVUWJKSndUZnh2akMyTHZadWJ0Szl5bTNlVFpQYjczR1h1WDFaWDJJQzl0MG9EQzh6cnJNYW84Y0hwT2I4dzdYZUpIb2QzUXlDQTBNR1hHRS1QMkdGbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFRDTnJ2VFpUclc0ZFllUVByTGhaVnhFcVJhTW9Scmc1SUxPT3Q1eUthbkppVUx1ZHk3UFJHX3lTOUQ1Nm9Wbk5JU2dvM3hkTkRaSUpoLWktU1ZQV3lZaWEtM0c0cXVGSU4yaS1idExoczY4a1p0OERpampzWUpSeXNWbFV1TjRlMnVjQkh5M3laNEFobldHaVkwaUxuQXpVT1lGQzlXcVNPejlxdmdr?oc=5",
       "description": "Florida set to give QB Aaron Philo another start vs. Kentucky, source confirms ESPN",
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
-      "pub_date_raw": "Thu, 12 Nov 2026 14:56:18 GMT",
-      "epoch": 1794495378.0,
-      "approx_time": false
-    },
-    {
-      "title": "Transfer rumors, news: Arsenal, Chelsea, Liverpool to battle for Scott signature - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWklCT0g0X0hOcTBUd2N4ZVZTV2tUaHFBR2NkcmktSlZRU1hYSmVCaDBPZTlFNExHWXdBOEJxUGlPai1IMDdubjVFZUxjbG9zM010OUZVb0U3OFlpM0JqWWt0YlpRWS1LNGdIMGVWQlE4aGgteG8yTi1Gak5wWjZMWDdVXzVYMm9LZXp5a2Q4N09PTEQ2WDdLZjFhUGJMSnh2SF9CX3g1REQ2OGc?oc=5",
-      "description": "Transfer rumors, news: Arsenal, Chelsea, Liverpool to battle for Scott signature ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Thu, 12 Nov 2026 13:58:00 GMT",
-      "epoch": 1794491880.0,
+      "pub_date_raw": "Thu, 12 Nov 2026 14:32:00 GMT",
+      "epoch": 1794493920.0,
       "approx_time": false
     },
     {
@@ -516,17 +582,6 @@
       "byline": "",
       "pub_date_raw": "Thu, 12 Nov 2026 02:28:00 GMT",
       "epoch": 1794450480.0,
-      "approx_time": false
-    },
-    {
-      "title": "U.S.-led, UK Women's World Cup bids cleared for FIFA vote - ESPN",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSHZROUoxQ2FETGQybDd6NV9sd2UwU2NrREpoOVhEU3ZRc1phT2NSZXFfT2RENjZ2bHJPbnhWNC1QWVpzaWllWGR5Z0hTamk3WERkQVNJMmdCamRaMTVVSk1Ib2RES0s2RUprdTM1VU85b0xHVTZCbE9HZVhpTGRzdnh6U1U5RE1fbkZLSGtDTDlNYnJ3LXhPTHh3?oc=5",
-      "description": "U.S.-led, UK Women's World Cup bids cleared for FIFA vote ESPN",
-      "source_id": "espn_fc",
-      "source_name": "ESPN FC",
-      "byline": "",
-      "pub_date_raw": "Thu, 12 Nov 2026 00:32:00 GMT",
-      "epoch": 1794443520.0,
       "approx_time": false
     },
     {
@@ -640,17 +695,6 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano delivers major Levi Colwill transfer update - The Pride of London",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdElBTGFBQTdxT2xYcWdhNlM0LXFtNGRyT1ljdXFLNy13T1hhQzRUdTlEU3RpLXB2RllFTExNMVFZcTFkbmpPTjhuR19IaThlbkNJa3dscGF2aGlDUDhJVmFpS25QMmwtNHhSdEh0dXlaZUE0TWlPb0s4M1p0eXdxUGJYbnRjX2VNMmZnVnFZNWVKQQ?oc=5",
-      "description": "Fabrizio Romano delivers major Levi Colwill transfer update The Pride of London",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Tue, 10 Nov 2026 21:00:01 GMT",
-      "epoch": 1794344401.0,
-      "approx_time": false
-    },
-    {
       "title": "David Ornstein delivers update on Tottenham\u2019s January transfer plans - To The Lane And Back",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSjhicDNCUGx0R2EyUzA1dGVXWVZCQ0R2am5ONndhX0lxOGNKcHJKZWVSQjNzU01KdFNyZ0dJWkc3REJha3g1WHNZSG5qMTdkb2M5WGFjMDUwWTNydFNTZk95aWp5MWpNd1VSTU1UTDJPRGZjMndTOWhxSXhiYzhaUmp4QjBkWVVzd0RsOVAyZWhZaHdzUGxBaENoTnJGZllKVFZSMTRiSFRib3FmR1J4SzVHcw?oc=5",
       "description": "David Ornstein delivers update on Tottenham\u2019s January transfer plans To The Lane And Back",
@@ -706,17 +750,6 @@
       "approx_time": false
     },
     {
-      "title": "Fabrizio Romano rules out Barcelona negotiations for Chelsea defender: 'Nothing is happening' - Barca Universal",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSktWSkxFRG5Xd19BMEZjVmRpc211X1JVdklyaXR1ek45RElJa05YUm5ab0phZFlUOUtmcmVHckVyNzN2WnljV0dfSi1HMDFSLXVueTYzU0thS2xSMlhZNWhmTU81UVp4cnY0eTRIa0xtVkROYXUxSjJWbXRiM0dvRVBTcmhfMmZHbUNHNzVMYzZ4aFZGTVRJYklFMGhDZjhvS2VvTUNNNktTajJVMDBQTUpaYU5WM1lXZlE?oc=5",
-      "description": "Fabrizio Romano rules out Barcelona negotiations for Chelsea defender: 'Nothing is happening' Barca Universal",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Tue, 10 Nov 2026 11:07:18 GMT",
-      "epoch": 1794308838.0,
-      "approx_time": false
-    },
-    {
       "title": "Tottenham ready to spend big in key area as David Ornstein delivers encouraging update - CaughtOffside",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbVI0RFp1MTNkaXMyVkZCZnhBdnJuX0lpNmlRVlBkekNCZ0tYb1JjYm9VSGN5cFQwZ1BLQmptYnpBaWxUeFJJTGVKT0JvS2h2Q1V5MzZhQ3RoSGhTSmwxX0J6WVkwOS1SSGN2VDlYcHA4aXdaSzBZLWxVdU4xN2xrNm0zcDBodk5acS1uQ3pEZ2hNaTdMWjFyeEk0ZjBqSWY0WFJ1VUQyMTVQVHBjYUc2NmpMcTNBNzJtMld5MGFvdmRKSUdqWkRV0gHMAUFVX3lxTE5mZHJ4dmMzNHVIWnRyeW1nemZ3VFBFNHh3ODRGckN0ZHFxRTFacjVxNDdkU29zU1ZsWm9NZ1lydERUNGI5TGpVdDh0QlNXUDV2Sm1jam9TT2s0Wk95VnBkclF1ZjdKUGxMTkRRdHBOR3YwR3RqcjBnc2R4RHN5RjBQR1RWSXoxanhmNk54Zzc1Zk5aTHlORVpWNnIycHdFempYN0x2Yy1RRHNCLWlQaFBDVTQ0NlV2bkZyVDFPai1HNzhrMXBfbHJPdVgwUQ?oc=5",
       "description": "Tottenham ready to spend big in key area as David Ornstein delivers encouraging update CaughtOffside",
@@ -747,17 +780,6 @@
       "byline": "",
       "pub_date_raw": "Tue, 10 Nov 2026 08:31:18 GMT",
       "epoch": 1794299478.0,
-      "approx_time": false
-    },
-    {
-      "title": "Man Utd next manager: \u2018Dream candidate\u2019 says no to replacing Carrick as Howe talks open \u2013 Romano - Football365",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORnZ2NVVEVV9vWWFNTldKWTFHeHplSC02WXNXVkN0WVgyOG5POXRfZnhsYmg2bWJ4aWFrT0dIRjJqdFNMeFRuM0g4aW4tWnVtaW9kOXI3U0kzcThZejVxZnF1eVJhUXdwM1FDZUtWZWo3eTVBWmRRTWZIY0lDNGR1OFUzTHJtSGVBT251bnFUTGxLdmpOYnJnRnQxN2dxTW9oZE9QUDFtMWF0aThBSVFYYWZoSGNZZw?oc=5",
-      "description": "Man Utd next manager: \u2018Dream candidate\u2019 says no to replacing Carrick as Howe talks open \u2013 Romano Football365",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Tue, 10 Nov 2026 07:42:25 GMT",
-      "epoch": 1794296545.0,
       "approx_time": false
     },
     {
@@ -802,17 +824,6 @@
       "byline": "",
       "pub_date_raw": "Mon, 09 Nov 2026 20:04:19 GMT",
       "epoch": 1794254659.0,
-      "approx_time": false
-    },
-    {
-      "title": "Carrick or Alonso? Fabrizio predicts next Premier League manager to get sacked - Legit News",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMklSNm0tX3hVZFlnd2RDY29VNW5JOHdwZUdabEhLV1NCNjVTVXZMVUlmTnNoX2wxeUFTVVZYbVBGck1VMlh1MUo0ZDdCWVFyV0UwU3V2bkxEREExa1NBbXh4bmdEd2h6YjFaVWpLVk1vTURyWVctSkgxb2RVTzh4VlBDYmdCeFVWX052X3hnSXVCcGI5Y0p6ajZLWUlGQndnQTZjSlB0TFZTb0g0Vk82QlRJclBxUQ?oc=5",
-      "description": "Carrick or Alonso? Fabrizio predicts next Premier League manager to get sacked Legit News",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Mon, 09 Nov 2026 16:59:48 GMT",
-      "epoch": 1794243588.0,
       "approx_time": false
     },
     {
@@ -948,17 +959,6 @@
       "approx_time": false
     },
     {
-      "title": "\u201cIt\u2019s a possibility\u201d \u2013 Fabrizio Romano delivers double Arsenal transfer update - CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOejVyNkFJT09xYUFuU2VMZUwtWFBVLW8tSFh6MGZkRG1KS0h5cDR4WFlLLWJFQ2NIWF9sVkk0blBGblo1MFM3WHVPSWd6MzBTV3N3NVhWUjhCYUVzVDE2SDRPelFYbHUxQnpiLWdoek1MNG9lR1ZGZXpZLTZzN21TMkFDYXVYUU5tM05yXzV3OW50QXZNWmJSX0RRYXpDd9IBowFBVV95cUxOMkNxLUF5TERHckE3d0ltN29fT0JjR1VyakxudDRRNHE3NW1KSWlCY3dvUmk2V3JDVjZFYW43UG1yMm9VSnRtczBWZmViWEVXeFBaVUZWMTBQUW1Lb2IxbHNEUUhUTUJLM3Z4bGlBTnpxY3M5MGZUWjR5c0ZRbEl0RndjNTA5Q2pjWEVOeUVoNktWOVlKNDkwLTBvQkVMS0czWWdN?oc=5",
-      "description": "\u201cIt\u2019s a possibility\u201d \u2013 Fabrizio Romano delivers double Arsenal transfer update CaughtOffside",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Sat, 07 Nov 2026 11:20:41 GMT",
-      "epoch": 1794050441.0,
-      "approx_time": false
-    },
-    {
       "title": "Transfer rumors, news: Liverpool's Rio Ngumoha still a Bayern Munich target - ESPN",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaDVWc3lBb2pvelE1UDFJcm1ZaXJKYnMyalRQMUlLM2dVLW1hcEVBWG5kTGZxSm1iN2JRd3VOc1puVGJEQXVyV2dHMElaNzJ5STVSZjZpclFKbmxrRElGaTdPTEF1OElSX0lQRHBKMDNKQ0pzQW9LRWlRTXpka0V6bGwxV18wMkdWSWI3UEJ0cjRYVDd5WkQ4ZTlFU1MwMmRvM3RFdjZPUQ?oc=5",
       "description": "Transfer rumors, news: Liverpool's Rio Ngumoha still a Bayern Munich target ESPN",
@@ -967,17 +967,6 @@
       "byline": "",
       "pub_date_raw": "Sat, 07 Nov 2026 09:30:00 GMT",
       "epoch": 1794043800.0,
-      "approx_time": false
-    },
-    {
-      "title": "Liverpool crushed as Fabrizio Romano confirms Bayern Munich plans to tie another top star to new deal - TEAMtalk",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNU4wcUxKQ2s0cVFBWmpoLUlwUnQ3QUFiVUw1cW9IRVJWejlLanpQZk9uNzhTdmR6X2xtY19RX3YtY3ZOWXNTN0Y3aHA5SzU0ZGJ1RUMxOVctYTlTUXpMTWtYMVljSFNJa3lNMHRnd0tmcVN3NUNyVnhISkNpaHduOTZ4MXdzU1QtMk9DdWtnSEt0OGRyQWg2bmdsSzk5c2x3dm5CbG51OHdlM1BRWjFCSDczQkozak5hdUE?oc=5",
-      "description": "Liverpool crushed as Fabrizio Romano confirms Bayern Munich plans to tie another top star to new deal TEAMtalk",
-      "source_id": "romano",
-      "source_name": "Fabrizio Romano",
-      "byline": "",
-      "pub_date_raw": "Sat, 07 Nov 2026 08:30:12 GMT",
-      "epoch": 1794040212.0,
       "approx_time": false
     },
     {
@@ -1009,8 +998,8 @@
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
-      "pub_date_raw": "Thu, 05 Nov 2026 22:00:00 GMT",
-      "epoch": 1793916000.0,
+      "pub_date_raw": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "epoch": 1793865600.0,
       "approx_time": false
     },
     {
@@ -1020,8 +1009,8 @@
       "source_id": "espn_fc",
       "source_name": "ESPN FC",
       "byline": "",
-      "pub_date_raw": "Wed, 04 Nov 2026 21:28:00 GMT",
-      "epoch": 1793827680.0,
+      "pub_date_raw": "Wed, 04 Nov 2026 08:00:00 GMT",
+      "epoch": 1793779200.0,
       "approx_time": false
     },
     {
